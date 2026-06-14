@@ -1,0 +1,53 @@
+name: Update World Cup standings
+
+on:
+  schedule:
+    # Times are UTC. June 2026 Pacific is UTC-7 (PDT).
+    - cron: "0 20 * * *"  # 1:00 PM PT  — refresh + alerts
+    - cron: "0 1 * * *"   # 6:00 PM PT  — refresh + alerts
+    - cron: "0 5 * * *"   # 10:00 PM PT — refresh + alerts + daily digest
+  workflow_dispatch:
+    inputs:
+      digest:
+        description: "Force-send the daily digest"
+        type: boolean
+        default: false
+
+concurrency:
+  group: wc-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run updater
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          DIGEST: ${{ inputs.digest }}
+        run: npm run update
+
+      - name: Commit updated standings
+        run: |
+          if [[ -n "$(git status --porcelain data/standings.json)" ]]; then
+            git config user.name "world-cup-bot"
+            git config user.email "actions@github.com"
+            git add data/standings.json
+            git commit -m "chore: update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No standings change — nothing to commit."
+          fi

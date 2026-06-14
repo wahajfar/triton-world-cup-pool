@@ -1,0 +1,16 @@
+{
+  "name": "triton-world-cup-pool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Triton World Cup 2026 survival pool — live standings site + auto-updater.",
+  "scripts": {
+    "update": "node scripts/update.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

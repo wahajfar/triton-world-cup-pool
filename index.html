@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triton World Cup 2026 — Survival Pool</title>
+  <meta name="description" content="Triton Growth company World Cup 2026 survival pool — live standings and knockout bracket." />
+  <meta name="theme-color" content="#181F40" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🔱&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <img class="mark" src="./assets/logos/Triton_Logo_Symbol_DarkBlue.svg" alt="Triton Growth" />
+        <div class="wordmark">TRITON<span> GROWTH</span></div>
+      </div>
+      <div class="edition">World Cup 2026</div>
+    </div>
+
+    <header class="hero">
+      <div class="kicker">Company Survival Pool</div>
+      <h1>Last <em>Team Standing</em> Wins 🏆</h1>
+      <p class="tagline">Everyone's got a nation. Your team's alive? You're alive. Go out, you're out.</p>
+      <div class="pills" id="pills"></div>
+      <p class="updated" id="updated"></p>
+    </header>
+
+    <section class="champion-banner" id="championBanner" hidden></section>
+
+    <div class="tabs" role="tablist">
+      <button class="tab is-active" data-view="leaderboard" role="tab">Standings</button>
+      <button class="tab" data-view="bracket" role="tab">Bracket</button>
+      <button class="tab" data-view="groups" role="tab">Groups</button>
+      <button class="tab" data-view="results" role="tab">Results</button>
+    </div>
+
+    <section id="view-leaderboard" class="view">
+      <div class="legend">
+        <span><b class="dot alive"></b> Alive</span>
+        <span><b class="dot out"></b> Eliminated</span>
+        <span class="legend-note">Ranked by how far each team has gone, then current form.</span>
+      </div>
+      <ol class="board" id="board"></ol>
+    </section>
+
+    <section id="view-bracket" class="view" hidden>
+      <p class="bracket-note" id="bracketNote"></p>
+      <div class="bracket-scroll"><div class="bracket" id="bracket"></div></div>
+    </section>
+
+    <section id="view-groups" class="view" hidden>
+      <div class="groups" id="groups"></div>
+    </section>
+
+    <section id="view-results" class="view" hidden>
+      <ul class="results" id="results"></ul>
+    </section>
+
+    <footer class="foot">
+      <p>Auto-updates a few times a day from live results · Final: July 19, 2026</p>
+      <p class="muted">Triton Growth · built for the squad 🔱</p>
+    </footer>
+  </main>
+
+  <div class="loading" id="loading">Loading the bracket…</div>
+  <script src="./app.js"></script>
+</body>
+</html>
