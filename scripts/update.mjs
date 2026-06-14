@@ -19,6 +19,7 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "data");
 const MODEL = process.env.MODEL || "claude-opus-4-8";
+const SITE_URL = process.env.SITE_URL || "https://world-cup-pool-tau.vercel.app";
 
 const STAGE_RANK = { group: 0, R32: 1, R16: 2, QF: 3, SF: 4, Final: 5, Champion: 6 };
 const STAGE_NAME = { group: "Group stage", R32: "Round of 32", R16: "Round of 16", QF: "Quarter-finals", SF: "Semi-finals", Final: "the Final", Champion: "Champion" };
@@ -257,7 +258,7 @@ async function notify({ out, eliminations, advancements }) {
       `🟢 ${out.aliveCount} still alive · ⚰️ ${out.eliminatedCount} out · 📅 ${out.stage}`,
       eliminations.length ? `Knocked out today: ${eliminations.map((e) => `${e.flag} ${e.name}`).join(", ")}` : "No eliminations today.",
       top ? `Top of the board: ${top.flag} *${top.name}* (${top.team})` : "",
-      "Full standings → see the site.",
+      `Full standings & bracket → ${SITE_URL}`,
     ].filter(Boolean).join("\n");
     await postSlack(digest);
   }

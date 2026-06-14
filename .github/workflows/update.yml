@@ -42,12 +42,23 @@ jobs:
 
       - name: Commit updated standings
         run: |
-          if [[ -n "$(git status --porcelain data/standings.json)" ]]; then
-            git config user.name "world-cup-bot"
-            git config user.email "actions@github.com"
-            git add data/standings.json
-            git commit -m "chore: update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
-          else
+          if [[ -z "$(git status --porcelain data/standings.json)" ]]; then
             echo "No standings change — nothing to commit."
+            exit 0
           fi
+          git config user.name "world-cup-bot"
+          git config user.email "actions@github.com"
+          git add data/standings.json
+          git commit -m "chore: update standings ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Race-proof push: if another commit landed first, rebase our
+          # freshly-generated data on top (favouring ours) and retry.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected — rebasing onto latest and retrying ($attempt)"
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep 3
+          done
+          echo "push failed after retries"; exit 1
