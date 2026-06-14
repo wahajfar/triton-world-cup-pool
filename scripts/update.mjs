@@ -111,11 +111,16 @@ Return ONLY a single JSON object (you may wrap it in a \`\`\`json fence) with th
       { "name": "Semi-finals", "matches": [] },
       { "name": "Final", "matches": [] }
     ]
+  },
+  "matches": {
+    "live": [ { "a": { "team": "<team>", "score": 2 }, "b": { "team": "<team>", "score": 1 }, "minute": "63'", "competition": "Group A" } ],
+    "upcoming": [ { "a": { "team": "<team>" }, "b": { "team": "<team>" }, "date": "Mon Jun 15", "time": "9:00 AM PT", "competition": "Group H" } ]
   }
 }
 
 Rules:
 - Include "bracket" ONLY once the Round of 32 draw is known (i.e. the knockout stage has been set or started). During the group stage, set "bracket" to null. Within each match, set "win": true on the team that won/advanced, false on the other, and omit "win" (or use false on both) if the match has not been played yet. Use the exact team names from the list above.
+- For "matches": put any match CURRENTLY in progress in "live" (with the current score and the match minute, e.g. "63'"), and the next up to 5 upcoming fixtures in "upcoming" (chronological order), each with "date" (e.g. "Mon Jun 15") and the kickoff "time" in US Pacific time (e.g. "9:00 AM PT"). Use the exact team names above. If no match is live, use an empty "live" array.
 - "stageReached" = the furthest round a team is currently in or has reached. For a team still in the group stage that has NOT yet clinched, use "group".
 - Use "Champion" only for the team that has won the final.
 - If a team has not played yet, status "alive", stageReached "group", form "-", played 0.
@@ -197,6 +202,21 @@ function buildStandings(roster, prev, state) {
     bracket = { rounds: srcBracket.rounds.map((r) => ({ name: r.name, matches: (r.matches || []).map((m) => ({ a: enrichSlot(m.a), b: enrichSlot(m.b) })) })) };
   }
 
+  // Live + upcoming matches, with flags attached from the roster.
+  function enrichMatchTeam(slot) {
+    if (!slot || !slot.team) return slot || null;
+    const person = teamToPerson.get(canonicalTeam(slot.team, rosterTeams));
+    return { team: person?.team || slot.team, flag: person?.flag || slot.flag || "", score: slot.score };
+  }
+  let matches = null;
+  const srcMatches = state.matches || prev.matches;
+  if (srcMatches) {
+    matches = {
+      live: (srcMatches.live || []).map((m) => ({ a: enrichMatchTeam(m.a), b: enrichMatchTeam(m.b), minute: m.minute || null, competition: m.competition || "" })),
+      upcoming: (srcMatches.upcoming || []).map((m) => ({ a: enrichMatchTeam(m.a), b: enrichMatchTeam(m.b), date: m.date || "", time: m.time || "", competition: m.competition || "" })),
+    };
+  }
+
   const out = {
     updatedAt: state.asOf || new Date().toISOString().slice(0, 10),
     stage: state.stage || prev.stage || "Group Stage",
@@ -205,6 +225,7 @@ function buildStandings(roster, prev, state) {
     champion: champion ? { name: champion.name, team: champion.team, flag: champion.flag } : null,
     recentResults: Array.isArray(state.recentResults) ? state.recentResults.slice(0, 16) : (prev.recentResults || []),
     bracket,
+    matches,
     standings: entries,
   };
   return { out, eliminations, advancements };

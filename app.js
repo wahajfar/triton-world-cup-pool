@@ -32,12 +32,9 @@ function avatar(p) {
     img.src = p.photo; img.alt = p.name; img.loading = "lazy";
     el.appendChild(img);
   } else {
-    el.style.background = avatarColor(p.name);
-    el.textContent = initials(p.name);
+    el.classList.add("flag");
+    el.textContent = p.flag || "🏳️";
   }
-  const flag = document.createElement("span");
-  flag.className = "flag-badge"; flag.textContent = p.flag || "";
-  el.appendChild(flag);
   return el;
 }
 
@@ -138,6 +135,36 @@ function renderBracket(data) {
   });
 }
 
+// ---- Live & upcoming matches (Google-style strip) ----
+function matchCard(m, isLive) {
+  const status = isLive
+    ? `<span class="mc-live">LIVE${m.minute ? " " + escapeHtml(m.minute) : ""}</span>`
+    : `<span class="mc-date">${escapeHtml(m.date || "")}</span>`;
+  const center = isLive
+    ? `<div class="mc-score">${m.a?.score ?? 0}<span>–</span>${m.b?.score ?? 0}</div>`
+    : `<div class="mc-time">${escapeHtml(m.time || "vs")}</div>`;
+  return `<div class="matchcard ${isLive ? "is-live" : ""}">
+    <div class="mc-top"><span class="mc-comp">${escapeHtml(m.competition || "")}</span>${status}</div>
+    <div class="mc-body">
+      <div class="mc-team"><span class="mc-flag">${m.a?.flag || ""}</span><span class="mc-name">${escapeHtml(m.a?.team || "TBD")}</span></div>
+      ${center}
+      <div class="mc-team mc-right"><span class="mc-name">${escapeHtml(m.b?.team || "TBD")}</span><span class="mc-flag">${m.b?.flag || ""}</span></div>
+    </div>
+  </div>`;
+}
+
+function renderMatches(data) {
+  const section = document.getElementById("matchesSection");
+  const m = data.matches || {};
+  const live = Array.isArray(m.live) ? m.live : [];
+  const upcoming = Array.isArray(m.upcoming) ? m.upcoming : [];
+  const cards = [...live.map((x) => matchCard(x, true)), ...upcoming.slice(0, 3).map((x) => matchCard(x, false))];
+  if (!cards.length) { section.hidden = true; return; }
+  section.hidden = false;
+  document.getElementById("matchstripTitle").textContent = live.length ? "🔴 Live & upcoming" : "Upcoming matches";
+  document.getElementById("matchstrip").innerHTML = cards.join("");
+}
+
 function renderMeta(data) {
   document.getElementById("pills").innerHTML = `
     <div class="pill alive"><span class="num">${data.aliveCount ?? "—"}</span><span class="lbl">Alive</span></div>
@@ -169,6 +196,7 @@ async function load() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     renderMeta(data);
+    renderMatches(data);
     renderBoard(data);
     renderBracket(data);
     renderGroups(data);

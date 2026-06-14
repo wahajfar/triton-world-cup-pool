@@ -64,6 +64,28 @@ body {
 .pill.stage .lbl { color: var(--yellow-green); }
 .updated { color: var(--muted); font-size: 12px; margin: 14px 0 0; font-weight: 600; }
 
+/* ===== Live & upcoming match strip (Google-style) ===== */
+.matches-section { margin-top: 16px; }
+.matches-head { font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: .09em; font-size: 12px; color: var(--muted); margin: 0 2px 9px; }
+.matchstrip { display: flex; gap: 11px; overflow-x: auto; padding: 2px 2px 6px; scrollbar-width: thin; }
+.matchcard { flex: 0 0 auto; min-width: 236px; background: var(--white); border: 1px solid var(--line); border-radius: 14px; padding: 11px 14px; box-shadow: var(--shadow); }
+.matchcard.is-live { border-color: var(--orange); box-shadow: 0 0 0 1px var(--orange), var(--shadow); }
+.mc-top { display: flex; justify-content: space-between; align-items: center; font-size: 11px; font-weight: 700; margin-bottom: 9px; }
+.mc-comp { color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.mc-date { color: var(--muted); }
+.mc-live { color: var(--orange); display: inline-flex; align-items: center; gap: 5px; font-weight: 800; letter-spacing: .04em; }
+.mc-live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--orange); animation: pulse 1.3s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+.mc-body { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 9px; }
+.mc-team { display: flex; align-items: center; gap: 7px; min-width: 0; }
+.mc-team.mc-right { justify-content: flex-end; }
+.mc-flag { font-size: 21px; flex: 0 0 auto; }
+.mc-name { font-weight: 800; color: var(--dark-blue); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mc-score { font-family: var(--display); font-weight: 900; font-size: 19px; color: var(--dark-blue); display: flex; gap: 4px; align-items: baseline; }
+.mc-score span { color: var(--muted); font-size: 14px; }
+.matchcard.is-live .mc-score { color: var(--orange); }
+.mc-time { font-weight: 800; color: var(--light-blue); font-size: 13px; text-align: center; white-space: nowrap; }
+
 /* ===== Champion ===== */
 .champion-banner { margin-top: 16px; padding: 16px 18px; border-radius: 14px; text-align: center; font-weight: 800; color: var(--dark-blue);
   background: linear-gradient(100deg, var(--yellow-green), var(--light-green)); box-shadow: var(--shadow); }
@@ -91,9 +113,9 @@ body {
 .rank { font-family: var(--display); font-size: 17px; font-weight: 900; color: var(--muted); text-align: center; }
 .row.top1 .rank { color: var(--dark-blue); }
 
-.avatar { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 15px; color: var(--white); position: relative; overflow: hidden; background: var(--light-blue); }
+.avatar { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; overflow: hidden; background: var(--off-white); border: 1px solid var(--line); }
 .avatar img { width: 100%; height: 100%; object-fit: cover; }
-.avatar .flag-badge { position: absolute; bottom: -2px; right: -3px; font-size: 16px; filter: drop-shadow(0 1px 1px rgba(0,0,0,.35)); }
+.avatar.flag { font-size: 27px; line-height: 1; }
 
 .who { min-width: 0; }
 .who .name { font-weight: 800; font-size: 15px; color: var(--dark-blue); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

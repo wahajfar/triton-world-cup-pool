@@ -16,6 +16,15 @@
     "Group E — Germany 7-1 Curaçao"
   ],
   "bracket": null,
+  "matches": {
+    "live": [],
+    "upcoming": [
+      { "a": { "team": "Spain", "flag": "🇪🇸" }, "b": { "team": "Cape Verde", "flag": "🇨🇻" }, "date": "Mon Jun 15", "time": "9:00 AM PT", "competition": "Group H" },
+      { "a": { "team": "Belgium", "flag": "🇧🇪" }, "b": { "team": "Egypt", "flag": "🇪🇬" }, "date": "Mon Jun 15", "time": "12:00 PM PT", "competition": "Group G" },
+      { "a": { "team": "Saudi Arabia", "flag": "🇸🇦" }, "b": { "team": "Uruguay", "flag": "🇺🇾" }, "date": "Mon Jun 15", "time": "3:00 PM PT", "competition": "Group H" },
+      { "a": { "team": "Iran", "flag": "🇮🇷" }, "b": { "team": "New Zealand", "flag": "🇳🇿" }, "date": "Mon Jun 15", "time": "6:00 PM PT", "competition": "Group G" }
+    ]
+  },
   "standings": [
     {
       "name": "Uzair Farooqi",
