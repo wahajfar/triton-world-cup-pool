@@ -19,7 +19,7 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "data");
 const MODEL = process.env.MODEL || "claude-opus-4-8";
-const SITE_URL = process.env.SITE_URL || "https://world-cup-pool-tau.vercel.app";
+const SITE_URL = process.env.SITE_URL || "https://triton-world-cup.vercel.app";
 
 const STAGE_RANK = { group: 0, R32: 1, R16: 2, QF: 3, SF: 4, Final: 5, Champion: 6 };
 const STAGE_NAME = { group: "Group stage", R32: "Round of 32", R16: "Round of 16", QF: "Quarter-finals", SF: "Semi-finals", Final: "the Final", Champion: "Champion" };
@@ -158,7 +158,7 @@ function buildStandings(roster, prev, state) {
       return { ...p, status: prior?.status || "alive", stageReached: prior?.stageReached || "group", eliminatedAt: prior?.eliminatedAt || null, played: prior?.played || 0, points: prior?.points || 0, gd: prior?.gd || 0, form: prior?.form || "-", statusLabel: prior?.statusLabel || "—" };
     }
     return {
-      name: p.name, team: p.team, group: p.group, flag: p.flag, photo: p.photo,
+      name: p.name, team: p.team, group: p.group, flag: p.flag, photo: p.photo, slackId: p.slackId || null,
       status: t.status === "eliminated" ? "eliminated" : "alive",
       stageReached: STAGE_RANK[t.stageReached] !== undefined ? t.stageReached : "group",
       eliminatedAt: t.status === "eliminated" ? (t.eliminatedAt || STAGE_NAME[t.stageReached] || "Group stage") : null,
@@ -223,7 +223,7 @@ function buildStandings(roster, prev, state) {
     stage: state.stage || prev.stage || "Group Stage",
     aliveCount: entries.filter((e) => e.status === "alive").length,
     eliminatedCount: entries.filter((e) => e.status === "eliminated").length,
-    champion: champion ? { name: champion.name, team: champion.team, flag: champion.flag } : null,
+    champion: champion ? { name: champion.name, team: champion.team, flag: champion.flag, slackId: champion.slackId || null } : null,
     recentResults: Array.isArray(state.recentResults) ? state.recentResults.slice(0, 16) : (prev.recentResults || []),
     bracket,
     matches,
@@ -234,20 +234,21 @@ function buildStandings(roster, prev, state) {
 
 // ---------- Slack composition ----------
 async function notify({ out, eliminations, advancements }) {
+  const tag = (e) => (e && e.slackId ? `<@${e.slackId}>` : `*${e?.name || ""}*`);
   const lines = [];
   if (advancements.length) {
     lines.push("⬆️ *Through to the next round:*");
-    for (const e of advancements) lines.push(`   ${e.flag} ${e.team} advance — *${e.name}* lives on! 🎉`);
+    for (const e of advancements) lines.push(`   ${e.flag} ${e.team} advance — ${tag(e)} lives on! 🎉`);
   }
   if (eliminations.length) {
     if (lines.length) lines.push("");
     lines.push("⚰️ *Eliminated:*");
-    for (const e of eliminations) lines.push(`   ${e.flag} ${e.team} are out (${e.eliminatedAt}). *${e.name}* is knocked out of the pool. 🫡`);
+    for (const e of eliminations) lines.push(`   ${e.flag} ${e.team} are out (${e.eliminatedAt}). ${tag(e)} is knocked out of the pool. 🫡`);
   }
   if (lines.length) await postSlack(lines.join("\n"));
 
   if (out.champion) {
-    await postSlack(`🏆 *FULL TIME — WE HAVE A CHAMPION!* ${out.champion.flag} ${out.champion.team} win the 2026 World Cup. *${out.champion.name}* wins the Triton survival pool! 🥇🎉`);
+    await postSlack(`🏆 *FULL TIME — WE HAVE A CHAMPION!* ${out.champion.flag} ${out.champion.team} win the 2026 World Cup. ${tag(out.champion)} wins the Triton survival pool! 🥇🎉`);
     return;
   }
 
@@ -256,8 +257,8 @@ async function notify({ out, eliminations, advancements }) {
     const digest = [
       `📰 *World Cup Pool — Daily Digest (${out.updatedAt})*`,
       `🟢 ${out.aliveCount} still alive · ⚰️ ${out.eliminatedCount} out · 📅 ${out.stage}`,
-      eliminations.length ? `Knocked out today: ${eliminations.map((e) => `${e.flag} ${e.name}`).join(", ")}` : "No eliminations today.",
-      top ? `Top of the board: ${top.flag} *${top.name}* (${top.team})` : "",
+      eliminations.length ? `Knocked out today: ${eliminations.map((e) => `${e.flag} ${tag(e)}`).join(", ")}` : "No eliminations today.",
+      top ? `Top of the board: ${top.flag} ${tag(top)} (${top.team})` : "",
       `Full standings & bracket → ${SITE_URL}`,
     ].filter(Boolean).join("\n");
     await postSlack(digest);
