@@ -49,6 +49,27 @@ jobs:
       - name: Match strip + recaps (ESPN → data/matches.json)
         run: node scripts/matches.mjs
 
+      # Persist the live/match state IMMEDIATELY — before the slow standings step below.
+      # If the standings step runs long (Claude + web search can take 10–20 min), a kickoff
+      # posted to Slack here would otherwise stay uncommitted until the run ends, letting the
+      # NEXT tick check out stale state and post a DUPLICATE thread parent. Saving now (within
+      # seconds) closes that window.
+      - name: Commit live state (fast)
+        run: |
+          git config user.name "world-cup-bot"
+          git config user.email "actions@github.com"
+          FILES="data/live-state.json data/matches.json"
+          if [ -z "$(git status --porcelain $FILES)" ]; then echo "no live change"; exit 0; fi
+          git add $FILES
+          git commit -m "chore: live ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep 3
+          done
+          exit 1
+
       - name: Morning fixtures
         if: steps.t.outputs.morning == 'yes'
         env:
@@ -71,7 +92,9 @@ jobs:
           [ "${{ steps.t.outputs.morning }}" = "yes" ] && LM="${{ steps.t.outputs.today }}"
           printf '{"last_update":%s,"last_morning":"%s"}\n' "$LU" "$LM" > data/tick-state.json
 
-      - name: Commit data changes
+      # Final commit for the slower outputs (standings + bookkeeping). live-state/matches were
+      # already pushed above; this picks up whatever else changed.
+      - name: Commit standings & state
         run: |
           if [ -z "$(git status --porcelain data/)" ]; then echo "no data change"; exit 0; fi
           git config user.name "world-cup-bot"

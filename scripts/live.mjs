@@ -113,14 +113,19 @@ async function main() {
     // First run: silently seed in-progress / finished matches so nothing stale is posted on deploy.
     if (firstRun && stateStr !== "pre") { s.kickoff = true; s.ts = ""; s.score = score; s.full = isFull; changed = true; continue; }
 
-    // KICK OFF (or join-in-progress) → thread parent in the channel.
+    // KICK OFF → thread parent in the channel. Only post inside the early window (≤18'); with
+    // ~10-min ticks a real kickoff is always caught there. If we first see a match ALREADY past
+    // that window with no recorded kickoff, we either missed it or lost state to a race — seed
+    // silently instead of posting a second parent (the duplicate-thread bug). See tick.yml note.
     if (stateStr === "in" && !s.kickoff) {
       const early = period === 1 && clockN <= 18;
-      const text = early
-        ? `⚽ *KICK OFF*${grp ? ` — Group ${grp}` : ""}\n${hFlag} ${hName}  vs  ${aName} ${aFlag}\nGood luck ${ref(hP)} & ${ref(aP)}! 🍀  _Live updates in this thread_ 👇`
-        : `⚡ *LIVE*${grp ? ` — Group ${grp}` : ""} · ${clock}\n${hFlag} ${hName} *${hS}–${aS}* ${aName} ${aFlag}\n${ref(hP)} vs ${ref(aP)}  _· updates in this thread_ 👇`;
-      const ts = await slackPost(text);
-      if (ts || !BOT) { s.kickoff = true; s.ts = ts || ""; s.score = score; changed = true; }
+      if (early) {
+        const text = `⚽ *KICK OFF*${grp ? ` — Group ${grp}` : ""}\n${hFlag} ${hName}  vs  ${aName} ${aFlag}\nGood luck ${ref(hP)} & ${ref(aP)}! 🍀  _Live updates in this thread_ 👇`;
+        const ts = await slackPost(text);
+        if (ts || !BOT) { s.kickoff = true; s.ts = ts || ""; s.score = score; changed = true; }
+      } else {
+        s.kickoff = true; s.ts = ""; s.score = score; changed = true;   // silent seed, no duplicate
+      }
     }
 
     // SCORE CHANGE → reply in the match thread, tagging the side that scored.
