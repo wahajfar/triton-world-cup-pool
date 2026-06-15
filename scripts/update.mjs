@@ -66,11 +66,10 @@ async function postSlack(text) {
   else console.log("[slack] posted.");
 }
 
-// Is this the late-evening (digest) run? Pacific time, or forced via DIGEST=true.
+// Digest now posts ONLY on explicit request (DIGEST=true). Hourly scheduled runs refresh
+// the site every hour but stay silent in Slack unless a team is eliminated/advances.
 function isDigestRun() {
-  if (String(process.env.DIGEST).toLowerCase() === "true") return true;
-  const hour = Number(new Intl.DateTimeFormat("en-US", { hour: "numeric", hour12: false, timeZone: "America/Los_Angeles" }).format(new Date()));
-  return hour >= 21 || hour < 3;
+  return String(process.env.DIGEST).toLowerCase() === "true";
 }
 
 // ---------- model research ----------

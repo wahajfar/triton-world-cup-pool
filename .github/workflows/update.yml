@@ -2,10 +2,10 @@ name: Update World Cup standings
 
 on:
   schedule:
-    # Times are UTC. June 2026 Pacific is UTC-7 (PDT).
-    - cron: "0 20 * * *"  # 1:00 PM PT  — refresh + alerts
-    - cron: "0 1 * * *"   # 6:00 PM PT  — refresh + alerts
-    - cron: "0 5 * * *"   # 10:00 PM PT — refresh + alerts + daily digest
+    # Hourly during match hours (UTC). June PT = UTC-7 → covers ~8am–midnight PT.
+    # Refreshes the site every hour; only posts to Slack when standings actually change.
+    - cron: "0 15-23 * * *"
+    - cron: "0 0-7 * * *"
   workflow_dispatch:
     inputs:
       digest:
