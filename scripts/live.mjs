@@ -1,7 +1,8 @@
-// Live match watcher — posts KICKOFF / HALF TIME / FULL TIME to Slack from ESPN's free feed.
-// No API key, no bot token: reads the public ESPN 2026 World Cup scoreboard, detects each
-// match's transitions, and posts to the existing Slack webhook, tagging the owners.
-// State (which events already announced) lives in data/live-state.json, committed by the Action.
+// Live match watcher — THREADED play-by-play via a Slack bot token.
+// Per match: KICK OFF posts to the channel (thread parent) → live score changes post as thread
+// replies → FULL TIME posts to the channel and reacts to the kickoff message with the winner's
+// flag (🤝 on a draw). Falls back to top-level webhook posts if SLACK_BOT_TOKEN is absent.
+// State (parent ts, last score, flags) lives in data/live-state.json, committed by the Action.
 
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -9,32 +10,67 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "data");
-const ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard";
+const ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer";
+const CHANNEL = process.env.SLACK_CHANNEL_ID || "C0BAAQN3X3M";
+const BOT = process.env.SLACK_BOT_TOKEN;
+const WEBHOOK = process.env.SLACK_WEBHOOK_URL;
 
 const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
 const ALIASES = {
-  turkiye: "Turkey", turkey: "Turkey",
-  czechia: "Czech Republic", czechrepublic: "Czech Republic",
+  turkiye: "Turkey", turkey: "Turkey", czechia: "Czech Republic", czechrepublic: "Czech Republic",
   drcongo: "Congo DR", congodr: "Congo DR", democraticrepublicofthecongo: "Congo DR", congo: "Congo DR",
   southkorea: "Korea Republic", korearepublic: "Korea Republic", korea: "Korea Republic",
-  iriran: "Iran", iran: "Iran",
-  usa: "United States", unitedstates: "United States", us: "United States",
+  iriran: "Iran", iran: "Iran", usa: "United States", unitedstates: "United States", us: "United States",
   ivorycoast: "Côte d'Ivoire", cotedivoire: "Côte d'Ivoire",
   bosniaherzegovina: "Bosnia and Herzegovina", bosniaandherzegovina: "Bosnia and Herzegovina", bosnia: "Bosnia and Herzegovina",
-  capeverde: "Cape Verde", caboverde: "Cape Verde",
-  saudiarabia: "Saudi Arabia", newzealand: "New Zealand", southafrica: "South Africa",
+  capeverde: "Cape Verde", caboverde: "Cape Verde", saudiarabia: "Saudi Arabia", newzealand: "New Zealand", southafrica: "South Africa",
 };
 const canonical = (name, teams) => { const n = norm(name); return ALIASES[n] || teams.find((t) => norm(t) === n) || name; };
 const ref = (o) => (o ? (o.slackId ? `<@${o.slackId}>` : `*${o.name}*`) : "");
 
-async function postSlack(text) {
-  const url = process.env.SLACK_WEBHOOK_URL;
-  if (!url) { console.log("[live] no SLACK_WEBHOOK_URL — would post:\n" + text); return; }
-  const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text }) });
-  console.log(r.ok ? "[live] posted" : `[live] slack failed ${r.status} ${await r.text()}`);
+// Map a flag emoji → Slack reaction emoji name (no colons).
+const SHORT = { us: "us", jp: "jp", kr: "kr", de: "de", fr: "fr", it: "it", es: "es", ru: "ru", cn: "cn", gb: "gb" };
+function reactionName(flag, team) {
+  if (team === "England") return "flag-england";
+  if (team === "Scotland") return "flag-scotland";
+  const letters = [];
+  for (const ch of flag || "") { const cp = ch.codePointAt(0); if (cp >= 0x1f1e6 && cp <= 0x1f1ff) letters.push(String.fromCharCode(cp - 0x1f1e6 + 97)); }
+  if (letters.length !== 2) return null;
+  const iso2 = letters.join("");
+  return SHORT[iso2] || `flag-${iso2}`;
+}
+
+// Post to Slack. With a bot token: returns the message ts (and supports thread replies). Else webhook (top-level only).
+async function slackPost(text, thread_ts) {
+  if (BOT) {
+    const r = await fetch("https://slack.com/api/chat.postMessage", {
+      method: "POST", headers: { Authorization: `Bearer ${BOT}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ channel: CHANNEL, text, ...(thread_ts ? { thread_ts } : {}) }),
+    });
+    const j = await r.json();
+    if (!j.ok) console.error("[live] post failed:", j.error);
+    else console.log("[live] posted" + (thread_ts ? " (thread)" : ""));
+    return j.ok ? j.ts : null;
+  }
+  if (WEBHOOK) {
+    await fetch(WEBHOOK, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text }) });
+    console.log("[live] posted (webhook)");
+  }
+  return null;
+}
+async function slackReact(ts, name) {
+  if (!BOT || !ts || !name) return;
+  const r = await fetch("https://slack.com/api/reactions.add", {
+    method: "POST", headers: { Authorization: `Bearer ${BOT}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ channel: CHANNEL, timestamp: ts, name }),
+  });
+  const j = await r.json();
+  console.log(j.ok ? `[live] reacted :${name}:` : `[live] react failed (${j.error}) :${name}:`);
 }
 
 async function main() {
+  const cfg = JSON.parse(await readFile(join(DATA, "..", "config.json"), "utf8").catch(() => "{}"));
+  const ESPN = `${ESPN_BASE}/${cfg.competition?.espnLeague || "fifa.world"}/scoreboard`;
   const roster = JSON.parse(await readFile(join(DATA, "roster.json"), "utf8"));
   const teams = roster.people.map((p) => p.team);
   const owner = new Map(roster.people.map((p) => [canonical(p.team, teams), p]));
@@ -46,7 +82,7 @@ async function main() {
   const res = await fetch(ESPN, { headers: { "User-Agent": "triton-wc/1.0" } });
   if (!res.ok) { console.error("[live] ESPN fetch failed", res.status); process.exit(0); }
   const events = (await res.json()).events || [];
-  console.log(`[live] ${events.length} events; firstRun=${firstRun}`);
+  console.log(`[live] ${events.length} events; firstRun=${firstRun}; bot=${!!BOT}`);
 
   let changed = false;
   for (const ev of events) {
@@ -60,43 +96,50 @@ async function main() {
     const aName = away.team?.displayName || away.team?.name || "";
     const hP = owner.get(canonical(hName, teams)), aP = owner.get(canonical(aName, teams));
     const hFlag = hP?.flag || "", aFlag = aP?.flag || "";
-    const hScore = home.score ?? "0", aScore = away.score ?? "0";
+    const hS = Number(home.score ?? 0), aS = Number(away.score ?? 0);
+    const score = `${hS}-${aS}`;
     const grp = hP?.group || aP?.group || "";
 
     const st = ev.status?.type || {};
-    const stateStr = st.state;                                   // pre | in | post
-    const desc = st.description || st.detail || st.shortDetail || "";
-    const isHalf = /half.?time/i.test(desc);
+    const stateStr = st.state;                       // pre | in | post
     const isFull = st.completed || stateStr === "post";
     const period = ev.status?.period || 1;
-    const clock = parseInt(String(ev.status?.displayClock || "0").replace(/[^0-9]/g, "")) || 0;
+    const clock = String(ev.status?.displayClock || "").trim();
+    const clockN = parseInt(clock.replace(/[^0-9]/g, "")) || 0;
 
     const id = ev.id || `${canonical(hName, teams)}-${canonical(aName, teams)}-${ev.date}`;
     const s = state[id] || (state[id] = {});
 
-    // First run ever: silently seed in-progress / finished matches so we never blast a late
-    // KICKOFF or a stale FULL TIME on deploy. Only matches that start later get a real post.
-    if (firstRun && stateStr !== "pre") {
-      s.kickoff = true;
-      s.half = period >= 2 || isHalf;
-      s.full = isFull;
-      changed = true;
-      continue;
+    // First run: silently seed in-progress / finished matches so nothing stale is posted on deploy.
+    if (firstRun && stateStr !== "pre") { s.kickoff = true; s.ts = ""; s.score = score; s.full = isFull; changed = true; continue; }
+
+    // KICK OFF (or join-in-progress) → thread parent in the channel.
+    if (stateStr === "in" && !s.kickoff) {
+      const early = period === 1 && clockN <= 18;
+      const text = early
+        ? `⚽ *KICK OFF*${grp ? ` — Group ${grp}` : ""}\n${hFlag} ${hName}  vs  ${aName} ${aFlag}\nGood luck ${ref(hP)} & ${ref(aP)}! 🍀  _Live updates in this thread_ 👇`
+        : `⚡ *LIVE*${grp ? ` — Group ${grp}` : ""} · ${clock}\n${hFlag} ${hName} *${hS}–${aS}* ${aName} ${aFlag}\n${ref(hP)} vs ${ref(aP)}  _· updates in this thread_ 👇`;
+      const ts = await slackPost(text);
+      if (ts || !BOT) { s.kickoff = true; s.ts = ts || ""; s.score = score; changed = true; }
     }
 
-    if (stateStr === "in" && !s.kickoff) {
-      if (period === 1 && clock <= 18) {
-        await postSlack(`⚽ *KICK OFF*${grp ? ` — Group ${grp}` : ""}\n${hFlag} ${hName}  vs  ${aName} ${aFlag}\nGood luck ${ref(hP)} & ${ref(aP)}! 🍀`);
-      }
-      s.kickoff = true; changed = true;            // mark done even if we joined late (no post)
+    // SCORE CHANGE → reply in the match thread, tagging the side that scored.
+    if (stateStr === "in" && s.kickoff && s.ts && score !== s.score) {
+      const [oh, oa] = String(s.score || "0-0").split("-").map(Number);
+      const homeScored = hS > oh;
+      const sp = homeScored ? hP : aP, sFlag = homeScored ? hFlag : aFlag, sTeam = homeScored ? hName : aName;
+      const rt = await slackPost(`⚽ *${clock || "GOAL"}* — ${sFlag} *${sTeam}* score!  ${hFlag} ${hName} *${hS}–${aS}* ${aName} ${aFlag}  ·  ${ref(sp)}`, s.ts);
+      if (rt || !BOT) { s.score = score; changed = true; }
     }
-    if (isHalf && !s.half) {
-      await postSlack(`⏸️ *HALF TIME* — ${hFlag} ${hName} *${hScore}–${aScore}* ${aName} ${aFlag}`);
-      s.half = true; changed = true;
-    }
+
+    // FULL TIME → final to the channel + winner-flag reaction on the kickoff message.
     if (isFull && !s.full) {
-      await postSlack(`🏁 *FULL TIME* — ${hFlag} ${hName} *${hScore}–${aScore}* ${aName} ${aFlag}\nGG ${ref(hP)} & ${ref(aP)}`);
-      s.full = true; s.kickoff = true; s.half = true; changed = true;
+      const ft = await slackPost(`🏁 *FULL TIME* — ${hFlag} ${hName} *${hS}–${aS}* ${aName} ${aFlag}\nGG ${ref(hP)} & ${ref(aP)}`);
+      if (ft || !BOT) {
+        const winName = hS > aS ? reactionName(hFlag, hName) : aS > hS ? reactionName(aFlag, aName) : "handshake";
+        await slackReact(s.ts, winName);
+        s.full = true; s.kickoff = true; changed = true;
+      }
     }
   }
 

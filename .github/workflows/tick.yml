@@ -42,6 +42,7 @@ jobs:
 
       - name: Live watcher
         env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node scripts/live.mjs
 
