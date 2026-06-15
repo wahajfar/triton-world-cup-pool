@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 8:52 AM PT",
+  "updatedAt": "Jun 15, 9:53 AM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
@@ -15,26 +15,28 @@
     "Group D — Australia 2-0 Turkey",
     "Group E — Germany 7-1 Curaçao",
     "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group F — Netherlands 1-1 Japan"
+    "Group F — Netherlands 2-2 Japan",
+    "Group F — Sweden 5-1 Tunisia"
   ],
   "bracket": null,
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "a": {
           "team": "Spain",
-          "flag": "🇪🇸"
+          "flag": "🇪🇸",
+          "score": 0
         },
         "b": {
           "team": "Cape Verde",
-          "flag": "🇨🇻"
+          "flag": "🇨🇻",
+          "score": 0
         },
-        "date": "Mon Jun 15",
-        "time": "9:00 AM PT",
+        "minute": "45'",
         "competition": "Group H"
-      },
+      }
+    ],
+    "upcoming": [
       {
         "a": {
           "team": "Belgium",
@@ -85,6 +87,19 @@
         },
         "date": "Tue Jun 16",
         "time": "12:00 PM PT",
+        "competition": "Group I"
+      },
+      {
+        "a": {
+          "team": "Iraq",
+          "flag": "🇮🇶"
+        },
+        "b": {
+          "team": "Norway",
+          "flag": "🇳🇴"
+        },
+        "date": "Tue Jun 16",
+        "time": "3:00 PM PT",
         "competition": "Group I"
       }
     ]
@@ -308,7 +323,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1 vs Netherlands",
+      "statusLabel": "Drew 2-2 vs Netherlands",
       "rank": 13
     },
     {
@@ -325,7 +340,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1 vs Japan",
+      "statusLabel": "Drew 2-2 vs Japan",
       "rank": 14
     },
     {
@@ -376,7 +391,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs England Jun 17",
+      "statusLabel": "Opener vs England on Jun 17",
       "rank": 17
     },
     {
@@ -393,7 +408,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Senegal Jun 16",
+      "statusLabel": "Opener vs Senegal on Jun 16",
       "rank": 18
     },
     {
@@ -410,7 +425,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Austria Jun 17",
+      "statusLabel": "Opener vs Austria on Jun 17",
       "rank": 19
     },
     {
@@ -427,7 +442,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs New Zealand today",
+      "statusLabel": "Opener vs New Zealand later today",
       "rank": 20
     },
     {
@@ -444,7 +459,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Congo DR on Jun 17",
       "rank": 21
     },
     {
@@ -461,7 +476,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Colombia on Jun 17",
       "rank": 22
     },
     {
@@ -478,7 +493,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Norway Jun 16",
+      "statusLabel": "Opener vs Norway on Jun 16",
       "rank": 23
     },
     {
@@ -495,7 +510,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Argentina Jun 16",
+      "statusLabel": "Opener vs Argentina on Jun 16",
       "rank": 24
     },
     {
@@ -512,7 +527,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Spain today",
+      "statusLabel": "LIVE vs Spain (0-0, ~45')",
       "rank": 25
     },
     {
@@ -529,7 +544,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Ghana on Jun 17",
       "rank": 26
     },
     {
@@ -546,7 +561,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs France Jun 16",
+      "statusLabel": "Opener vs France on Jun 16",
       "rank": 27
     },
     {
@@ -563,7 +578,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Jordan Jun 17",
+      "statusLabel": "Opener vs Jordan on Jun 17",
       "rank": 28
     },
     {
@@ -580,7 +595,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Uzbekistan on Jun 17",
       "rank": 29
     },
     {
@@ -597,7 +612,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Egypt today",
+      "statusLabel": "Opener vs Egypt later today",
       "rank": 30
     },
     {
@@ -614,7 +629,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Belgium today",
+      "statusLabel": "Opener vs Belgium later today",
       "rank": 31
     },
     {
@@ -631,7 +646,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Iran today",
+      "statusLabel": "Opener vs Iran later today",
       "rank": 32
     },
     {
@@ -648,7 +663,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Portugal on Jun 17",
       "rank": 33
     },
     {
@@ -665,7 +680,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Cape Verde today",
+      "statusLabel": "LIVE vs Cape Verde (0-0, ~45')",
       "rank": 34
     },
     {
@@ -682,7 +697,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Saudi Arabia today",
+      "statusLabel": "Opener vs Saudi Arabia later today",
       "rank": 35
     },
     {
@@ -699,7 +714,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — group starts Jun 17",
+      "statusLabel": "Opener vs Panama on Jun 17",
       "rank": 36
     },
     {
@@ -716,7 +731,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Croatia Jun 17",
+      "statusLabel": "Opener vs Croatia on Jun 17",
       "rank": 37
     },
     {
@@ -733,7 +748,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Iraq Jun 16",
+      "statusLabel": "Opener vs Iraq on Jun 16",
       "rank": 38
     },
     {
@@ -750,7 +765,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Uruguay today",
+      "statusLabel": "Opener vs Uruguay later today",
       "rank": 39
     },
     {
@@ -767,7 +782,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Algeria Jun 16",
+      "statusLabel": "Opener vs Algeria on Jun 16",
       "rank": 40
     },
     {
@@ -784,7 +799,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Scotland",
+      "statusLabel": "Lost 0-1 vs Scotland",
       "rank": 41
     },
     {
@@ -801,7 +816,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Côte d'Ivoire",
+      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
       "rank": 42
     },
     {
@@ -818,7 +833,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2 to Korea Republic",
+      "statusLabel": "Lost 1-2 vs Korea Republic",
       "rank": 43
     },
     {
@@ -835,7 +850,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Australia",
+      "statusLabel": "Lost 0-2 vs Australia",
       "rank": 44
     },
     {
@@ -852,7 +867,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Mexico",
+      "statusLabel": "Lost 0-2 vs Mexico",
       "rank": 45
     },
     {
@@ -869,7 +884,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 to United States",
+      "statusLabel": "Lost 1-4 vs United States",
       "rank": 46
     },
     {
@@ -886,7 +901,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5 to Sweden",
+      "statusLabel": "Lost 1-5 vs Sweden",
       "rank": 47
     },
     {
@@ -903,7 +918,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7 to Germany",
+      "statusLabel": "Lost 1-7 vs Germany",
       "rank": 48
     }
   ]
