@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 4:40 PM PT",
+  "updatedAt": "Jun 15, 4:46 PM PT",
   "live": [
     {
       "id": "760429",
@@ -18,15 +18,23 @@
         "flag": "🇺🇾",
         "owner": "Mahdy R",
         "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 0
+        "score": 1
       },
-      "minute": "74'",
+      "minute": "80'",
       "recap": {
         "goals": [
           {
             "minute": "41'",
             "side": "a",
             "scorer": "Abdulelah Al-Amri",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "80'",
+            "side": "b",
+            "scorer": "Maxi Araújo",
             "assist": "",
             "own": false,
             "penalty": false
