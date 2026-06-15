@@ -135,35 +135,106 @@ function renderBracket(data) {
   });
 }
 
-// ---- Live & upcoming matches (Google-style strip) ----
-function matchCard(m, isLive) {
-  const status = isLive
-    ? `<span class="mc-live">LIVE${m.minute ? " " + escapeHtml(m.minute) : ""}</span>`
+// ---- Live, finished & upcoming matches (strip + tap-to-open recap panel) ----
+let MATCHES = null;            // last-loaded matches.json
+let selectedMatch = null;      // id of the open recap, or null
+let matchTouched = false;      // once the user taps, stop auto-opening the live game
+
+function minKey(s) { const m = String(s || "").match(/(\d+)(?:'?\+(\d+))?/); return m ? (+m[1]) * 100 + (m[2] ? +m[2] : 0) : 0; }
+
+function matchCard(m, kind) {
+  const status =
+    kind === "live" ? `<span class="mc-live">LIVE${m.minute ? " " + escapeHtml(m.minute) : ""}</span>`
+    : kind === "recent" ? `<span class="mc-ft">FT</span>`
     : `<span class="mc-date">${escapeHtml(m.date || "")}</span>`;
-  const center = isLive
-    ? `<div class="mc-score">${m.a?.score ?? 0}<span>–</span>${m.b?.score ?? 0}</div>`
-    : `<div class="mc-time">${escapeHtml(m.time || "vs")}</div>`;
-  return `<div class="matchcard ${isLive ? "is-live" : ""}">
+  const center =
+    kind === "upcoming" ? `<div class="mc-time">${escapeHtml(m.time || "vs")}</div>`
+    : `<div class="mc-score">${m.a?.score ?? 0}<span>–</span>${m.b?.score ?? 0}</div>`;
+  const tappable = kind !== "upcoming";
+  const sel = selectedMatch === m.id ? " is-selected" : "";
+  const hint = tappable ? `<div class="mc-more">${selectedMatch === m.id ? "Hide details ▴" : "Match details ▾"}</div>` : "";
+  return `<div class="matchcard ${kind === "live" ? "is-live" : ""}${sel}" ${tappable ? `data-match="${escapeHtml(m.id)}"` : ""}>
     <div class="mc-top"><span class="mc-comp">${escapeHtml(m.competition || "")}</span>${status}</div>
     <div class="mc-body">
       <div class="mc-team"><span class="mc-flag">${m.a?.flag || ""}</span><span class="mc-name">${escapeHtml(m.a?.team || "TBD")}</span></div>
       ${center}
       <div class="mc-team mc-right"><span class="mc-name">${escapeHtml(m.b?.team || "TBD")}</span><span class="mc-flag">${m.b?.flag || ""}</span></div>
     </div>
+    ${hint}
   </div>`;
 }
 
-function renderMatches(data) {
-  const section = document.getElementById("matchesSection");
-  const m = data.matches || {};
-  const live = Array.isArray(m.live) ? m.live : [];
-  const upcoming = Array.isArray(m.upcoming) ? m.upcoming : [];
-  const cards = [...live.map((x) => matchCard(x, true)), ...upcoming.slice(0, 3).map((x) => matchCard(x, false))];
-  if (!cards.length) { section.hidden = true; return; }
-  section.hidden = false;
-  document.getElementById("matchstripTitle").textContent = live.length ? "🔴 Live & upcoming" : "Upcoming matches";
-  document.getElementById("matchstrip").innerHTML = cards.join("");
+function recapPanel(m) {
+  const side = (s) => (s === "a" ? m.a : s === "b" ? m.b : null);
+  const events = [
+    ...(m.recap?.goals || []).map((g) => ({ ...g, t: "goal" })),
+    ...(m.recap?.cards || []).map((c) => ({ ...c, t: "card" })),
+  ].sort((x, y) => minKey(x.minute) - minKey(y.minute));
+
+  const rows = events.map((e) => {
+    const s = side(e.side);
+    const who = s ? `<span class="r-side">${s.flag || ""} ${escapeHtml(s.owner || s.team)}</span>` : "";
+    if (e.t === "goal") {
+      const tag = (e.penalty ? ` <span class="r-tag">pen</span>` : "") + (e.own ? ` <span class="r-tag">OG</span>` : "");
+      const assist = e.assist ? `<span class="r-assist">↳ ${escapeHtml(e.assist)}</span>` : "";
+      return `<div class="r-row r-goal"><span class="r-min">${escapeHtml(e.minute || "")}</span><span class="r-ico">⚽</span>
+        <span class="r-main"><b>${escapeHtml(e.scorer || "Goal")}</b>${tag} ${who}${assist}</span></div>`;
+    }
+    return `<div class="r-row"><span class="r-min">${escapeHtml(e.minute || "")}</span><span class="r-ico">${e.color === "red" ? "🟥" : "🟨"}</span>
+      <span class="r-main">${escapeHtml(e.player || "Card")} ${who}</span></div>`;
+  }).join("");
+
+  const head = `${escapeHtml(m.competition || "")} · ${m.state === "in" ? `LIVE ${escapeHtml(m.minute || "")}` : "Full time"}`;
+  const owners = `${escapeHtml(m.a?.owner || "—")} <span>vs</span> ${escapeHtml(m.b?.owner || "—")}`;
+  const body = rows || `<div class="r-empty">${m.state === "in" ? "No goals or cards yet — game on. ⚽" : "Goalless, no cards. 😴"}</div>`;
+  const impact = m.impact ? `<div class="md-impact">${escapeHtml(m.impact)}</div>` : "";
+
+  return `<div class="md-head">${head}</div>
+    <div class="md-score">
+      <span class="md-team"><span class="md-flag">${m.a?.flag || ""}</span>${escapeHtml(m.a?.team || "")}</span>
+      <span class="md-num">${m.a?.score ?? 0} – ${m.b?.score ?? 0}</span>
+      <span class="md-team md-r">${escapeHtml(m.b?.team || "")}<span class="md-flag">${m.b?.flag || ""}</span></span>
+    </div>
+    <div class="md-owners">${owners}</div>
+    <div class="md-timeline">${body}</div>
+    ${impact}`;
 }
+
+function renderMatches(mdata) {
+  MATCHES = mdata;
+  const section = document.getElementById("matchesSection");
+  const live = Array.isArray(mdata?.live) ? mdata.live : [];
+  const recent = Array.isArray(mdata?.recent) ? mdata.recent : [];
+  const upcoming = Array.isArray(mdata?.upcoming) ? mdata.upcoming : [];
+  const all = [...live, ...recent, ...upcoming];
+  if (!all.length) { section.hidden = true; return; }
+  section.hidden = false;
+
+  // Auto-open the live match the first time, until the user taps something.
+  if (!matchTouched && live.length) selectedMatch = live[0].id;
+  // Drop a stale selection (match no longer present).
+  if (selectedMatch && !all.some((m) => m.id === selectedMatch)) selectedMatch = null;
+
+  document.getElementById("matchstripTitle").textContent =
+    live.length ? "🔴 Live & today's matches" : recent.length ? "Today's matches" : "Upcoming matches";
+  document.getElementById("matchstrip").innerHTML =
+    [...live.map((m) => matchCard(m, "live")), ...recent.map((m) => matchCard(m, "recent")), ...upcoming.map((m) => matchCard(m, "upcoming"))].join("");
+
+  const panel = document.getElementById("matchDetail");
+  const sel = all.find((m) => m.id === selectedMatch && m.state !== "pre");
+  if (sel) { panel.hidden = false; panel.innerHTML = recapPanel(sel); }
+  else { panel.hidden = true; panel.innerHTML = ""; }
+}
+
+// Tap a card to open/close its recap (event-delegated so it survives the 60s re-render).
+document.addEventListener("click", (e) => {
+  const card = e.target.closest("[data-match]");
+  if (!card || !MATCHES) return;
+  matchTouched = true;
+  const id = card.getAttribute("data-match");
+  selectedMatch = selectedMatch === id ? null : id;
+  renderMatches(MATCHES);
+});
 
 function renderMeta(data) {
   document.getElementById("pills").innerHTML = `
@@ -190,13 +261,20 @@ function setupTabs() {
   });
 }
 
+async function loadMatches() {
+  // ESPN-sourced strip + recaps (refreshes every tick); falls back silently if not present yet.
+  try {
+    const res = await fetch("./data/matches.json?t=" + Date.now());
+    if (res.ok) renderMatches(await res.json());
+  } catch { /* matches.json not deployed yet — strip just stays hidden */ }
+}
+
 async function load() {
   try {
     const res = await fetch("./data/standings.json?t=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     renderMeta(data);
-    renderMatches(data);
     renderBoard(data);
     renderBracket(data);
     renderGroups(data);
@@ -207,6 +285,7 @@ async function load() {
   } finally {
     document.getElementById("loading").classList.add("hide");
   }
+  loadMatches();
 }
 
 setupTabs();

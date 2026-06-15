@@ -46,6 +46,9 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: node scripts/live.mjs
 
+      - name: Match strip + recaps (ESPN → data/matches.json)
+        run: node scripts/matches.mjs
+
       - name: Morning fixtures
         if: steps.t.outputs.morning == 'yes'
         env:
