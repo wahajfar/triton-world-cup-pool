@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 1:30 PM PT",
+  "updatedAt": "Jun 15, 1:40 PM PT",
   "live": [
     {
       "id": "760426",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "68'",
+      "minute": "78'",
       "recap": {
         "goals": [
           {
@@ -57,6 +57,12 @@
             "minute": "34'",
             "side": "b",
             "player": "Ahmed Fatouh",
+            "color": "yellow"
+          },
+          {
+            "minute": "75'",
+            "side": "a",
+            "player": "Maxim De Cuyper",
             "color": "yellow"
           }
         ]
