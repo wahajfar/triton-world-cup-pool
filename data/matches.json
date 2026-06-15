@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 1:20 PM PT",
+  "updatedAt": "Jun 15, 1:30 PM PT",
   "live": [
     {
       "id": "760426",
@@ -11,7 +11,7 @@
         "flag": "🇧🇪",
         "owner": "John Pajarin",
         "ownerSlackId": "U08SC2F74KB",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Egypt",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "58'",
+      "minute": "68'",
       "recap": {
         "goals": [
           {
@@ -29,6 +29,14 @@
             "scorer": "Emam Ashour",
             "assist": "Mohamed Salah",
             "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "66'",
+            "side": "a",
+            "scorer": "Mohamed Hany",
+            "assist": "",
+            "own": true,
             "penalty": false
           }
         ],
