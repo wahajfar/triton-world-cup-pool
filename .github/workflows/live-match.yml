@@ -1,0 +1,48 @@
+name: Live match alerts
+
+on:
+  schedule:
+    # Every 15 min during match hours (UTC). June PT = UTC-7, so this covers ~8am–11pm PT.
+    - cron: "*/15 15-23 * * *"
+    - cron: "*/15 0-7 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: wc-live
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Watch live matches
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node scripts/live.mjs
+
+      - name: Commit live state
+        run: |
+          if [[ -z "$(git status --porcelain data/live-state.json)" ]]; then
+            echo "No live-state change."; exit 0
+          fi
+          git config user.name "world-cup-bot"
+          git config user.email "actions@github.com"
+          git add data/live-state.json
+          git commit -m "chore: live state ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then echo "pushed on attempt $attempt"; exit 0; fi
+            echo "push rejected — rebasing and retrying ($attempt)"
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep 3
+          done
+          exit 1
