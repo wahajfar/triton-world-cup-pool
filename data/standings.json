@@ -1,42 +1,28 @@
 {
-  "updatedAt": "Jun 15, 1:07 PM PT",
+  "updatedAt": "Jun 15, 2:06 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group H — Spain 0-0 Cabo Verde",
-    "Group F — Netherlands 2-2 Japan",
+    "Group H — Spain 0-0 Cape Verde",
+    "Group G — Belgium 1-1 Egypt",
     "Group F — Sweden 5-1 Tunisia",
+    "Group F — Netherlands 2-2 Japan",
     "Group E — Germany 7-1 Curaçao",
     "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group D — Australia 2-0 Turkey",
     "Group C — Brazil 1-1 Morocco",
     "Group C — Scotland 1-0 Haiti",
     "Group B — Switzerland 1-1 Qatar",
     "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group D — Australia 2-0 Turkey",
     "Group D — United States 4-1 Paraguay",
-    "Group A — Mexico 2-0 South Africa",
-    "Group A — Korea Republic 2-1 Czech Republic"
+    "Group A — Korea Republic 2-1 Czech Republic",
+    "Group A — Mexico 2-0 South Africa"
   ],
   "bracket": null,
   "matches": {
-    "live": [
-      {
-        "a": {
-          "team": "Belgium",
-          "flag": "🇧🇪",
-          "score": 0
-        },
-        "b": {
-          "team": "Egypt",
-          "flag": "🇪🇬",
-          "score": 1
-        },
-        "minute": "HT",
-        "competition": "Group G"
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "a": {
@@ -290,7 +276,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1 vs Switzerland",
+      "statusLabel": "Drew 1-1 vs Switzerland (94' equaliser)",
       "rank": 11
     },
     {
@@ -307,7 +293,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 0-0 vs Spain",
+      "statusLabel": "Drew 0-0 vs Spain (historic point)",
       "rank": 12
     },
     {
@@ -345,6 +331,40 @@
       "rank": 14
     },
     {
+      "name": "John Pajarin",
+      "team": "Belgium",
+      "group": "G",
+      "flag": "🇧🇪",
+      "photo": null,
+      "slackId": "U08SC2F74KB",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 1,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Drew 1-1 vs Egypt",
+      "rank": 15
+    },
+    {
+      "name": "Khari Harper",
+      "team": "Egypt",
+      "group": "G",
+      "flag": "🇪🇬",
+      "photo": null,
+      "slackId": "U0B6D9B2V8R",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 1,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Drew 1-1 vs Belgium",
+      "rank": 16
+    },
+    {
       "name": "Luke Zahradka",
       "team": "Spain",
       "group": "H",
@@ -359,7 +379,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 0-0 vs Cape Verde",
-      "rank": 15
+      "rank": 17
     },
     {
       "name": "Rahim Jutha",
@@ -376,7 +396,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Japan",
-      "rank": 16
+      "rank": 18
     },
     {
       "name": "Ryan Drury",
@@ -393,7 +413,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
-      "rank": 17
+      "rank": 19
     },
     {
       "name": "Saim Aslam",
@@ -410,7 +430,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Qatar",
-      "rank": 18
+      "rank": 20
     },
     {
       "name": "Abdul Farooqi",
@@ -426,8 +446,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group L opens Jun 17)",
-      "rank": 19
+      "statusLabel": "Yet to play — opens vs England Jun 17",
+      "rank": 21
     },
     {
       "name": "Abdullah Ashraf",
@@ -443,8 +463,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Senegal Jun 16)",
-      "rank": 20
+      "statusLabel": "Yet to play — opens vs Senegal Jun 16",
+      "rank": 22
     },
     {
       "name": "Adam Chandler",
@@ -460,8 +480,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Austria Jun 16)",
-      "rank": 21
+      "statusLabel": "Yet to play — opens vs Austria Jun 17",
+      "rank": 23
     },
     {
       "name": "Arash Hazini",
@@ -477,8 +497,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs New Zealand tonight)",
-      "rank": 22
+      "statusLabel": "Yet to play — vs New Zealand tonight",
+      "rank": 24
     },
     {
       "name": "Arsal Javed",
@@ -494,8 +514,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group K opens Jun 17)",
-      "rank": 23
+      "statusLabel": "Yet to play — opens vs Congo DR Jun 17",
+      "rank": 25
     },
     {
       "name": "Baha",
@@ -511,8 +531,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group K opens Jun 17)",
-      "rank": 24
+      "statusLabel": "Yet to play — opens vs Colombia Jun 17",
+      "rank": 26
     },
     {
       "name": "Bilal Hanjra",
@@ -528,8 +548,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Norway Jun 16)",
-      "rank": 25
+      "statusLabel": "Yet to play — opens vs Norway Jun 16",
+      "rank": 27
     },
     {
       "name": "Cole Germaine",
@@ -545,8 +565,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Argentina Jun 16)",
-      "rank": 26
+      "statusLabel": "Yet to play — opens vs Argentina Jun 16",
+      "rank": 28
     },
     {
       "name": "David Heller",
@@ -562,8 +582,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group L opens Jun 17)",
-      "rank": 27
+      "statusLabel": "Yet to play — opens vs Ghana Jun 17",
+      "rank": 29
     },
     {
       "name": "Dusan Tasic",
@@ -579,8 +599,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs France Jun 16)",
-      "rank": 28
+      "statusLabel": "Yet to play — opens vs France Jun 16",
+      "rank": 30
     },
     {
       "name": "Farhad Rahgozar",
@@ -596,8 +616,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Jordan Jun 16)",
-      "rank": 29
+      "statusLabel": "Yet to play — opens vs Jordan Jun 17",
+      "rank": 31
     },
     {
       "name": "Jabulani Aduwo",
@@ -613,41 +633,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group K opens Jun 17)",
-      "rank": 30
-    },
-    {
-      "name": "John Pajarin",
-      "team": "Belgium",
-      "group": "G",
-      "flag": "🇧🇪",
-      "photo": null,
-      "slackId": "U08SC2F74KB",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Live — trailing Egypt 0-1 (HT)",
-      "rank": 31
-    },
-    {
-      "name": "Khari Harper",
-      "team": "Egypt",
-      "group": "G",
-      "flag": "🇪🇬",
-      "photo": null,
-      "slackId": "U0B6D9B2V8R",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Live — leading Belgium 1-0 (HT)",
+      "statusLabel": "Yet to play — opens vs Uzbekistan Jun 17",
       "rank": 32
     },
     {
@@ -664,7 +650,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Iran tonight)",
+      "statusLabel": "Yet to play — vs Iran tonight",
       "rank": 33
     },
     {
@@ -681,7 +667,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group K opens Jun 17)",
+      "statusLabel": "Yet to play — opens vs Portugal Jun 17",
       "rank": 34
     },
     {
@@ -698,7 +684,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Saudi Arabia tonight)",
+      "statusLabel": "Yet to play — vs Saudi Arabia today",
       "rank": 35
     },
     {
@@ -715,7 +701,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group L opens Jun 17)",
+      "statusLabel": "Yet to play — opens vs Panama Jun 17",
       "rank": 36
     },
     {
@@ -732,7 +718,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (Group L opens Jun 17)",
+      "statusLabel": "Yet to play — opens vs Croatia Jun 17",
       "rank": 37
     },
     {
@@ -749,7 +735,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Iraq Jun 16)",
+      "statusLabel": "Yet to play — opens vs Iraq Jun 16",
       "rank": 38
     },
     {
@@ -766,7 +752,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Uruguay tonight)",
+      "statusLabel": "Yet to play — vs Uruguay today",
       "rank": 39
     },
     {
@@ -783,7 +769,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Algeria Jun 16)",
+      "statusLabel": "Yet to play — opens vs Algeria Jun 16",
       "rank": 40
     },
     {
