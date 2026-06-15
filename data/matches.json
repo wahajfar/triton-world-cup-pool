@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 3:40 PM PT",
+  "updatedAt": "Jun 15, 3:50 PM PT",
   "live": [
     {
       "id": "760429",
@@ -11,7 +11,7 @@
         "flag": "🇸🇦",
         "owner": "Richard Lee",
         "ownerSlackId": "U098AFAQM5H",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Uruguay",
@@ -20,10 +20,26 @@
         "ownerSlackId": "U0AQ6Q2NWFM",
         "score": 0
       },
-      "minute": "37'",
+      "minute": "45'+1'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "41'",
+            "side": "a",
+            "scorer": "Abdulelah Al-Amri",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "44'",
+            "side": "a",
+            "player": "Abdulelah Al-Amri",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
