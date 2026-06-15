@@ -1,10 +1,7 @@
 name: Live match alerts
 
 on:
-  schedule:
-    # Every 15 min during match hours (UTC). June PT = UTC-7, so this covers ~8am–11pm PT.
-    - cron: "*/15 15-23 * * *"
-    - cron: "*/15 0-7 * * *"
+  # Scheduling handled by the external pinger via the Tick workflow (GitHub cron is unreliable).
   workflow_dispatch:
 
 concurrency:

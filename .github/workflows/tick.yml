@@ -1,0 +1,70 @@
+name: Tick
+
+# Single entry point driven by an EXTERNAL cron pinger (GitHub's own scheduler is unreliable
+# on free tier). Ping this workflow's dispatch endpoint every ~10 min and it does the rest:
+#   • live watcher        — every tick
+#   • standings updater    — once per hour (first 10 min), during match hours
+#   • morning fixtures     — once daily at ~08:00 PT (15:0x UTC)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wc-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Decide what runs this tick
+        id: t
+        run: |
+          H=$(date -u +%H); M=$(date -u +%M)
+          # standings: once/hour (first 10 min), match hours only (UTC 15–23 or 0–7)
+          if [ "$M" -lt 10 ] && { [ "$H" -ge 15 ] || [ "$H" -le 7 ]; }; then echo "update=yes"; else echo "update=no"; fi >> "$GITHUB_OUTPUT"
+          # morning fixtures: ~08:00 PT == 15:0x UTC
+          if [ "$H" = "15" ] && [ "$M" -lt 10 ]; then echo "morning=yes"; else echo "morning=no"; fi >> "$GITHUB_OUTPUT"
+
+      - name: Live watcher
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node scripts/live.mjs
+
+      - name: Morning fixtures
+        if: steps.t.outputs.morning == 'yes'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node scripts/morning.mjs
+
+      - name: Standings updater
+        if: steps.t.outputs.update == 'yes'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          npm install --no-audit --no-fund
+          node scripts/update.mjs
+
+      - name: Commit data changes
+        run: |
+          if [ -z "$(git status --porcelain data/)" ]; then echo "no data change"; exit 0; fi
+          git config user.name "world-cup-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "chore: tick ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then exit 0; fi
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep 3
+          done
+          exit 1

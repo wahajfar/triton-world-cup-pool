@@ -1,8 +1,7 @@
 name: Morning fixtures
 
 on:
-  schedule:
-    - cron: "0 15 * * *"  # 8:00 AM PT (June = PDT, UTC-7)
+  # Scheduling handled by the external pinger via the Tick workflow (GitHub cron is unreliable).
   workflow_dispatch:
 
 permissions:

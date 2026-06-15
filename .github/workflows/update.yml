@@ -1,11 +1,7 @@
 name: Update World Cup standings
 
 on:
-  schedule:
-    # Hourly during match hours (UTC). June PT = UTC-7 → covers ~8am–midnight PT.
-    # Refreshes the site every hour; only posts to Slack when standings actually change.
-    - cron: "0 15-23 * * *"
-    - cron: "0 0-7 * * *"
+  # Scheduling handled by the external pinger via the Tick workflow (GitHub cron is unreliable).
   workflow_dispatch:
     inputs:
       digest:
