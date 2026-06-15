@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 15, 3:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 15, 3:14 PM PT",
+  "live": [
+    {
+      "id": "760429",
+      "state": "in",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "owner": "Richard Lee",
+        "ownerSlackId": "U098AFAQM5H",
+        "score": 0
+      },
+      "b": {
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "owner": "Mahdy R",
+        "ownerSlackId": "U0AQ6Q2NWFM",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760428",
@@ -111,28 +138,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760429",
-      "state": "pre",
-      "competition": "Group H",
-      "knockout": false,
-      "a": {
-        "team": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "owner": "Richard Lee",
-        "ownerSlackId": "U098AFAQM5H",
-        "score": 0
-      },
-      "b": {
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "owner": "Mahdy R",
-        "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 0
-      },
-      "date": "Mon, Jun 15",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760427",
       "state": "pre",
