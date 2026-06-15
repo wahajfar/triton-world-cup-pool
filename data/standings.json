@@ -1,21 +1,21 @@
 {
-  "updatedAt": "Jun 15, 1:04 PM PT",
+  "updatedAt": "Jun 15, 1:07 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group H — Spain 0-0 Cape Verde",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group H — Spain 0-0 Cabo Verde",
     "Group F — Netherlands 2-2 Japan",
     "Group F — Sweden 5-1 Tunisia",
-    "Group C — Scotland 1-0 Haiti",
-    "Group D — Australia 2-0 Turkey",
+    "Group E — Germany 7-1 Curaçao",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
     "Group C — Brazil 1-1 Morocco",
+    "Group C — Scotland 1-0 Haiti",
     "Group B — Switzerland 1-1 Qatar",
-    "Group D — United States 4-1 Paraguay",
     "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group D — Australia 2-0 Turkey",
+    "Group D — United States 4-1 Paraguay",
     "Group A — Mexico 2-0 South Africa",
     "Group A — Korea Republic 2-1 Czech Republic"
   ],
@@ -33,7 +33,7 @@
           "flag": "🇪🇬",
           "score": 1
         },
-        "minute": "47'",
+        "minute": "HT",
         "competition": "Group G"
       }
     ],
@@ -460,7 +460,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Austria Jun 17)",
+      "statusLabel": "Yet to play (vs Austria Jun 16)",
       "rank": 21
     },
     {
@@ -596,7 +596,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Jordan Jun 17)",
+      "statusLabel": "Yet to play (vs Jordan Jun 16)",
       "rank": 29
     },
     {
@@ -630,7 +630,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Live — trailing Egypt 0-1 (Group G)",
+      "statusLabel": "Live — trailing Egypt 0-1 (HT)",
       "rank": 31
     },
     {
@@ -647,7 +647,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Live — leading Belgium 1-0 (Group G)",
+      "statusLabel": "Live — leading Belgium 1-0 (HT)",
       "rank": 32
     },
     {
