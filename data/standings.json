@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15",
+  "updatedAt": "Jun 14, 10:43 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
@@ -8,10 +8,10 @@
     "Group A — Mexico 2-0 South Africa",
     "Group A — Korea Republic 2-1 Czech Republic",
     "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group D — United States 4-1 Paraguay",
     "Group B — Qatar 1-1 Switzerland",
     "Group C — Brazil 1-1 Morocco",
-    "Group C — Haiti 0-1 Scotland",
-    "Group D — United States 4-1 Paraguay",
+    "Group C — Scotland 1-0 Haiti",
     "Group D — Australia 2-0 Turkey",
     "Group E — Germany 7-1 Curaçao",
     "Group E — Côte d'Ivoire 1-0 Ecuador",
@@ -104,7 +104,7 @@
       "points": 3,
       "gd": 6,
       "form": "W",
-      "statusLabel": "Won 7-1",
+      "statusLabel": "Won 7-1 vs Curaçao",
       "rank": 1
     },
     {
@@ -121,7 +121,7 @@
       "points": 3,
       "gd": 4,
       "form": "W",
-      "statusLabel": "Won 5-1",
+      "statusLabel": "Won 5-1 vs Tunisia",
       "rank": 2
     },
     {
@@ -138,7 +138,7 @@
       "points": 3,
       "gd": 3,
       "form": "W",
-      "statusLabel": "Won 4-1",
+      "statusLabel": "Won 4-1 vs Paraguay",
       "rank": 3
     },
     {
@@ -155,7 +155,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 2-0",
+      "statusLabel": "Won 2-0 vs Turkey",
       "rank": 4
     },
     {
@@ -172,7 +172,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 2-0",
+      "statusLabel": "Won 2-0 vs South Africa",
       "rank": 5
     },
     {
@@ -189,7 +189,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 1-0",
+      "statusLabel": "Won 1-0 vs Ecuador",
       "rank": 6
     },
     {
@@ -206,7 +206,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 2-1",
+      "statusLabel": "Won 2-1 vs Czech Republic",
       "rank": 7
     },
     {
@@ -223,7 +223,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 1-0",
+      "statusLabel": "Won 1-0 vs Haiti",
       "rank": 8
     },
     {
@@ -240,7 +240,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Brazil",
       "rank": 9
     },
     {
@@ -257,7 +257,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Canada",
       "rank": 10
     },
     {
@@ -274,7 +274,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Switzerland",
       "rank": 11
     },
     {
@@ -291,7 +291,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Morocco",
       "rank": 12
     },
     {
@@ -308,7 +308,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs Netherlands",
       "rank": 13
     },
     {
@@ -325,7 +325,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs Japan",
       "rank": 14
     },
     {
@@ -342,7 +342,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
       "rank": 15
     },
     {
@@ -359,7 +359,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Qatar",
       "rank": 16
     },
     {
@@ -410,7 +410,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Austria, Jun 16/17)",
+      "statusLabel": "Yet to play (vs Austria, Jun 17)",
       "rank": 19
     },
     {
@@ -563,7 +563,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Jordan, Jun 16/17)",
+      "statusLabel": "Yet to play (vs Jordan, Jun 17)",
       "rank": 28
     },
     {
@@ -784,7 +784,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1",
+      "statusLabel": "Lost 0-1 vs Scotland",
       "rank": 41
     },
     {
@@ -801,7 +801,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1",
+      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
       "rank": 42
     },
     {
@@ -818,7 +818,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2",
+      "statusLabel": "Lost 1-2 vs Korea Republic",
       "rank": 43
     },
     {
@@ -835,7 +835,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2",
+      "statusLabel": "Lost 0-2 vs Australia",
       "rank": 44
     },
     {
@@ -852,7 +852,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2",
+      "statusLabel": "Lost 0-2 vs Mexico",
       "rank": 45
     },
     {
@@ -869,7 +869,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4",
+      "statusLabel": "Lost 1-4 vs United States",
       "rank": 46
     },
     {
@@ -886,7 +886,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5",
+      "statusLabel": "Lost 1-5 vs Sweden",
       "rank": 47
     },
     {
@@ -903,7 +903,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7",
+      "statusLabel": "Lost 1-7 vs Germany",
       "rank": 48
     }
   ]
