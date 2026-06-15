@@ -218,7 +218,7 @@ function buildStandings(roster, prev, state) {
   }
 
   const out = {
-    updatedAt: state.asOf || new Date().toISOString().slice(0, 10),
+    updatedAt: new Intl.DateTimeFormat("en-US", { timeZone: "America/Los_Angeles", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", hour12: true }).format(new Date()) + " PT",
     stage: state.stage || prev.stage || "Group Stage",
     aliveCount: entries.filter((e) => e.status === "alive").length,
     eliminatedCount: entries.filter((e) => e.status === "eliminated").length,

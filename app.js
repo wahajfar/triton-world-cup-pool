@@ -211,3 +211,6 @@ async function load() {
 
 setupTabs();
 load();
+// Keep an open tab fresh: re-fetch + re-render every 60s, and whenever the tab regains focus.
+setInterval(load, 60000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
