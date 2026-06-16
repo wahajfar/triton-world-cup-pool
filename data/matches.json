@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 3:30 PM PT",
+  "updatedAt": "Jun 16, 3:40 PM PT",
   "live": [
     {
       "id": "760430",
@@ -20,13 +20,21 @@
         "ownerSlackId": "U0A3LTR7SRK",
         "score": 1
       },
-      "minute": "30'",
+      "minute": "39'",
       "recap": {
         "goals": [
           {
             "minute": "29'",
             "side": "b",
             "scorer": "Erling Haaland",
+            "assist": "David Møller Wolfe",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "39'",
+            "side": "a",
+            "scorer": "Aymen Hussein",
             "assist": "",
             "own": false,
             "penalty": false
