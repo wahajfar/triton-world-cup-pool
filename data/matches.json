@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 1:30 PM PT",
+  "updatedAt": "Jun 16, 1:40 PM PT",
   "live": [
     {
       "id": "760432",
@@ -11,7 +11,7 @@
         "flag": "🇫🇷",
         "owner": "Abdullah Ashraf",
         "ownerSlackId": "U0A9697M3KN",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Senegal",
@@ -20,14 +20,14 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 0
       },
-      "minute": "66'",
+      "minute": "76'",
       "recap": {
         "goals": [
           {
             "minute": "66'",
             "side": "a",
             "scorer": "Kylian Mbappé",
-            "assist": "",
+            "assist": "Michael Olise",
             "own": false,
             "penalty": false
           }
