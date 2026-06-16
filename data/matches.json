@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 3:20 PM PT",
+  "updatedAt": "Jun 16, 3:30 PM PT",
   "live": [
     {
       "id": "760430",
@@ -18,11 +18,20 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
+        "score": 1
       },
-      "minute": "19'",
+      "minute": "30'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "29'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
