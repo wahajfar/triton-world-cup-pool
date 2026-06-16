@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 15, 6:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 15, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760427",
+      "state": "in",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "owner": "Arash Hazini",
+        "ownerSlackId": "U04GKDJUJ9X",
+        "score": 0
+      },
+      "b": {
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "owner": "Kyle Kostechka",
+        "ownerSlackId": "U0AHHBVCG72",
+        "score": 0
+      },
+      "minute": "6'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760428",
@@ -160,28 +187,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760427",
-      "state": "pre",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "Iran",
-        "flag": "🇮🇷",
-        "owner": "Arash Hazini",
-        "ownerSlackId": "U04GKDJUJ9X",
-        "score": 0
-      },
-      "b": {
-        "team": "New Zealand",
-        "flag": "🇳🇿",
-        "owner": "Kyle Kostechka",
-        "ownerSlackId": "U0AHHBVCG72",
-        "score": 0
-      },
-      "date": "Mon, Jun 15",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
