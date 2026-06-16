@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 7:50 PM PT",
+  "updatedAt": "Jun 15, 8:00 PM PT",
   "live": [
     {
       "id": "760427",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AHHBVCG72",
         "score": 2
       },
-      "minute": "82'",
+      "minute": "90'+3'",
       "recap": {
         "goals": [
           {
@@ -56,7 +56,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "89'",
+            "side": "a",
+            "player": "Ehsan Hajsafi",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
