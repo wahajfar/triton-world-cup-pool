@@ -1,10 +1,13 @@
 name: Tick
 
 # Single entry point driven by an EXTERNAL cron pinger (GitHub's own scheduler is unreliable
-# on free tier). Ping this workflow's dispatch endpoint every ~10 min and it does the rest:
-#   • live watcher        — every tick
-#   • standings updater    — once per hour (first 10 min), during match hours
-#   • morning fixtures     — once daily at ~08:00 PT (15:0x UTC)
+# on free tier). Ping this workflow's dispatch endpoint every ~10 min and it does the rest.
+#
+# TWO JOBS with SEPARATE concurrency lanes so the slow standings step can NEVER block live:
+#   • live      — live watcher + match strip + morning fixtures. Fast (~20s). Lane: wc-live.
+#   • standings — Claude + web-search survival update. Slow (10–20 min). Lane: wc-standings.
+# Because concurrency is per-job (not workflow-level), a long standings run does not hold up
+# the next tick's live watcher — they run in parallel lanes.
 
 on:
   workflow_dispatch:
@@ -12,13 +15,14 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: wc-tick
-  cancel-in-progress: false
-
 jobs:
-  tick:
+  live:
     runs-on: ubuntu-latest
+    concurrency:
+      group: wc-live
+      cancel-in-progress: false
+    outputs:
+      update: ${{ steps.t.outputs.update }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -49,17 +53,27 @@ jobs:
       - name: Match strip + recaps (ESPN → data/matches.json)
         run: node scripts/matches.mjs
 
-      # Persist the live/match state IMMEDIATELY — before the slow standings step below.
-      # If the standings step runs long (Claude + web search can take 10–20 min), a kickoff
-      # posted to Slack here would otherwise stay uncommitted until the run ends, letting the
-      # NEXT tick check out stale state and post a DUPLICATE thread parent. Saving now (within
-      # seconds) closes that window.
-      - name: Commit live state (fast)
+      - name: Morning fixtures
+        if: steps.t.outputs.morning == 'yes'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: node scripts/morning.mjs
+
+      - name: Record run times
         run: |
+          # last_update is advanced here (optimistically) when an update is due; the actual
+          # standings job runs in its own lane and only commits standings.json.
+          LU="${{ steps.t.outputs.lu }}"; LM="${{ steps.t.outputs.lm }}"
+          [ "${{ steps.t.outputs.update }}" = "yes" ] && LU="${{ steps.t.outputs.now }}"
+          [ "${{ steps.t.outputs.morning }}" = "yes" ] && LM="${{ steps.t.outputs.today }}"
+          printf '{"last_update":%s,"last_morning":"%s"}\n' "$LU" "$LM" > data/tick-state.json
+
+      - name: Commit live data
+        run: |
+          FILES="data/live-state.json data/matches.json data/tick-state.json"
+          if [ -z "$(git status --porcelain $FILES)" ]; then echo "no live change"; exit 0; fi
           git config user.name "world-cup-bot"
           git config user.email "actions@github.com"
-          FILES="data/live-state.json data/matches.json"
-          if [ -z "$(git status --porcelain $FILES)" ]; then echo "no live change"; exit 0; fi
           git add $FILES
           git commit -m "chore: live ($(date -u +%Y-%m-%dT%H:%MZ))"
           for attempt in 1 2 3 4 5; do
@@ -70,14 +84,20 @@ jobs:
           done
           exit 1
 
-      - name: Morning fixtures
-        if: steps.t.outputs.morning == 'yes'
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: node scripts/morning.mjs
+  standings:
+    needs: live
+    if: needs.live.outputs.update == 'yes'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: wc-standings
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-      - name: Standings updater
-        if: steps.t.outputs.update == 'yes'
+      - name: Standings updater (Claude + web search)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -85,22 +105,13 @@ jobs:
           npm install --no-audit --no-fund
           node scripts/update.mjs
 
-      - name: Record run times
+      - name: Commit standings
         run: |
-          LU="${{ steps.t.outputs.lu }}"; LM="${{ steps.t.outputs.lm }}"
-          [ "${{ steps.t.outputs.update }}" = "yes" ] && LU="${{ steps.t.outputs.now }}"
-          [ "${{ steps.t.outputs.morning }}" = "yes" ] && LM="${{ steps.t.outputs.today }}"
-          printf '{"last_update":%s,"last_morning":"%s"}\n' "$LU" "$LM" > data/tick-state.json
-
-      # Final commit for the slower outputs (standings + bookkeeping). live-state/matches were
-      # already pushed above; this picks up whatever else changed.
-      - name: Commit standings & state
-        run: |
-          if [ -z "$(git status --porcelain data/)" ]; then echo "no data change"; exit 0; fi
+          if [ -z "$(git status --porcelain data/standings.json)" ]; then echo "no standings change"; exit 0; fi
           git config user.name "world-cup-bot"
           git config user.email "actions@github.com"
-          git add data/
-          git commit -m "chore: tick ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git add data/standings.json
+          git commit -m "chore: standings ($(date -u +%Y-%m-%dT%H:%MZ))"
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then exit 0; fi
             git fetch origin main
