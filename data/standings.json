@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 2:07 PM PT",
+  "updatedAt": "Jun 16, 3:14 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
@@ -8,7 +8,7 @@
     "Group A — Mexico 2-0 South Africa",
     "Group A — Korea Republic 2-1 Czech Republic",
     "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group B — Qatar 1-1 Switzerland",
+    "Group B — Switzerland 1-1 Qatar",
     "Group C — Brazil 1-1 Morocco",
     "Group C — Scotland 1-0 Haiti",
     "Group D — United States 4-1 Paraguay",
@@ -24,21 +24,23 @@
   ],
   "bracket": null,
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "a": {
           "team": "Iraq",
-          "flag": "🇮🇶"
+          "flag": "🇮🇶",
+          "score": 0
         },
         "b": {
           "team": "Norway",
-          "flag": "🇳🇴"
+          "flag": "🇳🇴",
+          "score": 0
         },
-        "date": "Tue Jun 16",
-        "time": "3:00 PM PT",
+        "minute": "12'",
         "competition": "Group I"
-      },
+      }
+    ],
+    "upcoming": [
       {
         "a": {
           "team": "Argentina",
@@ -89,6 +91,19 @@
         },
         "date": "Wed Jun 17",
         "time": "1:00 PM PT",
+        "competition": "Group L"
+      },
+      {
+        "a": {
+          "team": "Ghana",
+          "flag": "🇬🇭"
+        },
+        "b": {
+          "team": "Panama",
+          "flag": "🇵🇦"
+        },
+        "date": "Wed Jun 17",
+        "time": "4:00 PM PT",
         "competition": "Group L"
       }
     ]
@@ -146,6 +161,23 @@
       "rank": 3
     },
     {
+      "name": "Abdullah Ashraf",
+      "team": "France",
+      "group": "I",
+      "flag": "🇫🇷",
+      "photo": null,
+      "slackId": "U0A9697M3KN",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 3,
+      "gd": 2,
+      "form": "W",
+      "statusLabel": "Won 3-1 vs Senegal",
+      "rank": 4
+    },
+    {
       "name": "Raymundo Lacanlale",
       "team": "Australia",
       "group": "D",
@@ -160,7 +192,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Won 2-0 vs Turkey",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Zeshan Haroon",
@@ -177,7 +209,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Won 2-0 vs South Africa",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Georgi Stanchev",
@@ -194,7 +226,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Won 1-0 vs Ecuador",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Gul Farooqi",
@@ -211,7 +243,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Won 2-1 vs Czech Republic",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Sami Khan",
@@ -228,7 +260,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Won 1-0 vs Haiti",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Aadam Rasul",
@@ -245,7 +277,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Brazil",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Anton Li",
@@ -262,7 +294,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Canada",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Arash Hazini",
@@ -279,7 +311,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs New Zealand",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Bruno Nwogu",
@@ -296,7 +328,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Switzerland",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "David Chu",
@@ -313,7 +345,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 0-0 vs Spain",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Evan Dawson",
@@ -330,7 +362,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Morocco",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Jenny",
@@ -347,7 +379,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Netherlands",
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "John Pajarin",
@@ -364,7 +396,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Egypt",
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Khari Harper",
@@ -381,7 +413,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Belgium",
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "Kyle Kostechka",
@@ -398,7 +430,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Iran",
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "Luke Zahradka",
@@ -415,7 +447,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 0-0 vs Cape Verde",
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "Mahdy R",
@@ -432,7 +464,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Saudi Arabia",
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Rahim Jutha",
@@ -449,7 +481,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Japan",
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Richard Lee",
@@ -466,7 +498,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Uruguay",
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Ryan Drury",
@@ -483,7 +515,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Saim Aslam",
@@ -500,7 +532,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Qatar",
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "Abdul Farooqi",
@@ -516,24 +548,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 25
-    },
-    {
-      "name": "Abdullah Ashraf",
-      "team": "France",
-      "group": "I",
-      "flag": "🇫🇷",
-      "photo": null,
-      "slackId": "U0A9697M3KN",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs England, Jun 17)",
       "rank": 26
     },
     {
@@ -550,7 +565,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs Austria today)",
       "rank": 27
     },
     {
@@ -567,7 +582,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs Congo DR, Jun 17)",
       "rank": 28
     },
     {
@@ -584,7 +599,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs Colombia, Jun 17)",
       "rank": 29
     },
     {
@@ -601,7 +616,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Live — 0-0 vs Norway",
       "rank": 30
     },
     {
@@ -618,7 +633,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs Argentina today)",
       "rank": 31
     },
     {
@@ -635,25 +650,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
+      "statusLabel": "Yet to play (vs Ghana, Jun 17)",
       "rank": 32
-    },
-    {
-      "name": "Dusan Tasic",
-      "team": "Senegal",
-      "group": "I",
-      "flag": "🇸🇳",
-      "photo": null,
-      "slackId": "U0A3MS2V1E2",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 33
     },
     {
       "name": "Farhad Rahgozar",
@@ -669,8 +667,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 34
+      "statusLabel": "Yet to play (vs Jordan today)",
+      "rank": 33
     },
     {
       "name": "Jabulani Aduwo",
@@ -686,8 +684,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 35
+      "statusLabel": "Yet to play (vs Uzbekistan, Jun 17)",
+      "rank": 34
     },
     {
       "name": "Luke Brown",
@@ -703,8 +701,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 36
+      "statusLabel": "Yet to play (vs Portugal, Jun 17)",
+      "rank": 35
     },
     {
       "name": "Majid Hussain",
@@ -720,8 +718,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 37
+      "statusLabel": "Yet to play (vs Panama, Jun 17)",
+      "rank": 36
     },
     {
       "name": "Noorin Yazdani",
@@ -737,8 +735,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 38
+      "statusLabel": "Yet to play (vs Croatia, Jun 17)",
+      "rank": 37
     },
     {
       "name": "Omar Alocozy",
@@ -754,8 +752,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 39
+      "statusLabel": "Live — 0-0 vs Iraq",
+      "rank": 38
     },
     {
       "name": "Wahaj Farooqi",
@@ -771,8 +769,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play",
-      "rank": 40
+      "statusLabel": "Yet to play (vs Algeria today)",
+      "rank": 39
     },
     {
       "name": "Fayaz Tejani",
@@ -789,7 +787,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Lost 0-1 vs Scotland",
-      "rank": 41
+      "rank": 40
     },
     {
       "name": "Melchizedek Eroy",
@@ -806,7 +804,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
-      "rank": 42
+      "rank": 41
     },
     {
       "name": "Nathan Marchand",
@@ -823,7 +821,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Lost 1-2 vs Korea Republic",
-      "rank": 43
+      "rank": 42
     },
     {
       "name": "Brandon Harbour",
@@ -840,7 +838,7 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "Lost 0-2 vs Australia",
-      "rank": 44
+      "rank": 43
     },
     {
       "name": "Chris L",
@@ -857,6 +855,23 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "Lost 0-2 vs Mexico",
+      "rank": 44
+    },
+    {
+      "name": "Dusan Tasic",
+      "team": "Senegal",
+      "group": "I",
+      "flag": "🇸🇳",
+      "photo": null,
+      "slackId": "U0A3MS2V1E2",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 0,
+      "gd": -2,
+      "form": "L",
+      "statusLabel": "Lost 1-3 vs France",
       "rank": 45
     },
     {
