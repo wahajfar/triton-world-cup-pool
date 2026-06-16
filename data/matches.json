@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 6:30 PM PT",
+  "updatedAt": "Jun 15, 6:40 PM PT",
   "live": [
     {
       "id": "760427",
@@ -11,7 +11,7 @@
         "flag": "🇮🇷",
         "owner": "Arash Hazini",
         "ownerSlackId": "U04GKDJUJ9X",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "New Zealand",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AHHBVCG72",
         "score": 1
       },
-      "minute": "26'",
+      "minute": "37'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Elijah Just",
             "assist": "Chris Wood",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "32'",
+            "side": "a",
+            "scorer": "Ramin Rezaeian",
+            "assist": "",
             "own": false,
             "penalty": false
           }
