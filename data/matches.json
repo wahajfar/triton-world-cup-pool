@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 3:40 PM PT",
+  "updatedAt": "Jun 16, 3:50 PM PT",
   "live": [
     {
       "id": "760430",
@@ -11,16 +11,16 @@
         "flag": "🇮🇶",
         "owner": "Bilal Hanjra",
         "ownerSlackId": "U04MVCC1ZT4",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Norway",
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 1
+        "score": 2
       },
-      "minute": "39'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [
           {
@@ -35,6 +35,14 @@
             "minute": "39'",
             "side": "a",
             "scorer": "Aymen Hussein",
+            "assist": "Amir Al-Ammari",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "43'",
+            "side": "b",
+            "scorer": "Erling Haaland",
             "assist": "",
             "own": false,
             "penalty": false
