@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 4:30 PM PT",
+  "updatedAt": "Jun 16, 4:40 PM PT",
   "live": [
     {
       "id": "760430",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3LTR7SRK",
         "score": 2
       },
-      "minute": "67'",
+      "minute": "77'",
       "recap": {
         "goals": [
           {
@@ -43,6 +43,14 @@
             "minute": "43'",
             "side": "b",
             "scorer": "Erling Haaland",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "76'",
+            "side": "b",
+            "scorer": "Leo Østigard",
             "assist": "",
             "own": false,
             "penalty": false
