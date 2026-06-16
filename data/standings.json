@@ -1,42 +1,30 @@
 {
-  "updatedAt": "Jun 15, 4:46 PM PT",
+  "updatedAt": "Jun 15, 5:13 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group A — Mexico 2-0 South Africa",
-    "Group A — Korea Republic 2-1 Czech Republic",
-    "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group D — United States 4-1 Paraguay",
-    "Group B — Qatar 1-1 Switzerland",
-    "Group C — Brazil 1-1 Morocco",
-    "Group C — Scotland 1-0 Haiti",
-    "Group D — Australia 2-0 Turkey",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group F — Netherlands 2-2 Japan",
+    "Group H — Saudi Arabia 1-1 Uruguay",
+    "Group G — Belgium 1-1 Egypt",
     "Group H — Spain 0-0 Cape Verde",
-    "Group G — Belgium 1-1 Egypt"
+    "Group F — Sweden 5-1 Tunisia",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group F — Netherlands 2-2 Japan",
+    "Group E — Germany 7-1 Curaçao",
+    "Group D — Australia 2-0 Turkey",
+    "Group C — Scotland 1-0 Haiti",
+    "Group C — Brazil 1-1 Morocco",
+    "Group B — Qatar 1-1 Switzerland",
+    "Group D — United States 4-1 Paraguay",
+    "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group A — Korea Republic 2-1 Czech Republic",
+    "Group A — Mexico 2-0 South Africa"
   ],
   "bracket": null,
   "matches": {
     "live": [],
     "upcoming": [
-      {
-        "a": {
-          "team": "Saudi Arabia",
-          "flag": "🇸🇦"
-        },
-        "b": {
-          "team": "Uruguay",
-          "flag": "🇺🇾"
-        },
-        "date": "Mon Jun 15",
-        "time": "3:00 PM PT",
-        "competition": "Group H"
-      },
       {
         "a": {
           "team": "Iran",
@@ -87,6 +75,19 @@
         },
         "date": "Tue Jun 16",
         "time": "6:00 PM PT",
+        "competition": "Group J"
+      },
+      {
+        "a": {
+          "team": "Austria",
+          "flag": "🇦🇹"
+        },
+        "b": {
+          "team": "Jordan",
+          "flag": "🇯🇴"
+        },
+        "date": "Tue Jun 16",
+        "time": "9:00 PM PT",
         "competition": "Group J"
       }
     ]
@@ -191,7 +192,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 1-0 vs Ecuador (90' winner)",
+      "statusLabel": "Won 1-0 vs Ecuador",
       "rank": 6
     },
     {
@@ -327,7 +328,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2 vs Netherlands (88')",
+      "statusLabel": "Drew 2-2 vs Netherlands",
       "rank": 14
     },
     {
@@ -382,6 +383,23 @@
       "rank": 17
     },
     {
+      "name": "Mahdy R",
+      "team": "Uruguay",
+      "group": "H",
+      "flag": "🇺🇾",
+      "photo": null,
+      "slackId": "U0AQ6Q2NWFM",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 1,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Drew 1-1 vs Saudi Arabia",
+      "rank": 18
+    },
+    {
       "name": "Rahim Jutha",
       "team": "Netherlands",
       "group": "F",
@@ -396,7 +414,24 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Japan",
-      "rank": 18
+      "rank": 19
+    },
+    {
+      "name": "Richard Lee",
+      "team": "Saudi Arabia",
+      "group": "H",
+      "flag": "🇸🇦",
+      "photo": null,
+      "slackId": "U098AFAQM5H",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 1,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Drew 1-1 vs Uruguay",
+      "rank": 20
     },
     {
       "name": "Ryan Drury",
@@ -413,7 +448,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
-      "rank": 19
+      "rank": 21
     },
     {
       "name": "Saim Aslam",
@@ -430,7 +465,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Qatar",
-      "rank": 20
+      "rank": 22
     },
     {
       "name": "Abdul Farooqi",
@@ -446,8 +481,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs England)",
-      "rank": 21
+      "statusLabel": "Yet to play — opener vs England",
+      "rank": 23
     },
     {
       "name": "Abdullah Ashraf",
@@ -463,8 +498,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs Senegal)",
-      "rank": 22
+      "statusLabel": "Yet to play — opener vs Senegal",
+      "rank": 24
     },
     {
       "name": "Adam Chandler",
@@ -480,8 +515,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16/17 vs Austria)",
-      "rank": 23
+      "statusLabel": "Yet to play — opener vs Austria",
+      "rank": 25
     },
     {
       "name": "Arash Hazini",
@@ -497,8 +532,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs New Zealand today)",
-      "rank": 24
+      "statusLabel": "Yet to play — opener vs New Zealand",
+      "rank": 26
     },
     {
       "name": "Arsal Javed",
@@ -514,8 +549,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Congo DR)",
-      "rank": 25
+      "statusLabel": "Yet to play — opener vs Congo DR",
+      "rank": 27
     },
     {
       "name": "Baha",
@@ -531,8 +566,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Colombia)",
-      "rank": 26
+      "statusLabel": "Yet to play — opener vs Colombia",
+      "rank": 28
     },
     {
       "name": "Bilal Hanjra",
@@ -548,8 +583,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs Norway)",
-      "rank": 27
+      "statusLabel": "Yet to play — opener vs Norway",
+      "rank": 29
     },
     {
       "name": "Cole Germaine",
@@ -565,8 +600,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs Argentina)",
-      "rank": 28
+      "statusLabel": "Yet to play — opener vs Argentina",
+      "rank": 30
     },
     {
       "name": "David Heller",
@@ -582,8 +617,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Ghana)",
-      "rank": 29
+      "statusLabel": "Yet to play — opener vs Ghana",
+      "rank": 31
     },
     {
       "name": "Dusan Tasic",
@@ -599,8 +634,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs France)",
-      "rank": 30
+      "statusLabel": "Yet to play — opener vs France",
+      "rank": 32
     },
     {
       "name": "Farhad Rahgozar",
@@ -616,8 +651,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16/17 vs Jordan)",
-      "rank": 31
+      "statusLabel": "Yet to play — opener vs Jordan",
+      "rank": 33
     },
     {
       "name": "Jabulani Aduwo",
@@ -633,8 +668,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Uzbekistan)",
-      "rank": 32
+      "statusLabel": "Yet to play — opener vs Uzbekistan",
+      "rank": 34
     },
     {
       "name": "Kyle Kostechka",
@@ -650,8 +685,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Iran today)",
-      "rank": 33
+      "statusLabel": "Yet to play — opener vs Iran",
+      "rank": 35
     },
     {
       "name": "Luke Brown",
@@ -667,25 +702,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Portugal)",
-      "rank": 34
-    },
-    {
-      "name": "Mahdy R",
-      "team": "Uruguay",
-      "group": "H",
-      "flag": "🇺🇾",
-      "photo": null,
-      "slackId": "U0AQ6Q2NWFM",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Yet to play (vs Saudi Arabia today)",
-      "rank": 35
+      "statusLabel": "Yet to play — opener vs Portugal",
+      "rank": 36
     },
     {
       "name": "Majid Hussain",
@@ -701,8 +719,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Panama)",
-      "rank": 36
+      "statusLabel": "Yet to play — opener vs Panama",
+      "rank": 37
     },
     {
       "name": "Noorin Yazdani",
@@ -718,8 +736,8 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 17 vs Croatia)",
-      "rank": 37
+      "statusLabel": "Yet to play — opener vs Croatia",
+      "rank": 38
     },
     {
       "name": "Omar Alocozy",
@@ -735,24 +753,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs Iraq)",
-      "rank": 38
-    },
-    {
-      "name": "Richard Lee",
-      "team": "Saudi Arabia",
-      "group": "H",
-      "flag": "🇸🇦",
-      "photo": null,
-      "slackId": "U098AFAQM5H",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Yet to play (vs Uruguay today)",
+      "statusLabel": "Yet to play — opener vs Iraq",
       "rank": 39
     },
     {
@@ -769,7 +770,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (opens Jun 16 vs Algeria)",
+      "statusLabel": "Yet to play — opener vs Algeria",
       "rank": 40
     },
     {
