@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 1:20 PM PT",
+  "updatedAt": "Jun 16, 1:30 PM PT",
   "live": [
     {
       "id": "760432",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 0
       },
-      "minute": "56'",
+      "minute": "66'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "66'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
