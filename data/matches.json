@@ -1,230 +1,73 @@
 {
-  "updatedAt": "Jun 16, 12:00 AM PT",
+  "updatedAt": "Jun 16, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760428",
-      "state": "post",
-      "competition": "Group H",
+      "id": "760432",
+      "state": "pre",
+      "competition": "Group I",
       "knockout": false,
       "a": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
         "score": 0
       },
       "b": {
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "owner": "David Chu",
-        "ownerSlackId": null,
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "owner": "Dusan Tasic",
+        "ownerSlackId": "U0A3MS2V1E2",
         "score": 0
       },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "16'",
-            "side": "b",
-            "player": "Sidny Lopes Cabral",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "a",
-            "player": "Pedri",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Tue, Jun 16",
+      "time": "12:00 PM PT"
     },
     {
-      "id": "760426",
-      "state": "post",
-      "competition": "Group G",
+      "id": "760430",
+      "state": "pre",
+      "competition": "Group I",
       "knockout": false,
       "a": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 1
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "owner": "Bilal Hanjra",
+        "ownerSlackId": "U04MVCC1ZT4",
+        "score": 0
       },
       "b": {
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "owner": "Khari Harper",
-        "ownerSlackId": "U0B6D9B2V8R",
-        "score": 1
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
       },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "20'",
-            "side": "b",
-            "scorer": "Emam Ashour",
-            "assist": "Mohamed Salah",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Mohamed Hany",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "13'",
-            "side": "b",
-            "player": "Marawan Attia",
-            "color": "yellow"
-          },
-          {
-            "minute": "14'",
-            "side": "a",
-            "player": "Timothy Castagne",
-            "color": "yellow"
-          },
-          {
-            "minute": "34'",
-            "side": "b",
-            "player": "Ahmed Fatouh",
-            "color": "yellow"
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "player": "Maxim De Cuyper",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Tue, Jun 16",
+      "time": "3:00 PM PT"
     },
     {
-      "id": "760429",
-      "state": "post",
-      "competition": "Group H",
+      "id": "760433",
+      "state": "pre",
+      "competition": "Group J",
       "knockout": false,
       "a": {
-        "team": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "owner": "Richard Lee",
-        "ownerSlackId": "U098AFAQM5H",
-        "score": 1
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
       },
       "b": {
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "owner": "Mahdy R",
-        "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 1
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
       },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "41'",
-            "side": "a",
-            "scorer": "Abdulelah Al-Amri",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "80'",
-            "side": "b",
-            "scorer": "Maxi Araújo",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "44'",
-            "side": "a",
-            "player": "Abdulelah Al-Amri",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760427",
-      "state": "post",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "Iran",
-        "flag": "🇮🇷",
-        "owner": "Arash Hazini",
-        "ownerSlackId": "U04GKDJUJ9X",
-        "score": 2
-      },
-      "b": {
-        "team": "New Zealand",
-        "flag": "🇳🇿",
-        "owner": "Kyle Kostechka",
-        "ownerSlackId": "U0AHHBVCG72",
-        "score": 2
-      },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "7'",
-            "side": "b",
-            "scorer": "Elijah Just",
-            "assist": "Chris Wood",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "32'",
-            "side": "a",
-            "scorer": "Ramin Rezaeian",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "b",
-            "scorer": "Elijah Just",
-            "assist": "Chris Wood",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "64'",
-            "side": "a",
-            "scorer": "Mohammad Mohebbi",
-            "assist": "Ramin Rezaeian",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "89'",
-            "side": "a",
-            "player": "Ehsan Hajsafi",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Tue, Jun 16",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
