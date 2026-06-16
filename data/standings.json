@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 8:43 PM PT",
+  "updatedAt": "Jun 15, 9:54 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
@@ -7,15 +7,15 @@
   "recentResults": [
     "Group A — Mexico 2-0 South Africa",
     "Group A — Korea Republic 2-1 Czech Republic",
-    "Group D — United States 4-1 Paraguay",
     "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group D — United States 4-1 Paraguay",
     "Group B — Qatar 1-1 Switzerland",
     "Group C — Brazil 1-1 Morocco",
     "Group C — Scotland 1-0 Haiti",
     "Group D — Australia 2-0 Turkey",
     "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
     "Group F — Netherlands 2-2 Japan",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
     "Group F — Sweden 5-1 Tunisia",
     "Group H — Spain 0-0 Cape Verde",
     "Group G — Belgium 1-1 Egypt",
@@ -516,7 +516,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs England (Wed)",
+      "statusLabel": "Awaiting opener vs England (Jun 17)",
       "rank": 25
     },
     {
@@ -533,7 +533,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Senegal (Tue)",
+      "statusLabel": "Awaiting opener vs Senegal (Jun 16)",
       "rank": 26
     },
     {
@@ -550,7 +550,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Austria (Tue)",
+      "statusLabel": "Awaiting opener vs Austria (Jun 17)",
       "rank": 27
     },
     {
@@ -567,7 +567,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Congo DR (Wed)",
+      "statusLabel": "Awaiting opener vs Congo DR (Jun 17)",
       "rank": 28
     },
     {
@@ -584,7 +584,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Colombia (Wed)",
+      "statusLabel": "Awaiting opener vs Colombia (Jun 17)",
       "rank": 29
     },
     {
@@ -601,7 +601,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Norway (Tue)",
+      "statusLabel": "Awaiting opener vs Norway (Jun 16)",
       "rank": 30
     },
     {
@@ -618,7 +618,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Argentina (Tue)",
+      "statusLabel": "Awaiting opener vs Argentina (Jun 16)",
       "rank": 31
     },
     {
@@ -635,7 +635,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Ghana (Wed)",
+      "statusLabel": "Awaiting opener vs Ghana (Jun 17)",
       "rank": 32
     },
     {
@@ -652,7 +652,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs France (Tue)",
+      "statusLabel": "Awaiting opener vs France (Jun 16)",
       "rank": 33
     },
     {
@@ -669,7 +669,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Jordan (Tue)",
+      "statusLabel": "Awaiting opener vs Jordan (Jun 17)",
       "rank": 34
     },
     {
@@ -686,7 +686,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Uzbekistan (Wed)",
+      "statusLabel": "Awaiting opener vs Uzbekistan (Jun 17)",
       "rank": 35
     },
     {
@@ -703,7 +703,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Portugal (Wed)",
+      "statusLabel": "Awaiting opener vs Portugal (Jun 17)",
       "rank": 36
     },
     {
@@ -720,7 +720,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Panama (Wed)",
+      "statusLabel": "Awaiting opener vs Panama (Jun 17)",
       "rank": 37
     },
     {
@@ -737,7 +737,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Croatia (Wed)",
+      "statusLabel": "Awaiting opener vs Croatia (Jun 17)",
       "rank": 38
     },
     {
@@ -754,7 +754,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Iraq (Tue)",
+      "statusLabel": "Awaiting opener vs Iraq (Jun 16)",
       "rank": 39
     },
     {
@@ -771,7 +771,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Algeria (Tue)",
+      "statusLabel": "Awaiting opener vs Algeria (Jun 16)",
       "rank": 40
     },
     {
