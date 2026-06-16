@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 1:50 PM PT",
+  "updatedAt": "Jun 16, 2:00 PM PT",
   "live": [
     {
       "id": "760432",
@@ -18,9 +18,9 @@
         "flag": "🇸🇳",
         "owner": "Dusan Tasic",
         "ownerSlackId": "U0A3MS2V1E2",
-        "score": 0
+        "score": 1
       },
-      "minute": "85'",
+      "minute": "90'+7'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "a",
             "scorer": "Bradley Barcola",
             "assist": "Adrien Rabiot",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+5'",
+            "side": "b",
+            "scorer": "Ibrahim Mbaye",
+            "assist": "Iliman Ndiaye",
             "own": false,
             "penalty": false
           }
