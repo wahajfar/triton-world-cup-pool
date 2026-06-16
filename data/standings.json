@@ -1,25 +1,25 @@
 {
-  "updatedAt": "Jun 15, 6:27 PM PT",
+  "updatedAt": "Jun 15, 7:53 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group H — Saudi Arabia 1-1 Uruguay",
-    "Group H — Spain 0-0 Cape Verde",
-    "Group G — Egypt 1-1 Belgium",
-    "Group F — Sweden 5-1 Tunisia",
+    "Group A — Mexico 2-0 South Africa",
+    "Group A — Korea Republic 2-1 Czech Republic",
+    "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group B — Switzerland 1-1 Qatar",
+    "Group C — Brazil 1-1 Morocco",
+    "Group C — Scotland 1-0 Haiti",
+    "Group D — United States 4-1 Paraguay",
+    "Group D — Australia 2-0 Turkey",
+    "Group E — Germany 7-1 Curaçao",
     "Group E — Côte d'Ivoire 1-0 Ecuador",
     "Group F — Netherlands 2-2 Japan",
-    "Group E — Germany 7-1 Curaçao",
-    "Group D — Australia 2-0 Turkey",
-    "Group C — Haiti 0-1 Scotland",
-    "Group C — Brazil 1-1 Morocco",
-    "Group B — Qatar 1-1 Switzerland",
-    "Group D — United States 4-1 Paraguay",
-    "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group A — Korea Republic 2-1 Czech Republic",
-    "Group A — Mexico 2-0 South Africa"
+    "Group F — Sweden 5-1 Tunisia",
+    "Group G — Belgium 1-1 Egypt",
+    "Group H — Spain 0-0 Cape Verde",
+    "Group H — Uruguay 1-1 Saudi Arabia"
   ],
   "bracket": null,
   "matches": {
@@ -28,14 +28,14 @@
         "a": {
           "team": "Iran",
           "flag": "🇮🇷",
-          "score": 0
+          "score": 2
         },
         "b": {
           "team": "New Zealand",
           "flag": "🇳🇿",
-          "score": 1
+          "score": 2
         },
-        "minute": "28'",
+        "minute": "90+'",
         "competition": "Group G"
       }
     ],
@@ -496,7 +496,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs England (Jun 17)",
+      "statusLabel": "Yet to play (vs England)",
       "rank": 23
     },
     {
@@ -513,7 +513,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Senegal (Jun 16)",
+      "statusLabel": "Yet to play (vs Senegal)",
       "rank": 24
     },
     {
@@ -530,7 +530,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Austria (Jun 16)",
+      "statusLabel": "Yet to play (vs Austria)",
       "rank": 25
     },
     {
@@ -547,7 +547,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Playing now — trailing 0-1 vs New Zealand",
+      "statusLabel": "Live 2-2 vs New Zealand",
       "rank": 26
     },
     {
@@ -564,7 +564,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Congo DR (Jun 17)",
+      "statusLabel": "Yet to play (vs Congo DR)",
       "rank": 27
     },
     {
@@ -581,7 +581,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Colombia (Jun 17)",
+      "statusLabel": "Yet to play (vs Colombia)",
       "rank": 28
     },
     {
@@ -598,7 +598,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Norway (Jun 16)",
+      "statusLabel": "Yet to play (vs Norway)",
       "rank": 29
     },
     {
@@ -615,7 +615,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Argentina (Jun 16)",
+      "statusLabel": "Yet to play (vs Argentina)",
       "rank": 30
     },
     {
@@ -632,7 +632,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Ghana (Jun 17)",
+      "statusLabel": "Yet to play (vs Ghana)",
       "rank": 31
     },
     {
@@ -649,7 +649,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs France (Jun 16)",
+      "statusLabel": "Yet to play (vs France)",
       "rank": 32
     },
     {
@@ -666,7 +666,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Jordan (Jun 16)",
+      "statusLabel": "Yet to play (vs Jordan)",
       "rank": 33
     },
     {
@@ -683,7 +683,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Uzbekistan (Jun 17)",
+      "statusLabel": "Yet to play (vs Uzbekistan)",
       "rank": 34
     },
     {
@@ -700,7 +700,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Playing now — leading 1-0 vs Iran",
+      "statusLabel": "Live 2-2 vs Iran",
       "rank": 35
     },
     {
@@ -717,7 +717,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Portugal (Jun 17)",
+      "statusLabel": "Yet to play (vs Portugal)",
       "rank": 36
     },
     {
@@ -734,7 +734,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Panama (Jun 17)",
+      "statusLabel": "Yet to play (vs Panama)",
       "rank": 37
     },
     {
@@ -751,7 +751,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Croatia (Jun 17)",
+      "statusLabel": "Yet to play (vs Croatia)",
       "rank": 38
     },
     {
@@ -768,7 +768,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Iraq (Jun 16)",
+      "statusLabel": "Yet to play (vs Iraq)",
       "rank": 39
     },
     {
@@ -785,7 +785,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Algeria (Jun 16)",
+      "statusLabel": "Yet to play (vs Algeria)",
       "rank": 40
     },
     {
