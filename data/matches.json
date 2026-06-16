@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 15, 6:10 PM PT",
+  "updatedAt": "Jun 15, 6:24 PM PT",
   "live": [
     {
       "id": "760427",
@@ -18,11 +18,20 @@
         "flag": "🇳🇿",
         "owner": "Kyle Kostechka",
         "ownerSlackId": "U0AHHBVCG72",
-        "score": 0
+        "score": 1
       },
-      "minute": "6'",
+      "minute": "20'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "7'",
+            "side": "b",
+            "scorer": "Elijah Just",
+            "assist": "Chris Wood",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
