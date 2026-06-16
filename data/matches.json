@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 16, 3:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 16, 3:10 PM PT",
+  "live": [
+    {
+      "id": "760430",
+      "state": "in",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "owner": "Bilal Hanjra",
+        "ownerSlackId": "U04MVCC1ZT4",
+        "score": 0
+      },
+      "b": {
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760432",
@@ -63,28 +90,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760430",
-      "state": "pre",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
-        "score": 0
-      },
-      "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
-      },
-      "date": "Tue, Jun 16",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760433",
       "state": "pre",
