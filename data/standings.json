@@ -1,19 +1,26 @@
 {
-  "updatedAt": "Jun 17, 12:14 PM PT",
+  "updatedAt": "Jun 17, 1:05 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group K — Portugal 1-1 Congo DR",
     "Group J — Austria 3-1 Jordan",
+    "Group K — Portugal 1-1 Congo DR",
     "Group J — Argentina 3-0 Algeria",
     "Group I — France 3-1 Senegal",
     "Group I — Norway 4-1 Iraq",
     "Group H — Spain 0-0 Cape Verde",
     "Group H — Saudi Arabia 1-1 Uruguay",
     "Group G — Belgium 1-1 Egypt",
-    "Group G — Iran 2-2 New Zealand"
+    "Group G — Iran 2-2 New Zealand",
+    "Group E — Germany 7-1 Curaçao",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group F — Sweden 5-1 Tunisia",
+    "Group F — Netherlands 2-2 Japan",
+    "Group D — United States 4-1 Paraguay",
+    "Group D — Australia 2-0 Turkey",
+    "Group C — Brazil 1-1 Morocco"
   ],
   "bracket": null,
   "matches": {
@@ -611,7 +618,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs England today",
+      "statusLabel": "Yet to play (vs England)",
       "rank": 31
     },
     {
@@ -628,7 +635,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Colombia tonight",
+      "statusLabel": "Yet to play (vs Colombia)",
       "rank": 32
     },
     {
@@ -645,7 +652,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Ghana today",
+      "statusLabel": "Yet to play (vs Ghana)",
       "rank": 33
     },
     {
@@ -662,7 +669,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Uzbekistan tonight",
+      "statusLabel": "Yet to play (vs Uzbekistan)",
       "rank": 34
     },
     {
@@ -679,7 +686,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Panama today",
+      "statusLabel": "Yet to play (vs Panama)",
       "rank": 35
     },
     {
@@ -696,7 +703,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play — vs Croatia today",
+      "statusLabel": "Yet to play (vs Croatia)",
       "rank": 36
     },
     {
