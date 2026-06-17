@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 16, 6:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 16, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760433",
+      "state": "in",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
+      },
+      "minute": "7'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760432",
@@ -136,28 +163,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760433",
-      "state": "pre",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 0
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 0
-      },
-      "date": "Tue, Jun 16",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
