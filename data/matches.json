@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 2:40 PM PT",
+  "updatedAt": "Jun 17, 2:50 PM PT",
   "live": [
     {
       "id": "760437",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "Croatia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 2
       },
-      "minute": "76'",
+      "minute": "86'",
       "recap": {
         "goals": [
           {
@@ -59,7 +59,15 @@
             "minute": "47'",
             "side": "a",
             "scorer": "Jude Bellingham",
-            "assist": "",
+            "assist": "Elliot Anderson",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "85'",
+            "side": "a",
+            "scorer": "Marcus Rashford",
+            "assist": "Bukayo Saka",
             "own": false,
             "penalty": false
           }
