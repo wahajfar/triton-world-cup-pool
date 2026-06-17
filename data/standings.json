@@ -1,26 +1,18 @@
 {
-  "updatedAt": "Jun 17, 10:14 AM PT",
+  "updatedAt": "Jun 17, 11:06 AM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group A — Mexico 2-0 South Africa",
-    "Group A — Korea Republic 2-1 Czech Republic",
-    "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group B — Qatar 1-1 Switzerland",
-    "Group C — Brazil 1-1 Morocco",
-    "Group C — Scotland 1-0 Haiti",
-    "Group D — United States 4-1 Paraguay",
-    "Group D — Australia 2-0 Turkey",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Netherlands 2-2 Japan",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group G — Belgium 1-1 Egypt",
-    "Group G — Iran 2-2 New Zealand",
+    "Group J — Austria 3-1 Jordan",
+    "Group J — Argentina 3-0 Algeria",
+    "Group I — Norway 4-1 Iraq",
+    "Group I — France 3-1 Senegal",
+    "Group H — Saudi Arabia 1-1 Uruguay",
     "Group H — Spain 0-0 Cape Verde",
-    "Group H — Saudi Arabia 1-1 Uruguay"
+    "Group G — Iran 2-2 New Zealand",
+    "Group G — Belgium 1-1 Egypt"
   ],
   "bracket": null,
   "matches": {
@@ -34,9 +26,9 @@
         "b": {
           "team": "Congo DR",
           "flag": "🇨🇩",
-          "score": 0
+          "score": 1
         },
-        "minute": "15'",
+        "minute": "HT",
         "competition": "Group K"
       }
     ],
@@ -599,7 +591,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs England today)",
+      "statusLabel": "Yet to play — vs England today",
       "rank": 29
     },
     {
@@ -616,7 +608,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Live — leading 1-0 vs Congo DR",
+      "statusLabel": "Live 1-1 vs Congo DR (HT) — Group K",
       "rank": 30
     },
     {
@@ -633,7 +625,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Colombia tonight)",
+      "statusLabel": "Yet to play — vs Colombia tonight",
       "rank": 31
     },
     {
@@ -650,7 +642,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Ghana today)",
+      "statusLabel": "Yet to play — vs Ghana today",
       "rank": 32
     },
     {
@@ -667,7 +659,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Uzbekistan tonight)",
+      "statusLabel": "Yet to play — vs Uzbekistan tonight",
       "rank": 33
     },
     {
@@ -684,7 +676,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Live — trailing 0-1 vs Portugal",
+      "statusLabel": "Live 1-1 vs Portugal (HT) — Group K",
       "rank": 34
     },
     {
@@ -701,7 +693,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Panama today)",
+      "statusLabel": "Yet to play — vs Panama today",
       "rank": 35
     },
     {
@@ -718,7 +710,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Croatia today)",
+      "statusLabel": "Yet to play — vs Croatia today",
       "rank": 36
     },
     {
@@ -735,7 +727,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Scotland",
+      "statusLabel": "Lost 0-1 vs Scotland",
       "rank": 37
     },
     {
@@ -752,7 +744,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Côte d'Ivoire",
+      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
       "rank": 38
     },
     {
@@ -769,7 +761,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2 to Korea Republic",
+      "statusLabel": "Lost 1-2 vs Korea Republic",
       "rank": 39
     },
     {
@@ -786,7 +778,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 to Austria",
+      "statusLabel": "Lost 1-3 vs Austria",
       "rank": 40
     },
     {
@@ -803,7 +795,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Australia",
+      "statusLabel": "Lost 0-2 vs Australia",
       "rank": 41
     },
     {
@@ -820,7 +812,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Mexico",
+      "statusLabel": "Lost 0-2 vs Mexico",
       "rank": 42
     },
     {
@@ -837,7 +829,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 to France",
+      "statusLabel": "Lost 1-3 vs France",
       "rank": 43
     },
     {
@@ -854,7 +846,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 to United States",
+      "statusLabel": "Lost 1-4 vs United States",
       "rank": 44
     },
     {
@@ -871,7 +863,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 to Norway",
+      "statusLabel": "Lost 1-4 vs Norway",
       "rank": 45
     },
     {
@@ -888,7 +880,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 0-3 to Argentina",
+      "statusLabel": "Lost 0-3 vs Argentina",
       "rank": 46
     },
     {
@@ -905,7 +897,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5 to Sweden",
+      "statusLabel": "Lost 1-5 vs Sweden",
       "rank": 47
     },
     {
@@ -922,7 +914,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7 to Germany",
+      "statusLabel": "Lost 1-7 vs Germany",
       "rank": 48
     }
   ]
