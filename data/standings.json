@@ -1,44 +1,46 @@
 {
-  "updatedAt": "Jun 17, 1:05 PM PT",
+  "updatedAt": "Jun 17, 3:04 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group J — Austria 3-1 Jordan",
-    "Group K — Portugal 1-1 Congo DR",
-    "Group J — Argentina 3-0 Algeria",
-    "Group I — France 3-1 Senegal",
-    "Group I — Norway 4-1 Iraq",
-    "Group H — Spain 0-0 Cape Verde",
-    "Group H — Saudi Arabia 1-1 Uruguay",
-    "Group G — Belgium 1-1 Egypt",
-    "Group G — Iran 2-2 New Zealand",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group F — Netherlands 2-2 Japan",
+    "Group A — Mexico 2-0 South Africa",
+    "Group A — Korea Republic 2-1 Czech Republic",
+    "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group B — Switzerland 1-1 Qatar",
+    "Group C — Brazil 1-1 Morocco",
+    "Group C — Scotland 1-0 Haiti",
     "Group D — United States 4-1 Paraguay",
     "Group D — Australia 2-0 Turkey",
-    "Group C — Brazil 1-1 Morocco"
+    "Group E — Germany 7-1 Curaçao",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group F — Netherlands 2-2 Japan",
+    "Group F — Sweden 5-1 Tunisia",
+    "Group G — Belgium 1-1 Egypt",
+    "Group G — Iran 2-2 New Zealand",
+    "Group H — Spain 0-0 Cape Verde",
+    "Group H — Saudi Arabia 1-1 Uruguay"
   ],
   "bracket": null,
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "a": {
           "team": "England",
-          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "score": 4
         },
         "b": {
           "team": "Croatia",
-          "flag": "🇭🇷"
+          "flag": "🇭🇷",
+          "score": 2
         },
-        "date": "Wed Jun 17",
-        "time": "1:00 PM PT",
+        "minute": "68'",
         "competition": "Group L"
-      },
+      }
+    ],
+    "upcoming": [
       {
         "a": {
           "team": "Ghana",
@@ -89,6 +91,19 @@
         },
         "date": "Thu Jun 18",
         "time": "12:00 PM PT",
+        "competition": "Group B"
+      },
+      {
+        "a": {
+          "team": "Canada",
+          "flag": "🇨🇦"
+        },
+        "b": {
+          "team": "Qatar",
+          "flag": "🇶🇦"
+        },
+        "date": "Thu Jun 18",
+        "time": "3:00 PM PT",
         "competition": "Group B"
       }
     ]
@@ -618,7 +633,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs England)",
+      "statusLabel": "Live — trailing England 2-4",
       "rank": 31
     },
     {
@@ -635,7 +650,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Colombia)",
+      "statusLabel": "Yet to play — vs Colombia tonight",
       "rank": 32
     },
     {
@@ -652,7 +667,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Ghana)",
+      "statusLabel": "Yet to play — vs Ghana tonight",
       "rank": 33
     },
     {
@@ -669,7 +684,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Uzbekistan)",
+      "statusLabel": "Yet to play — vs Uzbekistan tonight",
       "rank": 34
     },
     {
@@ -686,7 +701,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Panama)",
+      "statusLabel": "Yet to play — vs Panama tonight",
       "rank": 35
     },
     {
@@ -703,7 +718,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (vs Croatia)",
+      "statusLabel": "Live — leading Croatia 4-2",
       "rank": 36
     },
     {
@@ -720,7 +735,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 vs Scotland",
+      "statusLabel": "Lost 0-1 to Scotland",
       "rank": 37
     },
     {
@@ -737,7 +752,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
+      "statusLabel": "Lost 0-1 to Côte d'Ivoire",
       "rank": 38
     },
     {
@@ -754,7 +769,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2 vs Korea Republic",
+      "statusLabel": "Lost 1-2 to Korea Republic",
       "rank": 39
     },
     {
@@ -771,7 +786,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 vs Austria",
+      "statusLabel": "Lost 1-3 to Austria",
       "rank": 40
     },
     {
@@ -788,7 +803,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 vs Australia",
+      "statusLabel": "Lost 0-2 to Australia",
       "rank": 41
     },
     {
@@ -805,7 +820,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 vs Mexico",
+      "statusLabel": "Lost 0-2 to Mexico",
       "rank": 42
     },
     {
@@ -822,7 +837,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 vs France",
+      "statusLabel": "Lost 1-3 to France",
       "rank": 43
     },
     {
@@ -839,7 +854,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 vs United States",
+      "statusLabel": "Lost 1-4 to United States",
       "rank": 44
     },
     {
@@ -856,7 +871,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 vs Norway",
+      "statusLabel": "Lost 1-4 to Norway",
       "rank": 45
     },
     {
@@ -873,7 +888,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 0-3 vs Argentina",
+      "statusLabel": "Lost 0-3 to Argentina",
       "rank": 46
     },
     {
@@ -890,7 +905,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5 vs Sweden",
+      "statusLabel": "Lost 1-5 to Sweden",
       "rank": 47
     },
     {
@@ -907,7 +922,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7 vs Germany",
+      "statusLabel": "Lost 1-7 to Germany",
       "rank": 48
     }
   ]
