@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 1:50 PM PT",
+  "updatedAt": "Jun 17, 2:00 PM PT",
   "live": [
     {
       "id": "760437",
@@ -18,9 +18,9 @@
         "flag": "🇭🇷",
         "owner": "Abdul Farooqi",
         "ownerSlackId": "U03UHSCAXMY",
-        "score": 1
+        "score": 2
       },
-      "minute": "45'+5'",
+      "minute": "45'+6'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "a",
             "scorer": "Harry Kane",
             "assist": "Declan Rice",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+5'",
+            "side": "b",
+            "scorer": "Petar Musa",
+            "assist": "Ivan Perisic",
             "own": false,
             "penalty": false
           }
