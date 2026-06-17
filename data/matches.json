@@ -1,63 +1,6 @@
 {
-  "updatedAt": "Jun 17, 11:50 AM PT",
-  "live": [
-    {
-      "id": "760435",
-      "state": "in",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 1
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 1
-      },
-      "minute": "86'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "6'",
-            "side": "a",
-            "scorer": "João Neves",
-            "assist": "Pedro Neto",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+5'",
-            "side": "b",
-            "scorer": "Yoane Wissa",
-            "assist": "Arthur Masuaku",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "13'",
-            "side": "a",
-            "player": "Bernardo Silva",
-            "color": "yellow"
-          },
-          {
-            "minute": "32'",
-            "side": "b",
-            "player": "Chancel Mbemba",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 17, 12:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760431",
@@ -119,6 +62,74 @@
             "minute": "77'",
             "side": "a",
             "player": "Marcel Sabitzer",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760435",
+      "state": "post",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 1
+      },
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 1
+      },
+      "minute": "90'+5'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "6'",
+            "side": "a",
+            "scorer": "João Neves",
+            "assist": "Pedro Neto",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+5'",
+            "side": "b",
+            "scorer": "Yoane Wissa",
+            "assist": "Arthur Masuaku",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "13'",
+            "side": "a",
+            "player": "Bernardo Silva",
+            "color": "yellow"
+          },
+          {
+            "minute": "32'",
+            "side": "b",
+            "player": "Chancel Mbemba",
+            "color": "yellow"
+          },
+          {
+            "minute": "88'",
+            "side": "a",
+            "player": "Nélson Semedo",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+2'",
+            "side": "a",
+            "player": "Tomás Araújo",
             "color": "yellow"
           }
         ]
