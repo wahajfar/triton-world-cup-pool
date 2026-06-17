@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 1:10 PM PT",
+  "updatedAt": "Jun 17, 1:20 PM PT",
   "live": [
     {
       "id": "760437",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Croatia",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "12'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          }
+        ],
         "cards": []
       },
       "impact": null
