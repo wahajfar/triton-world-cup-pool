@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 1:40 PM PT",
+  "updatedAt": "Jun 17, 1:50 PM PT",
   "live": [
     {
       "id": "760437",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Croatia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Martin Baturina",
             "assist": "Petar Sucic",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "42'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Declan Rice",
             "own": false,
             "penalty": false
           }
