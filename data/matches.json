@@ -1,73 +1,6 @@
 {
-  "updatedAt": "Jun 16, 5:00 PM PT",
-  "live": [
-    {
-      "id": "760430",
-      "state": "in",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
-        "score": 1
-      },
-      "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 3
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "29'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "David Møller Wolfe",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "39'",
-            "side": "a",
-            "scorer": "Aymen Hussein",
-            "assist": "Amir Al-Ammari",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "43'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "76'",
-            "side": "b",
-            "scorer": "Leo Østigard",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "86'",
-            "side": "a",
-            "player": "Zaid Tahseen",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 16, 5:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760432",
@@ -125,6 +58,80 @@
           }
         ],
         "cards": []
+      },
+      "impact": null
+    },
+    {
+      "id": "760430",
+      "state": "post",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "owner": "Bilal Hanjra",
+        "ownerSlackId": "U04MVCC1ZT4",
+        "score": 1
+      },
+      "b": {
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 4
+      },
+      "minute": "90'+8'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "29'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "David Møller Wolfe",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "39'",
+            "side": "a",
+            "scorer": "Aymen Hussein",
+            "assist": "Amir Al-Ammari",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "43'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "76'",
+            "side": "b",
+            "scorer": "Leo Østigard",
+            "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+6'",
+            "side": "b",
+            "scorer": "Aymen Hussein",
+            "assist": "",
+            "own": true,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "86'",
+            "side": "a",
+            "player": "Zaid Tahseen",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
