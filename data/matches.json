@@ -1,58 +1,6 @@
 {
-  "updatedAt": "Jun 16, 7:50 PM PT",
-  "live": [
-    {
-      "id": "760433",
-      "state": "in",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 3
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 0
-      },
-      "minute": "87'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "17'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Rodrigo De Paul",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "76'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Nico González",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 16, 8:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760432",
@@ -184,6 +132,57 @@
             "color": "yellow"
           }
         ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760433",
+      "state": "post",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 3
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
+      },
+      "minute": "90'+6'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "17'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "Rodrigo De Paul",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "76'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "Nico González",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
       },
       "impact": null
     }
