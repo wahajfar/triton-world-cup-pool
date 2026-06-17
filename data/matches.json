@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 1:30 PM PT",
+  "updatedAt": "Jun 17, 1:40 PM PT",
   "live": [
     {
       "id": "760437",
@@ -18,9 +18,9 @@
         "flag": "🇭🇷",
         "owner": "Abdul Farooqi",
         "ownerSlackId": "U03UHSCAXMY",
-        "score": 0
+        "score": 1
       },
-      "minute": "31'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
@@ -30,6 +30,14 @@
             "assist": "",
             "own": false,
             "penalty": true
+          },
+          {
+            "minute": "36'",
+            "side": "b",
+            "scorer": "Martin Baturina",
+            "assist": "Petar Sucic",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": []
