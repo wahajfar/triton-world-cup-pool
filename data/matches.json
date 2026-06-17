@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 7:20 PM PT",
+  "updatedAt": "Jun 16, 7:30 PM PT",
   "live": [
     {
       "id": "760433",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Algeria",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "57'",
+      "minute": "67'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Lionel Messi",
             "assist": "Rodrigo De Paul",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "",
             "own": false,
             "penalty": false
           }
