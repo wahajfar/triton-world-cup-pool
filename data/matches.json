@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 2:10 PM PT",
+  "updatedAt": "Jun 17, 2:20 PM PT",
   "live": [
     {
       "id": "760437",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Croatia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 2
       },
-      "minute": "46'",
+      "minute": "56'",
       "recap": {
         "goals": [
           {
@@ -52,6 +52,14 @@
             "side": "b",
             "scorer": "Petar Musa",
             "assist": "Ivan Perisic",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "47'",
+            "side": "a",
+            "scorer": "Jude Bellingham",
+            "assist": "",
             "own": false,
             "penalty": false
           }
