@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 17, 4:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 17, 4:10 PM PT",
+  "live": [
+    {
+      "id": "760434",
+      "state": "in",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "b": {
+        "team": "Panama",
+        "flag": "🇵🇦",
+        "owner": "David Heller",
+        "ownerSlackId": "U09DU9TP8UQ",
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760431",
@@ -213,28 +240,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760434",
-      "state": "pre",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 0
-      },
-      "b": {
-        "team": "Panama",
-        "flag": "🇵🇦",
-        "owner": "David Heller",
-        "ownerSlackId": "U09DU9TP8UQ",
-        "score": 0
-      },
-      "date": "Wed, Jun 17",
-      "time": "4:00 PM PT"
-    },
     {
       "id": "760436",
       "state": "pre",
