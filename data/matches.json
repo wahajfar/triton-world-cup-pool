@@ -1,191 +1,162 @@
 {
-  "updatedAt": "Jun 17, 12:10 AM PT",
+  "updatedAt": "Jun 17, 12:20 AM PT",
   "live": [],
   "recent": [
     {
-      "id": "760432",
+      "id": "760431",
       "state": "post",
-      "competition": "Group I",
+      "competition": "Group J",
       "knockout": false,
       "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "owner": "Farhad Rahgozar",
+        "ownerSlackId": "U056GDBEHQA",
         "score": 3
       },
       "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "owner": "Adam Chandler",
+        "ownerSlackId": "U09L6VCQ6Q6",
         "score": 1
       },
-      "minute": "90'+10'",
+      "minute": "90'+14'",
       "recap": {
         "goals": [
           {
-            "minute": "66'",
+            "minute": "21'",
             "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
+            "scorer": "Romano Schmid",
+            "assist": "Xaver Schlager",
             "own": false,
             "penalty": false
           },
           {
-            "minute": "82'",
-            "side": "a",
-            "scorer": "Bradley Barcola",
-            "assist": "Adrien Rabiot",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+5'",
+            "minute": "50'",
             "side": "b",
-            "scorer": "Ibrahim Mbaye",
-            "assist": "Iliman Ndiaye",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+6'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    },
-    {
-      "id": "760430",
-      "state": "post",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
-        "score": 1
-      },
-      "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 4
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "29'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "David Møller Wolfe",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "39'",
-            "side": "a",
-            "scorer": "Aymen Hussein",
-            "assist": "Amir Al-Ammari",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "43'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "",
+            "scorer": "Ali Olwan",
+            "assist": "Noor Al-Rawabdeh",
             "own": false,
             "penalty": false
           },
           {
             "minute": "76'",
-            "side": "b",
-            "scorer": "Leo Østigard",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+6'",
-            "side": "b",
-            "scorer": "Aymen Hussein",
+            "side": "a",
+            "scorer": "Yazan Al-Arab",
             "assist": "",
             "own": true,
             "penalty": false
+          },
+          {
+            "minute": "90'+12'",
+            "side": "a",
+            "scorer": "Marko Arnautovic",
+            "assist": "",
+            "own": false,
+            "penalty": true
           }
         ],
         "cards": [
           {
-            "minute": "86'",
+            "minute": "77'",
             "side": "a",
-            "player": "Zaid Tahseen",
+            "player": "Marcel Sabitzer",
             "color": "yellow"
           }
         ]
       },
       "impact": null
-    },
-    {
-      "id": "760433",
-      "state": "post",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 3
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 0
-      },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "17'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Rodrigo De Paul",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "76'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Nico González",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
     }
   ],
-  "upcoming": []
+  "upcoming": [
+    {
+      "id": "760435",
+      "state": "pre",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 0
+      },
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 0
+      },
+      "date": "Wed, Jun 17",
+      "time": "10:00 AM PT"
+    },
+    {
+      "id": "760437",
+      "state": "pre",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 0
+      },
+      "date": "Wed, Jun 17",
+      "time": "1:00 PM PT"
+    },
+    {
+      "id": "760434",
+      "state": "pre",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "b": {
+        "team": "Panama",
+        "flag": "🇵🇦",
+        "owner": "David Heller",
+        "ownerSlackId": "U09DU9TP8UQ",
+        "score": 0
+      },
+      "date": "Wed, Jun 17",
+      "time": "4:00 PM PT"
+    },
+    {
+      "id": "760436",
+      "state": "pre",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "owner": "Baha",
+        "ownerSlackId": "U0ASJNHAPLN",
+        "score": 0
+      },
+      "b": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "date": "Wed, Jun 17",
+      "time": "7:00 PM PT"
+    }
+  ]
 }
