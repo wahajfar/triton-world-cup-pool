@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 16, 6:20 PM PT",
+  "updatedAt": "Jun 16, 6:30 PM PT",
   "live": [
     {
       "id": "760433",
@@ -20,14 +20,14 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "18'",
+      "minute": "28'",
       "recap": {
         "goals": [
           {
             "minute": "17'",
             "side": "a",
             "scorer": "Lionel Messi",
-            "assist": "",
+            "assist": "Rodrigo De Paul",
             "own": false,
             "penalty": false
           }
