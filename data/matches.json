@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 17, 12:50 PM PT",
-  "live": [],
+  "updatedAt": "Jun 17, 1:00 PM PT",
+  "live": [
+    {
+      "id": "760437",
+      "state": "in",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 0
+      },
+      "minute": "1'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760431",
@@ -138,28 +165,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760437",
-      "state": "pre",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 0
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 0
-      },
-      "date": "Wed, Jun 17",
-      "time": "1:00 PM PT"
-    },
     {
       "id": "760434",
       "state": "pre",
