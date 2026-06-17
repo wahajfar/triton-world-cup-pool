@@ -1,82 +1,6 @@
 {
-  "updatedAt": "Jun 17, 3:00 PM PT",
-  "live": [
-    {
-      "id": "760437",
-      "state": "in",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 4
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 2
-      },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "12'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "36'",
-            "side": "b",
-            "scorer": "Martin Baturina",
-            "assist": "Petar Sucic",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "42'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Declan Rice",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+5'",
-            "side": "b",
-            "scorer": "Petar Musa",
-            "assist": "Ivan Perisic",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "47'",
-            "side": "a",
-            "scorer": "Jude Bellingham",
-            "assist": "Elliot Anderson",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "85'",
-            "side": "a",
-            "scorer": "Marcus Rashford",
-            "assist": "Bukayo Saka",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 17, 3:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760431",
@@ -209,6 +133,81 @@
             "color": "yellow"
           }
         ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760437",
+      "state": "post",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 4
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 2
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "12'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          },
+          {
+            "minute": "36'",
+            "side": "b",
+            "scorer": "Martin Baturina",
+            "assist": "Petar Sucic",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "42'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Declan Rice",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+5'",
+            "side": "b",
+            "scorer": "Petar Musa",
+            "assist": "Ivan Perisic",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "47'",
+            "side": "a",
+            "scorer": "Jude Bellingham",
+            "assist": "Elliot Anderson",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "85'",
+            "side": "a",
+            "scorer": "Marcus Rashford",
+            "assist": "Bukayo Saka",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
       },
       "impact": null
     }
