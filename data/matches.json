@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 3:30 PM PT",
+  "updatedAt": "Jun 18, 3:40 PM PT",
   "live": [
     {
       "id": "760440",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
@@ -46,6 +46,12 @@
             "side": "a",
             "player": "Derek Cornelius",
             "color": "yellow"
+          },
+          {
+            "minute": "33'",
+            "side": "b",
+            "player": "Homam Ahmed",
+            "color": "red"
           }
         ]
       },
