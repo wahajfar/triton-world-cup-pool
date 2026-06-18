@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 3:40 PM PT",
+  "updatedAt": "Jun 18, 3:50 PM PT",
   "live": [
     {
       "id": "760440",
@@ -11,7 +11,7 @@
         "flag": "🇨🇦",
         "owner": "Ryan Drury",
         "ownerSlackId": "U0AM5158UA3",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Qatar",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -33,6 +33,14 @@
           },
           {
             "minute": "29'",
+            "side": "a",
+            "scorer": "Jonathan David",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+3'",
             "side": "a",
             "scorer": "Jonathan David",
             "assist": "",
