@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 4:10 PM PT",
+  "updatedAt": "Jun 18, 4:20 PM PT",
   "live": [
     {
       "id": "760440",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "48'",
+      "minute": "58'",
       "recap": {
         "goals": [
           {
@@ -59,6 +59,12 @@
             "minute": "33'",
             "side": "b",
             "player": "Homam Ahmed",
+            "color": "red"
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "player": "Assim Madibo",
             "color": "red"
           }
         ]
