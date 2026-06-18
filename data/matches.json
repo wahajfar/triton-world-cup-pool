@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 1:30 PM PT",
+  "updatedAt": "Jun 18, 1:40 PM PT",
   "live": [
     {
       "id": "760439",
@@ -11,7 +11,7 @@
         "flag": "🇨🇭",
         "owner": "Saim Aslam",
         "ownerSlackId": "U0A94C788KS",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Bosnia and Herzegovina",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "71'",
+      "minute": "80'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "74'",
+            "side": "a",
+            "scorer": "Johan Manzambi",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "59'",
@@ -41,6 +50,12 @@
             "side": "a",
             "player": "Nico Elvedi",
             "color": "yellow"
+          },
+          {
+            "minute": "80'",
+            "side": "b",
+            "player": "Tarik Muharemovic",
+            "color": "red"
           }
         ]
       },
