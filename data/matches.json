@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 1:40 PM PT",
+  "updatedAt": "Jun 18, 1:50 PM PT",
   "live": [
     {
       "id": "760439",
@@ -11,7 +11,7 @@
         "flag": "🇨🇭",
         "owner": "Saim Aslam",
         "ownerSlackId": "U0A94C788KS",
-        "score": 1
+        "score": 3
       },
       "b": {
         "team": "Bosnia and Herzegovina",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "80'",
+      "minute": "90'+1'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,22 @@
             "side": "a",
             "scorer": "Johan Manzambi",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "84'",
+            "side": "a",
+            "scorer": "Rubén Vargas",
+            "assist": "Breel Embolo",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'",
+            "side": "a",
+            "scorer": "Johan Manzambi",
+            "assist": "Rubén Vargas",
             "own": false,
             "penalty": false
           }
