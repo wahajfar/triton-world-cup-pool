@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 8:20 PM PT",
+  "updatedAt": "Jun 17, 8:30 PM PT",
   "live": [
     {
       "id": "760436",
@@ -11,16 +11,16 @@
         "flag": "🇺🇿",
         "owner": "Baha",
         "ownerSlackId": "U0ASJNHAPLN",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Colombia",
         "flag": "🇨🇴",
         "owner": "Jabulani Aduwo",
         "ownerSlackId": "U0ARBL3JP1U",
-        "score": 1
+        "score": 2
       },
-      "minute": "59'",
+      "minute": "69'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,22 @@
             "side": "b",
             "scorer": "Daniel Muñoz",
             "assist": "Luis Díaz",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Abbosbek Fayzullaev",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "65'",
+            "side": "b",
+            "scorer": "Luis Díaz",
+            "assist": "Gustavo Puerta",
             "own": false,
             "penalty": false
           }
