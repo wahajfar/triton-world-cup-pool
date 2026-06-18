@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 17, 7:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 17, 7:10 PM PT",
+  "live": [
+    {
+      "id": "760436",
+      "state": "in",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "owner": "Baha",
+        "ownerSlackId": "U0ASJNHAPLN",
+        "score": 0
+      },
+      "b": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "7'",
+            "side": "b",
+            "player": "Johan Mojica",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760431",
@@ -266,28 +300,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760436",
-      "state": "pre",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "owner": "Baha",
-        "ownerSlackId": "U0ASJNHAPLN",
-        "score": 0
-      },
-      "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
-      },
-      "date": "Wed, Jun 17",
-      "time": "7:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
