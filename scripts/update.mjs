@@ -9,7 +9,7 @@
 //   5. Write data/standings.json (the GitHub Action commits it; Vercel redeploys).
 //
 // Env: ANTHROPIC_API_KEY (required), SLACK_WEBHOOK_URL (optional), DIGEST ("true" forces a digest),
-//      MODEL (optional, default claude-opus-4-8).
+//      MODEL (optional, default claude-sonnet-4-6 — cheap; the task is extraction, not deep reasoning).
 
 import Anthropic from "@anthropic-ai/sdk";
 import { readFile, writeFile } from "node:fs/promises";
@@ -18,7 +18,7 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "data");
-const MODEL = process.env.MODEL || "claude-opus-4-8";
+const MODEL = process.env.MODEL || "claude-sonnet-4-6";
 const SITE_URL = process.env.SITE_URL || "https://triton-world-cup.vercel.app";
 
 const STAGE_RANK = { group: 0, R32: 1, R16: 2, QF: 3, SF: 4, Final: 5, Champion: 6 };
@@ -126,15 +126,19 @@ Rules:
 - If a team has not played yet, status "alive", stageReached "group", form "-", played 0.
 - Include every one of the 48 teams exactly once.`;
 
-  const tools = [{ type: "web_search_20260209", name: "web_search", max_uses: 12 }];
+  const tools = [{ type: "web_search_20260209", name: "web_search", max_uses: 4 }];
   const messages = [{ role: "user", content: prompt }];
+  // Cost controls: Sonnet + low effort + prompt caching. The web-search tool pauses the turn and
+  // we re-send the growing history to resume; `cache_control` makes each re-send read the prior
+  // turns from cache (~0.1x) instead of re-billing the whole accumulated context at full price.
+  const base = { model: MODEL, max_tokens: 16000, thinking: { type: "adaptive" }, output_config: { effort: "low" }, tools, cache_control: { type: "ephemeral" } };
 
-  let response = await client.messages.create({ model: MODEL, max_tokens: 16000, thinking: { type: "adaptive" }, tools, messages });
+  let response = await client.messages.create({ ...base, messages });
   // Server-side web search may pause the turn; re-send to resume.
   let guard = 0;
   while (response.stop_reason === "pause_turn" && guard++ < 8) {
     messages.push({ role: "assistant", content: response.content });
-    response = await client.messages.create({ model: MODEL, max_tokens: 16000, thinking: { type: "adaptive" }, tools, messages });
+    response = await client.messages.create({ ...base, messages });
   }
 
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("\n");

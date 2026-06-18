@@ -85,6 +85,7 @@ async function main() {
   console.log(`[live] ${events.length} events; firstRun=${firstRun}; bot=${!!BOT}`);
 
   let changed = false;
+  let ended = false;   // a match reached FULL TIME this run → flag a standings refresh
   for (const ev of events) {
     const comp = ev.competitions?.[0]; if (!comp) continue;
     const cs = comp.competitors || [];
@@ -143,9 +144,17 @@ async function main() {
       if (ft || !BOT) {
         const winName = hS > aS ? reactionName(hFlag, hName) : aS > hS ? reactionName(aFlag, aName) : "handshake";
         await slackReact(s.ts, winName);
-        s.full = true; s.kickoff = true; changed = true;
+        s.full = true; s.kickoff = true; changed = true; ended = true;
       }
     }
+  }
+
+  // Event-driven standings: write a trigger the standings job watches, so update.mjs (the only
+  // paid API call) runs ONLY when a match finishes — not hourly. tick.yml compares this against
+  // last_update and refreshes when it's newer.
+  if (ended) {
+    await writeFile(join(DATA, "standings-trigger.json"), JSON.stringify({ lastFullTime: Math.floor(Date.now() / 1000) }) + "\n");
+    console.log("[live] a match finished — flagged a standings refresh");
   }
 
   if (changed) { await writeFile(join(DATA, "live-state.json"), JSON.stringify(state, null, 2) + "\n"); console.log("[live] state updated"); }
