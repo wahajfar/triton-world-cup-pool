@@ -1,44 +1,39 @@
 {
-  "updatedAt": "Jun 18, 8:05 AM PT",
-  "stage": "Group Stage — Matchday 1 complete (Matchday 2 begins June 18)",
+  "updatedAt": "Jun 18, 9:05 AM PT",
+  "stage": "Group Stage — Matchday 2",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group A — Mexico 2-0 South Africa",
-    "Group A — Korea Republic 2-1 Czech Republic",
-    "Group B — Canada 1-1 Bosnia and Herzegovina",
-    "Group D — United States 4-1 Paraguay",
-    "Group B — Qatar 1-1 Switzerland",
-    "Group C — Brazil 1-1 Morocco",
-    "Group C — Scotland 1-0 Haiti",
-    "Group D — Australia 2-0 Turkey",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Netherlands 2-2 Japan",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group G — Belgium 1-1 Egypt",
-    "Group G — Iran 2-2 New Zealand",
-    "Group H — Spain 0-0 Cape Verde",
-    "Group H — Saudi Arabia 1-1 Uruguay"
+    "Group K — England n/a",
+    "Group L — England 4-2 Croatia",
+    "Group L — Ghana 1-0 Panama",
+    "Group K — Portugal 1-1 Congo DR",
+    "Group K — Colombia 3-1 Uzbekistan",
+    "Group J — Austria 3-1 Jordan",
+    "Group J — Argentina 3-0 Algeria",
+    "Group I — France 3-1 Senegal",
+    "Group I — Norway 4-1 Iraq"
   ],
   "bracket": null,
   "matches": {
-    "live": [],
-    "upcoming": [
+    "live": [
       {
         "a": {
           "team": "Czech Republic",
-          "flag": "🇨🇿"
+          "flag": "🇨🇿",
+          "score": 0
         },
         "b": {
           "team": "South Africa",
-          "flag": "🇿🇦"
+          "flag": "🇿🇦",
+          "score": 0
         },
-        "date": "Thu Jun 18",
-        "time": "9:00 AM PT",
+        "minute": "1'",
         "competition": "Group A"
-      },
+      }
+    ],
+    "upcoming": [
       {
         "a": {
           "team": "Switzerland",
@@ -90,6 +85,19 @@
         "date": "Fri Jun 19",
         "time": "12:00 PM PT",
         "competition": "Group D"
+      },
+      {
+        "a": {
+          "team": "Scotland",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        "b": {
+          "team": "Morocco",
+          "flag": "🇲🇦"
+        },
+        "date": "Fri Jun 19",
+        "time": "3:00 PM PT",
+        "competition": "Group C"
       }
     ]
   },
@@ -669,7 +677,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Ghana",
+      "statusLabel": "Lost 0-1 vs Ghana",
       "rank": 34
     },
     {
@@ -686,7 +694,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Scotland",
+      "statusLabel": "Lost 0-1 vs Scotland",
       "rank": 35
     },
     {
@@ -703,7 +711,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1 to Côte d'Ivoire",
+      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
       "rank": 36
     },
     {
@@ -720,7 +728,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2 to Korea Republic",
+      "statusLabel": "Lost 1-2; playing South Africa now",
       "rank": 37
     },
     {
@@ -737,7 +745,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 2-4 to England",
+      "statusLabel": "Lost 2-4 vs England",
       "rank": 38
     },
     {
@@ -754,7 +762,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 to Austria",
+      "statusLabel": "Lost 1-3 vs Austria",
       "rank": 39
     },
     {
@@ -771,7 +779,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 to Colombia",
+      "statusLabel": "Lost 1-3 vs Colombia",
       "rank": 40
     },
     {
@@ -788,7 +796,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Australia",
+      "statusLabel": "Lost 0-2 vs Australia",
       "rank": 41
     },
     {
@@ -805,7 +813,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2 to Mexico",
+      "statusLabel": "Lost 0-2; playing Czech Republic now",
       "rank": 42
     },
     {
@@ -822,7 +830,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3 to France",
+      "statusLabel": "Lost 1-3 vs France",
       "rank": 43
     },
     {
@@ -839,7 +847,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 to United States",
+      "statusLabel": "Lost 1-4 vs United States",
       "rank": 44
     },
     {
@@ -856,7 +864,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4 to Norway",
+      "statusLabel": "Lost 1-4 vs Norway",
       "rank": 45
     },
     {
@@ -873,7 +881,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 0-3 to Argentina",
+      "statusLabel": "Lost 0-3 vs Argentina",
       "rank": 46
     },
     {
@@ -890,7 +898,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5 to Sweden",
+      "statusLabel": "Lost 1-5 vs Sweden",
       "rank": 47
     },
     {
@@ -907,7 +915,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7 to Germany",
+      "statusLabel": "Lost 1-7 vs Germany",
       "rank": 48
     }
   ]
