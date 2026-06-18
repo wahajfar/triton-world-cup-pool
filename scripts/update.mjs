@@ -287,4 +287,15 @@ async function main() {
   console.log("[wc] done.");
 }
 
-main().catch((e) => { console.error("[wc] FAILED:", e); process.exit(1); });
+main().catch((e) => {
+  const msg = e?.error?.error?.message || e?.message || String(e);
+  // A hit spend cap (400 "usage limits") or rate limit (429) is an account state, not a code
+  // failure — log and exit 0 so the job stays green and doesn't email a failure on every match
+  // that finishes while capped. It resumes automatically once the limit resets / is raised.
+  if (e?.status === 429 || /usage limit/i.test(msg)) {
+    console.warn("[wc] standings update SKIPPED — Anthropic API limit reached:", msg);
+    process.exit(0);
+  }
+  console.error("[wc] FAILED:", e);
+  process.exit(1);
+});
