@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 8:50 PM PT",
+  "updatedAt": "Jun 17, 9:00 PM PT",
   "live": [
     {
       "id": "760436",
@@ -18,9 +18,9 @@
         "flag": "🇨🇴",
         "owner": "Jabulani Aduwo",
         "ownerSlackId": "U0ARBL3JP1U",
-        "score": 2
+        "score": 3
       },
-      "minute": "90'",
+      "minute": "90'+10'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "b",
             "scorer": "Luis Díaz",
             "assist": "Gustavo Puerta",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+9'",
+            "side": "b",
+            "scorer": "Jáminton Campaz",
+            "assist": "",
             "own": false,
             "penalty": false
           }
