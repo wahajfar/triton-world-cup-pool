@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 18, 12:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 18, 12:10 PM PT",
+  "live": [
+    {
+      "id": "760439",
+      "state": "in",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "b": {
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760438",
@@ -66,28 +93,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760439",
-      "state": "pre",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 0
-      },
-      "b": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
-        "score": 0
-      },
-      "date": "Thu, Jun 18",
-      "time": "12:00 PM PT"
-    },
     {
       "id": "760440",
       "state": "pre",
