@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 3:10 PM PT",
+  "updatedAt": "Jun 18, 3:20 PM PT",
   "live": [
     {
       "id": "760440",
@@ -11,7 +11,7 @@
         "flag": "🇨🇦",
         "owner": "Ryan Drury",
         "ownerSlackId": "U0AM5158UA3",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Qatar",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "9'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "16'",
+            "side": "a",
+            "scorer": "Cyle Larin",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "9'",
