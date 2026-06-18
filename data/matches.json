@@ -1,79 +1,6 @@
 {
-  "updatedAt": "Jun 17, 9:00 PM PT",
-  "live": [
-    {
-      "id": "760436",
-      "state": "in",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "owner": "Baha",
-        "ownerSlackId": "U0ASJNHAPLN",
-        "score": 1
-      },
-      "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 3
-      },
-      "minute": "90'+10'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "40'",
-            "side": "b",
-            "scorer": "Daniel Muñoz",
-            "assist": "Luis Díaz",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Abbosbek Fayzullaev",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "65'",
-            "side": "b",
-            "scorer": "Luis Díaz",
-            "assist": "Gustavo Puerta",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+9'",
-            "side": "b",
-            "scorer": "Jáminton Campaz",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "7'",
-            "side": "b",
-            "player": "Johan Mojica",
-            "color": "yellow"
-          },
-          {
-            "minute": "34'",
-            "side": "a",
-            "player": "Abdukodir Khusanov",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 17, 9:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760431",
@@ -332,6 +259,78 @@
             "minute": "90'+9'",
             "side": "b",
             "player": "Carlos Harvey",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760436",
+      "state": "post",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "owner": "Baha",
+        "ownerSlackId": "U0ASJNHAPLN",
+        "score": 1
+      },
+      "b": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 3
+      },
+      "minute": "90'+11'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "40'",
+            "side": "b",
+            "scorer": "Daniel Muñoz",
+            "assist": "Luis Díaz",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Abbosbek Fayzullaev",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "65'",
+            "side": "b",
+            "scorer": "Luis Díaz",
+            "assist": "Gustavo Puerta",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+9'",
+            "side": "b",
+            "scorer": "Jáminton Campaz",
+            "assist": "Cucho Hernández",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "7'",
+            "side": "b",
+            "player": "Johan Mojica",
+            "color": "yellow"
+          },
+          {
+            "minute": "34'",
+            "side": "a",
+            "player": "Abdukodir Khusanov",
             "color": "yellow"
           }
         ]
