@@ -1,45 +1,21 @@
 {
-  "updatedAt": "Jun 17, 5:05 PM PT",
+  "updatedAt": "Jun 17, 6:23 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group L — England 4-2 Croatia",
     "Group K — Portugal 1-1 Congo DR",
-    "Group J — Austria 3-1 Jordan",
-    "Group J — Argentina 3-0 Algeria",
+    "Group L — England 4-2 Croatia",
+    "Group L — Ghana 1-0 Panama",
     "Group I — France 3-1 Senegal",
     "Group I — Norway 4-1 Iraq",
-    "Group G — Belgium 1-1 Egypt",
-    "Group G — Iran 2-2 New Zealand",
-    "Group H — Spain 0-0 Cape Verde",
-    "Group H — Saudi Arabia 1-1 Uruguay",
-    "Group E — Germany 7-1 Curaçao",
-    "Group E — Côte d'Ivoire 1-0 Ecuador",
-    "Group F — Netherlands 2-2 Japan",
-    "Group F — Sweden 5-1 Tunisia",
-    "Group D — Australia 2-0 Turkey",
-    "Group C — Brazil 1-1 Morocco"
+    "Group J — Argentina 3-0 Algeria",
+    "Group J — Austria 3-1 Jordan"
   ],
   "bracket": null,
   "matches": {
-    "live": [
-      {
-        "a": {
-          "team": "Ghana",
-          "flag": "🇬🇭",
-          "score": 0
-        },
-        "b": {
-          "team": "Panama",
-          "flag": "🇵🇦",
-          "score": 0
-        },
-        "minute": "60'",
-        "competition": "Group L"
-      }
-    ],
+    "live": [],
     "upcoming": [
       {
         "a": {
@@ -103,7 +79,7 @@
           "flag": "🇰🇷"
         },
         "date": "Thu Jun 18",
-        "time": "6:00 PM PT",
+        "time": "8:00 PM PT",
         "competition": "Group A"
       }
     ]
@@ -314,6 +290,23 @@
       "rank": 12
     },
     {
+      "name": "Majid Hussain",
+      "team": "Ghana",
+      "group": "L",
+      "flag": "🇬🇭",
+      "photo": null,
+      "slackId": "U0A38E18B55",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 1,
+      "points": 3,
+      "gd": 1,
+      "form": "W",
+      "statusLabel": "Won 1-0 vs Panama",
+      "rank": 13
+    },
+    {
       "name": "Sami Khan",
       "team": "Scotland",
       "group": "C",
@@ -328,7 +321,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Won 1-0 vs Haiti",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Aadam Rasul",
@@ -345,7 +338,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Brazil",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Anton Li",
@@ -362,7 +355,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Canada",
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Arash Hazini",
@@ -379,7 +372,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs New Zealand",
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Arsal Javed",
@@ -396,7 +389,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Congo DR",
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "Bruno Nwogu",
@@ -413,7 +406,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Switzerland",
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "David Chu",
@@ -430,7 +423,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 0-0 vs Spain",
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "Evan Dawson",
@@ -447,7 +440,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Morocco",
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Jenny",
@@ -464,7 +457,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Netherlands",
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "John Pajarin",
@@ -481,7 +474,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Egypt",
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Khari Harper",
@@ -498,7 +491,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Belgium",
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Kyle Kostechka",
@@ -515,7 +508,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Iran",
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "Luke Brown",
@@ -532,7 +525,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Portugal",
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "Luke Zahradka",
@@ -549,7 +542,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 0-0 vs Cape Verde",
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "Mahdy R",
@@ -566,7 +559,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Saudi Arabia",
-      "rank": 27
+      "rank": 28
     },
     {
       "name": "Rahim Jutha",
@@ -583,7 +576,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 2-2 vs Japan",
-      "rank": 28
+      "rank": 29
     },
     {
       "name": "Richard Lee",
@@ -600,7 +593,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Uruguay",
-      "rank": 29
+      "rank": 30
     },
     {
       "name": "Ryan Drury",
@@ -617,7 +610,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
-      "rank": 30
+      "rank": 31
     },
     {
       "name": "Saim Aslam",
@@ -634,7 +627,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Drew 1-1 vs Qatar",
-      "rank": 31
+      "rank": 32
     },
     {
       "name": "Baha",
@@ -651,23 +644,6 @@
       "gd": 0,
       "form": "-",
       "statusLabel": "Yet to play — vs Colombia tonight",
-      "rank": 32
-    },
-    {
-      "name": "David Heller",
-      "team": "Panama",
-      "group": "L",
-      "flag": "🇵🇦",
-      "photo": null,
-      "slackId": "U09DU9TP8UQ",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 0,
-      "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Live — 0-0 vs Ghana",
       "rank": 33
     },
     {
@@ -688,20 +664,20 @@
       "rank": 34
     },
     {
-      "name": "Majid Hussain",
-      "team": "Ghana",
+      "name": "David Heller",
+      "team": "Panama",
       "group": "L",
-      "flag": "🇬🇭",
+      "flag": "🇵🇦",
       "photo": null,
-      "slackId": "U0A38E18B55",
+      "slackId": "U09DU9TP8UQ",
       "status": "alive",
       "stageReached": "group",
       "eliminatedAt": null,
-      "played": 0,
+      "played": 1,
       "points": 0,
-      "gd": 0,
-      "form": "-",
-      "statusLabel": "Live — 0-0 vs Panama",
+      "gd": -1,
+      "form": "L",
+      "statusLabel": "Lost 0-1 vs Ghana",
       "rank": 35
     },
     {
