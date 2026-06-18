@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 1:10 PM PT",
+  "updatedAt": "Jun 18, 1:20 PM PT",
   "live": [
     {
       "id": "760439",
@@ -20,10 +20,23 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "51'",
+      "minute": "61'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "59'",
+            "side": "b",
+            "player": "Amar Dedic",
+            "color": "yellow"
+          },
+          {
+            "minute": "61'",
+            "side": "b",
+            "player": "Edin Dzeko",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
