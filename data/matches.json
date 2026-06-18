@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 4:20 PM PT",
+  "updatedAt": "Jun 18, 4:30 PM PT",
   "live": [
     {
       "id": "760440",
@@ -11,7 +11,7 @@
         "flag": "🇨🇦",
         "owner": "Ryan Drury",
         "ownerSlackId": "U0AM5158UA3",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "Qatar",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "58'",
+      "minute": "68'",
       "recap": {
         "goals": [
           {
@@ -46,6 +46,14 @@
             "assist": "",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "64'",
+            "side": "a",
+            "scorer": "Nathan Saliba",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -66,6 +74,12 @@
             "side": "b",
             "player": "Assim Madibo",
             "color": "red"
+          },
+          {
+            "minute": "62'",
+            "side": "b",
+            "player": "Ahmed Fathy",
+            "color": "yellow"
           }
         ]
       },
