@@ -1,19 +1,25 @@
 {
-  "updatedAt": "Jun 18, 12:03 AM PT",
-  "stage": "Group Stage — Matchday 2 (Jun 18); all teams have played 1 match",
+  "updatedAt": "Jun 18, 8:05 AM PT",
+  "stage": "Group Stage — Matchday 1 complete (Matchday 2 begins June 18)",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group L — England 4-2 Croatia",
-    "Group L — Ghana 1-0 Panama",
-    "Group K — Portugal 1-1 Congo DR",
-    "Group K — Colombia 3-1 Uzbekistan",
-    "Group J — Austria 3-1 Jordan",
-    "Group J — Argentina 3-0 Algeria",
-    "Group I — France 3-1 Senegal",
-    "Group I — Norway 4-1 Iraq",
+    "Group A — Mexico 2-0 South Africa",
+    "Group A — Korea Republic 2-1 Czech Republic",
+    "Group B — Canada 1-1 Bosnia and Herzegovina",
+    "Group D — United States 4-1 Paraguay",
+    "Group B — Qatar 1-1 Switzerland",
+    "Group C — Brazil 1-1 Morocco",
+    "Group C — Scotland 1-0 Haiti",
+    "Group D — Australia 2-0 Turkey",
+    "Group E — Germany 7-1 Curaçao",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group F — Netherlands 2-2 Japan",
+    "Group F — Sweden 5-1 Tunisia",
+    "Group G — Belgium 1-1 Egypt",
     "Group G — Iran 2-2 New Zealand",
+    "Group H — Spain 0-0 Cape Verde",
     "Group H — Saudi Arabia 1-1 Uruguay"
   ],
   "bracket": null,
@@ -69,7 +75,7 @@
           "flag": "🇰🇷"
         },
         "date": "Thu Jun 18",
-        "time": "8:00 PM PT",
+        "time": "6:00 PM PT",
         "competition": "Group A"
       },
       {
@@ -306,7 +312,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 2-1 vs Czechia",
+      "statusLabel": "Won 2-1 vs Czech Republic",
       "rank": 13
     },
     {
