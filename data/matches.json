@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 5:50 PM PT",
+  "updatedAt": "Jun 17, 6:00 PM PT",
   "live": [
     {
       "id": "760434",
@@ -11,7 +11,7 @@
         "flag": "🇬🇭",
         "owner": "Majid Hussain",
         "ownerSlackId": "U0A38E18B55",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Panama",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U09DU9TP8UQ",
         "score": 0
       },
-      "minute": "89'",
+      "minute": "90'+8'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "90'+5'",
+            "side": "a",
+            "scorer": "Caleb Yirenkyi",
+            "assist": "Brandon Thomas-Asante",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "16'",
