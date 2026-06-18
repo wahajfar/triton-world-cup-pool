@@ -1,342 +1,95 @@
 {
-  "updatedAt": "Jun 18, 12:10 AM PT",
+  "updatedAt": "Jun 18, 12:20 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760431",
-      "state": "post",
-      "competition": "Group J",
+      "id": "760438",
+      "state": "pre",
+      "competition": "Group A",
       "knockout": false,
       "a": {
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "owner": "Farhad Rahgozar",
-        "ownerSlackId": "U056GDBEHQA",
-        "score": 3
-      },
-      "b": {
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "owner": "Adam Chandler",
-        "ownerSlackId": "U09L6VCQ6Q6",
-        "score": 1
-      },
-      "minute": "90'+14'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "21'",
-            "side": "a",
-            "scorer": "Romano Schmid",
-            "assist": "Xaver Schlager",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "50'",
-            "side": "b",
-            "scorer": "Ali Olwan",
-            "assist": "Noor Al-Rawabdeh",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "76'",
-            "side": "a",
-            "scorer": "Yazan Al-Arab",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          },
-          {
-            "minute": "90'+12'",
-            "side": "a",
-            "scorer": "Marko Arnautovic",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "77'",
-            "side": "a",
-            "player": "Marcel Sabitzer",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760435",
-      "state": "post",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 1
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 1
-      },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "6'",
-            "side": "a",
-            "scorer": "João Neves",
-            "assist": "Pedro Neto",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+5'",
-            "side": "b",
-            "scorer": "Yoane Wissa",
-            "assist": "Arthur Masuaku",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "13'",
-            "side": "a",
-            "player": "Bernardo Silva",
-            "color": "yellow"
-          },
-          {
-            "minute": "32'",
-            "side": "b",
-            "player": "Chancel Mbemba",
-            "color": "yellow"
-          },
-          {
-            "minute": "88'",
-            "side": "a",
-            "player": "Nélson Semedo",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+2'",
-            "side": "a",
-            "player": "Tomás Araújo",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760437",
-      "state": "post",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 4
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 2
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "12'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "36'",
-            "side": "b",
-            "scorer": "Martin Baturina",
-            "assist": "Petar Sucic",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "42'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Declan Rice",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+5'",
-            "side": "b",
-            "scorer": "Petar Musa",
-            "assist": "Ivan Perisic",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "47'",
-            "side": "a",
-            "scorer": "Jude Bellingham",
-            "assist": "Elliot Anderson",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "85'",
-            "side": "a",
-            "scorer": "Marcus Rashford",
-            "assist": "Bukayo Saka",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    },
-    {
-      "id": "760434",
-      "state": "post",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 1
-      },
-      "b": {
-        "team": "Panama",
-        "flag": "🇵🇦",
-        "owner": "David Heller",
-        "ownerSlackId": "U09DU9TP8UQ",
+        "team": "Czech Republic",
+        "flag": "🇨🇿",
+        "owner": "Nathan Marchand",
+        "ownerSlackId": "U0A38E5U05V",
         "score": 0
       },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "90'+5'",
-            "side": "a",
-            "scorer": "Caleb Yirenkyi",
-            "assist": "Brandon Thomas-Asante",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "16'",
-            "side": "a",
-            "player": "Caleb Yirenkyi",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "César Blackman",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+9'",
-            "side": "b",
-            "player": "Carlos Harvey",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "owner": "Chris L",
+        "ownerSlackId": "U0A38E3524X",
+        "score": 0
       },
-      "impact": null
+      "date": "Thu, Jun 18",
+      "time": "9:00 AM PT"
     },
     {
-      "id": "760436",
-      "state": "post",
-      "competition": "Group K",
+      "id": "760439",
+      "state": "pre",
+      "competition": "Group B",
       "knockout": false,
       "a": {
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "owner": "Baha",
-        "ownerSlackId": "U0ASJNHAPLN",
-        "score": 1
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
       },
       "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 3
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
+        "score": 0
       },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "40'",
-            "side": "b",
-            "scorer": "Daniel Muñoz",
-            "assist": "Luis Díaz",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Abbosbek Fayzullaev",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "65'",
-            "side": "b",
-            "scorer": "Luis Díaz",
-            "assist": "Gustavo Puerta",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+9'",
-            "side": "b",
-            "scorer": "Jáminton Campaz",
-            "assist": "Cucho Hernández",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "7'",
-            "side": "b",
-            "player": "Johan Mojica",
-            "color": "yellow"
-          },
-          {
-            "minute": "34'",
-            "side": "a",
-            "player": "Abdukodir Khusanov",
-            "color": "yellow"
-          }
-        ]
+      "date": "Thu, Jun 18",
+      "time": "12:00 PM PT"
+    },
+    {
+      "id": "760440",
+      "state": "pre",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "owner": "Ryan Drury",
+        "ownerSlackId": "U0AM5158UA3",
+        "score": 0
       },
-      "impact": null
+      "b": {
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "owner": "Bruno Nwogu",
+        "ownerSlackId": "U0ANA9G1MUJ",
+        "score": 0
+      },
+      "date": "Thu, Jun 18",
+      "time": "3:00 PM PT"
+    },
+    {
+      "id": "760441",
+      "state": "pre",
+      "competition": "Group A",
+      "knockout": false,
+      "a": {
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 0
+      },
+      "b": {
+        "team": "Korea Republic",
+        "flag": "🇰🇷",
+        "owner": "Gul Farooqi",
+        "ownerSlackId": "U0461U66J3Z",
+        "score": 0
+      },
+      "date": "Thu, Jun 18",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
