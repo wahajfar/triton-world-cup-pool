@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 1:20 PM PT",
+  "updatedAt": "Jun 18, 1:30 PM PT",
   "live": [
     {
       "id": "760439",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "61'",
+      "minute": "71'",
       "recap": {
         "goals": [],
         "cards": [
@@ -34,6 +34,12 @@
             "minute": "61'",
             "side": "b",
             "player": "Edin Dzeko",
+            "color": "yellow"
+          },
+          {
+            "minute": "65'",
+            "side": "a",
+            "player": "Nico Elvedi",
             "color": "yellow"
           }
         ]
