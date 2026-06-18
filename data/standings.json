@@ -1,16 +1,26 @@
 {
-  "updatedAt": "Jun 17, 4:06 PM PT",
+  "updatedAt": "Jun 17, 5:05 PM PT",
   "stage": "Group Stage — Matchday 1",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
-    "Group J — Austria 3-1 Jordan",
-    "Group K — Portugal 1-1 Congo DR",
     "Group L — England 4-2 Croatia",
+    "Group K — Portugal 1-1 Congo DR",
+    "Group J — Austria 3-1 Jordan",
     "Group J — Argentina 3-0 Algeria",
     "Group I — France 3-1 Senegal",
-    "Group I — Norway 4-1 Iraq"
+    "Group I — Norway 4-1 Iraq",
+    "Group G — Belgium 1-1 Egypt",
+    "Group G — Iran 2-2 New Zealand",
+    "Group H — Spain 0-0 Cape Verde",
+    "Group H — Saudi Arabia 1-1 Uruguay",
+    "Group E — Germany 7-1 Curaçao",
+    "Group E — Côte d'Ivoire 1-0 Ecuador",
+    "Group F — Netherlands 2-2 Japan",
+    "Group F — Sweden 5-1 Tunisia",
+    "Group D — Australia 2-0 Turkey",
+    "Group C — Brazil 1-1 Morocco"
   ],
   "bracket": null,
   "matches": {
@@ -26,7 +36,7 @@
           "flag": "🇵🇦",
           "score": 0
         },
-        "minute": "4'",
+        "minute": "60'",
         "competition": "Group L"
       }
     ],
@@ -93,7 +103,7 @@
           "flag": "🇰🇷"
         },
         "date": "Thu Jun 18",
-        "time": "8:00 PM PT",
+        "time": "6:00 PM PT",
         "competition": "Group A"
       }
     ]
@@ -113,7 +123,7 @@
       "points": 3,
       "gd": 6,
       "form": "W",
-      "statusLabel": "Won 7-1",
+      "statusLabel": "Won 7-1 vs Curaçao",
       "rank": 1
     },
     {
@@ -130,7 +140,7 @@
       "points": 3,
       "gd": 4,
       "form": "W",
-      "statusLabel": "Won 5-1",
+      "statusLabel": "Won 5-1 vs Tunisia",
       "rank": 2
     },
     {
@@ -147,7 +157,7 @@
       "points": 3,
       "gd": 3,
       "form": "W",
-      "statusLabel": "Won 4-1",
+      "statusLabel": "Won 4-1 vs Paraguay",
       "rank": 3
     },
     {
@@ -164,7 +174,7 @@
       "points": 3,
       "gd": 3,
       "form": "W",
-      "statusLabel": "Won 4-1",
+      "statusLabel": "Won 4-1 vs Iraq",
       "rank": 4
     },
     {
@@ -181,7 +191,7 @@
       "points": 3,
       "gd": 3,
       "form": "W",
-      "statusLabel": "Won 3-0",
+      "statusLabel": "Won 3-0 vs Algeria",
       "rank": 5
     },
     {
@@ -198,7 +208,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 3-1",
+      "statusLabel": "Won 3-1 vs Senegal",
       "rank": 6
     },
     {
@@ -215,7 +225,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 3-1",
+      "statusLabel": "Won 3-1 vs Jordan",
       "rank": 7
     },
     {
@@ -232,7 +242,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 4-2",
+      "statusLabel": "Won 4-2 vs Croatia",
       "rank": 8
     },
     {
@@ -249,7 +259,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 2-0",
+      "statusLabel": "Won 2-0 vs Turkey",
       "rank": 9
     },
     {
@@ -266,7 +276,7 @@
       "points": 3,
       "gd": 2,
       "form": "W",
-      "statusLabel": "Won 2-0",
+      "statusLabel": "Won 2-0 vs South Africa",
       "rank": 10
     },
     {
@@ -283,7 +293,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 1-0",
+      "statusLabel": "Won 1-0 vs Ecuador",
       "rank": 11
     },
     {
@@ -300,7 +310,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 2-1",
+      "statusLabel": "Won 2-1 vs Czech Republic",
       "rank": 12
     },
     {
@@ -317,7 +327,7 @@
       "points": 3,
       "gd": 1,
       "form": "W",
-      "statusLabel": "Won 1-0",
+      "statusLabel": "Won 1-0 vs Haiti",
       "rank": 13
     },
     {
@@ -334,7 +344,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Brazil",
       "rank": 14
     },
     {
@@ -351,7 +361,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Canada",
       "rank": 15
     },
     {
@@ -368,7 +378,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs New Zealand",
       "rank": 16
     },
     {
@@ -385,7 +395,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Congo DR",
       "rank": 17
     },
     {
@@ -402,7 +412,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Switzerland",
       "rank": 18
     },
     {
@@ -419,7 +429,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 0-0",
+      "statusLabel": "Drew 0-0 vs Spain",
       "rank": 19
     },
     {
@@ -436,7 +446,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Morocco",
       "rank": 20
     },
     {
@@ -453,7 +463,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs Netherlands",
       "rank": 21
     },
     {
@@ -470,7 +480,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Egypt",
       "rank": 22
     },
     {
@@ -487,7 +497,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Belgium",
       "rank": 23
     },
     {
@@ -504,7 +514,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs Iran",
       "rank": 24
     },
     {
@@ -521,7 +531,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Portugal",
       "rank": 25
     },
     {
@@ -538,7 +548,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 0-0",
+      "statusLabel": "Drew 0-0 vs Cape Verde",
       "rank": 26
     },
     {
@@ -555,7 +565,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Saudi Arabia",
       "rank": 27
     },
     {
@@ -572,7 +582,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 2-2",
+      "statusLabel": "Drew 2-2 vs Japan",
       "rank": 28
     },
     {
@@ -589,7 +599,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Uruguay",
       "rank": 29
     },
     {
@@ -606,7 +616,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Bosnia and Herzegovina",
       "rank": 30
     },
     {
@@ -623,7 +633,7 @@
       "points": 1,
       "gd": 0,
       "form": "D",
-      "statusLabel": "Drew 1-1",
+      "statusLabel": "Drew 1-1 vs Qatar",
       "rank": 31
     },
     {
@@ -640,7 +650,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (MD1)",
+      "statusLabel": "Yet to play — vs Colombia tonight",
       "rank": 32
     },
     {
@@ -657,7 +667,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Playing now (0-0)",
+      "statusLabel": "Live — 0-0 vs Ghana",
       "rank": 33
     },
     {
@@ -674,7 +684,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Yet to play (MD1)",
+      "statusLabel": "Yet to play — vs Uzbekistan tonight",
       "rank": 34
     },
     {
@@ -691,7 +701,7 @@
       "points": 0,
       "gd": 0,
       "form": "-",
-      "statusLabel": "Playing now (0-0)",
+      "statusLabel": "Live — 0-0 vs Panama",
       "rank": 35
     },
     {
@@ -708,7 +718,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1",
+      "statusLabel": "Lost 0-1 vs Scotland",
       "rank": 36
     },
     {
@@ -725,7 +735,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 0-1",
+      "statusLabel": "Lost 0-1 vs Côte d'Ivoire",
       "rank": 37
     },
     {
@@ -742,7 +752,7 @@
       "points": 0,
       "gd": -1,
       "form": "L",
-      "statusLabel": "Lost 1-2",
+      "statusLabel": "Lost 1-2 vs Korea Republic",
       "rank": 38
     },
     {
@@ -759,7 +769,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 2-4",
+      "statusLabel": "Lost 2-4 vs England",
       "rank": 39
     },
     {
@@ -776,7 +786,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3",
+      "statusLabel": "Lost 1-3 vs Austria",
       "rank": 40
     },
     {
@@ -793,7 +803,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2",
+      "statusLabel": "Lost 0-2 vs Australia",
       "rank": 41
     },
     {
@@ -810,7 +820,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 0-2",
+      "statusLabel": "Lost 0-2 vs Mexico",
       "rank": 42
     },
     {
@@ -827,7 +837,7 @@
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "Lost 1-3",
+      "statusLabel": "Lost 1-3 vs France",
       "rank": 43
     },
     {
@@ -844,7 +854,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4",
+      "statusLabel": "Lost 1-4 vs United States",
       "rank": 44
     },
     {
@@ -861,7 +871,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 1-4",
+      "statusLabel": "Lost 1-4 vs Norway",
       "rank": 45
     },
     {
@@ -878,7 +888,7 @@
       "points": 0,
       "gd": -3,
       "form": "L",
-      "statusLabel": "Lost 0-3",
+      "statusLabel": "Lost 0-3 vs Argentina",
       "rank": 46
     },
     {
@@ -895,7 +905,7 @@
       "points": 0,
       "gd": -4,
       "form": "L",
-      "statusLabel": "Lost 1-5",
+      "statusLabel": "Lost 1-5 vs Sweden",
       "rank": 47
     },
     {
@@ -912,7 +922,7 @@
       "points": 0,
       "gd": -6,
       "form": "L",
-      "statusLabel": "Lost 1-7",
+      "statusLabel": "Lost 1-7 vs Germany",
       "rank": 48
     }
   ]
