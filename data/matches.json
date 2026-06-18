@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 17, 7:40 PM PT",
+  "updatedAt": "Jun 17, 7:50 PM PT",
   "live": [
     {
       "id": "760436",
@@ -18,11 +18,20 @@
         "flag": "🇨🇴",
         "owner": "Jabulani Aduwo",
         "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
+        "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "40'",
+            "side": "b",
+            "scorer": "Daniel Muñoz",
+            "assist": "Luis Díaz",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "7'",
