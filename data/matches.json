@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 18, 3:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 18, 3:10 PM PT",
+  "live": [
+    {
+      "id": "760440",
+      "state": "in",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "owner": "Ryan Drury",
+        "ownerSlackId": "U0AM5158UA3",
+        "score": 0
+      },
+      "b": {
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "owner": "Bruno Nwogu",
+        "ownerSlackId": "U0ANA9G1MUJ",
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "9'",
+            "side": "a",
+            "player": "Derek Cornelius",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760438",
@@ -158,28 +192,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760440",
-      "state": "pre",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "owner": "Ryan Drury",
-        "ownerSlackId": "U0AM5158UA3",
-        "score": 0
-      },
-      "b": {
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "owner": "Bruno Nwogu",
-        "ownerSlackId": "U0ANA9G1MUJ",
-        "score": 0
-      },
-      "date": "Thu, Jun 18",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760441",
       "state": "pre",
