@@ -1,11 +1,9 @@
 {
-  "updatedAt": "Jun 18, 9:00 AM PT",
-  "live": [],
-  "recent": [],
-  "upcoming": [
+  "updatedAt": "Jun 18, 9:10 AM PT",
+  "live": [
     {
       "id": "760438",
-      "state": "pre",
+      "state": "in",
       "competition": "Group A",
       "knockout": false,
       "a": {
@@ -13,7 +11,7 @@
         "flag": "🇨🇿",
         "owner": "Nathan Marchand",
         "ownerSlackId": "U0A38E5U05V",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "South Africa",
@@ -22,9 +20,25 @@
         "ownerSlackId": "U0A38E3524X",
         "score": 0
       },
-      "date": "Thu, Jun 18",
-      "time": "9:00 AM PT"
-    },
+      "minute": "10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "6'",
+            "side": "a",
+            "scorer": "Michal Sadílek",
+            "assist": "Alexandr Sojka",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
+  "recent": [],
+  "upcoming": [
     {
       "id": "760439",
       "state": "pre",
