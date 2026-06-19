@@ -1,107 +1,6 @@
 {
-  "updatedAt": "Jun 18, 5:00 PM PT",
-  "live": [
-    {
-      "id": "760440",
-      "state": "in",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "owner": "Ryan Drury",
-        "ownerSlackId": "U0AM5158UA3",
-        "score": 6
-      },
-      "b": {
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "owner": "Bruno Nwogu",
-        "ownerSlackId": "U0ANA9G1MUJ",
-        "score": 0
-      },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "16'",
-            "side": "a",
-            "scorer": "Cyle Larin",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "29'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+3'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "64'",
-            "side": "a",
-            "scorer": "Nathan Saliba",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "scorer": "Mohamed Manai",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          },
-          {
-            "minute": "90'+2'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "Nathan Saliba",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "9'",
-            "side": "a",
-            "player": "Derek Cornelius",
-            "color": "yellow"
-          },
-          {
-            "minute": "33'",
-            "side": "b",
-            "player": "Homam Ahmed",
-            "color": "red"
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "player": "Assim Madibo",
-            "color": "red"
-          },
-          {
-            "minute": "62'",
-            "side": "b",
-            "player": "Ahmed Fathy",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 18, 5:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760438",
@@ -252,6 +151,106 @@
             "side": "b",
             "player": "Tarik Muharemovic",
             "color": "red"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760440",
+      "state": "post",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "owner": "Ryan Drury",
+        "ownerSlackId": "U0AM5158UA3",
+        "score": 6
+      },
+      "b": {
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "owner": "Bruno Nwogu",
+        "ownerSlackId": "U0ANA9G1MUJ",
+        "score": 0
+      },
+      "minute": "90'+10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "16'",
+            "side": "a",
+            "scorer": "Cyle Larin",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "29'",
+            "side": "a",
+            "scorer": "Jonathan David",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+3'",
+            "side": "a",
+            "scorer": "Jonathan David",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "64'",
+            "side": "a",
+            "scorer": "Nathan Saliba",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "75'",
+            "side": "a",
+            "scorer": "Mohamed Manai",
+            "assist": "",
+            "own": true,
+            "penalty": false
+          },
+          {
+            "minute": "90'+2'",
+            "side": "a",
+            "scorer": "Jonathan David",
+            "assist": "Nathan Saliba",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "9'",
+            "side": "a",
+            "player": "Derek Cornelius",
+            "color": "yellow"
+          },
+          {
+            "minute": "33'",
+            "side": "b",
+            "player": "Homam Ahmed",
+            "color": "red"
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "player": "Assim Madibo",
+            "color": "red"
+          },
+          {
+            "minute": "62'",
+            "side": "b",
+            "player": "Ahmed Fathy",
+            "color": "yellow"
           }
         ]
       },
