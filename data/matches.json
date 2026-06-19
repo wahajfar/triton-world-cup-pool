@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 18, 6:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 18, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760441",
+      "state": "in",
+      "competition": "Group A",
+      "knockout": false,
+      "a": {
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 0
+      },
+      "b": {
+        "team": "Korea Republic",
+        "flag": "🇰🇷",
+        "owner": "Gul Farooqi",
+        "ownerSlackId": "U0461U66J3Z",
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "4'",
+            "side": "b",
+            "player": "Lee Kang-In",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760438",
@@ -257,28 +291,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760441",
-      "state": "pre",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 0
-      },
-      "b": {
-        "team": "Korea Republic",
-        "flag": "🇰🇷",
-        "owner": "Gul Farooqi",
-        "ownerSlackId": "U0461U66J3Z",
-        "score": 0
-      },
-      "date": "Thu, Jun 18",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
