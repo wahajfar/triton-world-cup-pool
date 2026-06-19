@@ -1,309 +1,95 @@
 {
-  "updatedAt": "Jun 19, 12:00 AM PT",
+  "updatedAt": "Jun 19, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760438",
-      "state": "post",
-      "competition": "Group A",
+      "id": "760442",
+      "state": "pre",
+      "competition": "Group D",
       "knockout": false,
       "a": {
-        "team": "Czech Republic",
-        "flag": "🇨🇿",
-        "owner": "Nathan Marchand",
-        "ownerSlackId": "U0A38E5U05V",
-        "score": 1
-      },
-      "b": {
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "owner": "Chris L",
-        "ownerSlackId": "U0A38E3524X",
-        "score": 1
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "6'",
-            "side": "a",
-            "scorer": "Michal Sadílek",
-            "assist": "Alexandr Sojka",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "83'",
-            "side": "b",
-            "scorer": "Teboho Mokoena",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "33'",
-            "side": "b",
-            "player": "Teboho Mokoena",
-            "color": "yellow"
-          },
-          {
-            "minute": "40'",
-            "side": "b",
-            "player": "Thalente Mbatha",
-            "color": "yellow"
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "player": "Ladislav Krejcí",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760439",
-      "state": "post",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 4
-      },
-      "b": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
-        "score": 1
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "74'",
-            "side": "a",
-            "scorer": "Johan Manzambi",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "84'",
-            "side": "a",
-            "scorer": "Rubén Vargas",
-            "assist": "Breel Embolo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'",
-            "side": "a",
-            "scorer": "Johan Manzambi",
-            "assist": "Rubén Vargas",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "scorer": "Ermin Mahmic",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+7'",
-            "side": "a",
-            "scorer": "Granit Xhaka",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "59'",
-            "side": "b",
-            "player": "Amar Dedic",
-            "color": "yellow"
-          },
-          {
-            "minute": "61'",
-            "side": "b",
-            "player": "Edin Dzeko",
-            "color": "yellow"
-          },
-          {
-            "minute": "65'",
-            "side": "a",
-            "player": "Nico Elvedi",
-            "color": "yellow"
-          },
-          {
-            "minute": "80'",
-            "side": "b",
-            "player": "Tarik Muharemovic",
-            "color": "red"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760440",
-      "state": "post",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "owner": "Ryan Drury",
-        "ownerSlackId": "U0AM5158UA3",
-        "score": 6
-      },
-      "b": {
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "owner": "Bruno Nwogu",
-        "ownerSlackId": "U0ANA9G1MUJ",
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
         "score": 0
       },
-      "minute": "90'+10'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "16'",
-            "side": "a",
-            "scorer": "Cyle Larin",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "29'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+3'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "64'",
-            "side": "a",
-            "scorer": "Nathan Saliba",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "scorer": "Mohamed Manai",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          },
-          {
-            "minute": "90'+2'",
-            "side": "a",
-            "scorer": "Jonathan David",
-            "assist": "Nathan Saliba",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "9'",
-            "side": "a",
-            "player": "Derek Cornelius",
-            "color": "yellow"
-          },
-          {
-            "minute": "33'",
-            "side": "b",
-            "player": "Homam Ahmed",
-            "color": "red"
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "player": "Assim Madibo",
-            "color": "red"
-          },
-          {
-            "minute": "62'",
-            "side": "b",
-            "player": "Ahmed Fathy",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760441",
-      "state": "post",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 1
-      },
       "b": {
-        "team": "Korea Republic",
-        "flag": "🇰🇷",
-        "owner": "Gul Farooqi",
-        "ownerSlackId": "U0461U66J3Z",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "owner": "Raymundo Lacanlale",
+        "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "50'",
-            "side": "a",
-            "scorer": "Luis Romo",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "4'",
-            "side": "b",
-            "player": "Lee Kang-In",
-            "color": "yellow"
-          },
-          {
-            "minute": "58'",
-            "side": "b",
-            "player": "Paik Seung-Ho",
-            "color": "yellow"
-          }
-        ]
+      "date": "Fri, Jun 19",
+      "time": "12:00 PM PT"
+    },
+    {
+      "id": "760445",
+      "state": "pre",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "owner": "Sami Khan",
+        "ownerSlackId": "U0B4PET7ZGT",
+        "score": 0
       },
-      "impact": null
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 0
+      },
+      "date": "Fri, Jun 19",
+      "time": "3:00 PM PT"
+    },
+    {
+      "id": "760444",
+      "state": "pre",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
+        "score": 0
+      },
+      "b": {
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "owner": "Fayaz Tejani",
+        "ownerSlackId": "U08P67MJ5GC",
+        "score": 0
+      },
+      "date": "Fri, Jun 19",
+      "time": "5:30 PM PT"
+    },
+    {
+      "id": "760443",
+      "state": "pre",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Turkey",
+        "flag": "🇹🇷",
+        "owner": "Brandon Harbour",
+        "ownerSlackId": "U0A38QD2MQF",
+        "score": 0
+      },
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "date": "Fri, Jun 19",
+      "time": "8:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
