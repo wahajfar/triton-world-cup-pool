@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 12:10 PM PT",
+  "updatedAt": "Jun 19, 12:20 PM PT",
   "live": [
     {
       "id": "760442",
@@ -11,7 +11,7 @@
         "flag": "🇺🇸",
         "owner": "Joshua Lee",
         "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Australia",
@@ -20,10 +20,26 @@
         "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "11'",
+            "side": "a",
+            "scorer": "Cameron Burgess",
+            "assist": "",
+            "own": true,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "16'",
+            "side": "b",
+            "player": "Jordan Bos",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
