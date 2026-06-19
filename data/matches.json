@@ -1,11 +1,9 @@
 {
-  "updatedAt": "Jun 19, 12:00 PM PT",
-  "live": [],
-  "recent": [],
-  "upcoming": [
+  "updatedAt": "Jun 19, 12:10 PM PT",
+  "live": [
     {
       "id": "760442",
-      "state": "pre",
+      "state": "in",
       "competition": "Group D",
       "knockout": false,
       "a": {
@@ -22,9 +20,16 @@
         "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "date": "Fri, Jun 19",
-      "time": "12:00 PM PT"
-    },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
+  "recent": [],
+  "upcoming": [
     {
       "id": "760445",
       "state": "pre",
