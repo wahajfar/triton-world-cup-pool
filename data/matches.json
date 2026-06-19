@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 12:40 PM PT",
+  "updatedAt": "Jun 19, 12:50 PM PT",
   "live": [
     {
       "id": "760442",
@@ -11,7 +11,7 @@
         "flag": "🇺🇸",
         "owner": "Joshua Lee",
         "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Australia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -29,6 +29,14 @@
             "scorer": "Cameron Burgess",
             "assist": "",
             "own": true,
+            "penalty": false
+          },
+          {
+            "minute": "43'",
+            "side": "a",
+            "scorer": "Alex Freeman",
+            "assist": "",
+            "own": false,
             "penalty": false
           }
         ],
