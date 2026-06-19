@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 4:50 PM PT",
+  "updatedAt": "Jun 18, 5:00 PM PT",
   "live": [
     {
       "id": "760440",
@@ -11,7 +11,7 @@
         "flag": "🇨🇦",
         "owner": "Ryan Drury",
         "ownerSlackId": "U0AM5158UA3",
-        "score": 5
+        "score": 6
       },
       "b": {
         "team": "Qatar",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ANA9G1MUJ",
         "score": 0
       },
-      "minute": "88'",
+      "minute": "90'+9'",
       "recap": {
         "goals": [
           {
@@ -61,6 +61,14 @@
             "scorer": "Mohamed Manai",
             "assist": "",
             "own": true,
+            "penalty": false
+          },
+          {
+            "minute": "90'+2'",
+            "side": "a",
+            "scorer": "Jonathan David",
+            "assist": "Nathan Saliba",
+            "own": false,
             "penalty": false
           }
         ],
