@@ -1,6 +1,42 @@
 {
-  "updatedAt": "Jun 19, 3:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 19, 3:10 PM PT",
+  "live": [
+    {
+      "id": "760445",
+      "state": "in",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "owner": "Sami Khan",
+        "ownerSlackId": "U0B4PET7ZGT",
+        "score": 0
+      },
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 1
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "2'",
+            "side": "b",
+            "scorer": "Ismael Saibari",
+            "assist": "Brahim Díaz",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760442",
@@ -90,28 +126,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760445",
-      "state": "pre",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "owner": "Sami Khan",
-        "ownerSlackId": "U0B4PET7ZGT",
-        "score": 0
-      },
-      "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 0
-      },
-      "date": "Fri, Jun 19",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760444",
       "state": "pre",
