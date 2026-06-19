@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 1:20 PM PT",
+  "updatedAt": "Jun 19, 1:30 PM PT",
   "live": [
     {
       "id": "760442",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "minute": "54'",
+      "minute": "64'",
       "recap": {
         "goals": [
           {
@@ -51,6 +51,12 @@
             "minute": "32'",
             "side": "b",
             "player": "Alessandro Circati",
+            "color": "yellow"
+          },
+          {
+            "minute": "56'",
+            "side": "a",
+            "player": "Antonee Robinson",
             "color": "yellow"
           }
         ]
