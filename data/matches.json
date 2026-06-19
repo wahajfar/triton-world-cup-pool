@@ -1,55 +1,6 @@
 {
-  "updatedAt": "Jun 18, 7:50 PM PT",
-  "live": [
-    {
-      "id": "760441",
-      "state": "in",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 1
-      },
-      "b": {
-        "team": "Korea Republic",
-        "flag": "🇰🇷",
-        "owner": "Gul Farooqi",
-        "ownerSlackId": "U0461U66J3Z",
-        "score": 0
-      },
-      "minute": "90'+1'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "50'",
-            "side": "a",
-            "scorer": "Luis Romo",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "4'",
-            "side": "b",
-            "player": "Lee Kang-In",
-            "color": "yellow"
-          },
-          {
-            "minute": "58'",
-            "side": "b",
-            "player": "Paik Seung-Ho",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 18, 8:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760438",
@@ -299,6 +250,54 @@
             "minute": "62'",
             "side": "b",
             "player": "Ahmed Fathy",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760441",
+      "state": "post",
+      "competition": "Group A",
+      "knockout": false,
+      "a": {
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 1
+      },
+      "b": {
+        "team": "Korea Republic",
+        "flag": "🇰🇷",
+        "owner": "Gul Farooqi",
+        "ownerSlackId": "U0461U66J3Z",
+        "score": 0
+      },
+      "minute": "90'+6'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "50'",
+            "side": "a",
+            "scorer": "Luis Romo",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "4'",
+            "side": "b",
+            "player": "Lee Kang-In",
+            "color": "yellow"
+          },
+          {
+            "minute": "58'",
+            "side": "b",
+            "player": "Paik Seung-Ho",
             "color": "yellow"
           }
         ]
