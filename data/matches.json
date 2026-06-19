@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 3:20 PM PT",
+  "updatedAt": "Jun 19, 3:30 PM PT",
   "live": [
     {
       "id": "760445",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 1
       },
-      "minute": "20'",
+      "minute": "30'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "23'",
+            "side": "b",
+            "player": "Issa Diop",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
