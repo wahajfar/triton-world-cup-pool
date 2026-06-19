@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 18, 7:10 PM PT",
+  "updatedAt": "Jun 18, 7:20 PM PT",
   "live": [
     {
       "id": "760441",
@@ -11,7 +11,7 @@
         "flag": "🇲🇽",
         "owner": "Zeshan Haroon",
         "ownerSlackId": "U09BAMJE8KG",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Korea Republic",
@@ -20,14 +20,29 @@
         "ownerSlackId": "U0461U66J3Z",
         "score": 0
       },
-      "minute": "51'",
+      "minute": "61'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "50'",
+            "side": "a",
+            "scorer": "Luis Romo",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "4'",
             "side": "b",
             "player": "Lee Kang-In",
+            "color": "yellow"
+          },
+          {
+            "minute": "58'",
+            "side": "b",
+            "player": "Paik Seung-Ho",
             "color": "yellow"
           }
         ]
