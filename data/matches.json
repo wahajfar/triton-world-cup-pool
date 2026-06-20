@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 11:10 AM PT",
+  "updatedAt": "Jun 20, 11:20 AM PT",
   "live": [
     {
       "id": "760447",
@@ -11,7 +11,7 @@
         "flag": "🇳🇱",
         "owner": "Rahim Jutha",
         "ownerSlackId": "U06DWUQCSFM",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "Sweden",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 0
       },
-      "minute": "49'",
+      "minute": "59'",
       "recap": {
         "goals": [
           {
@@ -46,9 +46,32 @@
             "assist": "Denzel Dumfries",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "54'",
+            "side": "a",
+            "scorer": "Cody Gakpo",
+            "assist": "Crysencio Summerville",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "59'",
+            "side": "b",
+            "scorer": "Anthony Elanga",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "53'",
+            "side": "b",
+            "player": "Gabriel Gudmundsson",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
