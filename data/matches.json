@@ -1,271 +1,73 @@
 {
-  "updatedAt": "Jun 20, 12:00 AM PT",
+  "updatedAt": "Jun 20, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760442",
-      "state": "post",
-      "competition": "Group D",
+      "id": "760447",
+      "state": "pre",
+      "competition": "Group F",
       "knockout": false,
       "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 2
-      },
-      "b": {
-        "team": "Australia",
-        "flag": "🇦🇺",
-        "owner": "Raymundo Lacanlale",
-        "ownerSlackId": "U0A3M2YJ0DT",
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "owner": "Rahim Jutha",
+        "ownerSlackId": "U06DWUQCSFM",
         "score": 0
       },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "11'",
-            "side": "a",
-            "scorer": "Cameron Burgess",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          },
-          {
-            "minute": "43'",
-            "side": "a",
-            "scorer": "Alex Freeman",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "16'",
-            "side": "b",
-            "player": "Jordan Bos",
-            "color": "yellow"
-          },
-          {
-            "minute": "32'",
-            "side": "b",
-            "player": "Alessandro Circati",
-            "color": "yellow"
-          },
-          {
-            "minute": "56'",
-            "side": "a",
-            "player": "Antonee Robinson",
-            "color": "yellow"
-          },
-          {
-            "minute": "88'",
-            "side": "b",
-            "player": "Harry Souttar",
-            "color": "yellow"
-          },
-          {
-            "minute": "89'",
-            "side": "a",
-            "player": "Folarin Balogun",
-            "color": "yellow"
-          },
-          {
-            "minute": "89'",
-            "side": "b",
-            "player": "Jacob Italiano",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "a",
-            "player": "Chris Richards",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "owner": "Sashanka Dutta",
+        "ownerSlackId": "U098JE58RS9",
+        "score": 0
       },
-      "impact": null
+      "date": "Sat, Jun 20",
+      "time": "10:00 AM PT"
     },
     {
-      "id": "760445",
-      "state": "post",
-      "competition": "Group C",
+      "id": "760448",
+      "state": "pre",
+      "competition": "Group E",
       "knockout": false,
       "a": {
-        "team": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "owner": "Sami Khan",
-        "ownerSlackId": "U0B4PET7ZGT",
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
         "score": 0
       },
       "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 1
+        "team": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "owner": "Georgi Stanchev",
+        "ownerSlackId": "U0AD3KVGJGH",
+        "score": 0
       },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "2'",
-            "side": "b",
-            "scorer": "Ismael Saibari",
-            "assist": "Brahim Díaz",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "23'",
-            "side": "b",
-            "player": "Issa Diop",
-            "color": "yellow"
-          },
-          {
-            "minute": "65'",
-            "side": "a",
-            "player": "Andy Robertson",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Sat, Jun 20",
+      "time": "1:00 PM PT"
     },
     {
-      "id": "760444",
-      "state": "post",
-      "competition": "Group C",
+      "id": "760446",
+      "state": "pre",
+      "competition": "Group E",
       "knockout": false,
       "a": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 3
-      },
-      "b": {
-        "team": "Haiti",
-        "flag": "🇭🇹",
-        "owner": "Fayaz Tejani",
-        "ownerSlackId": "U08P67MJ5GC",
-        "score": 0
-      },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "23'",
-            "side": "a",
-            "scorer": "Matheus Cunha",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "36'",
-            "side": "a",
-            "scorer": "Matheus Cunha",
-            "assist": "Vinícius Júnior",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+3'",
-            "side": "a",
-            "scorer": "Vinícius Júnior",
-            "assist": "Lucas Paquetá",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "4'",
-            "side": "b",
-            "player": "Carlens Arcus",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'+4'",
-            "side": "b",
-            "player": "Frantzdy Pierrot",
-            "color": "yellow"
-          },
-          {
-            "minute": "65'",
-            "side": "a",
-            "player": "Douglas Santos",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Danley Jean Jacques",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760443",
-      "state": "post",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "Turkey",
-        "flag": "🇹🇷",
-        "owner": "Brandon Harbour",
-        "ownerSlackId": "U0A38QD2MQF",
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
         "score": 0
       },
       "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 1
+        "team": "Curaçao",
+        "flag": "🇨🇼",
+        "owner": "Saaed Ramazany",
+        "ownerSlackId": "U08L3KD2E93",
+        "score": 0
       },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "2'",
-            "side": "b",
-            "scorer": "Matías Galarza",
-            "assist": "Julio Enciso",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "4'",
-            "side": "b",
-            "player": "Matías Galarza",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'+3'",
-            "side": "b",
-            "player": "Miguel Almirón",
-            "color": "red"
-          },
-          {
-            "minute": "71'",
-            "side": "a",
-            "player": "Eren Elmali",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Sat, Jun 20",
+      "time": "5:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
