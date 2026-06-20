@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 11:30 AM PT",
+  "updatedAt": "Jun 20, 11:40 AM PT",
   "live": [
     {
       "id": "760447",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 1
       },
-      "minute": "69'",
+      "minute": "79'",
       "recap": {
         "goals": [
           {
@@ -69,6 +69,12 @@
             "minute": "53'",
             "side": "b",
             "player": "Gabriel Gudmundsson",
+            "color": "yellow"
+          },
+          {
+            "minute": "75'",
+            "side": "b",
+            "player": "Yasin Ayari",
             "color": "yellow"
           }
         ]
