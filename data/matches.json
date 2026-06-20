@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 19, 5:30 PM PT",
-  "live": [],
+  "updatedAt": "Jun 19, 5:40 PM PT",
+  "live": [
+    {
+      "id": "760444",
+      "state": "in",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
+        "score": 0
+      },
+      "b": {
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "owner": "Fayaz Tejani",
+        "ownerSlackId": "U08P67MJ5GC",
+        "score": 0
+      },
+      "minute": "8'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "4'",
+            "side": "b",
+            "player": "Carlens Arcus",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760442",
@@ -138,28 +172,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760444",
-      "state": "pre",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 0
-      },
-      "b": {
-        "team": "Haiti",
-        "flag": "🇭🇹",
-        "owner": "Fayaz Tejani",
-        "ownerSlackId": "U08P67MJ5GC",
-        "score": 0
-      },
-      "date": "Fri, Jun 19",
-      "time": "5:30 PM PT"
-    },
     {
       "id": "760443",
       "state": "pre",
