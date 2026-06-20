@@ -132,7 +132,8 @@
   "760443": {
     "kickoff": true,
     "ts": "1781924438.773939",
-    "score": "0-1"
+    "score": "0-1",
+    "full": true
   },
   "760444": {
     "kickoff": true,

@@ -1,61 +1,6 @@
 {
-  "updatedAt": "Jun 19, 10:00 PM PT",
-  "live": [
-    {
-      "id": "760443",
-      "state": "in",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "Turkey",
-        "flag": "🇹🇷",
-        "owner": "Brandon Harbour",
-        "ownerSlackId": "U0A38QD2MQF",
-        "score": 0
-      },
-      "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 1
-      },
-      "minute": "90'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "2'",
-            "side": "b",
-            "scorer": "Matías Galarza",
-            "assist": "Julio Enciso",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "4'",
-            "side": "b",
-            "player": "Matías Galarza",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'+3'",
-            "side": "b",
-            "player": "Miguel Almirón",
-            "color": "red"
-          },
-          {
-            "minute": "71'",
-            "side": "a",
-            "player": "Eren Elmali",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 19, 10:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760442",
@@ -261,6 +206,60 @@
             "minute": "72'",
             "side": "b",
             "player": "Danley Jean Jacques",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760443",
+      "state": "post",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Turkey",
+        "flag": "🇹🇷",
+        "owner": "Brandon Harbour",
+        "ownerSlackId": "U0A38QD2MQF",
+        "score": 0
+      },
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 1
+      },
+      "minute": "90'+9'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "2'",
+            "side": "b",
+            "scorer": "Matías Galarza",
+            "assist": "Julio Enciso",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "4'",
+            "side": "b",
+            "player": "Matías Galarza",
+            "color": "yellow"
+          },
+          {
+            "minute": "45'+3'",
+            "side": "b",
+            "player": "Miguel Almirón",
+            "color": "red"
+          },
+          {
+            "minute": "71'",
+            "side": "a",
+            "player": "Eren Elmali",
             "color": "yellow"
           }
         ]
