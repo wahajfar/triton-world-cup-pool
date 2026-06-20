@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 11:20 AM PT",
+  "updatedAt": "Jun 20, 11:30 AM PT",
   "live": [
     {
       "id": "760447",
@@ -18,9 +18,9 @@
         "flag": "🇸🇪",
         "owner": "Sashanka Dutta",
         "ownerSlackId": "U098JE58RS9",
-        "score": 0
+        "score": 1
       },
-      "minute": "59'",
+      "minute": "69'",
       "recap": {
         "goals": [
           {
@@ -59,7 +59,7 @@
             "minute": "59'",
             "side": "b",
             "scorer": "Anthony Elanga",
-            "assist": "",
+            "assist": "Alexander Isak",
             "own": false,
             "penalty": false
           }
