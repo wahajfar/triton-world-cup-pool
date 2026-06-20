@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 11:00 AM PT",
+  "updatedAt": "Jun 20, 11:10 AM PT",
   "live": [
     {
       "id": "760447",
@@ -11,7 +11,7 @@
         "flag": "🇳🇱",
         "owner": "Rahim Jutha",
         "ownerSlackId": "U06DWUQCSFM",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Sweden",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 0
       },
-      "minute": "45'+5'",
+      "minute": "49'",
       "recap": {
         "goals": [
           {
@@ -35,6 +35,14 @@
             "minute": "17'",
             "side": "a",
             "scorer": "Brian Brobbey",
+            "assist": "Denzel Dumfries",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "47'",
+            "side": "a",
+            "scorer": "Cody Gakpo",
             "assist": "Denzel Dumfries",
             "own": false,
             "penalty": false
