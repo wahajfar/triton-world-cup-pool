@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 19, 7:50 PM PT",
-  "live": [],
+  "updatedAt": "Jun 19, 8:00 PM PT",
+  "live": [
+    {
+      "id": "760443",
+      "state": "in",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Turkey",
+        "flag": "🇹🇷",
+        "owner": "Brandon Harbour",
+        "ownerSlackId": "U0A38QD2MQF",
+        "score": 0
+      },
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "minute": "1'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760442",
@@ -213,28 +240,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760443",
-      "state": "pre",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "Turkey",
-        "flag": "🇹🇷",
-        "owner": "Brandon Harbour",
-        "ownerSlackId": "U0A38QD2MQF",
-        "score": 0
-      },
-      "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 0
-      },
-      "date": "Fri, Jun 19",
-      "time": "8:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
