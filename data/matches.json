@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 6:20 PM PT",
+  "updatedAt": "Jun 19, 6:30 PM PT",
   "live": [
     {
       "id": "760444",
@@ -11,7 +11,7 @@
         "flag": "🇧🇷",
         "owner": "Evan Dawson",
         "ownerSlackId": "U0ATXNHSZUY",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Haiti",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08P67MJ5GC",
         "score": 0
       },
-      "minute": "45'+2'",
+      "minute": "45'+6'",
       "recap": {
         "goals": [
           {
@@ -38,6 +38,14 @@
             "assist": "Vinícius Júnior",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "45'+3'",
+            "side": "a",
+            "scorer": "Vinícius Júnior",
+            "assist": "Lucas Paquetá",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -45,6 +53,12 @@
             "minute": "4'",
             "side": "b",
             "player": "Carlens Arcus",
+            "color": "yellow"
+          },
+          {
+            "minute": "45'+4'",
+            "side": "b",
+            "player": "Frantzdy Pierrot",
             "color": "yellow"
           }
         ]
