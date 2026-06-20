@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 2:30 PM PT",
+  "updatedAt": "Jun 20, 2:40 PM PT",
   "live": [
     {
       "id": "760448",
@@ -11,7 +11,7 @@
         "flag": "🇩🇪",
         "owner": "Uzair Farooqi",
         "ownerSlackId": "U03UTV8N7U1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Côte d'Ivoire",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AD3KVGJGH",
         "score": 1
       },
-      "minute": "68'",
+      "minute": "77'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Franck Kessié",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "68'",
+            "side": "a",
+            "scorer": "Deniz Undav",
+            "assist": "Nadiem Amiri",
             "own": false,
             "penalty": false
           }
