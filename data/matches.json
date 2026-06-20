@@ -1,55 +1,6 @@
 {
-  "updatedAt": "Jun 19, 4:50 PM PT",
-  "live": [
-    {
-      "id": "760445",
-      "state": "in",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "owner": "Sami Khan",
-        "ownerSlackId": "U0B4PET7ZGT",
-        "score": 0
-      },
-      "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 1
-      },
-      "minute": "87'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "2'",
-            "side": "b",
-            "scorer": "Ismael Saibari",
-            "assist": "Brahim Díaz",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "23'",
-            "side": "b",
-            "player": "Issa Diop",
-            "color": "yellow"
-          },
-          {
-            "minute": "65'",
-            "side": "a",
-            "player": "Andy Robertson",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 19, 5:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760442",
@@ -131,6 +82,54 @@
             "minute": "90'+3'",
             "side": "a",
             "player": "Chris Richards",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760445",
+      "state": "post",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "owner": "Sami Khan",
+        "ownerSlackId": "U0B4PET7ZGT",
+        "score": 0
+      },
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 1
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "2'",
+            "side": "b",
+            "scorer": "Ismael Saibari",
+            "assist": "Brahim Díaz",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "23'",
+            "side": "b",
+            "player": "Issa Diop",
+            "color": "yellow"
+          },
+          {
+            "minute": "65'",
+            "side": "a",
+            "player": "Andy Robertson",
             "color": "yellow"
           }
         ]
