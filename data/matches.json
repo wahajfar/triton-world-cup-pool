@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jun 20, 11:50 AM PT",
-  "live": [
+  "updatedAt": "Jun 20, 12:00 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760447",
-      "state": "in",
+      "state": "post",
       "competition": "Group F",
       "knockout": false,
       "a": {
@@ -11,7 +12,7 @@
         "flag": "🇳🇱",
         "owner": "Rahim Jutha",
         "ownerSlackId": "U06DWUQCSFM",
-        "score": 4
+        "score": 5
       },
       "b": {
         "team": "Sweden",
@@ -20,7 +21,7 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 1
       },
-      "minute": "89'",
+      "minute": "90'+5'",
       "recap": {
         "goals": [
           {
@@ -67,7 +68,7 @@
             "minute": "89'",
             "side": "a",
             "scorer": "Crysencio Summerville",
-            "assist": "",
+            "assist": "Memphis Depay",
             "own": false,
             "penalty": false
           }
@@ -96,7 +97,6 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760448",
