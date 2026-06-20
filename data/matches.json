@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 8:40 PM PT",
+  "updatedAt": "Jun 19, 8:50 PM PT",
   "live": [
     {
       "id": "760443",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -38,6 +38,12 @@
             "side": "b",
             "player": "Matías Galarza",
             "color": "yellow"
+          },
+          {
+            "minute": "45'+3'",
+            "side": "b",
+            "player": "Miguel Almirón",
+            "color": "red"
           }
         ]
       },
