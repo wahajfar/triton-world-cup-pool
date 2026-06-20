@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 5:50 PM PT",
+  "updatedAt": "Jun 19, 6:00 PM PT",
   "live": [
     {
       "id": "760444",
@@ -11,7 +11,7 @@
         "flag": "🇧🇷",
         "owner": "Evan Dawson",
         "ownerSlackId": "U0ATXNHSZUY",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Haiti",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U08P67MJ5GC",
         "score": 0
       },
-      "minute": "17'",
+      "minute": "28'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "23'",
+            "side": "a",
+            "scorer": "Matheus Cunha",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "4'",
