@@ -1,50 +1,6 @@
 {
-  "updatedAt": "Jun 20, 2:50 PM PT",
-  "live": [
-    {
-      "id": "760448",
-      "state": "in",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 1
-      },
-      "b": {
-        "team": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "owner": "Georgi Stanchev",
-        "ownerSlackId": "U0AD3KVGJGH",
-        "score": 1
-      },
-      "minute": "87'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "30'",
-            "side": "b",
-            "scorer": "Franck Kessié",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "68'",
-            "side": "a",
-            "scorer": "Deniz Undav",
-            "assist": "Nadiem Amiri",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 20, 3:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760447",
@@ -137,6 +93,57 @@
             "color": "yellow"
           }
         ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760448",
+      "state": "post",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
+        "score": 2
+      },
+      "b": {
+        "team": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "owner": "Georgi Stanchev",
+        "ownerSlackId": "U0AD3KVGJGH",
+        "score": 1
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "30'",
+            "side": "b",
+            "scorer": "Franck Kessié",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "68'",
+            "side": "a",
+            "scorer": "Deniz Undav",
+            "assist": "Nadiem Amiri",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+4'",
+            "side": "a",
+            "scorer": "Deniz Undav",
+            "assist": "Felix Nmecha",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
       },
       "impact": null
     }
