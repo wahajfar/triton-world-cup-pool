@@ -1,11 +1,9 @@
 {
-  "updatedAt": "Jun 20, 10:00 AM PT",
-  "live": [],
-  "recent": [],
-  "upcoming": [
+  "updatedAt": "Jun 20, 10:10 AM PT",
+  "live": [
     {
       "id": "760447",
-      "state": "pre",
+      "state": "in",
       "competition": "Group F",
       "knockout": false,
       "a": {
@@ -13,7 +11,7 @@
         "flag": "🇳🇱",
         "owner": "Rahim Jutha",
         "ownerSlackId": "U06DWUQCSFM",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Sweden",
@@ -22,9 +20,25 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 0
       },
-      "date": "Sat, Jun 20",
-      "time": "10:00 AM PT"
-    },
+      "minute": "10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "5'",
+            "side": "a",
+            "scorer": "Brian Brobbey",
+            "assist": "Cody Gakpo",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
+  "recent": [],
+  "upcoming": [
     {
       "id": "760448",
       "state": "pre",
