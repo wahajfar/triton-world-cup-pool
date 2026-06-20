@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 20, 12:50 PM PT",
-  "live": [],
+  "updatedAt": "Jun 20, 1:00 PM PT",
+  "live": [
+    {
+      "id": "760448",
+      "state": "in",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
+        "score": 0
+      },
+      "b": {
+        "team": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "owner": "Georgi Stanchev",
+        "ownerSlackId": "U0AD3KVGJGH",
+        "score": 0
+      },
+      "minute": "1'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760447",
@@ -98,28 +125,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760448",
-      "state": "pre",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 0
-      },
-      "b": {
-        "team": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "owner": "Georgi Stanchev",
-        "ownerSlackId": "U0AD3KVGJGH",
-        "score": 0
-      },
-      "date": "Sat, Jun 20",
-      "time": "1:00 PM PT"
-    },
     {
       "id": "760446",
       "state": "pre",
