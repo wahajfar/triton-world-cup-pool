@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 1:20 PM PT",
+  "updatedAt": "Jun 20, 1:30 PM PT",
   "live": [
     {
       "id": "760448",
@@ -18,11 +18,20 @@
         "flag": "🇨🇮",
         "owner": "Georgi Stanchev",
         "ownerSlackId": "U0AD3KVGJGH",
-        "score": 0
+        "score": 1
       },
-      "minute": "20'",
+      "minute": "31'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "30'",
+            "side": "b",
+            "scorer": "Franck Kessié",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
