@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 9:30 PM PT",
+  "updatedAt": "Jun 19, 9:40 PM PT",
   "live": [
     {
       "id": "760443",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "63'",
+      "minute": "73'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,12 @@
             "side": "b",
             "player": "Miguel Almirón",
             "color": "red"
+          },
+          {
+            "minute": "71'",
+            "side": "a",
+            "player": "Eren Elmali",
+            "color": "yellow"
           }
         ]
       },
