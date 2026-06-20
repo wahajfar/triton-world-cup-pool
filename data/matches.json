@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 19, 7:00 PM PT",
+  "updatedAt": "Jun 19, 7:10 PM PT",
   "live": [
     {
       "id": "760444",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08P67MJ5GC",
         "score": 0
       },
-      "minute": "65'",
+      "minute": "75'",
       "recap": {
         "goals": [
           {
@@ -59,6 +59,18 @@
             "minute": "45'+4'",
             "side": "b",
             "player": "Frantzdy Pierrot",
+            "color": "yellow"
+          },
+          {
+            "minute": "65'",
+            "side": "a",
+            "player": "Douglas Santos",
+            "color": "yellow"
+          },
+          {
+            "minute": "72'",
+            "side": "b",
+            "player": "Danley Jean Jacques",
             "color": "yellow"
           }
         ]
