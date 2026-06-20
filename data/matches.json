@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 11:40 AM PT",
+  "updatedAt": "Jun 20, 11:50 AM PT",
   "live": [
     {
       "id": "760447",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 1
       },
-      "minute": "79'",
+      "minute": "89'",
       "recap": {
         "goals": [
           {
@@ -62,6 +62,14 @@
             "assist": "Alexander Isak",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "89'",
+            "side": "a",
+            "scorer": "Crysencio Summerville",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -75,6 +83,12 @@
             "minute": "75'",
             "side": "b",
             "player": "Yasin Ayari",
+            "color": "yellow"
+          },
+          {
+            "minute": "80'",
+            "side": "b",
+            "player": "Lucas Bergvall",
             "color": "yellow"
           }
         ]
