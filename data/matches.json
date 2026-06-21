@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 20, 5:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 20, 5:10 PM PT",
+  "live": [
+    {
+      "id": "760446",
+      "state": "in",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
+        "score": 0
+      },
+      "b": {
+        "team": "Curaçao",
+        "flag": "🇨🇼",
+        "owner": "Saaed Ramazany",
+        "ownerSlackId": "U08L3KD2E93",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760447",
@@ -148,28 +175,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760446",
-      "state": "pre",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
-        "score": 0
-      },
-      "b": {
-        "team": "Curaçao",
-        "flag": "🇨🇼",
-        "owner": "Saaed Ramazany",
-        "ownerSlackId": "U08L3KD2E93",
-        "score": 0
-      },
-      "date": "Sat, Jun 20",
-      "time": "5:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
