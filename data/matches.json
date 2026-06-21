@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 5:30 PM PT",
+  "updatedAt": "Jun 20, 5:40 PM PT",
   "live": [
     {
       "id": "760446",
@@ -20,10 +20,23 @@
         "ownerSlackId": "U08L3KD2E93",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "38'",
+            "side": "a",
+            "player": "Jordy Alcívar",
+            "color": "yellow"
+          },
+          {
+            "minute": "39'",
+            "side": "b",
+            "player": "Leandro Bacuna",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
