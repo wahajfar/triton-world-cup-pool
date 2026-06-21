@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 12:30 PM PT",
+  "updatedAt": "Jun 21, 12:40 PM PT",
   "live": [
     {
       "id": "760451",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U04GKDJUJ9X",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,12 @@
             "minute": "3'",
             "side": "a",
             "player": "Romelu Lukaku",
+            "color": "yellow"
+          },
+          {
+            "minute": "33'",
+            "side": "b",
+            "player": "Saeid Ezatolahi",
             "color": "yellow"
           }
         ]
