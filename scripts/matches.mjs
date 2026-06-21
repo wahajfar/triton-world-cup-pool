@@ -144,10 +144,15 @@ async function main() {
     if (state === "in") live.push(card); else recent.push(card);
   }
 
-  const out = {
-    updatedAt: PT({ month: "short", day: "numeric", hour: "numeric", minute: "2-digit", hour12: true }).format(new Date()) + " PT",
-    live, recent, upcoming: upcoming.slice(0, 4),
-  };
+  // Only rewrite when the meaningful content changed. A rewrite → git commit → Vercel deploy,
+  // and the free tier caps at 100 deploys/day; committing every 10-min tick just because the
+  // timestamp ticked blew past that. Compare everything EXCEPT updatedAt.
+  const payload = { live, recent, upcoming: upcoming.slice(0, 4) };
+  let prev = null;
+  try { const p = JSON.parse(await readFile(join(DATA, "matches.json"), "utf8")); prev = JSON.stringify({ live: p.live, recent: p.recent, upcoming: p.upcoming }); } catch { /* no prior file */ }
+  if (prev === JSON.stringify(payload)) { console.log("[matches] no content change — skip write (no deploy)"); return; }
+
+  const out = { updatedAt: PT({ month: "short", day: "numeric", hour: "numeric", minute: "2-digit", hour12: true }).format(new Date()) + " PT", ...payload };
   await writeFile(join(DATA, "matches.json"), JSON.stringify(out, null, 2) + "\n");
   console.log(`[matches] wrote matches.json — ${live.length} live, ${recent.length} finished, ${upcoming.length} upcoming`);
 }
