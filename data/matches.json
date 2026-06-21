@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 21, 11:10 AM PT",
-  "live": [],
+  "updatedAt": "Jun 21, 12:10 PM PT",
+  "live": [
+    {
+      "id": "760451",
+      "state": "in",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
+      },
+      "b": {
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "owner": "Arash Hazini",
+        "ownerSlackId": "U04GKDJUJ9X",
+        "score": 0
+      },
+      "minute": "11'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "3'",
+            "side": "a",
+            "player": "Romelu Lukaku",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760449",
@@ -135,28 +169,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760451",
-      "state": "pre",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 0
-      },
-      "b": {
-        "team": "Iran",
-        "flag": "🇮🇷",
-        "owner": "Arash Hazini",
-        "ownerSlackId": "U04GKDJUJ9X",
-        "score": 0
-      },
-      "date": "Sun, Jun 21",
-      "time": "12:00 PM PT"
-    },
     {
       "id": "760450",
       "state": "pre",
