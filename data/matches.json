@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 21, 2:10 PM PT",
-  "live": [],
+  "updatedAt": "Jun 21, 3:10 PM PT",
+  "live": [
+    {
+      "id": "760450",
+      "state": "in",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "owner": "Mahdy R",
+        "ownerSlackId": "U0AQ6Q2NWFM",
+        "score": 0
+      },
+      "b": {
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "owner": "David Chu",
+        "ownerSlackId": null,
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "5'",
+            "side": "b",
+            "player": "Sidny Lopes Cabral",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760449",
@@ -180,28 +214,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760450",
-      "state": "pre",
-      "competition": "Group H",
-      "knockout": false,
-      "a": {
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "owner": "Mahdy R",
-        "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 0
-      },
-      "b": {
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "owner": "David Chu",
-        "ownerSlackId": null,
-        "score": 0
-      },
-      "date": "Sun, Jun 21",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760452",
       "state": "pre",
