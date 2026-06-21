@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 10:10 AM PT",
+  "updatedAt": "Jun 21, 10:20 AM PT",
   "live": [
     {
       "id": "760453",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "Saudi Arabia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098AFAQM5H",
         "score": 0
       },
-      "minute": "47'",
+      "minute": "57'",
       "recap": {
         "goals": [
           {
@@ -45,6 +45,14 @@
             "scorer": "Mikel Oyarzabal",
             "assist": "Dani Olmo",
             "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "49'",
+            "side": "a",
+            "scorer": "Hassan Al-Tambakti",
+            "assist": "",
+            "own": true,
             "penalty": false
           }
         ],
