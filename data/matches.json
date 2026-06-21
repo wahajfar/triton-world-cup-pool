@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 9:30 AM PT",
+  "updatedAt": "Jun 21, 9:40 AM PT",
   "live": [
     {
       "id": "760453",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098AFAQM5H",
         "score": 0
       },
-      "minute": "29'",
+      "minute": "39'",
       "recap": {
         "goals": [
           {
@@ -48,7 +48,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "30'",
+            "side": "b",
+            "player": "Salem Al-Dawsari",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
