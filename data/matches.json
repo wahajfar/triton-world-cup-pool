@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 3:50 PM PT",
+  "updatedAt": "Jun 21, 4:00 PM PT",
   "live": [
     {
       "id": "760450",
@@ -11,7 +11,7 @@
         "flag": "🇺🇾",
         "owner": "Mahdy R",
         "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Cape Verde",
@@ -20,7 +20,7 @@
         "ownerSlackId": null,
         "score": 1
       },
-      "minute": "45'+4'",
+      "minute": "45'+8'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "a",
             "scorer": "Maxi Araújo",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+6'",
+            "side": "a",
+            "scorer": "Agustín Cano",
+            "assist": "Maxi Araújo",
             "own": false,
             "penalty": false
           }
