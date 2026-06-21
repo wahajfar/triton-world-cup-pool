@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 21, 12:10 AM PT",
-  "live": [],
+  "updatedAt": "Jun 21, 9:10 AM PT",
+  "live": [
+    {
+      "id": "760453",
+      "state": "in",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
+        "score": 0
+      },
+      "b": {
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "owner": "Richard Lee",
+        "ownerSlackId": "U098AFAQM5H",
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760449",
@@ -63,28 +90,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760453",
-      "state": "pre",
-      "competition": "Group H",
-      "knockout": false,
-      "a": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 0
-      },
-      "b": {
-        "team": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "owner": "Richard Lee",
-        "ownerSlackId": "U098AFAQM5H",
-        "score": 0
-      },
-      "date": "Sun, Jun 21",
-      "time": "9:00 AM PT"
-    },
     {
       "id": "760451",
       "state": "pre",
