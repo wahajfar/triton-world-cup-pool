@@ -1,79 +1,6 @@
 {
-  "updatedAt": "Jun 21, 11:00 AM PT",
-  "live": [
-    {
-      "id": "760453",
-      "state": "in",
-      "competition": "Group H",
-      "knockout": false,
-      "a": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 4
-      },
-      "b": {
-        "team": "Saudi Arabia",
-        "flag": "🇸🇦",
-        "owner": "Richard Lee",
-        "ownerSlackId": "U098AFAQM5H",
-        "score": 0
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "10'",
-            "side": "a",
-            "scorer": "Lamine Yamal",
-            "assist": "Mikel Oyarzabal",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "21'",
-            "side": "a",
-            "scorer": "Mikel Oyarzabal",
-            "assist": "Aymeric Laporte",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "24'",
-            "side": "a",
-            "scorer": "Mikel Oyarzabal",
-            "assist": "Dani Olmo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "49'",
-            "side": "a",
-            "scorer": "Hassan Al-Tambakti",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "30'",
-            "side": "b",
-            "player": "Salem Al-Dawsari",
-            "color": "yellow"
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "player": "Mohamed Kanno",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 21, 11:10 AM PT",
+  "live": [],
   "recent": [
     {
       "id": "760449",
@@ -133,6 +60,78 @@
         "cards": []
       },
       "impact": "❌ 🇹🇳 Tunisia are out — Ahmed Maqsood is eliminated"
+    },
+    {
+      "id": "760453",
+      "state": "post",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
+        "score": 4
+      },
+      "b": {
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "owner": "Richard Lee",
+        "ownerSlackId": "U098AFAQM5H",
+        "score": 0
+      },
+      "minute": "90'+8'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Lamine Yamal",
+            "assist": "Mikel Oyarzabal",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "21'",
+            "side": "a",
+            "scorer": "Mikel Oyarzabal",
+            "assist": "Aymeric Laporte",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "24'",
+            "side": "a",
+            "scorer": "Mikel Oyarzabal",
+            "assist": "Dani Olmo",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "49'",
+            "side": "a",
+            "scorer": "Hassan Al-Tambakti",
+            "assist": "",
+            "own": true,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "30'",
+            "side": "b",
+            "player": "Salem Al-Dawsari",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Mohamed Kanno",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": [
