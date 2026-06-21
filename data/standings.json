@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 21, 11:20 AM PT",
+  "updatedAt": "Jun 21, 2:20 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 36,
   "eliminatedCount": 12,
   "champion": null,
   "recentResults": [
+    "Group G — Belgium 0-0 Iran",
     "Group H — Spain 4-0 Saudi Arabia",
     "Group F — Tunisia 0-4 Japan",
     "Group E — Ecuador 0-0 Curaçao",
@@ -19,8 +20,7 @@
     "Group B — Switzerland 4-1 Bosnia and Herzegovina",
     "Group A — Czech Republic 1-1 South Africa",
     "Group K — Uzbekistan 1-3 Colombia",
-    "Group L — Ghana 1-0 Panama",
-    "Group L — England 4-2 Croatia"
+    "Group L — Ghana 1-0 Panama"
   ],
   "bracket": null,
   "matches": {
@@ -510,29 +510,12 @@
       "status": "alive",
       "stageReached": "R32",
       "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
+      "played": 2,
+      "points": 2,
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
       "rank": 24
-    },
-    {
-      "name": "Arsal Javed",
-      "team": "Portugal",
-      "group": "K",
-      "flag": "🇵🇹",
-      "photo": null,
-      "slackId": "U0A3QB0E9EW",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "Through to R32",
-      "rank": 25
     },
     {
       "name": "John Pajarin",
@@ -541,6 +524,23 @@
       "flag": "🇧🇪",
       "photo": null,
       "slackId": "U08SC2F74KB",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 2,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Through to R32",
+      "rank": 25
+    },
+    {
+      "name": "Arsal Javed",
+      "team": "Portugal",
+      "group": "K",
+      "flag": "🇵🇹",
+      "photo": null,
+      "slackId": "U0A3QB0E9EW",
       "status": "alive",
       "stageReached": "R32",
       "eliminatedAt": null,
