@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 10:20 AM PT",
+  "updatedAt": "Jun 21, 10:30 AM PT",
   "live": [
     {
       "id": "760453",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U098AFAQM5H",
         "score": 0
       },
-      "minute": "57'",
+      "minute": "67'",
       "recap": {
         "goals": [
           {
@@ -61,6 +61,12 @@
             "minute": "30'",
             "side": "b",
             "player": "Salem Al-Dawsari",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Mohamed Kanno",
             "color": "yellow"
           }
         ]
