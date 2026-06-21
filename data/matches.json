@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 3:40 PM PT",
+  "updatedAt": "Jun 21, 3:50 PM PT",
   "live": [
     {
       "id": "760450",
@@ -11,7 +11,7 @@
         "flag": "🇺🇾",
         "owner": "Mahdy R",
         "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Cape Verde",
@@ -20,13 +20,21 @@
         "ownerSlackId": null,
         "score": 1
       },
-      "minute": "39'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [
           {
             "minute": "21'",
             "side": "b",
             "scorer": "Kevin Pina",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "44'",
+            "side": "a",
+            "scorer": "Maxi Araújo",
             "assist": "",
             "own": false,
             "penalty": false
