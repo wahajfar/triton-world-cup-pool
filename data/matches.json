@@ -1,215 +1,155 @@
 {
-  "updatedAt": "Jun 20, 7:00 PM PT",
+  "updatedAt": "Jun 21, 12:10 AM PT",
   "live": [],
   "recent": [
     {
-      "id": "760447",
+      "id": "760449",
       "state": "post",
       "competition": "Group F",
       "knockout": false,
       "a": {
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "owner": "Rahim Jutha",
-        "ownerSlackId": "U06DWUQCSFM",
-        "score": 5
+        "team": "Tunisia",
+        "flag": "🇹🇳",
+        "owner": "Ahmed Maqsood",
+        "ownerSlackId": "U04QAF30K1S",
+        "score": 0
       },
       "b": {
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "owner": "Sashanka Dutta",
-        "ownerSlackId": "U098JE58RS9",
-        "score": 1
-      },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "5'",
-            "side": "a",
-            "scorer": "Brian Brobbey",
-            "assist": "Cody Gakpo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "17'",
-            "side": "a",
-            "scorer": "Brian Brobbey",
-            "assist": "Denzel Dumfries",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "47'",
-            "side": "a",
-            "scorer": "Cody Gakpo",
-            "assist": "Denzel Dumfries",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Cody Gakpo",
-            "assist": "Crysencio Summerville",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "59'",
-            "side": "b",
-            "scorer": "Anthony Elanga",
-            "assist": "Alexander Isak",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "89'",
-            "side": "a",
-            "scorer": "Crysencio Summerville",
-            "assist": "Memphis Depay",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "53'",
-            "side": "b",
-            "player": "Gabriel Gudmundsson",
-            "color": "yellow"
-          },
-          {
-            "minute": "75'",
-            "side": "b",
-            "player": "Yasin Ayari",
-            "color": "yellow"
-          },
-          {
-            "minute": "80'",
-            "side": "b",
-            "player": "Lucas Bergvall",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760448",
-      "state": "post",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 2
-      },
-      "b": {
-        "team": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "owner": "Georgi Stanchev",
-        "ownerSlackId": "U0AD3KVGJGH",
-        "score": 1
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "owner": "Jenny",
+        "ownerSlackId": "U0A3MRT4PFY",
+        "score": 4
       },
       "minute": "90'+7'",
       "recap": {
         "goals": [
           {
-            "minute": "30'",
+            "minute": "4'",
             "side": "b",
-            "scorer": "Franck Kessié",
-            "assist": "",
+            "scorer": "Daichi Kamada",
+            "assist": "Keito Nakamura",
             "own": false,
             "penalty": false
           },
           {
-            "minute": "68'",
-            "side": "a",
-            "scorer": "Deniz Undav",
-            "assist": "Nadiem Amiri",
+            "minute": "31'",
+            "side": "b",
+            "scorer": "Ayase Ueda",
+            "assist": "Kou Itakura",
             "own": false,
             "penalty": false
           },
           {
-            "minute": "90'+4'",
-            "side": "a",
-            "scorer": "Deniz Undav",
-            "assist": "Felix Nmecha",
+            "minute": "69'",
+            "side": "b",
+            "scorer": "Junya Ito",
+            "assist": "Ayase Ueda",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "83'",
+            "side": "b",
+            "scorer": "Ayase Ueda",
+            "assist": "Kaishu Sano",
             "own": false,
             "penalty": false
           }
         ],
         "cards": []
       },
-      "impact": null
-    },
+      "impact": "❌ 🇹🇳 Tunisia are out — Ahmed Maqsood is eliminated"
+    }
+  ],
+  "upcoming": [
     {
-      "id": "760446",
-      "state": "post",
-      "competition": "Group E",
+      "id": "760453",
+      "state": "pre",
+      "competition": "Group H",
       "knockout": false,
       "a": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
         "score": 0
       },
       "b": {
-        "team": "Curaçao",
-        "flag": "🇨🇼",
-        "owner": "Saaed Ramazany",
-        "ownerSlackId": "U08L3KD2E93",
+        "team": "Saudi Arabia",
+        "flag": "🇸🇦",
+        "owner": "Richard Lee",
+        "ownerSlackId": "U098AFAQM5H",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "38'",
-            "side": "a",
-            "player": "Jordy Alcívar",
-            "color": "yellow"
-          },
-          {
-            "minute": "39'",
-            "side": "b",
-            "player": "Leandro Bacuna",
-            "color": "yellow"
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "player": "Juninho Bacuna",
-            "color": "yellow"
-          },
-          {
-            "minute": "56'",
-            "side": "b",
-            "player": "Livano Comenencia",
-            "color": "yellow"
-          },
-          {
-            "minute": "75'",
-            "side": "b",
-            "player": "Juriën Gaari",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+1'",
-            "side": "b",
-            "player": "Gervane Kastaneer",
-            "color": "yellow"
-          }
-        ]
+      "date": "Sun, Jun 21",
+      "time": "9:00 AM PT"
+    },
+    {
+      "id": "760451",
+      "state": "pre",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
       },
-      "impact": "❌ 🇨🇼 Curaçao are out — Saaed Ramazany is eliminated"
+      "b": {
+        "team": "Iran",
+        "flag": "🇮🇷",
+        "owner": "Arash Hazini",
+        "ownerSlackId": "U04GKDJUJ9X",
+        "score": 0
+      },
+      "date": "Sun, Jun 21",
+      "time": "12:00 PM PT"
+    },
+    {
+      "id": "760450",
+      "state": "pre",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "owner": "Mahdy R",
+        "ownerSlackId": "U0AQ6Q2NWFM",
+        "score": 0
+      },
+      "b": {
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "owner": "David Chu",
+        "ownerSlackId": null,
+        "score": 0
+      },
+      "date": "Sun, Jun 21",
+      "time": "3:00 PM PT"
+    },
+    {
+      "id": "760452",
+      "state": "pre",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "owner": "Kyle Kostechka",
+        "ownerSlackId": "U0AHHBVCG72",
+        "score": 0
+      },
+      "b": {
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "owner": "Khari Harper",
+        "ownerSlackId": "U0B6D9B2V8R",
+        "score": 0
+      },
+      "date": "Sun, Jun 21",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
