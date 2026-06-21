@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 9:10 AM PT",
+  "updatedAt": "Jun 21, 9:20 AM PT",
   "live": [
     {
       "id": "760453",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Saudi Arabia",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U098AFAQM5H",
         "score": 0
       },
-      "minute": "9'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Lamine Yamal",
+            "assist": "Mikel Oyarzabal",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
