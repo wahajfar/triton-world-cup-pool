@@ -1,64 +1,6 @@
 {
-  "updatedAt": "Jun 20, 6:50 PM PT",
-  "live": [
-    {
-      "id": "760446",
-      "state": "in",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
-        "score": 0
-      },
-      "b": {
-        "team": "Curaçao",
-        "flag": "🇨🇼",
-        "owner": "Saaed Ramazany",
-        "ownerSlackId": "U08L3KD2E93",
-        "score": 0
-      },
-      "minute": "90'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "38'",
-            "side": "a",
-            "player": "Jordy Alcívar",
-            "color": "yellow"
-          },
-          {
-            "minute": "39'",
-            "side": "b",
-            "player": "Leandro Bacuna",
-            "color": "yellow"
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "player": "Juninho Bacuna",
-            "color": "yellow"
-          },
-          {
-            "minute": "56'",
-            "side": "b",
-            "player": "Livano Comenencia",
-            "color": "yellow"
-          },
-          {
-            "minute": "75'",
-            "side": "b",
-            "player": "Juriën Gaari",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 20, 7:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760447",
@@ -204,6 +146,69 @@
         "cards": []
       },
       "impact": null
+    },
+    {
+      "id": "760446",
+      "state": "post",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
+        "score": 0
+      },
+      "b": {
+        "team": "Curaçao",
+        "flag": "🇨🇼",
+        "owner": "Saaed Ramazany",
+        "ownerSlackId": "U08L3KD2E93",
+        "score": 0
+      },
+      "minute": "90'+6'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "38'",
+            "side": "a",
+            "player": "Jordy Alcívar",
+            "color": "yellow"
+          },
+          {
+            "minute": "39'",
+            "side": "b",
+            "player": "Leandro Bacuna",
+            "color": "yellow"
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "player": "Juninho Bacuna",
+            "color": "yellow"
+          },
+          {
+            "minute": "56'",
+            "side": "b",
+            "player": "Livano Comenencia",
+            "color": "yellow"
+          },
+          {
+            "minute": "75'",
+            "side": "b",
+            "player": "Juriën Gaari",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+1'",
+            "side": "b",
+            "player": "Gervane Kastaneer",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": "❌ 🇨🇼 Curaçao are out — Saaed Ramazany is eliminated"
     }
   ],
   "upcoming": []
