@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 6:30 PM PT",
+  "updatedAt": "Jun 20, 6:40 PM PT",
   "live": [
     {
       "id": "760446",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08L3KD2E93",
         "score": 0
       },
-      "minute": "71'",
+      "minute": "80'",
       "recap": {
         "goals": [],
         "cards": [
@@ -46,6 +46,12 @@
             "minute": "56'",
             "side": "b",
             "player": "Livano Comenencia",
+            "color": "yellow"
+          },
+          {
+            "minute": "75'",
+            "side": "b",
+            "player": "Juriën Gaari",
             "color": "yellow"
           }
         ]
