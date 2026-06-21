@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 20, 6:10 PM PT",
+  "updatedAt": "Jun 20, 6:20 PM PT",
   "live": [
     {
       "id": "760446",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08L3KD2E93",
         "score": 0
       },
-      "minute": "50'",
+      "minute": "61'",
       "recap": {
         "goals": [],
         "cards": [
@@ -34,6 +34,18 @@
             "minute": "39'",
             "side": "b",
             "player": "Leandro Bacuna",
+            "color": "yellow"
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "player": "Juninho Bacuna",
+            "color": "yellow"
+          },
+          {
+            "minute": "56'",
+            "side": "b",
+            "player": "Livano Comenencia",
             "color": "yellow"
           }
         ]
