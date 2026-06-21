@@ -99,13 +99,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Standings updater (Claude + web search)
+      # Standings now come from ESPN's FREE feed (group tables + ESPN's own qualification notes),
+      # not the paid Claude updater — zero cost, and not blocked by the Anthropic spend cap.
+      # scripts/update.mjs is kept as an unused fallback.
+      - name: Standings updater (ESPN feed — free)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          npm install --no-audit --no-fund
-          node scripts/update.mjs
+        run: node scripts/standings-espn.mjs
 
       - name: Commit standings
         run: |
