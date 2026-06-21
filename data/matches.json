@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 3:20 PM PT",
+  "updatedAt": "Jun 21, 3:30 PM PT",
   "live": [
     {
       "id": "760450",
@@ -18,16 +18,31 @@
         "flag": "🇨🇻",
         "owner": "David Chu",
         "ownerSlackId": null,
-        "score": 0
+        "score": 1
       },
-      "minute": "19'",
+      "minute": "29'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "21'",
+            "side": "b",
+            "scorer": "Kevin Pina",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "5'",
             "side": "b",
             "player": "Sidny Lopes Cabral",
+            "color": "yellow"
+          },
+          {
+            "minute": "20'",
+            "side": "a",
+            "player": "Rodrigo Bentancur",
             "color": "yellow"
           }
         ]
