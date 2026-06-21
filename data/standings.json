@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 21, 12:20 AM PT",
+  "updatedAt": "Jun 21, 11:20 AM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 36,
   "eliminatedCount": 12,
   "champion": null,
   "recentResults": [
+    "Group H — Spain 4-0 Saudi Arabia",
     "Group F — Tunisia 0-4 Japan",
     "Group E — Ecuador 0-0 Curaçao",
     "Group E — Germany 2-1 Côte d'Ivoire",
@@ -19,8 +20,7 @@
     "Group A — Czech Republic 1-1 South Africa",
     "Group K — Uzbekistan 1-3 Colombia",
     "Group L — Ghana 1-0 Panama",
-    "Group L — England 4-2 Croatia",
-    "Group K — Portugal 1-1 Congo DR"
+    "Group L — England 4-2 Croatia"
   ],
   "bracket": null,
   "matches": {
@@ -195,6 +195,23 @@
       "rank": 5
     },
     {
+      "name": "Luke Zahradka",
+      "team": "Spain",
+      "group": "H",
+      "flag": "🇪🇸",
+      "photo": null,
+      "slackId": "U08PP9TNNA1",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 4,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Through to R32",
+      "rank": 6
+    },
+    {
       "name": "Rahim Jutha",
       "team": "Netherlands",
       "group": "F",
@@ -209,7 +226,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Evan Dawson",
@@ -226,7 +243,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Saim Aslam",
@@ -243,7 +260,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Aadam Rasul",
@@ -260,7 +277,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Omar Alocozy",
@@ -277,7 +294,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Wahaj Farooqi",
@@ -294,7 +311,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Abdullah Ashraf",
@@ -311,7 +328,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Farhad Rahgozar",
@@ -328,7 +345,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Jabulani Aduwo",
@@ -345,7 +362,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Noorin Yazdani",
@@ -362,7 +379,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Majid Hussain",
@@ -379,7 +396,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Georgi Stanchev",
@@ -396,7 +413,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Through to R32",
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "Gul Farooqi",
@@ -413,7 +430,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Through to R32",
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "Raymundo Lacanlale",
@@ -430,7 +447,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Through to R32",
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "Sami Khan",
@@ -447,7 +464,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Through to R32",
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Sashanka Dutta",
@@ -464,7 +481,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Through to R32",
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Azeem Hanjra",
@@ -481,7 +498,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Arash Hazini",
@@ -498,7 +515,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Arsal Javed",
@@ -515,7 +532,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "John Pajarin",
@@ -532,7 +549,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "Kyle Kostechka",
@@ -549,7 +566,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "Luke Brown",
@@ -558,23 +575,6 @@
       "flag": "🇨🇩",
       "photo": null,
       "slackId": "U0AFV9WLJ9H",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "Through to R32",
-      "rank": 27
-    },
-    {
-      "name": "Luke Zahradka",
-      "team": "Spain",
-      "group": "H",
-      "flag": "🇪🇸",
-      "photo": null,
-      "slackId": "U08PP9TNNA1",
       "status": "alive",
       "stageReached": "R32",
       "eliminatedAt": null,
@@ -603,23 +603,6 @@
       "rank": 29
     },
     {
-      "name": "Richard Lee",
-      "team": "Saudi Arabia",
-      "group": "H",
-      "flag": "🇸🇦",
-      "photo": null,
-      "slackId": "U098AFAQM5H",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "Through to R32",
-      "rank": 30
-    },
-    {
       "name": "Melchizedek Eroy",
       "team": "Ecuador",
       "group": "E",
@@ -634,7 +617,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 31
+      "rank": 30
     },
     {
       "name": "Nathan Marchand",
@@ -651,7 +634,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 32
+      "rank": 31
     },
     {
       "name": "Anton Li",
@@ -666,6 +649,23 @@
       "played": 2,
       "points": 1,
       "gd": -3,
+      "form": "L",
+      "statusLabel": "Through to R32",
+      "rank": 32
+    },
+    {
+      "name": "Richard Lee",
+      "team": "Saudi Arabia",
+      "group": "H",
+      "flag": "🇸🇦",
+      "photo": null,
+      "slackId": "U098AFAQM5H",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 1,
+      "gd": -4,
       "form": "L",
       "statusLabel": "Through to R32",
       "rank": 33
