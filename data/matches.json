@@ -1,6 +1,40 @@
 {
-  "updatedAt": "Jun 22, 12:10 PM PT",
-  "live": [],
+  "updatedAt": "Jun 22, 2:10 PM PT",
+  "live": [
+    {
+      "id": "760457",
+      "state": "in",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
+      },
+      "b": {
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "owner": "Bilal Hanjra",
+        "ownerSlackId": "U04MVCC1ZT4",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "6'",
+            "side": "b",
+            "player": "Amir Al-Ammari",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760456",
@@ -72,28 +106,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760457",
-      "state": "pre",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 0
-      },
-      "b": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
-        "score": 0
-      },
-      "date": "Mon, Jun 22",
-      "time": "2:00 PM PT"
-    },
     {
       "id": "760454",
       "state": "pre",
