@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 21, 5:30 PM PT",
-  "live": [],
+  "updatedAt": "Jun 21, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760452",
+      "state": "in",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "New Zealand",
+        "flag": "🇳🇿",
+        "owner": "Kyle Kostechka",
+        "ownerSlackId": "U0AHHBVCG72",
+        "score": 0
+      },
+      "b": {
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "owner": "Khari Harper",
+        "ownerSlackId": "U0B6D9B2V8R",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760449",
@@ -263,28 +290,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760452",
-      "state": "pre",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "New Zealand",
-        "flag": "🇳🇿",
-        "owner": "Kyle Kostechka",
-        "ownerSlackId": "U0AHHBVCG72",
-        "score": 0
-      },
-      "b": {
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "owner": "Khari Harper",
-        "ownerSlackId": "U0B6D9B2V8R",
-        "score": 0
-      },
-      "date": "Sun, Jun 21",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
