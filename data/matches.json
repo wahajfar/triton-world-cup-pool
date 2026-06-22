@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 6:30 PM PT",
+  "updatedAt": "Jun 21, 6:40 PM PT",
   "live": [
     {
       "id": "760452",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
@@ -43,6 +43,12 @@
             "minute": "20'",
             "side": "a",
             "player": "Sarpreet Singh",
+            "color": "yellow"
+          },
+          {
+            "minute": "34'",
+            "side": "a",
+            "player": "Callum McCowatt",
             "color": "yellow"
           }
         ]
