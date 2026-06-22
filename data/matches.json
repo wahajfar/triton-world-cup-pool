@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 7:40 PM PT",
+  "updatedAt": "Jun 21, 7:50 PM PT",
   "live": [
     {
       "id": "760452",
@@ -18,9 +18,9 @@
         "flag": "🇪🇬",
         "owner": "Khari Harper",
         "ownerSlackId": "U0B6D9B2V8R",
-        "score": 2
+        "score": 3
       },
-      "minute": "80'",
+      "minute": "89'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "b",
             "scorer": "Mohamed Salah",
             "assist": "Mostafa Zico",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "82'",
+            "side": "b",
+            "scorer": "Trézéguet",
+            "assist": "Mohamed Salah",
             "own": false,
             "penalty": false
           }
