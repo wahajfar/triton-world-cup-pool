@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 21, 2:20 PM PT",
+  "updatedAt": "Jun 21, 5:20 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 36,
   "eliminatedCount": 12,
   "champion": null,
   "recentResults": [
+    "Group H — Uruguay 2-2 Cape Verde",
     "Group G — Belgium 0-0 Iran",
     "Group H — Spain 4-0 Saudi Arabia",
     "Group F — Tunisia 0-4 Japan",
@@ -19,8 +20,7 @@
     "Group B — Canada 6-0 Qatar",
     "Group B — Switzerland 4-1 Bosnia and Herzegovina",
     "Group A — Czech Republic 1-1 South Africa",
-    "Group K — Uzbekistan 1-3 Colombia",
-    "Group L — Ghana 1-0 Panama"
+    "Group K — Uzbekistan 1-3 Colombia"
   ],
   "bracket": null,
   "matches": {
@@ -518,6 +518,23 @@
       "rank": 24
     },
     {
+      "name": "David Chu",
+      "team": "Cape Verde",
+      "group": "H",
+      "flag": "🇨🇻",
+      "photo": null,
+      "slackId": null,
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 2,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Through to R32",
+      "rank": 25
+    },
+    {
       "name": "John Pajarin",
       "team": "Belgium",
       "group": "G",
@@ -532,7 +549,24 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 25
+      "rank": 26
+    },
+    {
+      "name": "Mahdy R",
+      "team": "Uruguay",
+      "group": "H",
+      "flag": "🇺🇾",
+      "photo": null,
+      "slackId": "U0AQ6Q2NWFM",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 2,
+      "gd": 0,
+      "form": "D",
+      "statusLabel": "Through to R32",
+      "rank": 27
     },
     {
       "name": "Arsal Javed",
@@ -549,7 +583,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 26
+      "rank": 28
     },
     {
       "name": "Kyle Kostechka",
@@ -566,7 +600,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 27
+      "rank": 29
     },
     {
       "name": "Luke Brown",
@@ -583,24 +617,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 28
-    },
-    {
-      "name": "Mahdy R",
-      "team": "Uruguay",
-      "group": "H",
-      "flag": "🇺🇾",
-      "photo": null,
-      "slackId": "U0AQ6Q2NWFM",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "Through to R32",
-      "rank": 29
+      "rank": 30
     },
     {
       "name": "Melchizedek Eroy",
@@ -617,7 +634,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 30
+      "rank": 31
     },
     {
       "name": "Nathan Marchand",
@@ -634,7 +651,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "Through to R32",
-      "rank": 31
+      "rank": 32
     },
     {
       "name": "Anton Li",
@@ -649,23 +666,6 @@
       "played": 2,
       "points": 1,
       "gd": -3,
-      "form": "L",
-      "statusLabel": "Through to R32",
-      "rank": 32
-    },
-    {
-      "name": "Richard Lee",
-      "team": "Saudi Arabia",
-      "group": "H",
-      "flag": "🇸🇦",
-      "photo": null,
-      "slackId": "U098AFAQM5H",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 2,
-      "points": 1,
-      "gd": -4,
       "form": "L",
       "statusLabel": "Through to R32",
       "rank": 33
@@ -722,23 +722,6 @@
       "rank": 36
     },
     {
-      "name": "David Chu",
-      "team": "Cape Verde",
-      "group": "H",
-      "flag": "🇨🇻",
-      "photo": null,
-      "slackId": null,
-      "status": "eliminated",
-      "stageReached": "group",
-      "eliminatedAt": "Group stage",
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "D 0–0",
-      "rank": 37
-    },
-    {
       "name": "Khari Harper",
       "team": "Egypt",
       "group": "G",
@@ -753,7 +736,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 1–1",
-      "rank": 38
+      "rank": 37
     },
     {
       "name": "Chris L",
@@ -770,6 +753,23 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "D 1–1",
+      "rank": 38
+    },
+    {
+      "name": "Richard Lee",
+      "team": "Saudi Arabia",
+      "group": "H",
+      "flag": "🇸🇦",
+      "photo": null,
+      "slackId": "U098AFAQM5H",
+      "status": "eliminated",
+      "stageReached": "group",
+      "eliminatedAt": "Group stage",
+      "played": 2,
+      "points": 1,
+      "gd": -4,
+      "form": "L",
+      "statusLabel": "L 0–4",
       "rank": 39
     },
     {
