@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 11:50 AM PT",
+  "updatedAt": "Jun 22, 12:00 PM PT",
   "live": [
     {
       "id": "760456",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Austria",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "86'",
+      "minute": "90'+6'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Lionel Messi",
             "assist": "Facundo Medina",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+5'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "",
             "own": false,
             "penalty": false
           }
@@ -49,6 +57,12 @@
             "minute": "76'",
             "side": "b",
             "player": "Konrad Laimer",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+2'",
+            "side": "a",
+            "player": "Leandro Paredes",
             "color": "yellow"
           }
         ]
