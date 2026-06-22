@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 7:20 PM PT",
+  "updatedAt": "Jun 21, 7:30 PM PT",
   "live": [
     {
       "id": "760452",
@@ -18,9 +18,9 @@
         "flag": "🇪🇬",
         "owner": "Khari Harper",
         "ownerSlackId": "U0B6D9B2V8R",
-        "score": 1
+        "score": 2
       },
-      "minute": "60'",
+      "minute": "70'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Mostafa Zico",
             "assist": "Mohamed Hany",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "scorer": "Mohamed Salah",
+            "assist": "Mostafa Zico",
             "own": false,
             "penalty": false
           }
