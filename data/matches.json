@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 4:50 PM PT",
+  "updatedAt": "Jun 21, 5:00 PM PT",
   "live": [
     {
       "id": "760450",
@@ -20,7 +20,7 @@
         "ownerSlackId": null,
         "score": 2
       },
-      "minute": "85'",
+      "minute": "90'+4'",
       "recap": {
         "goals": [
           {
@@ -73,6 +73,12 @@
             "minute": "58'",
             "side": "a",
             "player": "Mathías Olivera",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+4'",
+            "side": "b",
+            "player": "Diney Borges",
             "color": "yellow"
           }
         ]
