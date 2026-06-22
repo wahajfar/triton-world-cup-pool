@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 21, 8:20 PM PT",
+  "updatedAt": "Jun 22, 12:20 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 36,
   "eliminatedCount": 12,
   "champion": null,
   "recentResults": [
+    "Group J — Argentina 2-0 Austria",
     "Group G — New Zealand 1-3 Egypt",
     "Group H — Uruguay 2-2 Cape Verde",
     "Group G — Belgium 0-0 Iran",
@@ -19,8 +20,7 @@
     "Group D — United States 2-0 Australia",
     "Group A — Mexico 1-0 Korea Republic",
     "Group B — Canada 6-0 Qatar",
-    "Group B — Switzerland 4-1 Bosnia and Herzegovina",
-    "Group A — Czech Republic 1-1 South Africa"
+    "Group B — Switzerland 4-1 Bosnia and Herzegovina"
   ],
   "bracket": null,
   "matches": {
@@ -144,6 +144,23 @@
       "rank": 2
     },
     {
+      "name": "Wahaj Farooqi",
+      "team": "Argentina",
+      "group": "J",
+      "flag": "🇦🇷",
+      "photo": null,
+      "slackId": "U03U8NBB72A",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 6,
+      "gd": 5,
+      "form": "W",
+      "statusLabel": "Through to R32",
+      "rank": 3
+    },
+    {
       "name": "Zeshan Haroon",
       "team": "Mexico",
       "group": "A",
@@ -158,7 +175,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Ryan Drury",
@@ -175,7 +192,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Jenny",
@@ -192,7 +209,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Luke Zahradka",
@@ -209,7 +226,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Rahim Jutha",
@@ -226,7 +243,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Evan Dawson",
@@ -243,7 +260,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Saim Aslam",
@@ -260,7 +277,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Khari Harper",
@@ -277,7 +294,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Aadam Rasul",
@@ -294,7 +311,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Omar Alocozy",
@@ -303,23 +320,6 @@
       "flag": "🇳🇴",
       "photo": null,
       "slackId": "U0A3LTR7SRK",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 3,
-      "gd": 3,
-      "form": "W",
-      "statusLabel": "Through to R32",
-      "rank": 12
-    },
-    {
-      "name": "Wahaj Farooqi",
-      "team": "Argentina",
-      "group": "J",
-      "flag": "🇦🇷",
-      "photo": null,
-      "slackId": "U03U8NBB72A",
       "status": "alive",
       "stageReached": "R32",
       "eliminatedAt": null,
@@ -348,23 +348,6 @@
       "rank": 14
     },
     {
-      "name": "Farhad Rahgozar",
-      "team": "Austria",
-      "group": "J",
-      "flag": "🇦🇹",
-      "photo": null,
-      "slackId": "U056GDBEHQA",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 3,
-      "gd": 2,
-      "form": "W",
-      "statusLabel": "Through to R32",
-      "rank": 15
-    },
-    {
       "name": "Jabulani Aduwo",
       "team": "Colombia",
       "group": "K",
@@ -379,7 +362,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 16
+      "rank": 15
     },
     {
       "name": "Noorin Yazdani",
@@ -396,7 +379,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "Through to R32",
-      "rank": 17
+      "rank": 16
     },
     {
       "name": "Majid Hussain",
@@ -412,6 +395,23 @@
       "points": 3,
       "gd": 1,
       "form": "W",
+      "statusLabel": "Through to R32",
+      "rank": 17
+    },
+    {
+      "name": "Farhad Rahgozar",
+      "team": "Austria",
+      "group": "J",
+      "flag": "🇦🇹",
+      "photo": null,
+      "slackId": "U056GDBEHQA",
+      "status": "alive",
+      "stageReached": "R32",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 3,
+      "gd": 0,
+      "form": "L",
       "statusLabel": "Through to R32",
       "rank": 18
     },
