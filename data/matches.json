@@ -1,91 +1,6 @@
 {
-  "updatedAt": "Jun 21, 5:00 PM PT",
-  "live": [
-    {
-      "id": "760450",
-      "state": "in",
-      "competition": "Group H",
-      "knockout": false,
-      "a": {
-        "team": "Uruguay",
-        "flag": "🇺🇾",
-        "owner": "Mahdy R",
-        "ownerSlackId": "U0AQ6Q2NWFM",
-        "score": 2
-      },
-      "b": {
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "owner": "David Chu",
-        "ownerSlackId": null,
-        "score": 2
-      },
-      "minute": "90'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "21'",
-            "side": "b",
-            "scorer": "Kevin Pina",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "44'",
-            "side": "a",
-            "scorer": "Maxi Araújo",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+6'",
-            "side": "a",
-            "scorer": "Agustín Cano",
-            "assist": "Maxi Araújo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "61'",
-            "side": "b",
-            "scorer": "Hélio Varela",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "5'",
-            "side": "b",
-            "player": "Sidny Lopes Cabral",
-            "color": "yellow"
-          },
-          {
-            "minute": "20'",
-            "side": "a",
-            "player": "Rodrigo Bentancur",
-            "color": "yellow"
-          },
-          {
-            "minute": "58'",
-            "side": "a",
-            "player": "Mathías Olivera",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+4'",
-            "side": "b",
-            "player": "Diney Borges",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 21, 5:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760449",
@@ -262,6 +177,90 @@
         ]
       },
       "impact": null
+    },
+    {
+      "id": "760450",
+      "state": "post",
+      "competition": "Group H",
+      "knockout": false,
+      "a": {
+        "team": "Uruguay",
+        "flag": "🇺🇾",
+        "owner": "Mahdy R",
+        "ownerSlackId": "U0AQ6Q2NWFM",
+        "score": 2
+      },
+      "b": {
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "owner": "David Chu",
+        "ownerSlackId": null,
+        "score": 2
+      },
+      "minute": "90'+8'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "21'",
+            "side": "b",
+            "scorer": "Kevin Pina",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "44'",
+            "side": "a",
+            "scorer": "Maxi Araújo",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+6'",
+            "side": "a",
+            "scorer": "Agustín Cano",
+            "assist": "Maxi Araújo",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "61'",
+            "side": "b",
+            "scorer": "Hélio Varela",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "5'",
+            "side": "b",
+            "player": "Sidny Lopes Cabral",
+            "color": "yellow"
+          },
+          {
+            "minute": "20'",
+            "side": "a",
+            "player": "Rodrigo Bentancur",
+            "color": "yellow"
+          },
+          {
+            "minute": "58'",
+            "side": "a",
+            "player": "Mathías Olivera",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "player": "Diney Borges",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": "❌ 🇨🇻 Cape Verde are out — David Chu is eliminated"
     }
   ],
   "upcoming": [
