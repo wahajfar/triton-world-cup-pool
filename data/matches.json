@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 11:30 AM PT",
+  "updatedAt": "Jun 22, 11:40 AM PT",
   "live": [
     {
       "id": "760456",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "66'",
+      "minute": "76'",
       "recap": {
         "goals": [
           {
@@ -37,6 +37,12 @@
             "minute": "40'",
             "side": "b",
             "player": "Stefan Posch",
+            "color": "yellow"
+          },
+          {
+            "minute": "76'",
+            "side": "a",
+            "player": "Facundo Medina",
             "color": "yellow"
           }
         ]
