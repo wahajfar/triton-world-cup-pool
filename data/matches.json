@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 10:30 AM PT",
+  "updatedAt": "Jun 22, 10:40 AM PT",
   "live": [
     {
       "id": "760456",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Austria",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "29'",
+      "minute": "39'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "38'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
