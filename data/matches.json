@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 6:10 PM PT",
+  "updatedAt": "Jun 21, 6:20 PM PT",
   "live": [
     {
       "id": "760452",
@@ -11,7 +11,7 @@
         "flag": "🇳🇿",
         "owner": "Kyle Kostechka",
         "ownerSlackId": "U0AHHBVCG72",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Egypt",
@@ -20,10 +20,32 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "20'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "15'",
+            "side": "a",
+            "scorer": "Finn Surman",
+            "assist": "Tim Payne",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "17'",
+            "side": "b",
+            "player": "Mohanad Lashin",
+            "color": "yellow"
+          },
+          {
+            "minute": "20'",
+            "side": "a",
+            "player": "Sarpreet Singh",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
