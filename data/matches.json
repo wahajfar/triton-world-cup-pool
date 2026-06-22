@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 21, 7:10 PM PT",
+  "updatedAt": "Jun 21, 7:20 PM PT",
   "live": [
     {
       "id": "760452",
@@ -18,9 +18,9 @@
         "flag": "🇪🇬",
         "owner": "Khari Harper",
         "ownerSlackId": "U0B6D9B2V8R",
-        "score": 0
+        "score": 1
       },
-      "minute": "50'",
+      "minute": "60'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Finn Surman",
             "assist": "Tim Payne",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "58'",
+            "side": "b",
+            "scorer": "Mostafa Zico",
+            "assist": "Mohamed Hany",
             "own": false,
             "penalty": false
           }
