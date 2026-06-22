@@ -52,9 +52,12 @@ async function main() {
   if (!sRes.ok) { console.error("[espn] standings fetch failed", sRes.status); process.exit(1); }
   const groups = (await sRes.json()).children || [];
   const td = new Map();                              // canonical team -> { played, points, gd, note, group }
+  const groupDone = new Map();                        // group letter -> true once all 4 teams have played 3
   for (const g of groups) {
     const letter = String(g.name || "").replace(/group/i, "").trim();
-    for (const e of g.standings?.entries || []) {
+    const ents = g.standings?.entries || [];
+    groupDone.set(letter, ents.length > 0 && ents.every((e) => statVal(e, "gamesPlayed") >= 3));
+    for (const e of ents) {
       const key = canonical(e.team?.displayName || "", teams);
       td.set(key, {
         played: statVal(e, "gamesPlayed"), points: statVal(e, "points"), gd: statVal(e, "pointDifferential"),
@@ -93,17 +96,21 @@ async function main() {
   // ---- 3) per-person survival board ----
   let entries = roster.people.map((p) => {
     const t = td.get(canonical(p.team, teams)) || { played: 0, points: 0, gd: 0, note: "", group: p.group };
-    const eliminated = /eliminat/i.test(t.note);
-    const advanced = /advance|best/i.test(t.note);
+    // ESPN's note is a LIVE projected position until the group finishes (all 4 teams played 3).
+    // Only treat it as final once the group is complete — otherwise a team currently sitting
+    // bottom would be falsely "eliminated" (and a leader falsely "through") while games remain.
+    const finalGroup = groupDone.get(t.group) === true;
+    const eliminated = finalGroup && /eliminat/i.test(t.note);
+    const advanced = finalGroup && /advance|best/i.test(t.note);
     const f = form.get(canonical(p.team, teams)) || { form: "-", label: "" };
     return {
       name: p.name, team: p.team, group: p.group || t.group, flag: p.flag, photo: p.photo, slackId: p.slackId || null,
       status: eliminated ? "eliminated" : "alive",
-      stageReached: eliminated ? "group" : advanced ? "R32" : "group",
+      stageReached: advanced ? "R32" : "group",
       eliminatedAt: eliminated ? "Group stage" : null,
       played: t.played, points: t.points, gd: t.gd,
       form: ["W", "D", "L"].includes(f.form) ? f.form : "-",
-      statusLabel: eliminated ? (f.label || "Out") : advanced ? "Through to R32" : (f.label || "—"),
+      statusLabel: eliminated ? (f.label || "Out") : advanced ? "✅ Through to R32" : (f.label || "—"),
     };
   });
 
