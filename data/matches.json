@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 8:30 PM PT",
+  "updatedAt": "Jun 22, 8:40 PM PT",
   "live": [
     {
       "id": "760455",
@@ -11,7 +11,7 @@
         "flag": "🇯🇴",
         "owner": "Adam Chandler",
         "ownerSlackId": "U09L6VCQ6Q6",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Algeria",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "36'",
+            "side": "a",
+            "scorer": "Nizar Al-Rashdan",
+            "assist": "Mousa Al-Tamari",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
