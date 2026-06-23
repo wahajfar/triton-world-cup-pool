@@ -1,264 +1,95 @@
 {
-  "updatedAt": "Jun 22, 10:10 PM PT",
+  "updatedAt": "Jun 23, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760456",
-      "state": "post",
-      "competition": "Group J",
+      "id": "760461",
+      "state": "pre",
+      "competition": "Group K",
       "knockout": false,
       "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 2
-      },
-      "b": {
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "owner": "Farhad Rahgozar",
-        "ownerSlackId": "U056GDBEHQA",
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
         "score": 0
       },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "38'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Facundo Medina",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+5'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "40'",
-            "side": "b",
-            "player": "Stefan Posch",
-            "color": "yellow"
-          },
-          {
-            "minute": "76'",
-            "side": "a",
-            "player": "Facundo Medina",
-            "color": "yellow"
-          },
-          {
-            "minute": "76'",
-            "side": "b",
-            "player": "Konrad Laimer",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+2'",
-            "side": "a",
-            "player": "Leandro Paredes",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
-    {
-      "id": "760457",
-      "state": "post",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 3
-      },
       "b": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
+        "team": "Uzbekistan",
+        "flag": "🇺🇿",
+        "owner": "Baha",
+        "ownerSlackId": "U0ASJNHAPLN",
         "score": 0
       },
-      "minute": "90'+2'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "14'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Ousmane Dembélé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Ousmane Dembélé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "6'",
-            "side": "b",
-            "player": "Amir Al-Ammari",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Tue, Jun 23",
+      "time": "10:00 AM PT"
     },
     {
-      "id": "760454",
-      "state": "post",
-      "competition": "Group I",
+      "id": "760458",
+      "state": "pre",
+      "competition": "Group L",
       "knockout": false,
       "a": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 3
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
       },
       "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
-        "score": 2
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
       },
-      "minute": "90'+10'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "43'",
-            "side": "a",
-            "scorer": "Marcus Holmgren Pedersen",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "48'",
-            "side": "a",
-            "scorer": "Erling Haaland",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "scorer": "Ismaïla Sarr",
-            "assist": "Sadio Mané",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "58'",
-            "side": "a",
-            "scorer": "Erling Haaland",
-            "assist": "Patrick Berg",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "scorer": "Ismaïla Sarr",
-            "assist": "Nicolas Jackson",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
+      "date": "Tue, Jun 23",
+      "time": "1:00 PM PT"
     },
     {
-      "id": "760455",
-      "state": "post",
-      "competition": "Group J",
+      "id": "760460",
+      "state": "pre",
+      "competition": "Group L",
       "knockout": false,
       "a": {
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "owner": "Adam Chandler",
-        "ownerSlackId": "U09L6VCQ6Q6",
-        "score": 1
+        "team": "Panama",
+        "flag": "🇵🇦",
+        "owner": "David Heller",
+        "ownerSlackId": "U09DU9TP8UQ",
+        "score": 0
       },
       "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 2
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 0
       },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "36'",
-            "side": "a",
-            "scorer": "Nizar Al-Rashdan",
-            "assist": "Mousa Al-Tamari",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "69'",
-            "side": "b",
-            "scorer": "Nadhir Benbouali",
-            "assist": "Riyad Mahrez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "82'",
-            "side": "b",
-            "scorer": "Amine Gouiri",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "44'",
-            "side": "b",
-            "player": "Ramiz Zerrouki",
-            "color": "yellow"
-          },
-          {
-            "minute": "64'",
-            "side": "a",
-            "player": "Husam Abu Dahab",
-            "color": "yellow"
-          }
-        ]
+      "date": "Tue, Jun 23",
+      "time": "4:00 PM PT"
+    },
+    {
+      "id": "760459",
+      "state": "pre",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
       },
-      "impact": null
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 0
+      },
+      "date": "Tue, Jun 23",
+      "time": "7:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
