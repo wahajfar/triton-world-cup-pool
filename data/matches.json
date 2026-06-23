@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 23, 12:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 23, 1:10 PM PT",
+  "live": [
+    {
+      "id": "760458",
+      "state": "in",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
+      },
+      "b": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "minute": "11'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760461",
@@ -84,28 +111,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760458",
-      "state": "pre",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 0
-      },
-      "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 0
-      },
-      "date": "Tue, Jun 23",
-      "time": "1:00 PM PT"
-    },
     {
       "id": "760460",
       "state": "pre",
