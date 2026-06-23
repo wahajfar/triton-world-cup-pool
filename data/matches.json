@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 6:10 PM PT",
+  "updatedAt": "Jun 22, 6:20 PM PT",
   "live": [
     {
       "id": "760454",
@@ -11,16 +11,16 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Senegal",
         "flag": "🇸🇳",
         "owner": "Dusan Tasic",
         "ownerSlackId": "U0A3MS2V1E2",
-        "score": 0
+        "score": 1
       },
-      "minute": "51'",
+      "minute": "61'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,22 @@
             "side": "a",
             "scorer": "Erling Haaland",
             "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "scorer": "Ismaïla Sarr",
+            "assist": "Sadio Mané",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "58'",
+            "side": "a",
+            "scorer": "Erling Haaland",
+            "assist": "Patrick Berg",
             "own": false,
             "penalty": false
           }
