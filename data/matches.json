@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 8:40 PM PT",
+  "updatedAt": "Jun 22, 8:50 PM PT",
   "live": [
     {
       "id": "760455",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "44'",
+            "side": "b",
+            "player": "Ramiz Zerrouki",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
