@@ -1,71 +1,6 @@
 {
-  "updatedAt": "Jun 22, 10:00 PM PT",
-  "live": [
-    {
-      "id": "760455",
-      "state": "in",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Jordan",
-        "flag": "🇯🇴",
-        "owner": "Adam Chandler",
-        "ownerSlackId": "U09L6VCQ6Q6",
-        "score": 1
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 2
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "36'",
-            "side": "a",
-            "scorer": "Nizar Al-Rashdan",
-            "assist": "Mousa Al-Tamari",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "69'",
-            "side": "b",
-            "scorer": "Nadhir Benbouali",
-            "assist": "Riyad Mahrez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "82'",
-            "side": "b",
-            "scorer": "Amine Gouiri",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "44'",
-            "side": "b",
-            "player": "Ramiz Zerrouki",
-            "color": "yellow"
-          },
-          {
-            "minute": "64'",
-            "side": "a",
-            "player": "Husam Abu Dahab",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 22, 10:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760456",
@@ -257,6 +192,70 @@
           }
         ],
         "cards": []
+      },
+      "impact": null
+    },
+    {
+      "id": "760455",
+      "state": "post",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Jordan",
+        "flag": "🇯🇴",
+        "owner": "Adam Chandler",
+        "ownerSlackId": "U09L6VCQ6Q6",
+        "score": 1
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 2
+      },
+      "minute": "90'+8'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "36'",
+            "side": "a",
+            "scorer": "Nizar Al-Rashdan",
+            "assist": "Mousa Al-Tamari",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "69'",
+            "side": "b",
+            "scorer": "Nadhir Benbouali",
+            "assist": "Riyad Mahrez",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "82'",
+            "side": "b",
+            "scorer": "Amine Gouiri",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "44'",
+            "side": "b",
+            "player": "Ramiz Zerrouki",
+            "color": "yellow"
+          },
+          {
+            "minute": "64'",
+            "side": "a",
+            "player": "Husam Abu Dahab",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
