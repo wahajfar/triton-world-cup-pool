@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 23, 11:20 AM PT",
+  "updatedAt": "Jun 23, 11:30 AM PT",
   "live": [
     {
       "id": "760461",
@@ -11,7 +11,7 @@
         "flag": "🇵🇹",
         "owner": "Arsal Javed",
         "ownerSlackId": "U0A3QB0E9EW",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "Uzbekistan",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ASJNHAPLN",
         "score": 0
       },
-      "minute": "56'",
+      "minute": "66'",
       "recap": {
         "goals": [
           {
@@ -45,6 +45,14 @@
             "scorer": "Cristiano Ronaldo",
             "assist": "Bruno Fernandes",
             "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Abduvohid Nematov",
+            "assist": "",
+            "own": true,
             "penalty": false
           }
         ],
