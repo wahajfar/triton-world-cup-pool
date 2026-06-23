@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 23, 10:20 AM PT",
+  "updatedAt": "Jun 23, 10:30 AM PT",
   "live": [
     {
       "id": "760461",
@@ -18,9 +18,9 @@
         "flag": "🇺🇿",
         "owner": "Baha",
         "ownerSlackId": "U0ASJNHAPLN",
-        "score": 0
+        "score": 1
       },
-      "minute": "20'",
+      "minute": "31'",
       "recap": {
         "goals": [
           {
@@ -35,6 +35,22 @@
             "minute": "17'",
             "side": "a",
             "scorer": "Nuno Mendes",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "29'",
+            "side": "b",
+            "scorer": "Azizjon Ganiev",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "30'",
+            "side": "b",
+            "scorer": "Azizjon Ganiev",
             "assist": "",
             "own": false,
             "penalty": false
