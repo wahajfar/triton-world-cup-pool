@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 22, 10:20 PM PT",
+  "updatedAt": "Jun 23, 12:10 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
+    "Group K — Portugal 5-0 Uzbekistan",
     "Group J — Jordan 1-2 Algeria",
     "Group I — Norway 3-2 Senegal",
     "Group I — France 3-0 Iraq",
@@ -19,8 +20,7 @@
     "Group F — Netherlands 5-1 Sweden",
     "Group D — Turkey 0-1 Paraguay",
     "Group C — Brazil 3-0 Haiti",
-    "Group C — Scotland 0-1 Morocco",
-    "Group D — United States 2-0 Australia"
+    "Group C — Scotland 0-1 Morocco"
   ],
   "bracket": null,
   "matches": {
@@ -229,6 +229,23 @@
       "rank": 7
     },
     {
+      "name": "Arsal Javed",
+      "team": "Portugal",
+      "group": "K",
+      "flag": "🇵🇹",
+      "photo": null,
+      "slackId": "U0A3QB0E9EW",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 4,
+      "gd": 5,
+      "form": "W",
+      "statusLabel": "W 5–0",
+      "rank": 8
+    },
+    {
       "name": "Jenny",
       "team": "Japan",
       "group": "F",
@@ -243,7 +260,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 4–0",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Luke Zahradka",
@@ -260,7 +277,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 4–0",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Rahim Jutha",
@@ -277,7 +294,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 5–1",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Evan Dawson",
@@ -294,7 +311,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "W 3–0",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Saim Aslam",
@@ -311,7 +328,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "W 4–1",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Khari Harper",
@@ -328,7 +345,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "W 3–1",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Aadam Rasul",
@@ -345,7 +362,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Jabulani Aduwo",
@@ -362,7 +379,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "W 3–1",
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Noorin Yazdani",
@@ -379,7 +396,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "W 4–2",
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Majid Hussain",
@@ -396,7 +413,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "Farhad Rahgozar",
@@ -413,7 +430,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 0–2",
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "Georgi Stanchev",
@@ -430,7 +447,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 1–2",
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "Gul Farooqi",
@@ -447,7 +464,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 0–1",
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "Raymundo Lacanlale",
@@ -464,7 +481,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 0–2",
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "Sami Khan",
@@ -481,7 +498,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 0–1",
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "Sashanka Dutta",
@@ -498,7 +515,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "L 1–5",
-      "rank": 23
+      "rank": 24
     },
     {
       "name": "Azeem Hanjra",
@@ -515,7 +532,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "Cole Germaine",
@@ -532,7 +549,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "W 2–1",
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "Arash Hazini",
@@ -549,7 +566,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "David Chu",
@@ -566,7 +583,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 2–2",
-      "rank": 27
+      "rank": 28
     },
     {
       "name": "John Pajarin",
@@ -583,7 +600,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 28
+      "rank": 29
     },
     {
       "name": "Mahdy R",
@@ -600,23 +617,6 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 2–2",
-      "rank": 29
-    },
-    {
-      "name": "Arsal Javed",
-      "team": "Portugal",
-      "group": "K",
-      "flag": "🇵🇹",
-      "photo": null,
-      "slackId": "U0A3QB0E9EW",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "D 1–1",
       "rank": 30
     },
     {
@@ -807,23 +807,6 @@
       "rank": 41
     },
     {
-      "name": "Baha",
-      "team": "Uzbekistan",
-      "group": "K",
-      "flag": "🇺🇿",
-      "photo": null,
-      "slackId": "U0ASJNHAPLN",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 0,
-      "gd": -2,
-      "form": "L",
-      "statusLabel": "L 1–3",
-      "rank": 42
-    },
-    {
       "name": "Adam Chandler",
       "team": "Jordan",
       "group": "J",
@@ -838,7 +821,7 @@
       "gd": -3,
       "form": "L",
       "statusLabel": "L 1–2",
-      "rank": 43
+      "rank": 42
     },
     {
       "name": "Brandon Harbour",
@@ -855,7 +838,7 @@
       "gd": -3,
       "form": "L",
       "statusLabel": "L 0–1",
-      "rank": 44
+      "rank": 43
     },
     {
       "name": "Dusan Tasic",
@@ -872,7 +855,7 @@
       "gd": -3,
       "form": "L",
       "statusLabel": "L 2–3",
-      "rank": 45
+      "rank": 44
     },
     {
       "name": "Fayaz Tejani",
@@ -889,7 +872,7 @@
       "gd": -4,
       "form": "L",
       "statusLabel": "L 0–3",
-      "rank": 46
+      "rank": 45
     },
     {
       "name": "Bilal Hanjra",
@@ -906,6 +889,23 @@
       "gd": -6,
       "form": "L",
       "statusLabel": "L 0–3",
+      "rank": 46
+    },
+    {
+      "name": "Baha",
+      "team": "Uzbekistan",
+      "group": "K",
+      "flag": "🇺🇿",
+      "photo": null,
+      "slackId": "U0ASJNHAPLN",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 0,
+      "gd": -7,
+      "form": "L",
+      "statusLabel": "L 0–5",
       "rank": 47
     },
     {
