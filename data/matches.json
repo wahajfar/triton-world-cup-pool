@@ -1,64 +1,6 @@
 {
-  "updatedAt": "Jun 22, 5:40 PM PT",
+  "updatedAt": "Jun 22, 5:50 PM PT",
   "live": [
-    {
-      "id": "760457",
-      "state": "in",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 3
-      },
-      "b": {
-        "team": "Iraq",
-        "flag": "🇮🇶",
-        "owner": "Bilal Hanjra",
-        "ownerSlackId": "U04MVCC1ZT4",
-        "score": 0
-      },
-      "minute": "84'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "14'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Ousmane Dembélé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Ousmane Dembélé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "6'",
-            "side": "b",
-            "player": "Amir Al-Ammari",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    },
     {
       "id": "760454",
       "state": "in",
@@ -69,7 +11,7 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Senegal",
@@ -78,9 +20,18 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+4'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "43'",
+            "side": "a",
+            "scorer": "Marcus Holmgren Pedersen",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
@@ -149,6 +100,64 @@
             "minute": "90'+2'",
             "side": "a",
             "player": "Leandro Paredes",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760457",
+      "state": "post",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 3
+      },
+      "b": {
+        "team": "Iraq",
+        "flag": "🇮🇶",
+        "owner": "Bilal Hanjra",
+        "ownerSlackId": "U04MVCC1ZT4",
+        "score": 0
+      },
+      "minute": "90'+2'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "14'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Michael Olise",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "54'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Ousmane Dembélé",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "66'",
+            "side": "a",
+            "scorer": "Ousmane Dembélé",
+            "assist": "Michael Olise",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "6'",
+            "side": "b",
+            "player": "Amir Al-Ammari",
             "color": "yellow"
           }
         ]
