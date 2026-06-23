@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 5:50 PM PT",
+  "updatedAt": "Jun 22, 6:10 PM PT",
   "live": [
     {
       "id": "760454",
@@ -11,7 +11,7 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Senegal",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 0
       },
-      "minute": "45'+4'",
+      "minute": "51'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Marcus Holmgren Pedersen",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "48'",
+            "side": "a",
+            "scorer": "Erling Haaland",
+            "assist": "Martin Ødegaard",
             "own": false,
             "penalty": false
           }
