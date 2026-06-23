@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 9:20 PM PT",
+  "updatedAt": "Jun 22, 9:30 PM PT",
   "live": [
     {
       "id": "760455",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "57'",
+      "minute": "68'",
       "recap": {
         "goals": [
           {
@@ -37,6 +37,12 @@
             "minute": "44'",
             "side": "b",
             "player": "Ramiz Zerrouki",
+            "color": "yellow"
+          },
+          {
+            "minute": "64'",
+            "side": "a",
+            "player": "Husam Abu Dahab",
             "color": "yellow"
           }
         ]
