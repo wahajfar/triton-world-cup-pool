@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jun 23, 11:50 AM PT",
-  "live": [
+  "updatedAt": "Jun 23, 12:00 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760461",
-      "state": "in",
+      "state": "post",
       "competition": "Group K",
       "knockout": false,
       "a": {
@@ -11,7 +12,7 @@
         "flag": "🇵🇹",
         "owner": "Arsal Javed",
         "ownerSlackId": "U0A3QB0E9EW",
-        "score": 4
+        "score": 5
       },
       "b": {
         "team": "Uzbekistan",
@@ -20,7 +21,7 @@
         "ownerSlackId": "U0ASJNHAPLN",
         "score": 0
       },
-      "minute": "86'",
+      "minute": "90'+6'",
       "recap": {
         "goals": [
           {
@@ -54,6 +55,14 @@
             "assist": "",
             "own": true,
             "penalty": false
+          },
+          {
+            "minute": "87'",
+            "side": "a",
+            "scorer": "Rafael Leão",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -74,7 +83,6 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760458",
