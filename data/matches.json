@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 23, 10:10 AM PT",
+  "updatedAt": "Jun 23, 10:20 AM PT",
   "live": [
     {
       "id": "760461",
@@ -11,7 +11,7 @@
         "flag": "🇵🇹",
         "owner": "Arsal Javed",
         "ownerSlackId": "U0A3QB0E9EW",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Uzbekistan",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ASJNHAPLN",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "20'",
       "recap": {
         "goals": [
           {
@@ -30,9 +30,24 @@
             "assist": "João Cancelo",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "17'",
+            "side": "a",
+            "scorer": "Nuno Mendes",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "14'",
+            "side": "b",
+            "player": "Odiljon Xamrobekov",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
