@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 2:50 PM PT",
+  "updatedAt": "Jun 22, 5:10 PM PT",
   "live": [
     {
       "id": "760457",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U04MVCC1ZT4",
         "score": 0
       },
-      "minute": "45'+3'",
+      "minute": "55'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Kylian Mbappé",
             "assist": "Michael Olise",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "54'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "",
             "own": false,
             "penalty": false
           }
@@ -40,6 +48,32 @@
             "color": "yellow"
           }
         ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760454",
+      "state": "in",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
+      },
+      "b": {
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "owner": "Dusan Tasic",
+        "ownerSlackId": "U0A3MS2V1E2",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
       },
       "impact": null
     }
@@ -115,28 +149,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760454",
-      "state": "pre",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
-      },
-      "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
-        "score": 0
-      },
-      "date": "Mon, Jun 22",
-      "time": "5:00 PM PT"
-    },
     {
       "id": "760455",
       "state": "pre",
