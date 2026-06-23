@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 23, 2:20 PM PT",
+  "updatedAt": "Jun 23, 2:30 PM PT",
   "live": [
     {
       "id": "760458",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "57'",
+      "minute": "66'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,12 @@
             "minute": "41'",
             "side": "a",
             "player": "Declan Rice",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Iñaki Williams",
             "color": "yellow"
           }
         ]
