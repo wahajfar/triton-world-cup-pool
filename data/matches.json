@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 22, 9:40 PM PT",
+  "updatedAt": "Jun 22, 9:50 PM PT",
   "live": [
     {
       "id": "760455",
@@ -18,9 +18,9 @@
         "flag": "🇩🇿",
         "owner": "Cole Germaine",
         "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 1
+        "score": 2
       },
-      "minute": "77'",
+      "minute": "87'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Nadhir Benbouali",
             "assist": "Riyad Mahrez",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "82'",
+            "side": "b",
+            "scorer": "Amine Gouiri",
+            "assist": "",
             "own": false,
             "penalty": false
           }
