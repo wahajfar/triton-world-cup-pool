@@ -1,46 +1,6 @@
 {
-  "updatedAt": "Jun 23, 3:00 PM PT",
-  "live": [
-    {
-      "id": "760458",
-      "state": "in",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 0
-      },
-      "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 0
-      },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "41'",
-            "side": "a",
-            "player": "Declan Rice",
-            "color": "yellow"
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "player": "Iñaki Williams",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 23, 3:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760461",
@@ -116,6 +76,45 @@
             "minute": "68'",
             "side": "a",
             "player": "Renato Veiga",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760458",
+      "state": "post",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
+      },
+      "b": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "minute": "90'+6'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "41'",
+            "side": "a",
+            "player": "Declan Rice",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Iñaki Williams",
             "color": "yellow"
           }
         ]
