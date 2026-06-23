@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 23, 12:10 PM PT",
+  "updatedAt": "Jun 23, 3:20 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
+    "Group L — England 0-0 Ghana",
     "Group K — Portugal 5-0 Uzbekistan",
     "Group J — Jordan 1-2 Algeria",
     "Group I — Norway 3-2 Senegal",
@@ -19,8 +20,7 @@
     "Group E — Germany 2-1 Côte d'Ivoire",
     "Group F — Netherlands 5-1 Sweden",
     "Group D — Turkey 0-1 Paraguay",
-    "Group C — Brazil 3-0 Haiti",
-    "Group C — Scotland 0-1 Morocco"
+    "Group C — Brazil 3-0 Haiti"
   ],
   "bracket": null,
   "matches": {
@@ -348,6 +348,23 @@
       "rank": 14
     },
     {
+      "name": "Noorin Yazdani",
+      "team": "England",
+      "group": "L",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "photo": null,
+      "slackId": "U056QKD89C1",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 4,
+      "gd": 2,
+      "form": "D",
+      "statusLabel": "D 0–0",
+      "rank": 15
+    },
+    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -362,7 +379,24 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "name": "Majid Hussain",
+      "team": "Ghana",
+      "group": "L",
+      "flag": "🇬🇭",
+      "photo": null,
+      "slackId": "U0A38E18B55",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 4,
+      "gd": 1,
+      "form": "D",
+      "statusLabel": "D 0–0",
+      "rank": 17
     },
     {
       "name": "Jabulani Aduwo",
@@ -379,40 +413,6 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "W 3–1",
-      "rank": 16
-    },
-    {
-      "name": "Noorin Yazdani",
-      "team": "England",
-      "group": "L",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "photo": null,
-      "slackId": "U056QKD89C1",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 3,
-      "gd": 2,
-      "form": "W",
-      "statusLabel": "W 4–2",
-      "rank": 17
-    },
-    {
-      "name": "Majid Hussain",
-      "team": "Ghana",
-      "group": "L",
-      "flag": "🇬🇭",
-      "photo": null,
-      "slackId": "U0A38E18B55",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 3,
-      "gd": 1,
-      "form": "W",
-      "statusLabel": "W 1–0",
       "rank": 18
     },
     {
