@@ -1,66 +1,6 @@
 {
-  "updatedAt": "Jun 22, 6:50 PM PT",
-  "live": [
-    {
-      "id": "760454",
-      "state": "in",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 3
-      },
-      "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
-        "score": 1
-      },
-      "minute": "90'+1'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "43'",
-            "side": "a",
-            "scorer": "Marcus Holmgren Pedersen",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "48'",
-            "side": "a",
-            "scorer": "Erling Haaland",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "53'",
-            "side": "b",
-            "scorer": "Ismaïla Sarr",
-            "assist": "Sadio Mané",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "58'",
-            "side": "a",
-            "scorer": "Erling Haaland",
-            "assist": "Patrick Berg",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 22, 7:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760456",
@@ -185,6 +125,73 @@
             "color": "yellow"
           }
         ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760454",
+      "state": "post",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 3
+      },
+      "b": {
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "owner": "Dusan Tasic",
+        "ownerSlackId": "U0A3MS2V1E2",
+        "score": 2
+      },
+      "minute": "90'+10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "43'",
+            "side": "a",
+            "scorer": "Marcus Holmgren Pedersen",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "48'",
+            "side": "a",
+            "scorer": "Erling Haaland",
+            "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "53'",
+            "side": "b",
+            "scorer": "Ismaïla Sarr",
+            "assist": "Sadio Mané",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "58'",
+            "side": "a",
+            "scorer": "Erling Haaland",
+            "assist": "Patrick Berg",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "scorer": "Ismaïla Sarr",
+            "assist": "Nicolas Jackson",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
       },
       "impact": null
     }
