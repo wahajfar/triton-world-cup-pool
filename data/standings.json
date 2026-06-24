@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 23, 3:20 PM PT",
+  "updatedAt": "Jun 23, 6:10 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
+    "Group L — Panama 0-1 Croatia",
     "Group L — England 0-0 Ghana",
     "Group K — Portugal 5-0 Uzbekistan",
     "Group J — Jordan 1-2 Algeria",
@@ -19,8 +20,7 @@
     "Group E — Ecuador 0-0 Curaçao",
     "Group E — Germany 2-1 Côte d'Ivoire",
     "Group F — Netherlands 5-1 Sweden",
-    "Group D — Turkey 0-1 Paraguay",
-    "Group C — Brazil 3-0 Haiti"
+    "Group D — Turkey 0-1 Paraguay"
   ],
   "bracket": null,
   "matches": {
@@ -518,6 +518,23 @@
       "rank": 24
     },
     {
+      "name": "Abdul Farooqi",
+      "team": "Croatia",
+      "group": "L",
+      "flag": "🇭🇷",
+      "photo": null,
+      "slackId": "U03UHSCAXMY",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 3,
+      "gd": -1,
+      "form": "W",
+      "statusLabel": "W 1–0",
+      "rank": 25
+    },
+    {
       "name": "Azeem Hanjra",
       "team": "Paraguay",
       "group": "D",
@@ -532,7 +549,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "Cole Germaine",
@@ -549,7 +566,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "W 2–1",
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "Arash Hazini",
@@ -566,7 +583,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 27
+      "rank": 28
     },
     {
       "name": "David Chu",
@@ -583,7 +600,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 2–2",
-      "rank": 28
+      "rank": 29
     },
     {
       "name": "John Pajarin",
@@ -600,7 +617,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 29
+      "rank": 30
     },
     {
       "name": "Mahdy R",
@@ -617,7 +634,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 2–2",
-      "rank": 30
+      "rank": 31
     },
     {
       "name": "Luke Brown",
@@ -634,7 +651,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 1–1",
-      "rank": 31
+      "rank": 32
     },
     {
       "name": "Melchizedek Eroy",
@@ -651,7 +668,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 32
+      "rank": 33
     },
     {
       "name": "Nathan Marchand",
@@ -668,7 +685,7 @@
       "gd": -1,
       "form": "D",
       "statusLabel": "D 1–1",
-      "rank": 33
+      "rank": 34
     },
     {
       "name": "Chris L",
@@ -685,7 +702,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "D 1–1",
-      "rank": 34
+      "rank": 35
     },
     {
       "name": "Kyle Kostechka",
@@ -702,7 +719,7 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "L 1–3",
-      "rank": 35
+      "rank": 36
     },
     {
       "name": "Anton Li",
@@ -719,7 +736,7 @@
       "gd": -3,
       "form": "L",
       "statusLabel": "L 1–4",
-      "rank": 36
+      "rank": 37
     },
     {
       "name": "Richard Lee",
@@ -736,7 +753,7 @@
       "gd": -4,
       "form": "L",
       "statusLabel": "L 0–4",
-      "rank": 37
+      "rank": 38
     },
     {
       "name": "Bruno Nwogu",
@@ -753,7 +770,7 @@
       "gd": -6,
       "form": "L",
       "statusLabel": "L 0–6",
-      "rank": 38
+      "rank": 39
     },
     {
       "name": "Saaed Ramazany",
@@ -770,7 +787,7 @@
       "gd": -6,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 39
+      "rank": 40
     },
     {
       "name": "David Heller",
@@ -782,28 +799,11 @@
       "status": "alive",
       "stageReached": "group",
       "eliminatedAt": null,
-      "played": 1,
-      "points": 0,
-      "gd": -1,
-      "form": "L",
-      "statusLabel": "L 0–1",
-      "rank": 40
-    },
-    {
-      "name": "Abdul Farooqi",
-      "team": "Croatia",
-      "group": "L",
-      "flag": "🇭🇷",
-      "photo": null,
-      "slackId": "U03UHSCAXMY",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
+      "played": 2,
       "points": 0,
       "gd": -2,
       "form": "L",
-      "statusLabel": "L 2–4",
+      "statusLabel": "L 0–1",
       "rank": 41
     },
     {
