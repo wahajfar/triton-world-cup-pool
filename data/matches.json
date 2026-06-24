@@ -1,49 +1,6 @@
 {
-  "updatedAt": "Jun 23, 5:50 PM PT",
-  "live": [
-    {
-      "id": "760460",
-      "state": "in",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "Panama",
-        "flag": "🇵🇦",
-        "owner": "David Heller",
-        "ownerSlackId": "U09DU9TP8UQ",
-        "score": 0
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 1
-      },
-      "minute": "90'+1'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "54'",
-            "side": "b",
-            "scorer": "Ante Budimir",
-            "assist": "Josip Stanisic",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "61'",
-            "side": "a",
-            "player": "Édgar Yoel Bárcenas",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 23, 6:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760461",
@@ -158,6 +115,54 @@
             "minute": "60'",
             "side": "b",
             "player": "Iñaki Williams",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760460",
+      "state": "post",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "Panama",
+        "flag": "🇵🇦",
+        "owner": "David Heller",
+        "ownerSlackId": "U09DU9TP8UQ",
+        "score": 0
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 1
+      },
+      "minute": "90'+5'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "54'",
+            "side": "b",
+            "scorer": "Ante Budimir",
+            "assist": "Josip Stanisic",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "61'",
+            "side": "a",
+            "player": "Édgar Yoel Bárcenas",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+2'",
+            "side": "b",
+            "player": "Petar Sucic",
             "color": "yellow"
           }
         ]
