@@ -1,49 +1,6 @@
 {
-  "updatedAt": "Jun 23, 8:50 PM PT",
-  "live": [
-    {
-      "id": "760459",
-      "state": "in",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 1
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 0
-      },
-      "minute": "89'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "76'",
-            "side": "a",
-            "scorer": "Daniel Muñoz",
-            "assist": "Juan Fernando Quintero",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "56'",
-            "side": "a",
-            "player": "Jhon Lucumí",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 23, 9:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760461",
@@ -206,6 +163,60 @@
             "minute": "90'+2'",
             "side": "b",
             "player": "Petar Sucic",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
+    },
+    {
+      "id": "760459",
+      "state": "post",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 1
+      },
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 0
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "76'",
+            "side": "a",
+            "scorer": "Daniel Muñoz",
+            "assist": "Juan Fernando Quintero",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "56'",
+            "side": "a",
+            "player": "Jhon Lucumí",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "player": "Charles Pickel",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+4'",
+            "side": "a",
+            "player": "Jefferson Lerma",
             "color": "yellow"
           }
         ]
