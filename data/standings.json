@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 23, 6:10 PM PT",
+  "updatedAt": "Jun 23, 9:10 PM PT",
   "stage": "Group Stage — Matchday 2",
   "aliveCount": 48,
   "eliminatedCount": 0,
   "champion": null,
   "recentResults": [
+    "Group K — Colombia 1-0 Congo DR",
     "Group L — Panama 0-1 Croatia",
     "Group L — England 0-0 Ghana",
     "Group K — Portugal 5-0 Uzbekistan",
@@ -19,8 +20,7 @@
     "Group F — Tunisia 0-4 Japan",
     "Group E — Ecuador 0-0 Curaçao",
     "Group E — Germany 2-1 Côte d'Ivoire",
-    "Group F — Netherlands 5-1 Sweden",
-    "Group D — Turkey 0-1 Paraguay"
+    "Group F — Netherlands 5-1 Sweden"
   ],
   "bracket": null,
   "matches": {
@@ -195,6 +195,23 @@
       "rank": 5
     },
     {
+      "name": "Jabulani Aduwo",
+      "team": "Colombia",
+      "group": "K",
+      "flag": "🇨🇴",
+      "photo": null,
+      "slackId": "U0ARBL3JP1U",
+      "status": "alive",
+      "stageReached": "group",
+      "eliminatedAt": null,
+      "played": 2,
+      "points": 6,
+      "gd": 3,
+      "form": "W",
+      "statusLabel": "W 1–0",
+      "rank": 6
+    },
+    {
       "name": "Zeshan Haroon",
       "team": "Mexico",
       "group": "A",
@@ -209,7 +226,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Ryan Drury",
@@ -226,7 +243,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "W 6–0",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Arsal Javed",
@@ -243,7 +260,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "W 5–0",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Jenny",
@@ -260,7 +277,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 4–0",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Luke Zahradka",
@@ -277,7 +294,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 4–0",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Rahim Jutha",
@@ -294,7 +311,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "W 5–1",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Evan Dawson",
@@ -311,7 +328,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "W 3–0",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Saim Aslam",
@@ -328,7 +345,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "W 4–1",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Khari Harper",
@@ -345,7 +362,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "W 3–1",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Noorin Yazdani",
@@ -362,7 +379,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "Aadam Rasul",
@@ -379,7 +396,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "W 1–0",
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "Majid Hussain",
@@ -396,23 +413,6 @@
       "gd": 1,
       "form": "D",
       "statusLabel": "D 0–0",
-      "rank": 17
-    },
-    {
-      "name": "Jabulani Aduwo",
-      "team": "Colombia",
-      "group": "K",
-      "flag": "🇨🇴",
-      "photo": null,
-      "slackId": "U0ARBL3JP1U",
-      "status": "alive",
-      "stageReached": "group",
-      "eliminatedAt": null,
-      "played": 1,
-      "points": 3,
-      "gd": 2,
-      "form": "W",
-      "statusLabel": "W 3–1",
       "rank": 18
     },
     {
@@ -646,11 +646,11 @@
       "status": "alive",
       "stageReached": "group",
       "eliminatedAt": null,
-      "played": 1,
+      "played": 2,
       "points": 1,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "D 1–1",
+      "gd": -1,
+      "form": "L",
+      "statusLabel": "L 0–1",
       "rank": 32
     },
     {
