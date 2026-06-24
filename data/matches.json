@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 23, 5:10 PM PT",
+  "updatedAt": "Jun 23, 5:20 PM PT",
   "live": [
     {
       "id": "760460",
@@ -18,12 +18,28 @@
         "flag": "🇭🇷",
         "owner": "Abdul Farooqi",
         "ownerSlackId": "U03UHSCAXMY",
-        "score": 0
+        "score": 1
       },
-      "minute": "52'",
+      "minute": "61'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "54'",
+            "side": "b",
+            "scorer": "Ante Budimir",
+            "assist": "Josip Stanisic",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "61'",
+            "side": "a",
+            "player": "Édgar Yoel Bárcenas",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
