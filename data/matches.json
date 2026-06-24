@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 23, 6:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 23, 7:10 PM PT",
+  "live": [
+    {
+      "id": "760459",
+      "state": "in",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760461",
@@ -170,28 +197,5 @@
       "impact": null
     }
   ],
-  "upcoming": [
-    {
-      "id": "760459",
-      "state": "pre",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 0
-      },
-      "date": "Tue, Jun 23",
-      "time": "7:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
