@@ -1,228 +1,95 @@
 {
-  "updatedAt": "Jun 23, 9:00 PM PT",
+  "updatedAt": "Jun 24, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760461",
-      "state": "post",
-      "competition": "Group K",
+      "id": "760462",
+      "state": "pre",
+      "competition": "Group B",
       "knockout": false,
       "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 5
-      },
-      "b": {
-        "team": "Uzbekistan",
-        "flag": "🇺🇿",
-        "owner": "Baha",
-        "ownerSlackId": "U0ASJNHAPLN",
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "6'",
-            "side": "a",
-            "scorer": "Cristiano Ronaldo",
-            "assist": "João Cancelo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "17'",
-            "side": "a",
-            "scorer": "Nuno Mendes",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "39'",
-            "side": "a",
-            "scorer": "Cristiano Ronaldo",
-            "assist": "Bruno Fernandes",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Abduvohid Nematov",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          },
-          {
-            "minute": "87'",
-            "side": "a",
-            "scorer": "Rafael Leão",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "14'",
-            "side": "b",
-            "player": "Odiljon Xamrobekov",
-            "color": "yellow"
-          },
-          {
-            "minute": "68'",
-            "side": "a",
-            "player": "Renato Veiga",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Qatar",
+        "flag": "🇶🇦",
+        "owner": "Bruno Nwogu",
+        "ownerSlackId": "U0ANA9G1MUJ",
+        "score": 0
       },
-      "impact": null
+      "date": "Wed, Jun 24",
+      "time": "12:00 PM PT"
     },
     {
-      "id": "760458",
-      "state": "post",
-      "competition": "Group L",
+      "id": "760463",
+      "state": "pre",
+      "competition": "Group B",
       "knockout": false,
       "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
         "score": 0
       },
       "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "owner": "Ryan Drury",
+        "ownerSlackId": "U0AM5158UA3",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "41'",
-            "side": "a",
-            "player": "Declan Rice",
-            "color": "yellow"
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "player": "Iñaki Williams",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Wed, Jun 24",
+      "time": "12:00 PM PT"
     },
     {
-      "id": "760460",
-      "state": "post",
-      "competition": "Group L",
+      "id": "760464",
+      "state": "pre",
+      "competition": "Group C",
       "knockout": false,
       "a": {
-        "team": "Panama",
-        "flag": "🇵🇦",
-        "owner": "David Heller",
-        "ownerSlackId": "U09DU9TP8UQ",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
       "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 1
+        "team": "Haiti",
+        "flag": "🇭🇹",
+        "owner": "Fayaz Tejani",
+        "ownerSlackId": "U08P67MJ5GC",
+        "score": 0
       },
-      "minute": "90'+5'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "54'",
-            "side": "b",
-            "scorer": "Ante Budimir",
-            "assist": "Josip Stanisic",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "61'",
-            "side": "a",
-            "player": "Édgar Yoel Bárcenas",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+2'",
-            "side": "b",
-            "player": "Petar Sucic",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Wed, Jun 24",
+      "time": "3:00 PM PT"
     },
     {
-      "id": "760459",
-      "state": "post",
-      "competition": "Group K",
+      "id": "760465",
+      "state": "pre",
+      "competition": "Group C",
       "knockout": false,
       "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 1
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
+        "team": "Scotland",
+        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "owner": "Sami Khan",
+        "ownerSlackId": "U0B4PET7ZGT",
         "score": 0
       },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "76'",
-            "side": "a",
-            "scorer": "Daniel Muñoz",
-            "assist": "Juan Fernando Quintero",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "56'",
-            "side": "a",
-            "player": "Jhon Lucumí",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "player": "Charles Pickel",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+4'",
-            "side": "a",
-            "player": "Jefferson Lerma",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
+        "score": 0
       },
-      "impact": null
+      "date": "Wed, Jun 24",
+      "time": "3:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
