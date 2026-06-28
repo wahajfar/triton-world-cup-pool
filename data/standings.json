@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 28, 3:30 PM PT",
+  "updatedAt": "Jun 28, 3:42 PM PT",
   "stage": "Round of 32",
   "aliveCount": 31,
   "eliminatedCount": 17,
@@ -45,38 +45,6 @@
           },
           {
             "a": {
-              "team": "Brazil",
-              "flag": "🇧🇷",
-              "person": "Evan Dawson",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Japan",
-              "flag": "🇯🇵",
-              "person": "Jenny",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
-              "team": "Germany",
-              "flag": "🇩🇪",
-              "person": "Uzair Farooqi",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Paraguay",
-              "flag": "🇵🇾",
-              "person": "Azeem Hanjra",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
               "team": "Netherlands",
               "flag": "🇳🇱",
               "person": "Rahim Jutha",
@@ -87,6 +55,22 @@
               "team": "Morocco",
               "flag": "🇲🇦",
               "person": "Aadam Rasul",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Brazil",
+              "flag": "🇧🇷",
+              "person": "Evan Dawson",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Japan",
+              "flag": "🇯🇵",
+              "person": "Jenny",
               "win": false,
               "lose": false
             }
@@ -109,80 +93,16 @@
           },
           {
             "a": {
-              "team": "France",
-              "flag": "🇫🇷",
-              "person": "Abdullah Ashraf",
+              "team": "Portugal",
+              "flag": "🇵🇹",
+              "person": "Arsal Javed",
               "win": false,
               "lose": false
             },
             "b": {
-              "team": "Sweden",
-              "flag": "🇸🇪",
-              "person": "Sashanka Dutta",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
-              "team": "Mexico",
-              "flag": "🇲🇽",
-              "person": "Zeshan Haroon",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Ecuador",
-              "flag": "🇪🇨",
-              "person": "Melchizedek Eroy",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
-              "team": "England",
-              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-              "person": "Noorin Yazdani",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Congo DR",
-              "flag": "🇨🇩",
-              "person": "Luke Brown",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
-              "team": "Belgium",
-              "flag": "🇧🇪",
-              "person": "John Pajarin",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Senegal",
-              "flag": "🇸🇳",
-              "person": "Dusan Tasic",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
-              "team": "United States",
-              "flag": "🇺🇸",
-              "person": "Joshua Lee",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Bosnia and Herzegovina",
-              "flag": "🇧🇦",
-              "person": "Anton Li",
+              "team": "Croatia",
+              "flag": "🇭🇷",
+              "person": "Abdul Farooqi",
               "win": false,
               "lose": false
             }
@@ -205,16 +125,96 @@
           },
           {
             "a": {
-              "team": "Portugal",
-              "flag": "🇵🇹",
-              "person": "Arsal Javed",
+              "team": "United States",
+              "flag": "🇺🇸",
+              "person": "Joshua Lee",
               "win": false,
               "lose": false
             },
             "b": {
-              "team": "Croatia",
-              "flag": "🇭🇷",
-              "person": "Abdul Farooqi",
+              "team": "Bosnia and Herzegovina",
+              "flag": "🇧🇦",
+              "person": "Anton Li",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "England",
+              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+              "person": "Noorin Yazdani",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Congo DR",
+              "flag": "🇨🇩",
+              "person": "Luke Brown",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Germany",
+              "flag": "🇩🇪",
+              "person": "Uzair Farooqi",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Paraguay",
+              "flag": "🇵🇾",
+              "person": "Azeem Hanjra",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Mexico",
+              "flag": "🇲🇽",
+              "person": "Zeshan Haroon",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Ecuador",
+              "flag": "🇪🇨",
+              "person": "Melchizedek Eroy",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Sweden",
+              "flag": "🇸🇪",
+              "person": "Sashanka Dutta",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Belgium",
+              "flag": "🇧🇪",
+              "person": "John Pajarin",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Senegal",
+              "flag": "🇸🇳",
+              "person": "Dusan Tasic",
               "win": false,
               "lose": false
             }
@@ -237,22 +237,6 @@
           },
           {
             "a": {
-              "team": "Australia",
-              "flag": "🇦🇺",
-              "person": "Raymundo Lacanlale",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Egypt",
-              "flag": "🇪🇬",
-              "person": "Khari Harper",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
@@ -263,6 +247,22 @@
               "team": "Cape Verde",
               "flag": "🇨🇻",
               "person": "David Chu",
+              "win": false,
+              "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Australia",
+              "flag": "🇦🇺",
+              "person": "Raymundo Lacanlale",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Egypt",
+              "flag": "🇪🇬",
+              "person": "Khari Harper",
               "win": false,
               "lose": false
             }

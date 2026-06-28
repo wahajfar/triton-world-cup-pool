@@ -98,43 +98,81 @@ async function main() {
   const recentResults = finished.slice(-16).reverse()
     .map((m) => `${m.grp ? `Group ${m.grp} — ` : ""}${m.hN} ${m.hs}-${m.as} ${m.aN}`);
 
-  // ---- 2b) KNOCKOUTS: a team that LOSES a knockout match is out; the winner advances. Also build
-  //         the bracket. ESPN's `competitors[].winner` flag handles draws decided on penalties.
-  const koByTeam = new Map();                         // canonical -> { eliminated, eliminatedAt, stageReached, champion, _order }
-  const bracketByRound = new Map();                   // stage key -> [{ a, b }]
-  let koActiveOrder = -1;                             // furthest round with a match actually played/live
-  const r32Teams = new Set();                         // the 32 teams actually drawn into the Round of 32 = the real group-stage advancers
+  // ---- 2b) KNOCKOUTS: eliminate losers, advance winners, AND lay out the bracket in true
+  //         bracket-position order. ESPN names each future fixture after its feeders — e.g. an R16
+  //         match "Round of 32 1 Winner vs Round of 32 3 Winner" is fed by R32 matches #1 and #3 —
+  //         so we reconstruct the exact tree instead of listing matches by kickoff time.
+  const r32Teams = new Set();
+  let koActiveOrder = -1;
+  const KEY_NAME = {}; for (const s in KO_ROUNDS) KEY_NAME[KO_ROUNDS[s][0]] = KO_ROUNDS[s][1];
   const slotFor = (espnName, winner, played) => {
     const person = roster.people.find((x) => canonical(x.team, teams) === canonical(espnName, teams));
-    if (!person) return null;                          // future-round placeholder (e.g. "Round of 32 3 Winner") → TBD
+    if (!person) return null;                          // future-round placeholder → TBD
     return { team: person.team, flag: person.flag || "", person: person.name, win: played && winner === true, lose: played && winner === false };
   };
+  const feederNum = (name) => { const m = String(name || "").match(/(\d+)\s+Winner\s*$/i); return m ? +m[1] : null; };
+
+  // Collect knockout matches per round, sorted by event id (= FIFA match number within the round).
+  const raw = {};
   for (const ev of events) {
     const r = KO_ROUNDS[ev.season?.slug || ""]; if (!r) continue;
-    const [key, rname] = r;
-    const order = ROUND_DEFS.findIndex((d) => d[0] === key);
     const comp = ev.competitions?.[0]; if (!comp) continue;
     const cs = comp.competitors || [];
     const h = cs.find((c) => c.homeAway === "home") || cs[0], a = cs.find((c) => c.homeAway === "away") || cs[1];
     if (!h || !a) continue;
-    const st = ev.status?.type?.state;
-    const played = st === "post";
-    if (played || st === "in") koActiveOrder = Math.max(koActiveOrder, order);
-    if (!bracketByRound.has(key)) bracketByRound.set(key, []);
-    bracketByRound.get(key).push({ a: slotFor(h.team?.displayName, h.winner, played), b: slotFor(a.team?.displayName, a.winner, played) });
-    if (key === "R32") { r32Teams.add(canonical(h.team?.displayName || "", teams)); r32Teams.add(canonical(a.team?.displayName || "", teams)); }
-    if (!played) continue;
-    for (const c of [h, a]) {
-      const ct = canonical(c.team?.displayName || "", teams);
-      const prev2 = koByTeam.get(ct);
-      if (prev2 && prev2._order > order) continue;    // keep the FURTHEST round a team reached
-      if (c.winner === true) {
-        const adv = KO_NEXT[key];
-        koByTeam.set(ct, { eliminated: false, eliminatedAt: null, stageReached: adv === "Champion" ? "Champion" : adv, champion: adv === "Champion", _order: order });
-      } else {
-        koByTeam.set(ct, { eliminated: true, eliminatedAt: rname, stageReached: key, champion: false, _order: order });
+    (raw[r[0]] ||= []).push({
+      id: Number(ev.id) || 0, hN: h.team?.displayName || "", aN: a.team?.displayName || "",
+      hWin: h.winner, aWin: a.winner, played: ev.status?.type?.state === "post", state: ev.status?.type?.state,
+      hFeed: feederNum(h.team?.displayName), aFeed: feederNum(a.team?.displayName),
+    });
+  }
+  for (const k of Object.keys(raw)) raw[k].sort((x, y) => x.id - y.id);
+
+  // Eliminations / advancement / R32 field / furthest active round.
+  const koByTeam = new Map();
+  for (const [key, ms] of Object.entries(raw)) {
+    const roundOrder = ROUND_DEFS.findIndex((d) => d[0] === key);
+    for (const m of ms) {
+      if (key === "R32") { r32Teams.add(canonical(m.hN, teams)); r32Teams.add(canonical(m.aN, teams)); }
+      if (m.played || m.state === "in") koActiveOrder = Math.max(koActiveOrder, roundOrder);
+      if (!m.played) continue;
+      for (const [name, win] of [[m.hN, m.hWin], [m.aN, m.aWin]]) {
+        const ct = canonical(name, teams), prev2 = koByTeam.get(ct);
+        if (prev2 && prev2._order > roundOrder) continue;
+        if (win === true) { const adv = KO_NEXT[key]; koByTeam.set(ct, { eliminated: false, eliminatedAt: null, stageReached: adv === "Champion" ? "Champion" : adv, champion: adv === "Champion", _order: roundOrder }); }
+        else koByTeam.set(ct, { eliminated: true, eliminatedAt: KEY_NAME[key], stageReached: key, champion: false, _order: roundOrder });
       }
     }
+  }
+
+  // A feeder slot is named after its source match ("Round of 32 3 Winner" → 3). But once that match
+  // is decided, ESPN shows the real team instead of the placeholder — so fall back to looking up
+  // which match in the child round that team came from.
+  const matchNumByTeam = {};
+  for (const [key, ms] of Object.entries(raw)) {
+    matchNumByTeam[key] = {};
+    ms.forEach((m, i) => { for (const nm of [m.hN, m.aN]) { const c = canonical(nm, teams); if (roster.people.some((x) => canonical(x.team, teams) === c)) matchNumByTeam[key][c] = i + 1; } });
+  }
+  const feederOf = (name, childKey) => feederNum(name) ?? matchNumByTeam[childKey]?.[canonical(name, teams)] ?? null;
+
+  // Reconstruct bracket-position order top→bottom: each round's order is its parent round's feeders
+  // walked in the parent's order (Final → SF → QF → R16 → R32).
+  const order = {};
+  const chain = ["Final", "SF", "QF", "R16", "R32"];
+  order.Final = (raw.Final || []).map((_, i) => i + 1);
+  for (let i = 1; i < chain.length; i++) {
+    const parent = chain[i - 1], child = chain[i];
+    const pm = raw[parent] || [], po = order[parent]?.length ? order[parent] : pm.map((_, k) => k + 1);
+    const co = [];
+    for (const n of po) { const m = pm[n - 1]; if (!m) continue; const hf = feederOf(m.hN, child), af = feederOf(m.aN, child); if (hf) co.push(hf); if (af) co.push(af); }
+    order[child] = co;
+  }
+
+  // Build the bracket columns in that order (fall back to id order if a round didn't resolve cleanly).
+  const bracketByRound = new Map();
+  for (const [key, ms] of Object.entries(raw)) {
+    const ord = order[key]?.length === ms.length ? order[key] : ms.map((_, k) => k + 1);
+    bracketByRound.set(key, ord.map((n) => { const m = ms[n - 1]; return m ? { a: slotFor(m.hN, m.hWin, m.played), b: slotFor(m.aN, m.aWin, m.played) } : { a: null, b: null }; }));
   }
   const inKnockouts = bracketByRound.size > 0;
 
