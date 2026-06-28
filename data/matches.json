@@ -1,40 +1,17 @@
 {
-  "updatedAt": "Jun 24, 12:10 AM PT",
+  "updatedAt": "Jun 28, 3:12 PM PT",
   "live": [],
-  "recent": [],
-  "upcoming": [
+  "recent": [
     {
-      "id": "760462",
-      "state": "pre",
-      "competition": "Group B",
+      "id": "760486",
+      "state": "post",
+      "competition": "Group A",
       "knockout": false,
       "a": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
-        "score": 0
-      },
-      "b": {
-        "team": "Qatar",
-        "flag": "🇶🇦",
-        "owner": "Bruno Nwogu",
-        "ownerSlackId": "U0ANA9G1MUJ",
-        "score": 0
-      },
-      "date": "Wed, Jun 24",
-      "time": "12:00 PM PT"
-    },
-    {
-      "id": "760463",
-      "state": "pre",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
+        "team": "South Africa",
+        "flag": "🇿🇦",
+        "owner": "Chris L",
+        "ownerSlackId": "U0A38E3524X",
         "score": 0
       },
       "b": {
@@ -42,54 +19,37 @@
         "flag": "🇨🇦",
         "owner": "Ryan Drury",
         "ownerSlackId": "U0AM5158UA3",
-        "score": 0
+        "score": 1
       },
-      "date": "Wed, Jun 24",
-      "time": "12:00 PM PT"
-    },
-    {
-      "id": "760464",
-      "state": "pre",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 0
+      "minute": "90'+6'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "90'+2'",
+            "side": "b",
+            "scorer": "Stephen Eustáquio",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "54'",
+            "side": "b",
+            "player": "Nathan Saliba",
+            "color": "yellow"
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "player": "Niko Sigur",
+            "color": "yellow"
+          }
+        ]
       },
-      "b": {
-        "team": "Haiti",
-        "flag": "🇭🇹",
-        "owner": "Fayaz Tejani",
-        "ownerSlackId": "U08P67MJ5GC",
-        "score": 0
-      },
-      "date": "Wed, Jun 24",
-      "time": "3:00 PM PT"
-    },
-    {
-      "id": "760465",
-      "state": "pre",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Scotland",
-        "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "owner": "Sami Khan",
-        "ownerSlackId": "U0B4PET7ZGT",
-        "score": 0
-      },
-      "b": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 0
-      },
-      "date": "Wed, Jun 24",
-      "time": "3:00 PM PT"
+      "impact": "❌ 🇿🇦 South Africa are out — Chris L is eliminated"
     }
-  ]
+  ],
+  "upcoming": []
 }

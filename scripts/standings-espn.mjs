@@ -18,6 +18,11 @@ const SITE_URL = process.env.SITE_URL || "https://triton-world-cup.vercel.app";
 const UA = { "User-Agent": "triton-wc/1.0" };
 
 const STAGE_RANK = { group: 0, R32: 1, R16: 2, QF: 3, SF: 4, Final: 5, Champion: 6 };
+const STAGE_NAME = { group: "Group stage", R32: "Round of 32", R16: "Round of 16", QF: "Quarter-finals", SF: "Semi-finals", Final: "the Final", Champion: "Champion" };
+// ESPN season.slug → [stage key, display name]; NEXT = round a winner advances to.
+const KO_ROUNDS = { "round-of-32": ["R32", "Round of 32"], "round-of-16": ["R16", "Round of 16"], "quarterfinals": ["QF", "Quarter-finals"], "quarter-finals": ["QF", "Quarter-finals"], "semifinals": ["SF", "Semi-finals"], "semi-finals": ["SF", "Semi-finals"], "final": ["Final", "Final"] };
+const KO_NEXT = { R32: "R16", R16: "QF", QF: "SF", SF: "Final", Final: "Champion" };
+const ROUND_DEFS = [["R32", "Round of 32", 16], ["R16", "Round of 16", 8], ["QF", "Quarter-finals", 4], ["SF", "Semi-finals", 2], ["Final", "Final", 1]];
 
 // ---- team-name canonicalisation (mirrors live.mjs / matches.mjs) ----
 const norm = (s) => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
@@ -93,24 +98,72 @@ async function main() {
   const recentResults = finished.slice(-16).reverse()
     .map((m) => `${m.grp ? `Group ${m.grp} — ` : ""}${m.hN} ${m.hs}-${m.as} ${m.aN}`);
 
+  // ---- 2b) KNOCKOUTS: a team that LOSES a knockout match is out; the winner advances. Also build
+  //         the bracket. ESPN's `competitors[].winner` flag handles draws decided on penalties.
+  const koByTeam = new Map();                         // canonical -> { eliminated, eliminatedAt, stageReached, champion, _order }
+  const bracketByRound = new Map();                   // stage key -> [{ a, b }]
+  let koActiveOrder = -1;                             // furthest round with a match actually played/live
+  const slotFor = (espnName, winner, played) => {
+    const person = roster.people.find((x) => canonical(x.team, teams) === canonical(espnName, teams));
+    if (!person) return null;                          // future-round placeholder (e.g. "Round of 32 3 Winner") → TBD
+    return { team: person.team, flag: person.flag || "", person: person.name, win: played && winner === true, lose: played && winner === false };
+  };
+  for (const ev of events) {
+    const r = KO_ROUNDS[ev.season?.slug || ""]; if (!r) continue;
+    const [key, rname] = r;
+    const order = ROUND_DEFS.findIndex((d) => d[0] === key);
+    const comp = ev.competitions?.[0]; if (!comp) continue;
+    const cs = comp.competitors || [];
+    const h = cs.find((c) => c.homeAway === "home") || cs[0], a = cs.find((c) => c.homeAway === "away") || cs[1];
+    if (!h || !a) continue;
+    const st = ev.status?.type?.state;
+    const played = st === "post";
+    if (played || st === "in") koActiveOrder = Math.max(koActiveOrder, order);
+    if (!bracketByRound.has(key)) bracketByRound.set(key, []);
+    bracketByRound.get(key).push({ a: slotFor(h.team?.displayName, h.winner, played), b: slotFor(a.team?.displayName, a.winner, played) });
+    if (!played) continue;
+    for (const c of [h, a]) {
+      const ct = canonical(c.team?.displayName || "", teams);
+      const prev2 = koByTeam.get(ct);
+      if (prev2 && prev2._order > order) continue;    // keep the FURTHEST round a team reached
+      if (c.winner === true) {
+        const adv = KO_NEXT[key];
+        koByTeam.set(ct, { eliminated: false, eliminatedAt: null, stageReached: adv === "Champion" ? "Champion" : adv, champion: adv === "Champion", _order: order });
+      } else {
+        koByTeam.set(ct, { eliminated: true, eliminatedAt: rname, stageReached: key, champion: false, _order: order });
+      }
+    }
+  }
+  const inKnockouts = bracketByRound.size > 0;
+
   // ---- 3) per-person survival board ----
   let entries = roster.people.map((p) => {
-    const t = td.get(canonical(p.team, teams)) || { played: 0, points: 0, gd: 0, note: "", group: p.group };
-    // ESPN's note is a LIVE projected position until the group finishes (all 4 teams played 3).
-    // Only treat it as final once the group is complete — otherwise a team currently sitting
-    // bottom would be falsely "eliminated" (and a leader falsely "through") while games remain.
-    const finalGroup = groupDone.get(t.group) === true;
-    const eliminated = finalGroup && /eliminat/i.test(t.note);
-    const advanced = finalGroup && /advance|best/i.test(t.note);
-    const f = form.get(canonical(p.team, teams)) || { form: "-", label: "" };
+    const cteam = canonical(p.team, teams);
+    const t = td.get(cteam) || { played: 0, points: 0, gd: 0, note: "", group: p.group };
+    const ko = koByTeam.get(cteam);
+    const f = form.get(cteam) || { form: "-", label: "" };
+    let status, stageReached, eliminatedAt, statusLabel;
+    if (ko) {
+      // Knockout result is definitive — it supersedes the group note.
+      status = ko.eliminated ? "eliminated" : "alive";
+      stageReached = ko.stageReached;
+      eliminatedAt = ko.eliminated ? ko.eliminatedAt : null;
+      statusLabel = ko.champion ? "🏆 Champion" : ko.eliminated ? `Out — ${ko.eliminatedAt}` : `Into the ${STAGE_NAME[ko.stageReached] || ko.stageReached}`;
+    } else {
+      // ESPN's group note is a LIVE projection until the group finishes (all 4 played 3); only
+      // treat it as final once complete, else a team sitting bottom is falsely "eliminated".
+      const finalGroup = groupDone.get(t.group) === true;
+      const eliminated = finalGroup && /eliminat/i.test(t.note);
+      const advanced = finalGroup && /advance|best/i.test(t.note);
+      status = eliminated ? "eliminated" : "alive";
+      stageReached = advanced ? "R32" : "group";
+      eliminatedAt = eliminated ? "Group stage" : null;
+      statusLabel = eliminated ? (f.label || "Out") : advanced ? "✅ Through to R32" : (f.label || "—");
+    }
     return {
       name: p.name, team: p.team, group: p.group || t.group, flag: p.flag, photo: p.photo, slackId: p.slackId || null,
-      status: eliminated ? "eliminated" : "alive",
-      stageReached: advanced ? "R32" : "group",
-      eliminatedAt: eliminated ? "Group stage" : null,
-      played: t.played, points: t.points, gd: t.gd,
-      form: ["W", "D", "L"].includes(f.form) ? f.form : "-",
-      statusLabel: eliminated ? (f.label || "Out") : advanced ? "✅ Through to R32" : (f.label || "—"),
+      status, stageReached, eliminatedAt, played: t.played, points: t.points, gd: t.gd,
+      form: ["W", "D", "L"].includes(f.form) ? f.form : "-", statusLabel,
     };
   });
 
@@ -135,14 +188,23 @@ async function main() {
   }
 
   const maxPlayed = Math.max(0, ...entries.map((e) => e.played));
+  // Stage label: furthest knockout round actually being PLAYED (not just scheduled), else group.
+  const stage = koActiveOrder >= 0
+    ? ROUND_DEFS[koActiveOrder][1]
+    : (maxPlayed >= 3 ? "Group Stage — Final round" : `Group Stage — Matchday ${maxPlayed || 1}`);
+  // Bracket: every round that has fixtures, with a TBD skeleton for rounds not yet drawn.
+  const bracket = inKnockouts
+    ? { rounds: ROUND_DEFS.map(([key, name, n]) => { const ms = bracketByRound.get(key); return { name, matches: ms && ms.length ? ms : Array.from({ length: n }, () => ({ a: null, b: null })) }; }) }
+    : (prev.bracket || null);
+  const champ = entries.find((e) => e.stageReached === "Champion") || null;
   const out = {
     updatedAt: new Intl.DateTimeFormat("en-US", { timeZone: "America/Los_Angeles", month: "short", day: "numeric", hour: "numeric", minute: "2-digit", hour12: true }).format(new Date()) + " PT",
-    stage: maxPlayed >= 3 ? "Group Stage — Final round" : `Group Stage — Matchday ${maxPlayed || 1}`,
+    stage,
     aliveCount: entries.filter((e) => e.status === "alive").length,
     eliminatedCount: entries.filter((e) => e.status === "eliminated").length,
-    champion: null,
+    champion: champ ? { name: champ.name, team: champ.team, flag: champ.flag, slackId: champ.slackId || null } : null,
     recentResults,
-    bracket: prev.bracket || null,                   // group stage: keep whatever was there (usually null)
+    bracket,
     matches: prev.matches || null,                   // strip is driven by matches.json; keep prev here
     standings: entries,
   };
