@@ -103,6 +103,7 @@ async function main() {
   const koByTeam = new Map();                         // canonical -> { eliminated, eliminatedAt, stageReached, champion, _order }
   const bracketByRound = new Map();                   // stage key -> [{ a, b }]
   let koActiveOrder = -1;                             // furthest round with a match actually played/live
+  const r32Teams = new Set();                         // the 32 teams actually drawn into the Round of 32 = the real group-stage advancers
   const slotFor = (espnName, winner, played) => {
     const person = roster.people.find((x) => canonical(x.team, teams) === canonical(espnName, teams));
     if (!person) return null;                          // future-round placeholder (e.g. "Round of 32 3 Winner") → TBD
@@ -121,6 +122,7 @@ async function main() {
     if (played || st === "in") koActiveOrder = Math.max(koActiveOrder, order);
     if (!bracketByRound.has(key)) bracketByRound.set(key, []);
     bracketByRound.get(key).push({ a: slotFor(h.team?.displayName, h.winner, played), b: slotFor(a.team?.displayName, a.winner, played) });
+    if (key === "R32") { r32Teams.add(canonical(h.team?.displayName || "", teams)); r32Teams.add(canonical(a.team?.displayName || "", teams)); }
     if (!played) continue;
     for (const c of [h, a]) {
       const ct = canonical(c.team?.displayName || "", teams);
@@ -149,12 +151,22 @@ async function main() {
       stageReached = ko.stageReached;
       eliminatedAt = ko.eliminated ? ko.eliminatedAt : null;
       statusLabel = ko.champion ? "🏆 Champion" : ko.eliminated ? `Out — ${ko.eliminatedAt}` : `Into the ${STAGE_NAME[ko.stageReached] || ko.stageReached}`;
+    } else if (r32Teams.size > 0) {
+      // R32 is drawn → group survival is DEFINITIVE: a team is through iff it's in the 32-team
+      // field. (ESPN's "Best 8 advance" note marks all 12 third-placed teams, but only 8 go
+      // through — so the bracket, not the note, is the source of truth.)
+      const through = r32Teams.has(cteam);
+      status = through ? "alive" : "eliminated";
+      stageReached = through ? "R32" : "group";
+      eliminatedAt = through ? null : "Group stage";
+      statusLabel = through ? "✅ Through to R32" : (f.label || "Out");
     } else {
-      // ESPN's group note is a LIVE projection until the group finishes (all 4 played 3); only
-      // treat it as final once complete, else a team sitting bottom is falsely "eliminated".
+      // Pure group stage, R32 not drawn yet. ESPN's note is a live projection until the group
+      // finishes; only the clinched top-2 ("Advance…") are through, the clinched-out ("Eliminated")
+      // are out, and 3rd-placed ("Best 8 advance") stay alive/in-contention until the draw.
       const finalGroup = groupDone.get(t.group) === true;
       const eliminated = finalGroup && /eliminat/i.test(t.note);
-      const advanced = finalGroup && /advance|best/i.test(t.note);
+      const advanced = finalGroup && /^advance/i.test(t.note);
       status = eliminated ? "eliminated" : "alive";
       stageReached = advanced ? "R32" : "group";
       eliminatedAt = eliminated ? "Group stage" : null;
