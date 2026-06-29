@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 10:20 AM PT",
+  "updatedAt": "Jun 29, 10:30 AM PT",
   "live": [
     {
       "id": "760487",
@@ -18,11 +18,20 @@
         "flag": "🇯🇵",
         "owner": "Jenny",
         "ownerSlackId": "U0A3MRT4PFY",
-        "score": 0
+        "score": 1
       },
-      "minute": "20'",
+      "minute": "30'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "29'",
+            "side": "b",
+            "scorer": "Kaishu Sano",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "12'",
