@@ -1,55 +1,73 @@
 {
-  "updatedAt": "Jun 28, 3:12 PM PT",
+  "updatedAt": "Jun 29, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760486",
-      "state": "post",
-      "competition": "Group A",
+      "id": "760487",
+      "state": "pre",
+      "competition": "Group C",
       "knockout": false,
       "a": {
-        "team": "South Africa",
-        "flag": "🇿🇦",
-        "owner": "Chris L",
-        "ownerSlackId": "U0A38E3524X",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
         "score": 0
       },
       "b": {
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "owner": "Ryan Drury",
-        "ownerSlackId": "U0AM5158UA3",
-        "score": 1
+        "team": "Japan",
+        "flag": "🇯🇵",
+        "owner": "Jenny",
+        "ownerSlackId": "U0A3MRT4PFY",
+        "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "90'+2'",
-            "side": "b",
-            "scorer": "Stephen Eustáquio",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "54'",
-            "side": "b",
-            "player": "Nathan Saliba",
-            "color": "yellow"
-          },
-          {
-            "minute": "67'",
-            "side": "b",
-            "player": "Niko Sigur",
-            "color": "yellow"
-          }
-        ]
+      "date": "Mon, Jun 29",
+      "time": "10:00 AM PT"
+    },
+    {
+      "id": "760489",
+      "state": "pre",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
+        "score": 0
       },
-      "impact": "❌ 🇿🇦 South Africa are out — Chris L is eliminated"
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "date": "Mon, Jun 29",
+      "time": "1:30 PM PT"
+    },
+    {
+      "id": "760488",
+      "state": "pre",
+      "competition": "Group F",
+      "knockout": false,
+      "a": {
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "owner": "Rahim Jutha",
+        "ownerSlackId": "U06DWUQCSFM",
+        "score": 0
+      },
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 0
+      },
+      "date": "Mon, Jun 29",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
