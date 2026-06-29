@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 10:50 AM PT",
+  "updatedAt": "Jun 29, 11:10 AM PT",
   "live": [
     {
       "id": "760487",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 1
       },
-      "minute": "45'+4'",
+      "minute": "49'",
       "recap": {
         "goals": [
           {
@@ -49,6 +49,12 @@
             "minute": "45'",
             "side": "b",
             "player": "Daichi Kamada",
+            "color": "yellow"
+          },
+          {
+            "minute": "48'",
+            "side": "a",
+            "player": "Danilo",
             "color": "yellow"
           }
         ]
