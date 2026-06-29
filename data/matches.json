@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 29, 12:30 PM PT",
-  "live": [],
+  "updatedAt": "Jun 29, 1:40 PM PT",
+  "live": [
+    {
+      "id": "760489",
+      "state": "in",
+      "competition": "Group E",
+      "knockout": false,
+      "a": {
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
+        "score": 0
+      },
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760487",
@@ -86,28 +113,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760489",
-      "state": "pre",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 0
-      },
-      "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 0
-      },
-      "date": "Mon, Jun 29",
-      "time": "1:30 PM PT"
-    },
     {
       "id": "760488",
       "state": "pre",
