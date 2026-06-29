@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 3:50 PM PT",
+  "updatedAt": "Jun 29, 4:00 PM PT",
   "live": [
     {
       "id": "760489",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "105'+2'",
+      "minute": "110'",
       "recap": {
         "goals": [
           {
@@ -45,6 +45,12 @@
             "minute": "65'",
             "side": "b",
             "player": "Andrés Cubas",
+            "color": "yellow"
+          },
+          {
+            "minute": "106'",
+            "side": "a",
+            "player": "Kai Havertz",
             "color": "yellow"
           }
         ]
