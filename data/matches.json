@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 10:40 AM PT",
+  "updatedAt": "Jun 29, 10:50 AM PT",
   "live": [
     {
       "id": "760487",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [
           {
@@ -43,6 +43,12 @@
             "minute": "14'",
             "side": "a",
             "player": "Casemiro",
+            "color": "yellow"
+          },
+          {
+            "minute": "45'",
+            "side": "b",
+            "player": "Daichi Kamada",
             "color": "yellow"
           }
         ]
