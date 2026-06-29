@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 11:40 AM PT",
+  "updatedAt": "Jun 29, 11:50 AM PT",
   "live": [
     {
       "id": "760487",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 1
       },
-      "minute": "79'",
+      "minute": "88'",
       "recap": {
         "goals": [
           {
@@ -63,6 +63,12 @@
             "minute": "48'",
             "side": "a",
             "player": "Danilo",
+            "color": "yellow"
+          },
+          {
+            "minute": "84'",
+            "side": "b",
+            "player": "Junnosuke Suzuki",
             "color": "yellow"
           }
         ]
