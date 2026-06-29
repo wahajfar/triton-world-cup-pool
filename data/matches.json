@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 2:40 PM PT",
+  "updatedAt": "Jun 29, 2:50 PM PT",
   "live": [
     {
       "id": "760489",
@@ -11,7 +11,7 @@
         "flag": "🇩🇪",
         "owner": "Uzair Farooqi",
         "ownerSlackId": "U03UTV8N7U1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Paraguay",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "47'",
+      "minute": "57'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Julio Enciso",
             "assist": "Matías Galarza",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "54'",
+            "side": "a",
+            "scorer": "Kai Havertz",
+            "assist": "Florian Wirtz",
             "own": false,
             "penalty": false
           }
