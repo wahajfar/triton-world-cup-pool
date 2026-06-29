@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 4:00 PM PT",
+  "updatedAt": "Jun 29, 4:10 PM PT",
   "live": [
     {
       "id": "760489",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "110'",
+      "minute": "120'",
       "recap": {
         "goals": [
           {
@@ -51,6 +51,18 @@
             "minute": "106'",
             "side": "a",
             "player": "Kai Havertz",
+            "color": "yellow"
+          },
+          {
+            "minute": "115'",
+            "side": "a",
+            "player": "Jamal Musiala",
+            "color": "yellow"
+          },
+          {
+            "minute": "117'",
+            "side": "b",
+            "player": "Matías Galarza",
             "color": "yellow"
           }
         ]
