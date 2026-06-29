@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 11:10 AM PT",
+  "updatedAt": "Jun 29, 11:20 AM PT",
   "live": [
     {
       "id": "760487",
@@ -11,7 +11,7 @@
         "flag": "🇧🇷",
         "owner": "Evan Dawson",
         "ownerSlackId": "U0ATXNHSZUY",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Japan",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 1
       },
-      "minute": "49'",
+      "minute": "58'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Kaishu Sano",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "56'",
+            "side": "a",
+            "scorer": "Casemiro",
+            "assist": "Gabriel Magalhães",
             "own": false,
             "penalty": false
           }
