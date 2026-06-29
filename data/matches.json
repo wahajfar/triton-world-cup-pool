@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 11:50 AM PT",
+  "updatedAt": "Jun 29, 12:00 PM PT",
   "live": [
     {
       "id": "760487",
@@ -11,7 +11,7 @@
         "flag": "🇧🇷",
         "owner": "Evan Dawson",
         "ownerSlackId": "U0ATXNHSZUY",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Japan",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 1
       },
-      "minute": "88'",
+      "minute": "90'+8'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "a",
             "scorer": "Casemiro",
             "assist": "Gabriel Magalhães",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+5'",
+            "side": "a",
+            "scorer": "Gabriel Martinelli",
+            "assist": "Bruno Guimarães",
             "own": false,
             "penalty": false
           }
