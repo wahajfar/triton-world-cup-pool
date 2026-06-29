@@ -1,75 +1,6 @@
 {
-  "updatedAt": "Jun 29, 4:10 PM PT",
-  "live": [
-    {
-      "id": "760489",
-      "state": "in",
-      "competition": "Group E",
-      "knockout": false,
-      "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 1
-      },
-      "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 1
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "42'",
-            "side": "b",
-            "scorer": "Julio Enciso",
-            "assist": "Matías Galarza",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Kai Havertz",
-            "assist": "Florian Wirtz",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "65'",
-            "side": "b",
-            "player": "Andrés Cubas",
-            "color": "yellow"
-          },
-          {
-            "minute": "106'",
-            "side": "a",
-            "player": "Kai Havertz",
-            "color": "yellow"
-          },
-          {
-            "minute": "115'",
-            "side": "a",
-            "player": "Jamal Musiala",
-            "color": "yellow"
-          },
-          {
-            "minute": "117'",
-            "side": "b",
-            "player": "Matías Galarza",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 29, 4:30 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760487",
@@ -152,6 +83,74 @@
         ]
       },
       "impact": "❌ 🇯🇵 Japan are out — Jenny is eliminated"
+    },
+    {
+      "id": "760489",
+      "state": "post",
+      "competition": "Paraguay advance 4-3 on penalties",
+      "knockout": true,
+      "a": {
+        "team": "Germany",
+        "flag": "🇩🇪",
+        "owner": "Uzair Farooqi",
+        "ownerSlackId": "U03UTV8N7U1",
+        "score": 1
+      },
+      "b": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 1
+      },
+      "minute": "120'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "42'",
+            "side": "b",
+            "scorer": "Julio Enciso",
+            "assist": "Matías Galarza",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "54'",
+            "side": "a",
+            "scorer": "Kai Havertz",
+            "assist": "Florian Wirtz",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "65'",
+            "side": "b",
+            "player": "Andrés Cubas",
+            "color": "yellow"
+          },
+          {
+            "minute": "106'",
+            "side": "a",
+            "player": "Kai Havertz",
+            "color": "yellow"
+          },
+          {
+            "minute": "115'",
+            "side": "a",
+            "player": "Jamal Musiala",
+            "color": "yellow"
+          },
+          {
+            "minute": "117'",
+            "side": "b",
+            "player": "Matías Galarza",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": [
