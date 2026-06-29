@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 2:50 PM PT",
+  "updatedAt": "Jun 29, 3:00 PM PT",
   "live": [
     {
       "id": "760489",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08T9RNT4LA",
         "score": 1
       },
-      "minute": "57'",
+      "minute": "67'",
       "recap": {
         "goals": [
           {
@@ -40,7 +40,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "65'",
+            "side": "b",
+            "player": "Andrés Cubas",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
