@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 29, 12:20 PM PT",
+  "updatedAt": "Jun 29, 4:40 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 30,
-  "eliminatedCount": 18,
+  "aliveCount": 29,
+  "eliminatedCount": 19,
   "champion": null,
   "recentResults": [
+    "Group E — Germany 1-1 Paraguay",
     "Group C — Brazil 2-1 Japan",
     "Group A — South Africa 0-1 Canada",
     "Group J — Jordan 1-3 Argentina",
@@ -19,8 +20,7 @@
     "Group H — Cape Verde 0-0 Saudi Arabia",
     "Group I — Senegal 5-0 Iraq",
     "Group I — Norway 1-4 France",
-    "Group D — Turkey 3-2 United States",
-    "Group D — Paraguay 0-0 Australia"
+    "Group D — Turkey 3-2 United States"
   ],
   "bracket": {
     "rounds": [
@@ -61,18 +61,18 @@
           },
           {
             "a": {
-              "team": "Brazil",
-              "flag": "🇧🇷",
-              "person": "Evan Dawson",
-              "win": true,
-              "lose": false
-            },
-            "b": {
-              "team": "Japan",
-              "flag": "🇯🇵",
-              "person": "Jenny",
+              "team": "Germany",
+              "flag": "🇩🇪",
+              "person": "Uzair Farooqi",
               "win": false,
               "lose": true
+            },
+            "b": {
+              "team": "Paraguay",
+              "flag": "🇵🇾",
+              "person": "Azeem Hanjra",
+              "win": true,
+              "lose": false
             }
           },
           {
@@ -299,7 +299,13 @@
             "b": null
           },
           {
-            "a": null,
+            "a": {
+              "team": "Paraguay",
+              "flag": "🇵🇾",
+              "person": "Azeem Hanjra",
+              "win": false,
+              "lose": false
+            },
             "b": null
           },
           {
@@ -500,6 +506,23 @@
       "rank": 2
     },
     {
+      "name": "Azeem Hanjra",
+      "team": "Paraguay",
+      "group": "D",
+      "flag": "🇵🇾",
+      "photo": null,
+      "slackId": "U08T9RNT4LA",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 4,
+      "gd": -2,
+      "form": "D",
+      "statusLabel": "Into the Round of 16",
+      "rank": 3
+    },
+    {
       "name": "Abdullah Ashraf",
       "team": "France",
       "group": "I",
@@ -514,7 +537,7 @@
       "gd": 8,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Wahaj Farooqi",
@@ -531,7 +554,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Zeshan Haroon",
@@ -548,7 +571,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Rahim Jutha",
@@ -565,7 +588,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Luke Zahradka",
@@ -582,7 +605,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Noorin Yazdani",
@@ -599,7 +622,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Saim Aslam",
@@ -616,7 +639,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Aadam Rasul",
@@ -633,7 +656,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Jabulani Aduwo",
@@ -649,23 +672,6 @@
       "points": 7,
       "gd": 3,
       "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 11
-    },
-    {
-      "name": "Uzair Farooqi",
-      "team": "Germany",
-      "group": "E",
-      "flag": "🇩🇪",
-      "photo": null,
-      "slackId": "U03UTV8N7U1",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 6,
-      "form": "L",
       "statusLabel": "✅ Through to R32",
       "rank": 12
     },
@@ -908,23 +914,6 @@
       "rank": 26
     },
     {
-      "name": "Azeem Hanjra",
-      "team": "Paraguay",
-      "group": "D",
-      "flag": "🇵🇾",
-      "photo": null,
-      "slackId": "U08T9RNT4LA",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": -2,
-      "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 27
-    },
-    {
       "name": "Cole Germaine",
       "team": "Algeria",
       "group": "J",
@@ -939,7 +928,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Dusan Tasic",
@@ -956,7 +945,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "David Chu",
@@ -973,6 +962,23 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
+      "rank": 29
+    },
+    {
+      "name": "Uzair Farooqi",
+      "team": "Germany",
+      "group": "E",
+      "flag": "🇩🇪",
+      "photo": null,
+      "slackId": "U03UTV8N7U1",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 6,
+      "gd": 6,
+      "form": "D",
+      "statusLabel": "Out — Round of 32",
       "rank": 30
     },
     {
