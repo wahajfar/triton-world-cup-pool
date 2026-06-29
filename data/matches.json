@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 2:10 PM PT",
+  "updatedAt": "Jun 29, 2:20 PM PT",
   "live": [
     {
       "id": "760489",
@@ -18,11 +18,20 @@
         "flag": "🇵🇾",
         "owner": "Azeem Hanjra",
         "ownerSlackId": "U08T9RNT4LA",
-        "score": 0
+        "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "42'",
+            "side": "b",
+            "scorer": "Julio Enciso",
+            "assist": "Matías Galarza",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
