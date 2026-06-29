@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 10:10 AM PT",
+  "updatedAt": "Jun 29, 10:20 AM PT",
   "live": [
     {
       "id": "760487",
@@ -20,10 +20,23 @@
         "ownerSlackId": "U0A3MRT4PFY",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "20'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "12'",
+            "side": "b",
+            "player": "Kaishu Sano",
+            "color": "yellow"
+          },
+          {
+            "minute": "14'",
+            "side": "a",
+            "player": "Casemiro",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
