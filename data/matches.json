@@ -1,57 +1,6 @@
 {
-  "updatedAt": "Jun 29, 8:50 PM PT",
-  "live": [
-    {
-      "id": "760488",
-      "state": "in",
-      "competition": "Group F",
-      "knockout": false,
-      "a": {
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "owner": "Rahim Jutha",
-        "ownerSlackId": "U06DWUQCSFM",
-        "score": 1
-      },
-      "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 1
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "72'",
-            "side": "a",
-            "scorer": "Cody Gakpo",
-            "assist": "Crysencio Summerville",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+1'",
-            "side": "b",
-            "scorer": "Issa Diop",
-            "assist": "Chemsdine Talbi",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "47'",
-            "side": "b",
-            "player": "Issa Diop",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 29, 9:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760487",
@@ -202,6 +151,56 @@
         ]
       },
       "impact": "❌ 🇩🇪 Germany are out — Uzair Farooqi is eliminated"
+    },
+    {
+      "id": "760488",
+      "state": "post",
+      "competition": "Morocco advance 3-2 on penalties",
+      "knockout": true,
+      "a": {
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "owner": "Rahim Jutha",
+        "ownerSlackId": "U06DWUQCSFM",
+        "score": 1
+      },
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 1
+      },
+      "minute": "120'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "72'",
+            "side": "a",
+            "scorer": "Cody Gakpo",
+            "assist": "Crysencio Summerville",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+1'",
+            "side": "b",
+            "scorer": "Issa Diop",
+            "assist": "Chemsdine Talbi",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "47'",
+            "side": "b",
+            "player": "Issa Diop",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
