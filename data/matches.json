@@ -1,207 +1,73 @@
 {
-  "updatedAt": "Jun 29, 9:20 PM PT",
+  "updatedAt": "Jun 30, 12:20 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760487",
-      "state": "post",
-      "competition": "Group C",
+      "id": "760490",
+      "state": "pre",
+      "competition": "Group E",
       "knockout": false,
       "a": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 2
+        "team": "Côte d'Ivoire",
+        "flag": "🇨🇮",
+        "owner": "Georgi Stanchev",
+        "ownerSlackId": "U0AD3KVGJGH",
+        "score": 0
       },
       "b": {
-        "team": "Japan",
-        "flag": "🇯🇵",
-        "owner": "Jenny",
-        "ownerSlackId": "U0A3MRT4PFY",
-        "score": 1
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
       },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "29'",
-            "side": "b",
-            "scorer": "Kaishu Sano",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "56'",
-            "side": "a",
-            "scorer": "Casemiro",
-            "assist": "Gabriel Magalhães",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+5'",
-            "side": "a",
-            "scorer": "Gabriel Martinelli",
-            "assist": "Bruno Guimarães",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "12'",
-            "side": "b",
-            "player": "Kaishu Sano",
-            "color": "yellow"
-          },
-          {
-            "minute": "14'",
-            "side": "a",
-            "player": "Casemiro",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'",
-            "side": "b",
-            "player": "Daichi Kamada",
-            "color": "yellow"
-          },
-          {
-            "minute": "48'",
-            "side": "a",
-            "player": "Danilo",
-            "color": "yellow"
-          },
-          {
-            "minute": "84'",
-            "side": "b",
-            "player": "Junnosuke Suzuki",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇯🇵 Japan are out — Jenny is eliminated"
+      "date": "Tue, Jun 30",
+      "time": "10:00 AM PT"
     },
     {
-      "id": "760489",
-      "state": "post",
-      "competition": "Paraguay advance 4-3 on penalties",
-      "knockout": true,
+      "id": "760492",
+      "state": "pre",
+      "competition": "Group I",
+      "knockout": false,
       "a": {
-        "team": "Germany",
-        "flag": "🇩🇪",
-        "owner": "Uzair Farooqi",
-        "ownerSlackId": "U03UTV8N7U1",
-        "score": 1
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
       },
       "b": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 1
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "owner": "Sashanka Dutta",
+        "ownerSlackId": "U098JE58RS9",
+        "score": 0
       },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "42'",
-            "side": "b",
-            "scorer": "Julio Enciso",
-            "assist": "Matías Galarza",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Kai Havertz",
-            "assist": "Florian Wirtz",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "65'",
-            "side": "b",
-            "player": "Andrés Cubas",
-            "color": "yellow"
-          },
-          {
-            "minute": "106'",
-            "side": "a",
-            "player": "Kai Havertz",
-            "color": "yellow"
-          },
-          {
-            "minute": "115'",
-            "side": "a",
-            "player": "Jamal Musiala",
-            "color": "yellow"
-          },
-          {
-            "minute": "117'",
-            "side": "b",
-            "player": "Matías Galarza",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇩🇪 Germany are out — Uzair Farooqi is eliminated"
+      "date": "Tue, Jun 30",
+      "time": "2:00 PM PT"
     },
     {
-      "id": "760488",
-      "state": "post",
-      "competition": "Morocco advance 3-2 on penalties",
-      "knockout": true,
+      "id": "760491",
+      "state": "pre",
+      "competition": "Group A",
+      "knockout": false,
       "a": {
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "owner": "Rahim Jutha",
-        "ownerSlackId": "U06DWUQCSFM",
-        "score": 1
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 0
       },
       "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 1
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
+        "score": 0
       },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "72'",
-            "side": "a",
-            "scorer": "Cody Gakpo",
-            "assist": "Crysencio Summerville",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+1'",
-            "side": "b",
-            "scorer": "Issa Diop",
-            "assist": "Chemsdine Talbi",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "47'",
-            "side": "b",
-            "player": "Issa Diop",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇳🇱 Netherlands are out — Rahim Jutha is eliminated"
+      "date": "Tue, Jun 30",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
