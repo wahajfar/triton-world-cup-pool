@@ -1,58 +1,6 @@
 {
-  "updatedAt": "Jun 30, 3:50 PM PT",
-  "live": [
-    {
-      "id": "760492",
-      "state": "in",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 3
-      },
-      "b": {
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "owner": "Sashanka Dutta",
-        "ownerSlackId": "U098JE58RS9",
-        "score": 0
-      },
-      "minute": "90'+1'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "45'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Ousmane Dembélé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "53'",
-            "side": "a",
-            "scorer": "Bradley Barcola",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "74'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 30, 4:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760490",
@@ -111,6 +59,57 @@
         ]
       },
       "impact": "❌ 🇨🇮 Côte d'Ivoire are out — Georgi Stanchev is eliminated"
+    },
+    {
+      "id": "760492",
+      "state": "post",
+      "competition": "Group I",
+      "knockout": false,
+      "a": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 3
+      },
+      "b": {
+        "team": "Sweden",
+        "flag": "🇸🇪",
+        "owner": "Sashanka Dutta",
+        "ownerSlackId": "U098JE58RS9",
+        "score": 0
+      },
+      "minute": "90'+4'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "45'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Ousmane Dembélé",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "53'",
+            "side": "a",
+            "scorer": "Bradley Barcola",
+            "assist": "Michael Olise",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "74'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Michael Olise",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
     }
   ],
   "upcoming": [
