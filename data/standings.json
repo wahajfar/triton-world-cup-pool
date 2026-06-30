@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 29, 9:10 PM PT",
+  "updatedAt": "Jun 30, 12:10 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 28,
-  "eliminatedCount": 20,
+  "aliveCount": 27,
+  "eliminatedCount": 21,
   "champion": null,
   "recentResults": [
+    "Group E — Côte d'Ivoire 1-2 Norway",
     "Group F — Netherlands 1-1 Morocco",
     "Group E — Germany 1-1 Paraguay",
     "Group C — Brazil 2-1 Japan",
@@ -19,8 +20,7 @@
     "Group G — Egypt 1-1 Iran",
     "Group H — Uruguay 0-1 Spain",
     "Group H — Cape Verde 0-0 Saudi Arabia",
-    "Group I — Senegal 5-0 Iraq",
-    "Group I — Norway 1-4 France"
+    "Group I — Senegal 5-0 Iraq"
   ],
   "bracket": {
     "rounds": [
@@ -81,13 +81,13 @@
               "flag": "🇨🇮",
               "person": "Georgi Stanchev",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "Norway",
               "flag": "🇳🇴",
               "person": "Omar Alocozy",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -173,17 +173,17 @@
           },
           {
             "a": {
-              "team": "Mexico",
-              "flag": "🇲🇽",
-              "person": "Zeshan Haroon",
+              "team": "Côte d'Ivoire",
+              "flag": "🇨🇮",
+              "person": "Georgi Stanchev",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
-              "team": "Ecuador",
-              "flag": "🇪🇨",
-              "person": "Melchizedek Eroy",
-              "win": false,
+              "team": "Norway",
+              "flag": "🇳🇴",
+              "person": "Omar Alocozy",
+              "win": true,
               "lose": false
             }
           },
@@ -330,7 +330,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "Norway",
+              "flag": "🇳🇴",
+              "person": "Omar Alocozy",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": null,
@@ -512,6 +518,23 @@
       "rank": 2
     },
     {
+      "name": "Omar Alocozy",
+      "team": "Norway",
+      "group": "I",
+      "flag": "🇳🇴",
+      "photo": null,
+      "slackId": "U0A3LTR7SRK",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 6,
+      "gd": 1,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 3
+    },
+    {
       "name": "Ryan Drury",
       "team": "Canada",
       "group": "B",
@@ -526,7 +549,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Azeem Hanjra",
@@ -543,7 +566,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Abdullah Ashraf",
@@ -560,7 +583,7 @@
       "gd": 8,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Wahaj Farooqi",
@@ -577,7 +600,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Zeshan Haroon",
@@ -594,7 +617,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Luke Zahradka",
@@ -611,7 +634,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Noorin Yazdani",
@@ -628,7 +651,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Saim Aslam",
@@ -645,7 +668,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Jabulani Aduwo",
@@ -662,7 +685,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Joshua Lee",
@@ -679,41 +702,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 12
-    },
-    {
-      "name": "Georgi Stanchev",
-      "team": "Côte d'Ivoire",
-      "group": "E",
-      "flag": "🇨🇮",
-      "photo": null,
-      "slackId": "U0AD3KVGJGH",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 2,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
       "rank": 13
-    },
-    {
-      "name": "Omar Alocozy",
-      "team": "Norway",
-      "group": "I",
-      "flag": "🇳🇴",
-      "photo": null,
-      "slackId": "U0A3LTR7SRK",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 1,
-      "form": "L",
-      "statusLabel": "✅ Through to R32",
-      "rank": 14
     },
     {
       "name": "Abdul Farooqi",
@@ -730,7 +719,7 @@
       "gd": 0,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 15
+      "rank": 14
     },
     {
       "name": "Arsal Javed",
@@ -747,7 +736,7 @@
       "gd": 5,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 16
+      "rank": 15
     },
     {
       "name": "John Pajarin",
@@ -764,7 +753,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 17
+      "rank": 16
     },
     {
       "name": "Khari Harper",
@@ -781,7 +770,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 18
+      "rank": 17
     },
     {
       "name": "Luke Brown",
@@ -798,7 +787,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Farhad Rahgozar",
@@ -815,7 +804,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Majid Hussain",
@@ -832,7 +821,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "Melchizedek Eroy",
@@ -849,7 +838,7 @@
       "gd": 0,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Raymundo Lacanlale",
@@ -866,7 +855,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Sashanka Dutta",
@@ -883,7 +872,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Anton Li",
@@ -900,7 +889,7 @@
       "gd": -1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Cole Germaine",
@@ -917,7 +906,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Dusan Tasic",
@@ -934,7 +923,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "David Chu",
@@ -951,7 +940,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Rahim Jutha",
@@ -968,7 +957,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Uzair Farooqi",
@@ -984,6 +973,23 @@
       "points": 6,
       "gd": 6,
       "form": "D",
+      "statusLabel": "Out — Round of 32",
+      "rank": 29
+    },
+    {
+      "name": "Georgi Stanchev",
+      "team": "Côte d'Ivoire",
+      "group": "E",
+      "flag": "🇨🇮",
+      "photo": null,
+      "slackId": "U0AD3KVGJGH",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 6,
+      "gd": 2,
+      "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 30
     },
