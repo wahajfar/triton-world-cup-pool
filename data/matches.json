@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 29, 7:50 PM PT",
+  "updatedAt": "Jun 29, 8:00 PM PT",
   "live": [
     {
       "id": "760488",
@@ -18,9 +18,9 @@
         "flag": "🇲🇦",
         "owner": "Aadam Rasul",
         "ownerSlackId": "U0829R0K5FA",
-        "score": 0
+        "score": 1
       },
-      "minute": "88'",
+      "minute": "90'+7'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Cody Gakpo",
             "assist": "Crysencio Summerville",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+1'",
+            "side": "b",
+            "scorer": "Issa Diop",
+            "assist": "Chemsdine Talbi",
             "own": false,
             "penalty": false
           }
