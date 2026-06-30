@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 29, 4:40 PM PT",
+  "updatedAt": "Jun 29, 9:10 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 29,
-  "eliminatedCount": 19,
+  "aliveCount": 28,
+  "eliminatedCount": 20,
   "champion": null,
   "recentResults": [
+    "Group F — Netherlands 1-1 Morocco",
     "Group E — Germany 1-1 Paraguay",
     "Group C — Brazil 2-1 Japan",
     "Group A — South Africa 0-1 Canada",
@@ -19,8 +20,7 @@
     "Group H — Uruguay 0-1 Spain",
     "Group H — Cape Verde 0-0 Saudi Arabia",
     "Group I — Senegal 5-0 Iraq",
-    "Group I — Norway 1-4 France",
-    "Group D — Turkey 3-2 United States"
+    "Group I — Norway 1-4 France"
   ],
   "bracket": {
     "rounds": [
@@ -49,13 +49,13 @@
               "flag": "🇳🇱",
               "person": "Rahim Jutha",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "Morocco",
               "flag": "🇲🇦",
               "person": "Aadam Rasul",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -296,7 +296,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "Morocco",
+              "flag": "🇲🇦",
+              "person": "Aadam Rasul",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": {
@@ -489,6 +495,23 @@
       "rank": 1
     },
     {
+      "name": "Aadam Rasul",
+      "team": "Morocco",
+      "group": "C",
+      "flag": "🇲🇦",
+      "photo": null,
+      "slackId": "U0829R0K5FA",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 3,
+      "form": "D",
+      "statusLabel": "Into the Round of 16",
+      "rank": 2
+    },
+    {
       "name": "Ryan Drury",
       "team": "Canada",
       "group": "B",
@@ -503,7 +526,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Azeem Hanjra",
@@ -520,7 +543,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Abdullah Ashraf",
@@ -537,7 +560,7 @@
       "gd": 8,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Wahaj Farooqi",
@@ -554,7 +577,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Zeshan Haroon",
@@ -568,23 +591,6 @@
       "eliminatedAt": null,
       "played": 3,
       "points": 9,
-      "gd": 6,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 6
-    },
-    {
-      "name": "Rahim Jutha",
-      "team": "Netherlands",
-      "group": "F",
-      "flag": "🇳🇱",
-      "photo": null,
-      "slackId": "U06DWUQCSFM",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
       "gd": 6,
       "form": "W",
       "statusLabel": "✅ Through to R32",
@@ -642,23 +648,6 @@
       "rank": 10
     },
     {
-      "name": "Aadam Rasul",
-      "team": "Morocco",
-      "group": "C",
-      "flag": "🇲🇦",
-      "photo": null,
-      "slackId": "U0829R0K5FA",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 3,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 11
-    },
-    {
       "name": "Jabulani Aduwo",
       "team": "Colombia",
       "group": "K",
@@ -673,7 +662,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Joshua Lee",
@@ -690,7 +679,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 13
+      "rank": 12
     },
     {
       "name": "Georgi Stanchev",
@@ -707,7 +696,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 14
+      "rank": 13
     },
     {
       "name": "Omar Alocozy",
@@ -724,7 +713,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 15
+      "rank": 14
     },
     {
       "name": "Abdul Farooqi",
@@ -741,7 +730,7 @@
       "gd": 0,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 16
+      "rank": 15
     },
     {
       "name": "Arsal Javed",
@@ -758,7 +747,7 @@
       "gd": 5,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 17
+      "rank": 16
     },
     {
       "name": "John Pajarin",
@@ -775,7 +764,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 18
+      "rank": 17
     },
     {
       "name": "Khari Harper",
@@ -792,7 +781,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Luke Brown",
@@ -809,7 +798,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Farhad Rahgozar",
@@ -826,7 +815,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "Majid Hussain",
@@ -843,7 +832,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Melchizedek Eroy",
@@ -860,7 +849,7 @@
       "gd": 0,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Raymundo Lacanlale",
@@ -877,7 +866,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Sashanka Dutta",
@@ -894,7 +883,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Anton Li",
@@ -911,7 +900,7 @@
       "gd": -1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Cole Germaine",
@@ -928,7 +917,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Dusan Tasic",
@@ -945,7 +934,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "David Chu",
@@ -962,6 +951,23 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
+      "rank": 28
+    },
+    {
+      "name": "Rahim Jutha",
+      "team": "Netherlands",
+      "group": "F",
+      "flag": "🇳🇱",
+      "photo": null,
+      "slackId": "U06DWUQCSFM",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 7,
+      "gd": 6,
+      "form": "D",
+      "statusLabel": "Out — Round of 32",
       "rank": 29
     },
     {
