@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 30, 12:10 PM PT",
+  "updatedAt": "Jun 30, 4:10 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 27,
-  "eliminatedCount": 21,
+  "aliveCount": 26,
+  "eliminatedCount": 22,
   "champion": null,
   "recentResults": [
+    "Group I — France 3-0 Sweden",
     "Group E — Côte d'Ivoire 1-2 Norway",
     "Group F — Netherlands 1-1 Morocco",
     "Group E — Germany 1-1 Paraguay",
@@ -19,8 +20,7 @@
     "Group G — New Zealand 1-5 Belgium",
     "Group G — Egypt 1-1 Iran",
     "Group H — Uruguay 0-1 Spain",
-    "Group H — Cape Verde 0-0 Saudi Arabia",
-    "Group I — Senegal 5-0 Iraq"
+    "Group H — Cape Verde 0-0 Saudi Arabia"
   ],
   "bracket": {
     "rounds": [
@@ -77,18 +77,18 @@
           },
           {
             "a": {
-              "team": "Côte d'Ivoire",
-              "flag": "🇨🇮",
-              "person": "Georgi Stanchev",
-              "win": false,
-              "lose": true
-            },
-            "b": {
-              "team": "Norway",
-              "flag": "🇳🇴",
-              "person": "Omar Alocozy",
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
               "win": true,
               "lose": false
+            },
+            "b": {
+              "team": "Sweden",
+              "flag": "🇸🇪",
+              "person": "Sashanka Dutta",
+              "win": false,
+              "lose": true
             }
           },
           {
@@ -192,7 +192,7 @@
               "team": "France",
               "flag": "🇫🇷",
               "person": "Abdullah Ashraf",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -200,7 +200,7 @@
               "flag": "🇸🇪",
               "person": "Sashanka Dutta",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
@@ -312,7 +312,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": null,
@@ -484,6 +490,23 @@
   },
   "standings": [
     {
+      "name": "Abdullah Ashraf",
+      "team": "France",
+      "group": "I",
+      "flag": "🇫🇷",
+      "photo": null,
+      "slackId": "U0A9697M3KN",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 8,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 1
+    },
+    {
       "name": "Evan Dawson",
       "team": "Brazil",
       "group": "C",
@@ -498,7 +521,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 1
+      "rank": 2
     },
     {
       "name": "Aadam Rasul",
@@ -515,7 +538,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Omar Alocozy",
@@ -532,7 +555,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Ryan Drury",
@@ -549,7 +572,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Azeem Hanjra",
@@ -566,23 +589,6 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 5
-    },
-    {
-      "name": "Abdullah Ashraf",
-      "team": "France",
-      "group": "I",
-      "flag": "🇫🇷",
-      "photo": null,
-      "slackId": "U0A9697M3KN",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 8,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
       "rank": 6
     },
     {
@@ -858,23 +864,6 @@
       "rank": 22
     },
     {
-      "name": "Sashanka Dutta",
-      "team": "Sweden",
-      "group": "F",
-      "flag": "🇸🇪",
-      "photo": null,
-      "slackId": "U098JE58RS9",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 23
-    },
-    {
       "name": "Anton Li",
       "team": "Bosnia and Herzegovina",
       "group": "B",
@@ -889,7 +878,7 @@
       "gd": -1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Cole Germaine",
@@ -906,7 +895,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Dusan Tasic",
@@ -923,7 +912,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "David Chu",
@@ -940,7 +929,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Rahim Jutha",
@@ -957,7 +946,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Uzair Farooqi",
@@ -974,7 +963,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Georgi Stanchev",
@@ -991,7 +980,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 30
+      "rank": 29
     },
     {
       "name": "Jenny",
@@ -1006,6 +995,23 @@
       "played": 3,
       "points": 5,
       "gd": 4,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 30
+    },
+    {
+      "name": "Sashanka Dutta",
+      "team": "Sweden",
+      "group": "F",
+      "flag": "🇸🇪",
+      "photo": null,
+      "slackId": "U098JE58RS9",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 4,
+      "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 31
