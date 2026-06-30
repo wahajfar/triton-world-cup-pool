@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 10:40 AM PT",
+  "updatedAt": "Jun 30, 10:50 AM PT",
   "live": [
     {
       "id": "760490",
@@ -20,10 +20,26 @@
         "ownerSlackId": "U0A3LTR7SRK",
         "score": 1
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "39'",
+            "side": "b",
+            "scorer": "Antonio Nusa",
+            "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "45'+1'",
+            "side": "b",
+            "player": "Antonio Nusa",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
