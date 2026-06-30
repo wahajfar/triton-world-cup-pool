@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 29, 4:50 PM PT",
-  "live": [],
+  "updatedAt": "Jun 29, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760488",
+      "state": "in",
+      "competition": "Group F",
+      "knockout": false,
+      "a": {
+        "team": "Netherlands",
+        "flag": "🇳🇱",
+        "owner": "Rahim Jutha",
+        "ownerSlackId": "U06DWUQCSFM",
+        "score": 0
+      },
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760487",
@@ -153,28 +180,5 @@
       "impact": "❌ 🇩🇪 Germany are out — Uzair Farooqi is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760488",
-      "state": "pre",
-      "competition": "Group F",
-      "knockout": false,
-      "a": {
-        "team": "Netherlands",
-        "flag": "🇳🇱",
-        "owner": "Rahim Jutha",
-        "ownerSlackId": "U06DWUQCSFM",
-        "score": 0
-      },
-      "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 0
-      },
-      "date": "Mon, Jun 29",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
