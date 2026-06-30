@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 11:30 AM PT",
+  "updatedAt": "Jun 30, 11:40 AM PT",
   "live": [
     {
       "id": "760490",
@@ -11,7 +11,7 @@
         "flag": "🇨🇮",
         "owner": "Georgi Stanchev",
         "ownerSlackId": "U0AD3KVGJGH",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Norway",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3LTR7SRK",
         "score": 1
       },
-      "minute": "70'",
+      "minute": "80'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Antonio Nusa",
             "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "74'",
+            "side": "a",
+            "scorer": "Amad Diallo",
+            "assist": "Nicolas Pépé",
             "own": false,
             "penalty": false
           }
