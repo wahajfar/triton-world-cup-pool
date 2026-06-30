@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 2:40 PM PT",
+  "updatedAt": "Jun 30, 2:50 PM PT",
   "live": [
     {
       "id": "760492",
@@ -11,7 +11,7 @@
         "flag": "🇫🇷",
         "owner": "Abdullah Ashraf",
         "ownerSlackId": "U0A9697M3KN",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Sweden",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U098JE58RS9",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+4'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "45'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Ousmane Dembélé",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
