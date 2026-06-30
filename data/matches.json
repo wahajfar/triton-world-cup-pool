@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 10:30 AM PT",
+  "updatedAt": "Jun 30, 10:40 AM PT",
   "live": [
     {
       "id": "760490",
@@ -18,9 +18,9 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
+        "score": 1
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [],
         "cards": []
