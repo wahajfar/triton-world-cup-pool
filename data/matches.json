@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 9:10 AM PT",
+  "updatedAt": "Jul 1, 9:20 AM PT",
   "live": [
     {
       "id": "760495",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AFV9WLJ9H",
         "score": 1
       },
-      "minute": "10'",
+      "minute": "20'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "19'",
+            "side": "a",
+            "player": "Jude Bellingham",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
