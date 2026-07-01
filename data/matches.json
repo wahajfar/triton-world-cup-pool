@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 1, 11:30 AM PT",
-  "live": [],
+  "updatedAt": "Jul 1, 1:10 PM PT",
+  "live": [
+    {
+      "id": "760493",
+      "state": "in",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
+      },
+      "b": {
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "owner": "Dusan Tasic",
+        "ownerSlackId": "U0A3MS2V1E2",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760495",
@@ -68,28 +95,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760493",
-      "state": "pre",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 0
-      },
-      "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
-        "score": 0
-      },
-      "date": "Wed, Jul 1",
-      "time": "1:00 PM PT"
-    },
     {
       "id": "760494",
       "state": "pre",
