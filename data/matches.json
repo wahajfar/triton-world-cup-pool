@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 9:20 AM PT",
+  "updatedAt": "Jul 1, 9:31 AM PT",
   "live": [
     {
       "id": "760495",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AFV9WLJ9H",
         "score": 1
       },
-      "minute": "20'",
+      "minute": "30'",
       "recap": {
         "goals": [
           {
@@ -37,6 +37,12 @@
             "minute": "19'",
             "side": "a",
             "player": "Jude Bellingham",
+            "color": "yellow"
+          },
+          {
+            "minute": "28'",
+            "side": "b",
+            "player": "Noah Sadiki",
             "color": "yellow"
           }
         ]
