@@ -1,69 +1,6 @@
 {
-  "updatedAt": "Jun 30, 9:00 PM PT",
-  "live": [
-    {
-      "id": "760491",
-      "state": "in",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 2
-      },
-      "b": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
-        "score": 0
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "22'",
-            "side": "a",
-            "scorer": "Julián Quiñones",
-            "assist": "Roberto Alvarado",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "31'",
-            "side": "a",
-            "scorer": "Raúl Jiménez",
-            "assist": "Julián Quiñones",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "45'+1'",
-            "side": "b",
-            "player": "Alan Franco",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "player": "Kendry Páez",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+5'",
-            "side": "b",
-            "player": "Piero Hincapié",
-            "color": "red"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jun 30, 9:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760490",
@@ -173,6 +110,74 @@
         "cards": []
       },
       "impact": "❌ 🇸🇪 Sweden are out — Sashanka Dutta is eliminated"
+    },
+    {
+      "id": "760491",
+      "state": "post",
+      "competition": "Group A",
+      "knockout": false,
+      "a": {
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 2
+      },
+      "b": {
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
+        "score": 0
+      },
+      "minute": "90'+9'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "22'",
+            "side": "a",
+            "scorer": "Julián Quiñones",
+            "assist": "Roberto Alvarado",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "31'",
+            "side": "a",
+            "scorer": "Raúl Jiménez",
+            "assist": "Julián Quiñones",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "45'+1'",
+            "side": "b",
+            "player": "Alan Franco",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "player": "Kendry Páez",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+5'",
+            "side": "b",
+            "player": "Piero Hincapié",
+            "color": "red"
+          },
+          {
+            "minute": "90'+9'",
+            "side": "b",
+            "player": "Moisés Caicedo",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
