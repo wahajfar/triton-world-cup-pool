@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 7:40 PM PT",
+  "updatedAt": "Jun 30, 7:50 PM PT",
   "live": [
     {
       "id": "760491",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6368DM8R",
         "score": 0
       },
-      "minute": "39'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -40,7 +40,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "45'+1'",
+            "side": "b",
+            "player": "Alan Franco",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
