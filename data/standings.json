@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 1, 11:20 AM PT",
+  "updatedAt": "Jul 1, 4:10 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 24,
-  "eliminatedCount": 24,
+  "aliveCount": 23,
+  "eliminatedCount": 25,
   "champion": null,
   "recentResults": [
+    "Group G — Belgium 3-2 Senegal",
     "Group L — England 2-1 Congo DR",
     "Group A — Mexico 2-0 Ecuador",
     "Group I — France 3-0 Sweden",
@@ -19,8 +20,7 @@
     "Group K — Colombia 0-0 Portugal",
     "Group L — Panama 0-2 England",
     "Group L — Croatia 2-1 Ghana",
-    "Group G — New Zealand 1-5 Belgium",
-    "Group G — Egypt 1-1 Iran"
+    "Group G — New Zealand 1-5 Belgium"
   ],
   "bracket": {
     "rounds": [
@@ -141,16 +141,16 @@
           },
           {
             "a": {
-              "team": "England",
-              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-              "person": "Noorin Yazdani",
+              "team": "Belgium",
+              "flag": "🇧🇪",
+              "person": "John Pajarin",
               "win": true,
               "lose": false
             },
             "b": {
-              "team": "Congo DR",
-              "flag": "🇨🇩",
-              "person": "Luke Brown",
+              "team": "Senegal",
+              "flag": "🇸🇳",
+              "person": "Dusan Tasic",
               "win": false,
               "lose": true
             }
@@ -326,7 +326,13 @@
           },
           {
             "a": null,
-            "b": null
+            "b": {
+              "team": "Belgium",
+              "flag": "🇧🇪",
+              "person": "John Pajarin",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": {
@@ -604,6 +610,23 @@
       "rank": 6
     },
     {
+      "name": "John Pajarin",
+      "team": "Belgium",
+      "group": "G",
+      "flag": "🇧🇪",
+      "photo": null,
+      "slackId": "U08SC2F74KB",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 5,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 7
+    },
+    {
       "name": "Ryan Drury",
       "team": "Canada",
       "group": "B",
@@ -618,7 +641,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Azeem Hanjra",
@@ -635,7 +658,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Wahaj Farooqi",
@@ -652,7 +675,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Luke Zahradka",
@@ -669,7 +692,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Saim Aslam",
@@ -686,7 +709,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Jabulani Aduwo",
@@ -703,7 +726,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Joshua Lee",
@@ -720,7 +743,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Abdul Farooqi",
@@ -737,7 +760,7 @@
       "gd": 0,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Arsal Javed",
@@ -753,23 +776,6 @@
       "points": 5,
       "gd": 5,
       "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 15
-    },
-    {
-      "name": "John Pajarin",
-      "team": "Belgium",
-      "group": "G",
-      "flag": "🇧🇪",
-      "photo": null,
-      "slackId": "U08SC2F74KB",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 5,
-      "gd": 4,
-      "form": "W",
       "statusLabel": "✅ Through to R32",
       "rank": 16
     },
@@ -876,23 +882,6 @@
       "rank": 22
     },
     {
-      "name": "Dusan Tasic",
-      "team": "Senegal",
-      "group": "I",
-      "flag": "🇸🇳",
-      "photo": null,
-      "slackId": "U0A3MS2V1E2",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 3,
-      "gd": 2,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 23
-    },
-    {
       "name": "David Chu",
       "team": "Cape Verde",
       "group": "H",
@@ -907,7 +896,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Rahim Jutha",
@@ -924,7 +913,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Uzair Farooqi",
@@ -941,7 +930,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Georgi Stanchev",
@@ -958,7 +947,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Jenny",
@@ -975,7 +964,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Luke Brown",
@@ -992,7 +981,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Melchizedek Eroy",
@@ -1009,7 +998,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 30
+      "rank": 29
     },
     {
       "name": "Sashanka Dutta",
@@ -1026,7 +1015,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 31
+      "rank": 30
     },
     {
       "name": "Chris L",
@@ -1041,6 +1030,23 @@
       "played": 3,
       "points": 4,
       "gd": -1,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 31
+    },
+    {
+      "name": "Dusan Tasic",
+      "team": "Senegal",
+      "group": "I",
+      "flag": "🇸🇳",
+      "photo": null,
+      "slackId": "U0A3MS2V1E2",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 3,
+      "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 32
