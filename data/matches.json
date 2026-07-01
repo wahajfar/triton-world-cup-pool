@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 1:20 PM PT",
+  "updatedAt": "Jul 1, 1:30 PM PT",
   "live": [
     {
       "id": "760493",
@@ -18,11 +18,20 @@
         "flag": "🇸🇳",
         "owner": "Dusan Tasic",
         "ownerSlackId": "U0A3MS2V1E2",
-        "score": 0
+        "score": 1
       },
-      "minute": "20'",
+      "minute": "30'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "25'",
+            "side": "b",
+            "scorer": "Habib Diarra",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
