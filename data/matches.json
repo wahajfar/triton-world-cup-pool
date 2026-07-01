@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 2:20 PM PT",
+  "updatedAt": "Jul 1, 2:30 PM PT",
   "live": [
     {
       "id": "760493",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 2
       },
-      "minute": "58'",
+      "minute": "68'",
       "recap": {
         "goals": [
           {
@@ -40,7 +40,20 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "64'",
+            "side": "a",
+            "player": "Brandon Mechele",
+            "color": "yellow"
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "player": "Lamine Camara",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
