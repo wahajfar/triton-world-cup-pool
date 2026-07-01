@@ -1,9 +1,74 @@
 {
-  "updatedAt": "Jul 1, 3:50 PM PT",
-  "live": [
+  "updatedAt": "Jul 1, 4:00 PM PT",
+  "live": [],
+  "recent": [
+    {
+      "id": "760495",
+      "state": "post",
+      "competition": "Group L",
+      "knockout": false,
+      "a": {
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 2
+      },
+      "b": {
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
+        "score": 1
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "7'",
+            "side": "b",
+            "scorer": "Brian Cipenga",
+            "assist": "Chancel Mbemba",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "75'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Anthony Gordon",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "86'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Anthony Gordon",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "19'",
+            "side": "a",
+            "player": "Jude Bellingham",
+            "color": "yellow"
+          },
+          {
+            "minute": "28'",
+            "side": "b",
+            "player": "Noah Sadiki",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": "❌ 🇨🇩 Congo DR are out — Luke Brown is eliminated"
+    },
     {
       "id": "760493",
-      "state": "in",
+      "state": "post",
       "competition": "Group G",
       "knockout": false,
       "a": {
@@ -80,72 +145,6 @@
         ]
       },
       "impact": null
-    }
-  ],
-  "recent": [
-    {
-      "id": "760495",
-      "state": "post",
-      "competition": "Group L",
-      "knockout": false,
-      "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 2
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 1
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "7'",
-            "side": "b",
-            "scorer": "Brian Cipenga",
-            "assist": "Chancel Mbemba",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Anthony Gordon",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "86'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Anthony Gordon",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "19'",
-            "side": "a",
-            "player": "Jude Bellingham",
-            "color": "yellow"
-          },
-          {
-            "minute": "28'",
-            "side": "b",
-            "player": "Noah Sadiki",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇩 Congo DR are out — Luke Brown is eliminated"
     }
   ],
   "upcoming": [
