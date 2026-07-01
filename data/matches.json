@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jun 30, 6:00 PM PT",
-  "live": [],
+  "updatedAt": "Jun 30, 7:10 PM PT",
+  "live": [
+    {
+      "id": "760491",
+      "state": "in",
+      "competition": "Group A",
+      "knockout": false,
+      "a": {
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
+        "score": 0
+      },
+      "b": {
+        "team": "Ecuador",
+        "flag": "🇪🇨",
+        "owner": "Melchizedek Eroy",
+        "ownerSlackId": "U0B6368DM8R",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760490",
@@ -112,28 +139,5 @@
       "impact": "❌ 🇸🇪 Sweden are out — Sashanka Dutta is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760491",
-      "state": "pre",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 0
-      },
-      "b": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
-        "score": 0
-      },
-      "date": "Tue, Jun 30",
-      "time": "7:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
