@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 2:50 PM PT",
+  "updatedAt": "Jul 1, 3:00 PM PT",
   "live": [
     {
       "id": "760493",
@@ -11,7 +11,7 @@
         "flag": "🇧🇪",
         "owner": "John Pajarin",
         "ownerSlackId": "U08SC2F74KB",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Senegal",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A3MS2V1E2",
         "score": 2
       },
-      "minute": "88'",
+      "minute": "90'+8'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "a",
             "scorer": "Romelu Lukaku",
             "assist": "Thomas Meunier",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "89'",
+            "side": "a",
+            "scorer": "Youri Tielemans",
+            "assist": "Leandro Trossard",
             "own": false,
             "penalty": false
           }
