@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 10:30 AM PT",
+  "updatedAt": "Jul 1, 10:40 AM PT",
   "live": [
     {
       "id": "760495",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Congo DR",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AFV9WLJ9H",
         "score": 1
       },
-      "minute": "67'",
+      "minute": "77'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Brian Cipenga",
             "assist": "Chancel Mbemba",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "75'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Anthony Gordon",
             "own": false,
             "penalty": false
           }
