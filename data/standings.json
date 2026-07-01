@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jun 30, 4:10 PM PT",
+  "updatedAt": "Jun 30, 9:20 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 26,
-  "eliminatedCount": 22,
+  "aliveCount": 25,
+  "eliminatedCount": 23,
   "champion": null,
   "recentResults": [
+    "Group A — Mexico 2-0 Ecuador",
     "Group I — France 3-0 Sweden",
     "Group E — Côte d'Ivoire 1-2 Norway",
     "Group F — Netherlands 1-1 Morocco",
@@ -19,8 +20,7 @@
     "Group L — Croatia 2-1 Ghana",
     "Group G — New Zealand 1-5 Belgium",
     "Group G — Egypt 1-1 Iran",
-    "Group H — Uruguay 0-1 Spain",
-    "Group H — Cape Verde 0-0 Saudi Arabia"
+    "Group H — Uruguay 0-1 Spain"
   ],
   "bracket": {
     "rounds": [
@@ -189,16 +189,16 @@
           },
           {
             "a": {
-              "team": "France",
-              "flag": "🇫🇷",
-              "person": "Abdullah Ashraf",
+              "team": "Mexico",
+              "flag": "🇲🇽",
+              "person": "Zeshan Haroon",
               "win": true,
               "lose": false
             },
             "b": {
-              "team": "Sweden",
-              "flag": "🇸🇪",
-              "person": "Sashanka Dutta",
+              "team": "Ecuador",
+              "flag": "🇪🇨",
+              "person": "Melchizedek Eroy",
               "win": false,
               "lose": true
             }
@@ -345,7 +345,13 @@
             }
           },
           {
-            "a": null,
+            "a": {
+              "team": "Mexico",
+              "flag": "🇲🇽",
+              "person": "Zeshan Haroon",
+              "win": false,
+              "lose": false
+            },
             "b": null
           },
           {
@@ -507,6 +513,23 @@
       "rank": 1
     },
     {
+      "name": "Zeshan Haroon",
+      "team": "Mexico",
+      "group": "A",
+      "flag": "🇲🇽",
+      "photo": null,
+      "slackId": "U09BAMJE8KG",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 6,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 2
+    },
+    {
       "name": "Evan Dawson",
       "team": "Brazil",
       "group": "C",
@@ -521,7 +544,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Aadam Rasul",
@@ -538,7 +561,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Omar Alocozy",
@@ -555,7 +578,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Ryan Drury",
@@ -572,7 +595,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Azeem Hanjra",
@@ -589,7 +612,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Wahaj Farooqi",
@@ -604,23 +627,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 7
-    },
-    {
-      "name": "Zeshan Haroon",
-      "team": "Mexico",
-      "group": "A",
-      "flag": "🇲🇽",
-      "photo": null,
-      "slackId": "U09BAMJE8KG",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 6,
       "form": "W",
       "statusLabel": "✅ Through to R32",
       "rank": 8
@@ -830,23 +836,6 @@
       "rank": 20
     },
     {
-      "name": "Melchizedek Eroy",
-      "team": "Ecuador",
-      "group": "E",
-      "flag": "🇪🇨",
-      "photo": null,
-      "slackId": "U0B6368DM8R",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": 0,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 21
-    },
-    {
       "name": "Raymundo Lacanlale",
       "team": "Australia",
       "group": "D",
@@ -861,7 +850,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Anton Li",
@@ -878,7 +867,7 @@
       "gd": -1,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Cole Germaine",
@@ -895,7 +884,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Dusan Tasic",
@@ -912,7 +901,7 @@
       "gd": 2,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "David Chu",
@@ -929,7 +918,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Rahim Jutha",
@@ -946,7 +935,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Uzair Farooqi",
@@ -963,7 +952,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Georgi Stanchev",
@@ -980,7 +969,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Jenny",
@@ -995,6 +984,23 @@
       "played": 3,
       "points": 5,
       "gd": 4,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 29
+    },
+    {
+      "name": "Melchizedek Eroy",
+      "team": "Ecuador",
+      "group": "E",
+      "flag": "🇪🇨",
+      "photo": null,
+      "slackId": "U0B6368DM8R",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 4,
+      "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 30
