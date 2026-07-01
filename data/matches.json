@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 10:40 AM PT",
+  "updatedAt": "Jul 1, 10:50 AM PT",
   "live": [
     {
       "id": "760495",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Congo DR",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0AFV9WLJ9H",
         "score": 1
       },
-      "minute": "77'",
+      "minute": "87'",
       "recap": {
         "goals": [
           {
@@ -33,6 +33,14 @@
           },
           {
             "minute": "75'",
+            "side": "a",
+            "scorer": "Harry Kane",
+            "assist": "Anthony Gordon",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "86'",
             "side": "a",
             "scorer": "Harry Kane",
             "assist": "Anthony Gordon",
