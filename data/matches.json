@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 8:50 PM PT",
+  "updatedAt": "Jun 30, 9:00 PM PT",
   "live": [
     {
       "id": "760491",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6368DM8R",
         "score": 0
       },
-      "minute": "88'",
+      "minute": "90'+8'",
       "recap": {
         "goals": [
           {
@@ -46,6 +46,18 @@
             "side": "b",
             "player": "Alan Franco",
             "color": "yellow"
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "player": "Kendry Páez",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+5'",
+            "side": "b",
+            "player": "Piero Hincapié",
+            "color": "red"
           }
         ]
       },
