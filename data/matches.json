@@ -1,11 +1,9 @@
 {
-  "updatedAt": "Jul 1, 12:20 AM PT",
-  "live": [],
-  "recent": [],
-  "upcoming": [
+  "updatedAt": "Jul 1, 9:10 AM PT",
+  "live": [
     {
       "id": "760495",
-      "state": "pre",
+      "state": "in",
       "competition": "Group L",
       "knockout": false,
       "a": {
@@ -20,11 +18,27 @@
         "flag": "🇨🇩",
         "owner": "Luke Brown",
         "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 0
+        "score": 1
       },
-      "date": "Wed, Jul 1",
-      "time": "9:00 AM PT"
-    },
+      "minute": "10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "7'",
+            "side": "b",
+            "scorer": "Brian Cipenga",
+            "assist": "Chancel Mbemba",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
+  "recent": [],
+  "upcoming": [
     {
       "id": "760493",
       "state": "pre",
