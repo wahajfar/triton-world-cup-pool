@@ -1,184 +1,73 @@
 {
-  "updatedAt": "Jun 30, 9:30 PM PT",
+  "updatedAt": "Jul 1, 12:20 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760490",
-      "state": "post",
-      "competition": "Group E",
+      "id": "760495",
+      "state": "pre",
+      "competition": "Group L",
       "knockout": false,
       "a": {
-        "team": "Côte d'Ivoire",
-        "flag": "🇨🇮",
-        "owner": "Georgi Stanchev",
-        "ownerSlackId": "U0AD3KVGJGH",
-        "score": 1
-      },
-      "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 2
-      },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "39'",
-            "side": "b",
-            "scorer": "Antonio Nusa",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "74'",
-            "side": "a",
-            "scorer": "Amad Diallo",
-            "assist": "Nicolas Pépé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "86'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "Patrick Berg",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "45'+1'",
-            "side": "b",
-            "player": "Antonio Nusa",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇮 Côte d'Ivoire are out — Georgi Stanchev is eliminated"
-    },
-    {
-      "id": "760492",
-      "state": "post",
-      "competition": "Group I",
-      "knockout": false,
-      "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 3
-      },
-      "b": {
-        "team": "Sweden",
-        "flag": "🇸🇪",
-        "owner": "Sashanka Dutta",
-        "ownerSlackId": "U098JE58RS9",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
         "score": 0
       },
-      "minute": "90'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "45'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Ousmane Dembélé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "53'",
-            "side": "a",
-            "scorer": "Bradley Barcola",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "74'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": "❌ 🇸🇪 Sweden are out — Sashanka Dutta is eliminated"
-    },
-    {
-      "id": "760491",
-      "state": "post",
-      "competition": "Group A",
-      "knockout": false,
-      "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 2
-      },
       "b": {
-        "team": "Ecuador",
-        "flag": "🇪🇨",
-        "owner": "Melchizedek Eroy",
-        "ownerSlackId": "U0B6368DM8R",
+        "team": "Congo DR",
+        "flag": "🇨🇩",
+        "owner": "Luke Brown",
+        "ownerSlackId": "U0AFV9WLJ9H",
         "score": 0
       },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "22'",
-            "side": "a",
-            "scorer": "Julián Quiñones",
-            "assist": "Roberto Alvarado",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "31'",
-            "side": "a",
-            "scorer": "Raúl Jiménez",
-            "assist": "Julián Quiñones",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "45'+1'",
-            "side": "b",
-            "player": "Alan Franco",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "player": "Kendry Páez",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+5'",
-            "side": "b",
-            "player": "Piero Hincapié",
-            "color": "red"
-          },
-          {
-            "minute": "90'+9'",
-            "side": "b",
-            "player": "Moisés Caicedo",
-            "color": "yellow"
-          }
-        ]
+      "date": "Wed, Jul 1",
+      "time": "9:00 AM PT"
+    },
+    {
+      "id": "760493",
+      "state": "pre",
+      "competition": "Group G",
+      "knockout": false,
+      "a": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
       },
-      "impact": "❌ 🇪🇨 Ecuador are out — Melchizedek Eroy is eliminated"
+      "b": {
+        "team": "Senegal",
+        "flag": "🇸🇳",
+        "owner": "Dusan Tasic",
+        "ownerSlackId": "U0A3MS2V1E2",
+        "score": 0
+      },
+      "date": "Wed, Jul 1",
+      "time": "1:00 PM PT"
+    },
+    {
+      "id": "760494",
+      "state": "pre",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
+        "score": 0
+      },
+      "b": {
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
+        "score": 0
+      },
+      "date": "Wed, Jul 1",
+      "time": "5:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
