@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jun 30, 7:20 PM PT",
+  "updatedAt": "Jun 30, 7:30 PM PT",
   "live": [
     {
       "id": "760491",
@@ -11,7 +11,7 @@
         "flag": "🇲🇽",
         "owner": "Zeshan Haroon",
         "ownerSlackId": "U09BAMJE8KG",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Ecuador",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0B6368DM8R",
         "score": 0
       },
-      "minute": "19'",
+      "minute": "29'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "22'",
+            "side": "a",
+            "scorer": "Julián Quiñones",
+            "assist": "Roberto Alvarado",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
