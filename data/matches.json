@@ -1,207 +1,73 @@
 {
-  "updatedAt": "Jul 1, 7:30 PM PT",
+  "updatedAt": "Jul 2, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760495",
-      "state": "post",
-      "competition": "Group L",
+      "id": "760497",
+      "state": "pre",
+      "competition": "Group H",
       "knockout": false,
       "a": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 2
-      },
-      "b": {
-        "team": "Congo DR",
-        "flag": "🇨🇩",
-        "owner": "Luke Brown",
-        "ownerSlackId": "U0AFV9WLJ9H",
-        "score": 1
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "7'",
-            "side": "b",
-            "scorer": "Brian Cipenga",
-            "assist": "Chancel Mbemba",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "75'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Anthony Gordon",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "86'",
-            "side": "a",
-            "scorer": "Harry Kane",
-            "assist": "Anthony Gordon",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "19'",
-            "side": "a",
-            "player": "Jude Bellingham",
-            "color": "yellow"
-          },
-          {
-            "minute": "28'",
-            "side": "b",
-            "player": "Noah Sadiki",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇩 Congo DR are out — Luke Brown is eliminated"
-    },
-    {
-      "id": "760493",
-      "state": "post",
-      "competition": "Group G",
-      "knockout": false,
-      "a": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 3
-      },
-      "b": {
-        "team": "Senegal",
-        "flag": "🇸🇳",
-        "owner": "Dusan Tasic",
-        "ownerSlackId": "U0A3MS2V1E2",
-        "score": 2
-      },
-      "minute": "120'+12'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "24'",
-            "side": "b",
-            "scorer": "Habib Diarra",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "51'",
-            "side": "b",
-            "scorer": "Ismaïla Sarr",
-            "assist": "Moussa Niakhaté",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "86'",
-            "side": "a",
-            "scorer": "Romelu Lukaku",
-            "assist": "Thomas Meunier",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "89'",
-            "side": "a",
-            "scorer": "Youri Tielemans",
-            "assist": "Leandro Trossard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "120'+5'",
-            "side": "a",
-            "scorer": "Youri Tielemans",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "64'",
-            "side": "a",
-            "player": "Brandon Mechele",
-            "color": "yellow"
-          },
-          {
-            "minute": "67'",
-            "side": "b",
-            "player": "Lamine Camara",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇸🇳 Senegal are out — Dusan Tasic is eliminated"
-    },
-    {
-      "id": "760494",
-      "state": "post",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 2
-      },
-      "b": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
         "score": 0
       },
-      "minute": "90'+10'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "45'",
-            "side": "a",
-            "scorer": "Folarin Balogun",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "82'",
-            "side": "a",
-            "scorer": "Malik Tillman",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "64'",
-            "side": "a",
-            "player": "Folarin Balogun",
-            "color": "red"
-          },
-          {
-            "minute": "80'",
-            "side": "b",
-            "player": "Stjepan Radeljic",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Austria",
+        "flag": "🇦🇹",
+        "owner": "Farhad Rahgozar",
+        "ownerSlackId": "U056GDBEHQA",
+        "score": 0
       },
-      "impact": "❌ 🇧🇦 Bosnia and Herzegovina are out — Anton Li is eliminated"
+      "date": "Thu, Jul 2",
+      "time": "12:00 PM PT"
+    },
+    {
+      "id": "760496",
+      "state": "pre",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 0
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 0
+      },
+      "date": "Thu, Jul 2",
+      "time": "4:00 PM PT"
+    },
+    {
+      "id": "760498",
+      "state": "pre",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
+      },
+      "date": "Thu, Jul 2",
+      "time": "8:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
