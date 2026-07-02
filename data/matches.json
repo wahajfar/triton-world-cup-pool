@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 6:30 PM PT",
+  "updatedAt": "Jul 1, 6:40 PM PT",
   "live": [
     {
       "id": "760494",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "65'",
+      "minute": "74'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "64'",
+            "side": "a",
+            "player": "Folarin Balogun",
+            "color": "red"
+          }
+        ]
       },
       "impact": null
     }
