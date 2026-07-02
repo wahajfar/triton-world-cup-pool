@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 4:10 PM PT",
+  "updatedAt": "Jul 2, 4:20 PM PT",
   "live": [
     {
       "id": "760496",
@@ -20,10 +20,17 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 0
       },
-      "minute": "11'",
+      "minute": "20'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "17'",
+            "side": "a",
+            "player": "Rúben Dias",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
