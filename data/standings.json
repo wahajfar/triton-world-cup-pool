@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 1, 4:10 PM PT",
+  "updatedAt": "Jul 1, 7:20 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 23,
-  "eliminatedCount": 25,
+  "aliveCount": 22,
+  "eliminatedCount": 26,
   "champion": null,
   "recentResults": [
+    "Group D — United States 2-0 Bosnia and Herzegovina",
     "Group G — Belgium 3-2 Senegal",
     "Group L — England 2-1 Congo DR",
     "Group A — Mexico 2-0 Ecuador",
@@ -19,8 +20,7 @@
     "Group K — Congo DR 3-1 Uzbekistan",
     "Group K — Colombia 0-0 Portugal",
     "Group L — Panama 0-2 England",
-    "Group L — Croatia 2-1 Ghana",
-    "Group G — New Zealand 1-5 Belgium"
+    "Group L — Croatia 2-1 Ghana"
   ],
   "bracket": {
     "rounds": [
@@ -128,7 +128,7 @@
               "team": "United States",
               "flag": "🇺🇸",
               "person": "Joshua Lee",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -136,7 +136,7 @@
               "flag": "🇧🇦",
               "person": "Anton Li",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
@@ -325,7 +325,13 @@
             "b": null
           },
           {
-            "a": null,
+            "a": {
+              "team": "United States",
+              "flag": "🇺🇸",
+              "person": "Joshua Lee",
+              "win": false,
+              "lose": false
+            },
             "b": {
               "team": "Belgium",
               "flag": "🇧🇪",
@@ -593,6 +599,23 @@
       "rank": 5
     },
     {
+      "name": "Joshua Lee",
+      "team": "United States",
+      "group": "D",
+      "flag": "🇺🇸",
+      "photo": null,
+      "slackId": "U0A3TEZC7MJ",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 6,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 6
+    },
+    {
       "name": "Omar Alocozy",
       "team": "Norway",
       "group": "I",
@@ -607,7 +630,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "John Pajarin",
@@ -624,7 +647,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Ryan Drury",
@@ -641,7 +664,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Azeem Hanjra",
@@ -658,7 +681,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Wahaj Farooqi",
@@ -675,7 +698,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Luke Zahradka",
@@ -692,7 +715,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Saim Aslam",
@@ -709,7 +732,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "✅ Through to R32",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Jabulani Aduwo",
@@ -725,23 +748,6 @@
       "points": 7,
       "gd": 3,
       "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 13
-    },
-    {
-      "name": "Joshua Lee",
-      "team": "United States",
-      "group": "D",
-      "flag": "🇺🇸",
-      "photo": null,
-      "slackId": "U0A3TEZC7MJ",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 4,
-      "form": "L",
       "statusLabel": "✅ Through to R32",
       "rank": 14
     },
@@ -848,23 +854,6 @@
       "rank": 20
     },
     {
-      "name": "Anton Li",
-      "team": "Bosnia and Herzegovina",
-      "group": "B",
-      "flag": "🇧🇦",
-      "photo": null,
-      "slackId": "U0B0X2PLY90",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": -1,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 21
-    },
-    {
       "name": "Cole Germaine",
       "team": "Algeria",
       "group": "J",
@@ -879,7 +868,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "David Chu",
@@ -896,7 +885,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Rahim Jutha",
@@ -913,7 +902,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Uzair Farooqi",
@@ -930,7 +919,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Georgi Stanchev",
@@ -947,7 +936,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Jenny",
@@ -964,7 +953,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Luke Brown",
@@ -981,7 +970,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Melchizedek Eroy",
@@ -998,7 +987,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Sashanka Dutta",
@@ -1013,6 +1002,23 @@
       "played": 3,
       "points": 4,
       "gd": 0,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 29
+    },
+    {
+      "name": "Anton Li",
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "flag": "🇧🇦",
+      "photo": null,
+      "slackId": "U0B0X2PLY90",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 4,
+      "gd": -1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 30
