@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 1, 5:40 PM PT",
+  "updatedAt": "Jul 1, 5:50 PM PT",
   "live": [
     {
       "id": "760494",
@@ -11,7 +11,7 @@
         "flag": "🇺🇸",
         "owner": "Joshua Lee",
         "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Bosnia and Herzegovina",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0B0X2PLY90",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+5'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "45'",
+            "side": "a",
+            "scorer": "Folarin Balogun",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
