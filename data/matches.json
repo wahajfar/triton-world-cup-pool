@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 1:40 PM PT",
+  "updatedAt": "Jul 2, 1:50 PM PT",
   "live": [
     {
       "id": "760497",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "79'",
+      "minute": "88'",
       "recap": {
         "goals": [
           {
@@ -40,7 +40,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "83'",
+            "side": "b",
+            "player": "Stefan Posch",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
