@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 2, 1:50 PM PT",
-  "live": [
+  "updatedAt": "Jul 2, 2:00 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760497",
-      "state": "in",
+      "state": "post",
       "competition": "Group H",
       "knockout": false,
       "a": {
@@ -11,7 +12,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Austria",
@@ -20,7 +21,7 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "88'",
+      "minute": "90'+6'",
       "recap": {
         "goals": [
           {
@@ -38,6 +39,14 @@
             "assist": "Álex Baena",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "89'",
+            "side": "a",
+            "scorer": "Mikel Oyarzabal",
+            "assist": "Marc Cucurella",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -52,7 +61,6 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760496",
