@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 2, 2:20 PM PT",
-  "live": [],
+  "updatedAt": "Jul 2, 4:00 PM PT",
+  "live": [
+    {
+      "id": "760496",
+      "state": "in",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 0
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 0
+      },
+      "minute": "1'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760497",
@@ -62,28 +89,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760496",
-      "state": "pre",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 0
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 0
-      },
-      "date": "Thu, Jul 2",
-      "time": "4:00 PM PT"
-    },
     {
       "id": "760498",
       "state": "pre",
