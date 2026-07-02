@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 1:20 PM PT",
+  "updatedAt": "Jul 2, 1:30 PM PT",
   "live": [
     {
       "id": "760497",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Austria",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056GDBEHQA",
         "score": 0
       },
-      "minute": "58'",
+      "minute": "69'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Mikel Oyarzabal",
             "assist": "Marc Cucurella",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "66'",
+            "side": "a",
+            "scorer": "Pedro Porro",
+            "assist": "Álex Baena",
             "own": false,
             "penalty": false
           }
