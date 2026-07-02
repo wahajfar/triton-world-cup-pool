@@ -1,63 +1,6 @@
 {
-  "updatedAt": "Jul 1, 7:00 PM PT",
-  "live": [
-    {
-      "id": "760494",
-      "state": "in",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 2
-      },
-      "b": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
-        "score": 0
-      },
-      "minute": "90'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "45'",
-            "side": "a",
-            "scorer": "Folarin Balogun",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "82'",
-            "side": "a",
-            "scorer": "Malik Tillman",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "64'",
-            "side": "a",
-            "player": "Folarin Balogun",
-            "color": "red"
-          },
-          {
-            "minute": "80'",
-            "side": "b",
-            "player": "Stjepan Radeljic",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 1, 7:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760495",
@@ -146,7 +89,7 @@
       "recap": {
         "goals": [
           {
-            "minute": "25'",
+            "minute": "24'",
             "side": "b",
             "scorer": "Habib Diarra",
             "assist": "",
@@ -202,6 +145,62 @@
         ]
       },
       "impact": "❌ 🇸🇳 Senegal are out — Dusan Tasic is eliminated"
+    },
+    {
+      "id": "760494",
+      "state": "post",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
+        "score": 2
+      },
+      "b": {
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
+        "score": 0
+      },
+      "minute": "90'+10'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "45'",
+            "side": "a",
+            "scorer": "Folarin Balogun",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "82'",
+            "side": "a",
+            "scorer": "Malik Tillman",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "64'",
+            "side": "a",
+            "player": "Folarin Balogun",
+            "color": "red"
+          },
+          {
+            "minute": "80'",
+            "side": "b",
+            "player": "Stjepan Radeljic",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
