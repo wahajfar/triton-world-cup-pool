@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 1, 4:20 PM PT",
-  "live": [],
+  "updatedAt": "Jul 1, 5:10 PM PT",
+  "live": [
+    {
+      "id": "760494",
+      "state": "in",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
+        "score": 0
+      },
+      "b": {
+        "team": "Bosnia and Herzegovina",
+        "flag": "🇧🇦",
+        "owner": "Anton Li",
+        "ownerSlackId": "U0B0X2PLY90",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760495",
@@ -147,28 +174,5 @@
       "impact": "❌ 🇸🇳 Senegal are out — Dusan Tasic is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760494",
-      "state": "pre",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 0
-      },
-      "b": {
-        "team": "Bosnia and Herzegovina",
-        "flag": "🇧🇦",
-        "owner": "Anton Li",
-        "ownerSlackId": "U0B0X2PLY90",
-        "score": 0
-      },
-      "date": "Wed, Jul 1",
-      "time": "5:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
