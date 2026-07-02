@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 1, 7:20 PM PT",
+  "updatedAt": "Jul 2, 2:10 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 22,
-  "eliminatedCount": 26,
+  "aliveCount": 21,
+  "eliminatedCount": 27,
   "champion": null,
   "recentResults": [
+    "Group H — Spain 3-0 Austria",
     "Group D — United States 2-0 Bosnia and Herzegovina",
     "Group G — Belgium 3-2 Senegal",
     "Group L — England 2-1 Congo DR",
@@ -19,8 +20,7 @@
     "Group J — Algeria 3-3 Austria",
     "Group K — Congo DR 3-1 Uzbekistan",
     "Group K — Colombia 0-0 Portugal",
-    "Group L — Panama 0-2 England",
-    "Group L — Croatia 2-1 Ghana"
+    "Group L — Panama 0-2 England"
   ],
   "bracket": {
     "rounds": [
@@ -112,7 +112,7 @@
               "team": "Spain",
               "flag": "🇪🇸",
               "person": "Luke Zahradka",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -120,7 +120,7 @@
               "flag": "🇦🇹",
               "person": "Farhad Rahgozar",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
@@ -322,7 +322,13 @@
           },
           {
             "a": null,
-            "b": null
+            "b": {
+              "team": "Spain",
+              "flag": "🇪🇸",
+              "person": "Luke Zahradka",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": {
@@ -565,6 +571,23 @@
       "rank": 3
     },
     {
+      "name": "Luke Zahradka",
+      "team": "Spain",
+      "group": "H",
+      "flag": "🇪🇸",
+      "photo": null,
+      "slackId": "U08PP9TNNA1",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 5,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 4
+    },
+    {
       "name": "Noorin Yazdani",
       "team": "England",
       "group": "L",
@@ -579,7 +602,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Aadam Rasul",
@@ -596,7 +619,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Joshua Lee",
@@ -613,7 +636,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Omar Alocozy",
@@ -630,7 +653,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "John Pajarin",
@@ -647,7 +670,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Ryan Drury",
@@ -664,7 +687,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Azeem Hanjra",
@@ -681,7 +704,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Wahaj Farooqi",
@@ -696,23 +719,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
-      "rank": 11
-    },
-    {
-      "name": "Luke Zahradka",
-      "team": "Spain",
-      "group": "H",
-      "flag": "🇪🇸",
-      "photo": null,
-      "slackId": "U08PP9TNNA1",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 5,
       "form": "W",
       "statusLabel": "✅ Through to R32",
       "rank": 12
@@ -803,23 +809,6 @@
       "rank": 17
     },
     {
-      "name": "Farhad Rahgozar",
-      "team": "Austria",
-      "group": "J",
-      "flag": "🇦🇹",
-      "photo": null,
-      "slackId": "U056GDBEHQA",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 18
-    },
-    {
       "name": "Majid Hussain",
       "team": "Ghana",
       "group": "L",
@@ -834,7 +823,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "✅ Through to R32",
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Raymundo Lacanlale",
@@ -851,7 +840,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Cole Germaine",
@@ -868,7 +857,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "David Chu",
@@ -885,7 +874,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "✅ Through to R32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Rahim Jutha",
@@ -902,7 +891,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Uzair Farooqi",
@@ -919,7 +908,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Georgi Stanchev",
@@ -936,7 +925,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Jenny",
@@ -953,7 +942,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Luke Brown",
@@ -968,6 +957,23 @@
       "played": 3,
       "points": 4,
       "gd": 1,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 26
+    },
+    {
+      "name": "Farhad Rahgozar",
+      "team": "Austria",
+      "group": "J",
+      "flag": "🇦🇹",
+      "photo": null,
+      "slackId": "U056GDBEHQA",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 4,
+      "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 27
