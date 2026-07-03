@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 2, 6:30 PM PT",
-  "live": [],
+  "updatedAt": "Jul 2, 8:10 PM PT",
+  "live": [
+    {
+      "id": "760498",
+      "state": "in",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760497",
@@ -131,28 +158,5 @@
       "impact": "❌ 🇭🇷 Croatia are out — Abdul Farooqi is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760498",
-      "state": "pre",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 0
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 0
-      },
-      "date": "Thu, Jul 2",
-      "time": "8:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
