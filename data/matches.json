@@ -1,63 +1,6 @@
 {
-  "updatedAt": "Jul 2, 9:50 PM PT",
-  "live": [
-    {
-      "id": "760498",
-      "state": "in",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 2
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
-        "score": 0
-      },
-      "minute": "90'+1'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "10'",
-            "side": "a",
-            "scorer": "Breel Embolo",
-            "assist": "Johan Manzambi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "46'",
-            "side": "a",
-            "scorer": "Dan Ndoye",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "36'",
-            "side": "b",
-            "player": "Farès Chaïbi",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Hicham Boudaoui",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 2, 10:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760497",
@@ -186,6 +129,62 @@
         ]
       },
       "impact": "❌ 🇭🇷 Croatia are out — Abdul Farooqi is eliminated"
+    },
+    {
+      "id": "760498",
+      "state": "post",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 2
+      },
+      "b": {
+        "team": "Algeria",
+        "flag": "🇩🇿",
+        "owner": "Cole Germaine",
+        "ownerSlackId": "U0A7ZGVHDLZ",
+        "score": 0
+      },
+      "minute": "90'+7'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Breel Embolo",
+            "assist": "Johan Manzambi",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "46'",
+            "side": "a",
+            "scorer": "Dan Ndoye",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "36'",
+            "side": "b",
+            "player": "Farès Chaïbi",
+            "color": "yellow"
+          },
+          {
+            "minute": "72'",
+            "side": "b",
+            "player": "Hicham Boudaoui",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
