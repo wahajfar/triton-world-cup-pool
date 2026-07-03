@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 8:10 PM PT",
+  "updatedAt": "Jul 2, 8:20 PM PT",
   "live": [
     {
       "id": "760498",
@@ -11,7 +11,7 @@
         "flag": "🇨🇭",
         "owner": "Saim Aslam",
         "ownerSlackId": "U0A94C788KS",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Algeria",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Breel Embolo",
+            "assist": "Johan Manzambi",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
