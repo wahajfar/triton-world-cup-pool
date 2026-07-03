@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 5:20 PM PT",
+  "updatedAt": "Jul 2, 5:30 PM PT",
   "live": [
     {
       "id": "760496",
@@ -11,7 +11,7 @@
         "flag": "🇵🇹",
         "owner": "Arsal Javed",
         "ownerSlackId": "U0A3QB0E9EW",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Croatia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 1
       },
-      "minute": "60'",
+      "minute": "71'",
       "recap": {
         "goals": [
           {
@@ -30,6 +30,14 @@
             "assist": "",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "68'",
+            "side": "a",
+            "scorer": "Cristiano Ronaldo",
+            "assist": "",
+            "own": false,
+            "penalty": true
           }
         ],
         "cards": [
