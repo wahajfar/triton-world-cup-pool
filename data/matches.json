@@ -1,77 +1,6 @@
 {
-  "updatedAt": "Jul 2, 6:00 PM PT",
-  "live": [
-    {
-      "id": "760496",
-      "state": "in",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 2
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 1
-      },
-      "minute": "90'+10'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "53'",
-            "side": "b",
-            "scorer": "Ivan Perisic",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "68'",
-            "side": "a",
-            "scorer": "Cristiano Ronaldo",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "90'+4'",
-            "side": "a",
-            "scorer": "Gonçalo Ramos",
-            "assist": "Rafael Leão",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "17'",
-            "side": "a",
-            "player": "Rúben Dias",
-            "color": "yellow"
-          },
-          {
-            "minute": "59'",
-            "side": "b",
-            "player": "Luka Modric",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "player": "Ivan Perisic",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 2, 6:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760497",
@@ -130,6 +59,76 @@
         ]
       },
       "impact": "❌ 🇦🇹 Austria are out — Farhad Rahgozar is eliminated"
+    },
+    {
+      "id": "760496",
+      "state": "post",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 2
+      },
+      "b": {
+        "team": "Croatia",
+        "flag": "🇭🇷",
+        "owner": "Abdul Farooqi",
+        "ownerSlackId": "U03UHSCAXMY",
+        "score": 1
+      },
+      "minute": "90'+19'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "53'",
+            "side": "b",
+            "scorer": "Ivan Perisic",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "68'",
+            "side": "a",
+            "scorer": "Cristiano Ronaldo",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          },
+          {
+            "minute": "90'+4'",
+            "side": "a",
+            "scorer": "Gonçalo Ramos",
+            "assist": "Rafael Leão",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "17'",
+            "side": "a",
+            "player": "Rúben Dias",
+            "color": "yellow"
+          },
+          {
+            "minute": "59'",
+            "side": "b",
+            "player": "Luka Modric",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+8'",
+            "side": "b",
+            "player": "Ivan Perisic",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": [
