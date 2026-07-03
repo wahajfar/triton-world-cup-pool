@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 4:10 PM PT",
+  "updatedAt": "Jul 3, 4:20 PM PT",
   "live": [
     {
       "id": "760500",
@@ -18,9 +18,9 @@
         "flag": "🇨🇻",
         "owner": "David Chu",
         "ownerSlackId": null,
-        "score": 0
+        "score": 1
       },
-      "minute": "50'",
+      "minute": "59'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Lionel Messi",
             "assist": "Lisandro Martínez",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "59'",
+            "side": "b",
+            "scorer": "Deroy Duarte",
+            "assist": "",
             "own": false,
             "penalty": false
           }
