@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 4:20 PM PT",
+  "updatedAt": "Jul 3, 4:30 PM PT",
   "live": [
     {
       "id": "760500",
@@ -20,7 +20,7 @@
         "ownerSlackId": null,
         "score": 1
       },
-      "minute": "59'",
+      "minute": "69'",
       "recap": {
         "goals": [
           {
@@ -35,12 +35,19 @@
             "minute": "59'",
             "side": "b",
             "scorer": "Deroy Duarte",
-            "assist": "",
+            "assist": "Ryan Mendes",
             "own": false,
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "68'",
+            "side": "b",
+            "player": "Kevin Pina",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
