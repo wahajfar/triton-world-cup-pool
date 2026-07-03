@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 1:10 PM PT",
+  "updatedAt": "Jul 3, 1:20 PM PT",
   "live": [
     {
       "id": "760499",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "97'",
+      "minute": "105'",
       "recap": {
         "goals": [
           {
@@ -40,7 +40,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "105'",
+            "side": "b",
+            "player": "Haissem Hassan",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
