@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 12:10 PM PT",
+  "updatedAt": "Jul 3, 12:20 PM PT",
   "live": [
     {
       "id": "760499",
@@ -11,7 +11,7 @@
         "flag": "🇦🇺",
         "owner": "Raymundo Lacanlale",
         "ownerSlackId": "U0A3M2YJ0DT",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Egypt",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "49'",
+      "minute": "58'",
       "recap": {
         "goals": [
           {
@@ -29,6 +29,14 @@
             "scorer": "Emam Ashour",
             "assist": "Karim Hafez",
             "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "55'",
+            "side": "a",
+            "scorer": "Mohamed Hany",
+            "assist": "",
+            "own": true,
             "penalty": false
           }
         ],
