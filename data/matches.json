@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 3, 2:20 PM PT",
-  "live": [],
+  "updatedAt": "Jul 3, 3:10 PM PT",
+  "live": [
+    {
+      "id": "760500",
+      "state": "in",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
+      },
+      "b": {
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "owner": "David Chu",
+        "ownerSlackId": null,
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760499",
@@ -60,28 +87,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": "760500",
-      "state": "pre",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 0
-      },
-      "b": {
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "owner": "David Chu",
-        "ownerSlackId": null,
-        "score": 0
-      },
-      "date": "Fri, Jul 3",
-      "time": "3:00 PM PT"
-    },
     {
       "id": "760501",
       "state": "pre",
