@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 9:30 PM PT",
+  "updatedAt": "Jul 2, 9:40 PM PT",
   "live": [
     {
       "id": "760498",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A7ZGVHDLZ",
         "score": 0
       },
-      "minute": "70'",
+      "minute": "80'",
       "recap": {
         "goals": [
           {
@@ -45,6 +45,12 @@
             "minute": "36'",
             "side": "b",
             "player": "Farès Chaïbi",
+            "color": "yellow"
+          },
+          {
+            "minute": "72'",
+            "side": "b",
+            "player": "Hicham Boudaoui",
             "color": "yellow"
           }
         ]
