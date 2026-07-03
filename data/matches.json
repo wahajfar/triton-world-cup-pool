@@ -1,191 +1,73 @@
 {
-  "updatedAt": "Jul 2, 10:20 PM PT",
+  "updatedAt": "Jul 3, 12:20 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760497",
-      "state": "post",
-      "competition": "Group H",
+      "id": "760499",
+      "state": "pre",
+      "competition": "Group D",
       "knockout": false,
       "a": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 3
-      },
-      "b": {
-        "team": "Austria",
-        "flag": "🇦🇹",
-        "owner": "Farhad Rahgozar",
-        "ownerSlackId": "U056GDBEHQA",
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "owner": "Raymundo Lacanlale",
+        "ownerSlackId": "U0A3M2YJ0DT",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "36'",
-            "side": "a",
-            "scorer": "Mikel Oyarzabal",
-            "assist": "Marc Cucurella",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Pedro Porro",
-            "assist": "Álex Baena",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "89'",
-            "side": "a",
-            "scorer": "Mikel Oyarzabal",
-            "assist": "Marc Cucurella",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "83'",
-            "side": "b",
-            "player": "Stefan Posch",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "owner": "Khari Harper",
+        "ownerSlackId": "U0B6D9B2V8R",
+        "score": 0
       },
-      "impact": "❌ 🇦🇹 Austria are out — Farhad Rahgozar is eliminated"
+      "date": "Fri, Jul 3",
+      "time": "11:00 AM PT"
     },
     {
-      "id": "760496",
-      "state": "post",
+      "id": "760500",
+      "state": "pre",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
+      },
+      "b": {
+        "team": "Cape Verde",
+        "flag": "🇨🇻",
+        "owner": "David Chu",
+        "ownerSlackId": null,
+        "score": 0
+      },
+      "date": "Fri, Jul 3",
+      "time": "3:00 PM PT"
+    },
+    {
+      "id": "760501",
+      "state": "pre",
       "competition": "Group K",
       "knockout": false,
       "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
-        "score": 2
-      },
-      "b": {
-        "team": "Croatia",
-        "flag": "🇭🇷",
-        "owner": "Abdul Farooqi",
-        "ownerSlackId": "U03UHSCAXMY",
-        "score": 1
-      },
-      "minute": "90'+19'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "53'",
-            "side": "b",
-            "scorer": "Ivan Perisic",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "68'",
-            "side": "a",
-            "scorer": "Cristiano Ronaldo",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "90'+4'",
-            "side": "a",
-            "scorer": "Gonçalo Ramos",
-            "assist": "Rafael Leão",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "17'",
-            "side": "a",
-            "player": "Rúben Dias",
-            "color": "yellow"
-          },
-          {
-            "minute": "59'",
-            "side": "b",
-            "player": "Luka Modric",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "player": "Ivan Perisic",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇭🇷 Croatia are out — Abdul Farooqi is eliminated"
-    },
-    {
-      "id": "760498",
-      "state": "post",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 2
-      },
-      "b": {
-        "team": "Algeria",
-        "flag": "🇩🇿",
-        "owner": "Cole Germaine",
-        "ownerSlackId": "U0A7ZGVHDLZ",
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
         "score": 0
       },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "10'",
-            "side": "a",
-            "scorer": "Breel Embolo",
-            "assist": "Johan Manzambi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "46'",
-            "side": "a",
-            "scorer": "Dan Ndoye",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "36'",
-            "side": "b",
-            "player": "Farès Chaïbi",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Hicham Boudaoui",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
       },
-      "impact": "❌ 🇩🇿 Algeria are out — Cole Germaine is eliminated"
+      "date": "Fri, Jul 3",
+      "time": "6:30 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
