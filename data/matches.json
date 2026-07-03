@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 5:10 PM PT",
+  "updatedAt": "Jul 2, 5:20 PM PT",
   "live": [
     {
       "id": "760496",
@@ -18,16 +18,31 @@
         "flag": "🇭🇷",
         "owner": "Abdul Farooqi",
         "ownerSlackId": "U03UHSCAXMY",
-        "score": 0
+        "score": 1
       },
-      "minute": "50'",
+      "minute": "60'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "53'",
+            "side": "b",
+            "scorer": "Ivan Perisic",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "17'",
             "side": "a",
             "player": "Rúben Dias",
+            "color": "yellow"
+          },
+          {
+            "minute": "59'",
+            "side": "b",
+            "player": "Luka Modric",
             "color": "yellow"
           }
         ]
