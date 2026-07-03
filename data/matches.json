@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 2, 5:50 PM PT",
+  "updatedAt": "Jul 2, 6:00 PM PT",
   "live": [
     {
       "id": "760496",
@@ -11,7 +11,7 @@
         "flag": "🇵🇹",
         "owner": "Arsal Javed",
         "ownerSlackId": "U0A3QB0E9EW",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Croatia",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03UHSCAXMY",
         "score": 1
       },
-      "minute": "90'",
+      "minute": "90'+10'",
       "recap": {
         "goals": [
           {
@@ -38,6 +38,14 @@
             "assist": "",
             "own": false,
             "penalty": true
+          },
+          {
+            "minute": "90'+4'",
+            "side": "a",
+            "scorer": "Gonçalo Ramos",
+            "assist": "Rafael Leão",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -51,6 +59,12 @@
             "minute": "59'",
             "side": "b",
             "player": "Luka Modric",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+8'",
+            "side": "b",
+            "player": "Ivan Perisic",
             "color": "yellow"
           }
         ]
