@@ -1,11 +1,12 @@
 {
-  "updatedAt": "Jul 3, 1:40 PM PT",
-  "live": [
+  "updatedAt": "Jul 3, 2:00 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760499",
-      "state": "in",
-      "competition": "Group D",
-      "knockout": false,
+      "state": "post",
+      "competition": "Egypt advance 4-2 on penalties",
+      "knockout": true,
       "a": {
         "team": "Australia",
         "flag": "🇦🇺",
@@ -20,7 +21,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "120'+2'",
+      "minute": "120'",
       "recap": {
         "goals": [
           {
@@ -58,7 +59,6 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760500",
