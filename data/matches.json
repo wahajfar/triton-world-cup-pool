@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 1:30 PM PT",
+  "updatedAt": "Jul 3, 1:40 PM PT",
   "live": [
     {
       "id": "760499",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "115'",
+      "minute": "120'+2'",
       "recap": {
         "goals": [
           {
@@ -45,6 +45,12 @@
             "minute": "105'",
             "side": "b",
             "player": "Haissem Hassan",
+            "color": "yellow"
+          },
+          {
+            "minute": "120'",
+            "side": "b",
+            "player": "Yasser Ibrahim",
             "color": "yellow"
           }
         ]
