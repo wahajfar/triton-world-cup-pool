@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 11:40 AM PT",
+  "updatedAt": "Jul 4, 11:50 AM PT",
   "live": [
     {
       "id": "760502",
@@ -18,9 +18,9 @@
         "flag": "🇲🇦",
         "owner": "Aadam Rasul",
         "ownerSlackId": "U0829R0K5FA",
-        "score": 1
+        "score": 2
       },
-      "minute": "77'",
+      "minute": "86'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Azzedine Ounahi",
             "assist": "Achraf Hakimi",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "82'",
+            "side": "b",
+            "scorer": "Azzedine Ounahi",
+            "assist": "Brahim Díaz",
             "own": false,
             "penalty": false
           }
