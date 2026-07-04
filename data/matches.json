@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 10:50 AM PT",
+  "updatedAt": "Jul 4, 11:00 AM PT",
   "live": [
     {
       "id": "760502",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
-      "minute": "45'+4'",
+      "minute": "45'+6'",
       "recap": {
         "goals": [],
         "cards": [
@@ -52,6 +52,12 @@
             "minute": "45'",
             "side": "b",
             "player": "Azzedine Ounahi",
+            "color": "yellow"
+          },
+          {
+            "minute": "45'+6'",
+            "side": "b",
+            "player": "Bilal El Khannouss",
             "color": "yellow"
           }
         ]
