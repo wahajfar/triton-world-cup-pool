@@ -1,209 +1,51 @@
 {
-  "updatedAt": "Jul 3, 9:00 PM PT",
+  "updatedAt": "Jul 4, 12:00 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760499",
-      "state": "post",
-      "competition": "Egypt advance 4-2 on penalties",
-      "knockout": true,
-      "a": {
-        "team": "Australia",
-        "flag": "🇦🇺",
-        "owner": "Raymundo Lacanlale",
-        "ownerSlackId": "U0A3M2YJ0DT",
-        "score": 1
-      },
-      "b": {
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "owner": "Khari Harper",
-        "ownerSlackId": "U0B6D9B2V8R",
-        "score": 1
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "13'",
-            "side": "b",
-            "scorer": "Emam Ashour",
-            "assist": "Karim Hafez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "55'",
-            "side": "a",
-            "scorer": "Mohamed Hany",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "105'",
-            "side": "b",
-            "player": "Haissem Hassan",
-            "color": "yellow"
-          },
-          {
-            "minute": "120'",
-            "side": "b",
-            "player": "Yasser Ibrahim",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇦🇺 Australia are out — Raymundo Lacanlale is eliminated"
-    },
-    {
-      "id": "760500",
-      "state": "post",
-      "competition": "Group J",
+      "id": "760502",
+      "state": "pre",
+      "competition": "Group B",
       "knockout": false,
       "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 3
-      },
-      "b": {
-        "team": "Cape Verde",
-        "flag": "🇨🇻",
-        "owner": "David Chu",
-        "ownerSlackId": null,
-        "score": 2
-      },
-      "minute": "120'+3'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "29'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Lisandro Martínez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "59'",
-            "side": "b",
-            "scorer": "Deroy Duarte",
-            "assist": "Ryan Mendes",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "92'",
-            "side": "a",
-            "scorer": "Lisandro Martínez",
-            "assist": "Alexis Mac Allister",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "103'",
-            "side": "b",
-            "scorer": "Sidny Lopes Cabral",
-            "assist": "Yannick Semedo",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "111'",
-            "side": "a",
-            "scorer": "Diney Borges",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "68'",
-            "side": "b",
-            "player": "Kevin Pina",
-            "color": "yellow"
-          },
-          {
-            "minute": "115'",
-            "side": "a",
-            "player": "Gonzalo Montiel",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇻 Cape Verde are out — David Chu is eliminated"
-    },
-    {
-      "id": "760501",
-      "state": "post",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 1
-      },
-      "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
+        "team": "Canada",
+        "flag": "🇨🇦",
+        "owner": "Ryan Drury",
+        "ownerSlackId": "U0AM5158UA3",
         "score": 0
       },
-      "minute": "90'+8'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "14'",
-            "side": "a",
-            "scorer": "Jhon Arias",
-            "assist": "Luis Suárez",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "12'",
-            "side": "a",
-            "player": "Jhon Arias",
-            "color": "yellow"
-          },
-          {
-            "minute": "49'",
-            "side": "b",
-            "player": "Caleb Yirenkyi",
-            "color": "yellow"
-          },
-          {
-            "minute": "66'",
-            "side": "b",
-            "player": "Fatawu Issahaku",
-            "color": "yellow"
-          },
-          {
-            "minute": "76'",
-            "side": "b",
-            "player": "Alidu Seidu",
-            "color": "yellow"
-          },
-          {
-            "minute": "78'",
-            "side": "a",
-            "player": "Richard Ríos",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
+        "score": 0
       },
-      "impact": "❌ 🇬🇭 Ghana are out — Majid Hussain is eliminated"
+      "date": "Sat, Jul 4",
+      "time": "10:00 AM PT"
+    },
+    {
+      "id": "760503",
+      "state": "pre",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "b": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
+      },
+      "date": "Sat, Jul 4",
+      "time": "2:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
