@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 3, 6:01 PM PT",
+  "updatedAt": "Jul 3, 8:50 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 17,
-  "eliminatedCount": 31,
+  "aliveCount": 16,
+  "eliminatedCount": 32,
   "champion": null,
   "recentResults": [
+    "Group K — Colombia 1-0 Ghana",
     "Group J — Argentina 3-2 Cape Verde",
     "Group D — Australia 1-1 Egypt",
     "Group B — Switzerland 2-0 Algeria",
@@ -19,8 +20,7 @@
     "Group F — Netherlands 1-1 Morocco",
     "Group E — Germany 1-1 Paraguay",
     "Group C — Brazil 2-1 Japan",
-    "Group A — South Africa 0-1 Canada",
-    "Group J — Jordan 1-3 Argentina"
+    "Group A — South Africa 0-1 Canada"
   ],
   "bracket": {
     "rounds": [
@@ -237,16 +237,16 @@
           },
           {
             "a": {
-              "team": "Argentina",
-              "flag": "🇦🇷",
-              "person": "Wahaj Farooqi",
+              "team": "Colombia",
+              "flag": "🇨🇴",
+              "person": "Jabulani Aduwo",
               "win": true,
               "lose": false
             },
             "b": {
-              "team": "Cape Verde",
-              "flag": "🇨🇻",
-              "person": "David Chu",
+              "team": "Ghana",
+              "flag": "🇬🇭",
+              "person": "Majid Hussain",
               "win": false,
               "lose": true
             }
@@ -392,7 +392,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "Colombia",
+              "flag": "🇨🇴",
+              "person": "Jabulani Aduwo",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": {
@@ -680,6 +686,23 @@
       "rank": 8
     },
     {
+      "name": "Jabulani Aduwo",
+      "team": "Colombia",
+      "group": "K",
+      "flag": "🇨🇴",
+      "photo": null,
+      "slackId": "U0ARBL3JP1U",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 3,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 9
+    },
+    {
       "name": "Joshua Lee",
       "team": "United States",
       "group": "D",
@@ -694,7 +717,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Omar Alocozy",
@@ -711,7 +734,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "Arsal Javed",
@@ -728,7 +751,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "John Pajarin",
@@ -745,7 +768,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Khari Harper",
@@ -762,7 +785,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Ryan Drury",
@@ -779,7 +802,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "Azeem Hanjra",
@@ -796,41 +819,7 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 15
-    },
-    {
-      "name": "Jabulani Aduwo",
-      "team": "Colombia",
-      "group": "K",
-      "flag": "🇨🇴",
-      "photo": null,
-      "slackId": "U0ARBL3JP1U",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 3,
-      "form": "D",
-      "statusLabel": "✅ Through to R32",
       "rank": 16
-    },
-    {
-      "name": "Majid Hussain",
-      "team": "Ghana",
-      "group": "L",
-      "flag": "🇬🇭",
-      "photo": null,
-      "slackId": "U0A38E18B55",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": 0,
-      "form": "L",
-      "statusLabel": "✅ Through to R32",
-      "rank": 17
     },
     {
       "name": "Rahim Jutha",
@@ -847,7 +836,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 18
+      "rank": 17
     },
     {
       "name": "Uzair Farooqi",
@@ -864,7 +853,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Georgi Stanchev",
@@ -881,7 +870,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Abdul Farooqi",
@@ -898,7 +887,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "Jenny",
@@ -915,7 +904,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Luke Brown",
@@ -932,7 +921,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Farhad Rahgozar",
@@ -941,6 +930,23 @@
       "flag": "🇦🇹",
       "photo": null,
       "slackId": "U056GDBEHQA",
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 4,
+      "gd": 0,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 23
+    },
+    {
+      "name": "Majid Hussain",
+      "team": "Ghana",
+      "group": "L",
+      "flag": "🇬🇭",
+      "photo": null,
+      "slackId": "U0A38E18B55",
       "status": "eliminated",
       "stageReached": "R32",
       "eliminatedAt": "Round of 32",
