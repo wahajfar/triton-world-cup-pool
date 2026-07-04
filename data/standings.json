@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 4, 12:20 PM PT",
+  "updatedAt": "Jul 4, 4:20 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 15,
-  "eliminatedCount": 33,
+  "aliveCount": 14,
+  "eliminatedCount": 34,
   "champion": null,
   "recentResults": [
+    "Group D — Paraguay 0-1 France",
     "Group B — Canada 0-3 Morocco",
     "Group K — Colombia 1-0 Ghana",
     "Group J — Argentina 3-2 Cape Verde",
@@ -19,8 +20,7 @@
     "Group I — France 3-0 Sweden",
     "Group E — Côte d'Ivoire 1-2 Norway",
     "Group F — Netherlands 1-1 Morocco",
-    "Group E — Germany 1-1 Paraguay",
-    "Group C — Brazil 2-1 Japan"
+    "Group E — Germany 1-1 Paraguay"
   ],
   "bracket": {
     "rounds": [
@@ -29,34 +29,34 @@
         "matches": [
           {
             "a": {
-              "team": "South Africa",
-              "flag": "🇿🇦",
-              "person": "Chris L",
+              "team": "Germany",
+              "flag": "🇩🇪",
+              "person": "Uzair Farooqi",
               "win": false,
               "lose": true
             },
             "b": {
-              "team": "Canada",
-              "flag": "🇨🇦",
-              "person": "Ryan Drury",
+              "team": "Paraguay",
+              "flag": "🇵🇾",
+              "person": "Azeem Hanjra",
               "win": true,
               "lose": false
             }
           },
           {
             "a": {
-              "team": "Netherlands",
-              "flag": "🇳🇱",
-              "person": "Rahim Jutha",
-              "win": false,
-              "lose": true
-            },
-            "b": {
-              "team": "Morocco",
-              "flag": "🇲🇦",
-              "person": "Aadam Rasul",
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
               "win": true,
               "lose": false
+            },
+            "b": {
+              "team": "Sweden",
+              "flag": "🇸🇪",
+              "person": "Sashanka Dutta",
+              "win": false,
+              "lose": true
             }
           },
           {
@@ -290,16 +290,16 @@
         "matches": [
           {
             "a": {
-              "team": "Canada",
-              "flag": "🇨🇦",
-              "person": "Ryan Drury",
+              "team": "Paraguay",
+              "flag": "🇵🇾",
+              "person": "Azeem Hanjra",
               "win": false,
               "lose": true
             },
             "b": {
-              "team": "Morocco",
-              "flag": "🇲🇦",
-              "person": "Aadam Rasul",
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
               "win": true,
               "lose": false
             }
@@ -422,7 +422,13 @@
         "name": "Quarter-finals",
         "matches": [
           {
-            "a": null,
+            "a": {
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
+              "win": false,
+              "lose": false
+            },
             "b": {
               "team": "Morocco",
               "flag": "🇲🇦",
@@ -556,6 +562,23 @@
   },
   "standings": [
     {
+      "name": "Abdullah Ashraf",
+      "team": "France",
+      "group": "I",
+      "flag": "🇫🇷",
+      "photo": null,
+      "slackId": "U0A9697M3KN",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 8,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 1
+    },
+    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -570,23 +593,6 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 1
-    },
-    {
-      "name": "Abdullah Ashraf",
-      "team": "France",
-      "group": "I",
-      "flag": "🇫🇷",
-      "photo": null,
-      "slackId": "U0A9697M3KN",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 8,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
       "rank": 2
     },
     {
@@ -794,23 +800,6 @@
       "rank": 14
     },
     {
-      "name": "Azeem Hanjra",
-      "team": "Paraguay",
-      "group": "D",
-      "flag": "🇵🇾",
-      "photo": null,
-      "slackId": "U08T9RNT4LA",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 4,
-      "gd": -2,
-      "form": "D",
-      "statusLabel": "Into the Round of 16",
-      "rank": 15
-    },
-    {
       "name": "Ryan Drury",
       "team": "Canada",
       "group": "B",
@@ -823,6 +812,23 @@
       "played": 3,
       "points": 4,
       "gd": 5,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
+      "rank": 15
+    },
+    {
+      "name": "Azeem Hanjra",
+      "team": "Paraguay",
+      "group": "D",
+      "flag": "🇵🇾",
+      "photo": null,
+      "slackId": "U08T9RNT4LA",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 4,
+      "gd": -2,
       "form": "L",
       "statusLabel": "Out — Round of 16",
       "rank": 16
