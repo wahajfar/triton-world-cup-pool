@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 5:00 PM PT",
+  "updatedAt": "Jul 3, 5:10 PM PT",
   "live": [
     {
       "id": "760500",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Cape Verde",
@@ -20,7 +20,7 @@
         "ownerSlackId": null,
         "score": 1
       },
-      "minute": "90'+8'",
+      "minute": "95'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Deroy Duarte",
             "assist": "Ryan Mendes",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "92'",
+            "side": "a",
+            "scorer": "Lisandro Martínez",
+            "assist": "Alexis Mac Allister",
             "own": false,
             "penalty": false
           }
