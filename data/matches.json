@@ -1,9 +1,66 @@
 {
-  "updatedAt": "Jul 3, 5:40 PM PT",
-  "live": [
+  "updatedAt": "Jul 3, 5:50 PM PT",
+  "live": [],
+  "recent": [
+    {
+      "id": "760499",
+      "state": "post",
+      "competition": "Egypt advance 4-2 on penalties",
+      "knockout": true,
+      "a": {
+        "team": "Australia",
+        "flag": "🇦🇺",
+        "owner": "Raymundo Lacanlale",
+        "ownerSlackId": "U0A3M2YJ0DT",
+        "score": 1
+      },
+      "b": {
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "owner": "Khari Harper",
+        "ownerSlackId": "U0B6D9B2V8R",
+        "score": 1
+      },
+      "minute": "120'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "13'",
+            "side": "b",
+            "scorer": "Emam Ashour",
+            "assist": "Karim Hafez",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "55'",
+            "side": "a",
+            "scorer": "Mohamed Hany",
+            "assist": "",
+            "own": true,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "105'",
+            "side": "b",
+            "player": "Haissem Hassan",
+            "color": "yellow"
+          },
+          {
+            "minute": "120'",
+            "side": "b",
+            "player": "Yasser Ibrahim",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": "❌ 🇦🇺 Australia are out — Raymundo Lacanlale is eliminated"
+    },
     {
       "id": "760500",
-      "state": "in",
+      "state": "post",
       "competition": "Group J",
       "knockout": false,
       "a": {
@@ -20,7 +77,7 @@
         "ownerSlackId": null,
         "score": 2
       },
-      "minute": "120'",
+      "minute": "120'+3'",
       "recap": {
         "goals": [
           {
@@ -80,64 +137,6 @@
         ]
       },
       "impact": null
-    }
-  ],
-  "recent": [
-    {
-      "id": "760499",
-      "state": "post",
-      "competition": "Egypt advance 4-2 on penalties",
-      "knockout": true,
-      "a": {
-        "team": "Australia",
-        "flag": "🇦🇺",
-        "owner": "Raymundo Lacanlale",
-        "ownerSlackId": "U0A3M2YJ0DT",
-        "score": 1
-      },
-      "b": {
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "owner": "Khari Harper",
-        "ownerSlackId": "U0B6D9B2V8R",
-        "score": 1
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "13'",
-            "side": "b",
-            "scorer": "Emam Ashour",
-            "assist": "Karim Hafez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "55'",
-            "side": "a",
-            "scorer": "Mohamed Hany",
-            "assist": "",
-            "own": true,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "105'",
-            "side": "b",
-            "player": "Haissem Hassan",
-            "color": "yellow"
-          },
-          {
-            "minute": "120'",
-            "side": "b",
-            "player": "Yasser Ibrahim",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇦🇺 Australia are out — Raymundo Lacanlale is eliminated"
     }
   ],
   "upcoming": [
