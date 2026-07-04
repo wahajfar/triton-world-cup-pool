@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 7:40 PM PT",
+  "updatedAt": "Jul 3, 7:50 PM PT",
   "live": [
     {
       "id": "760501",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "46'",
+      "minute": "57'",
       "recap": {
         "goals": [
           {
@@ -37,6 +37,12 @@
             "minute": "12'",
             "side": "a",
             "player": "Jhon Arias",
+            "color": "yellow"
+          },
+          {
+            "minute": "49'",
+            "side": "b",
+            "player": "Caleb Yirenkyi",
             "color": "yellow"
           }
         ]
