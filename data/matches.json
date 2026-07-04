@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 4, 12:00 PM PT",
-  "live": [
+  "updatedAt": "Jul 4, 12:10 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760502",
-      "state": "in",
+      "state": "post",
       "competition": "Group B",
       "knockout": false,
       "a": {
@@ -18,9 +19,9 @@
         "flag": "🇲🇦",
         "owner": "Aadam Rasul",
         "ownerSlackId": "U0829R0K5FA",
-        "score": 2
+        "score": 3
       },
-      "minute": "90'+6'",
+      "minute": "90'+9'",
       "recap": {
         "goals": [
           {
@@ -35,6 +36,14 @@
             "minute": "82'",
             "side": "b",
             "scorer": "Azzedine Ounahi",
+            "assist": "Brahim Díaz",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+8'",
+            "side": "b",
+            "scorer": "Soufiane Rahimi",
             "assist": "Brahim Díaz",
             "own": false,
             "penalty": false
@@ -94,7 +103,6 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760503",
