@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 11:10 AM PT",
+  "updatedAt": "Jul 4, 11:20 AM PT",
   "live": [
     {
       "id": "760502",
@@ -18,11 +18,20 @@
         "flag": "🇲🇦",
         "owner": "Aadam Rasul",
         "ownerSlackId": "U0829R0K5FA",
-        "score": 0
+        "score": 1
       },
-      "minute": "46'",
+      "minute": "56'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "50'",
+            "side": "b",
+            "scorer": "Azzedine Ounahi",
+            "assist": "Achraf Hakimi",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "20'",
@@ -58,6 +67,12 @@
             "minute": "45'+6'",
             "side": "b",
             "player": "Bilal El Khannouss",
+            "color": "yellow"
+          },
+          {
+            "minute": "49'",
+            "side": "a",
+            "player": "Luc de Fougerolles",
             "color": "yellow"
           }
         ]
