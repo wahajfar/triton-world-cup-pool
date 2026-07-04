@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 3, 2:10 PM PT",
+  "updatedAt": "Jul 3, 6:01 PM PT",
   "stage": "Round of 32",
-  "aliveCount": 18,
-  "eliminatedCount": 30,
+  "aliveCount": 17,
+  "eliminatedCount": 31,
   "champion": null,
   "recentResults": [
+    "Group J — Argentina 3-2 Cape Verde",
     "Group D — Australia 1-1 Egypt",
     "Group B — Switzerland 2-0 Algeria",
     "Group K — Portugal 2-1 Croatia",
@@ -19,8 +20,7 @@
     "Group E — Germany 1-1 Paraguay",
     "Group C — Brazil 2-1 Japan",
     "Group A — South Africa 0-1 Canada",
-    "Group J — Jordan 1-3 Argentina",
-    "Group J — Algeria 3-3 Austria"
+    "Group J — Jordan 1-3 Argentina"
   ],
   "bracket": {
     "rounds": [
@@ -240,7 +240,7 @@
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -248,23 +248,23 @@
               "flag": "🇨🇻",
               "person": "David Chu",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
             "a": {
-              "team": "Australia",
-              "flag": "🇦🇺",
-              "person": "Raymundo Lacanlale",
-              "win": false,
-              "lose": true
-            },
-            "b": {
-              "team": "Egypt",
-              "flag": "🇪🇬",
-              "person": "Khari Harper",
+              "team": "Argentina",
+              "flag": "🇦🇷",
+              "person": "Wahaj Farooqi",
               "win": true,
               "lose": false
+            },
+            "b": {
+              "team": "Cape Verde",
+              "flag": "🇨🇻",
+              "person": "David Chu",
+              "win": false,
+              "lose": true
             }
           },
           {
@@ -395,7 +395,13 @@
             "b": null
           },
           {
-            "a": null,
+            "a": {
+              "team": "Argentina",
+              "flag": "🇦🇷",
+              "person": "Wahaj Farooqi",
+              "win": false,
+              "lose": false
+            },
             "b": {
               "team": "Egypt",
               "flag": "🇪🇬",
@@ -555,6 +561,23 @@
       "rank": 1
     },
     {
+      "name": "Wahaj Farooqi",
+      "team": "Argentina",
+      "group": "J",
+      "flag": "🇦🇷",
+      "photo": null,
+      "slackId": "U03U8NBB72A",
+      "status": "alive",
+      "stageReached": "R16",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 7,
+      "form": "W",
+      "statusLabel": "Into the Round of 16",
+      "rank": 2
+    },
+    {
       "name": "Zeshan Haroon",
       "team": "Mexico",
       "group": "A",
@@ -569,7 +592,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Evan Dawson",
@@ -586,7 +609,7 @@
       "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Luke Zahradka",
@@ -603,7 +626,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Noorin Yazdani",
@@ -620,7 +643,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Saim Aslam",
@@ -637,7 +660,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Aadam Rasul",
@@ -654,7 +677,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Joshua Lee",
@@ -671,7 +694,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
+      "rank": 9
     },
     {
       "name": "Omar Alocozy",
@@ -688,7 +711,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 9
+      "rank": 10
     },
     {
       "name": "Arsal Javed",
@@ -705,7 +728,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 10
+      "rank": 11
     },
     {
       "name": "John Pajarin",
@@ -722,7 +745,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 11
+      "rank": 12
     },
     {
       "name": "Khari Harper",
@@ -739,7 +762,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "Ryan Drury",
@@ -756,7 +779,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "Azeem Hanjra",
@@ -773,23 +796,6 @@
       "gd": -2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 14
-    },
-    {
-      "name": "Wahaj Farooqi",
-      "team": "Argentina",
-      "group": "J",
-      "flag": "🇦🇷",
-      "photo": null,
-      "slackId": "U03U8NBB72A",
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 7,
-      "form": "W",
-      "statusLabel": "✅ Through to R32",
       "rank": 15
     },
     {
@@ -827,23 +833,6 @@
       "rank": 17
     },
     {
-      "name": "David Chu",
-      "team": "Cape Verde",
-      "group": "H",
-      "flag": "🇨🇻",
-      "photo": null,
-      "slackId": null,
-      "status": "alive",
-      "stageReached": "R32",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 3,
-      "gd": 0,
-      "form": "D",
-      "statusLabel": "✅ Through to R32",
-      "rank": 18
-    },
-    {
       "name": "Rahim Jutha",
       "team": "Netherlands",
       "group": "F",
@@ -858,7 +847,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 19
+      "rank": 18
     },
     {
       "name": "Uzair Farooqi",
@@ -875,7 +864,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 20
+      "rank": 19
     },
     {
       "name": "Georgi Stanchev",
@@ -892,7 +881,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 21
+      "rank": 20
     },
     {
       "name": "Abdul Farooqi",
@@ -909,7 +898,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 22
+      "rank": 21
     },
     {
       "name": "Jenny",
@@ -926,7 +915,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 23
+      "rank": 22
     },
     {
       "name": "Luke Brown",
@@ -943,7 +932,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 24
+      "rank": 23
     },
     {
       "name": "Farhad Rahgozar",
@@ -960,7 +949,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 25
+      "rank": 24
     },
     {
       "name": "Melchizedek Eroy",
@@ -977,7 +966,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 26
+      "rank": 25
     },
     {
       "name": "Raymundo Lacanlale",
@@ -994,7 +983,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Out — Round of 32",
-      "rank": 27
+      "rank": 26
     },
     {
       "name": "Sashanka Dutta",
@@ -1011,7 +1000,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 28
+      "rank": 27
     },
     {
       "name": "Anton Li",
@@ -1028,7 +1017,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 29
+      "rank": 28
     },
     {
       "name": "Chris L",
@@ -1045,7 +1034,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 30
+      "rank": 29
     },
     {
       "name": "Cole Germaine",
@@ -1062,7 +1051,7 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
-      "rank": 31
+      "rank": 30
     },
     {
       "name": "Dusan Tasic",
@@ -1077,6 +1066,23 @@
       "played": 3,
       "points": 3,
       "gd": 2,
+      "form": "L",
+      "statusLabel": "Out — Round of 32",
+      "rank": 31
+    },
+    {
+      "name": "David Chu",
+      "team": "Cape Verde",
+      "group": "H",
+      "flag": "🇨🇻",
+      "photo": null,
+      "slackId": null,
+      "status": "eliminated",
+      "stageReached": "R32",
+      "eliminatedAt": "Round of 32",
+      "played": 3,
+      "points": 3,
+      "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
       "rank": 32
