@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 4, 12:30 PM PT",
-  "live": [],
+  "updatedAt": "Jul 4, 2:10 PM PT",
+  "live": [
+    {
+      "id": "760503",
+      "state": "in",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "b": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
+      },
+      "minute": "6'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760502",
@@ -103,28 +130,5 @@
       "impact": "❌ 🇨🇦 Canada are out — Ryan Drury is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760503",
-      "state": "pre",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 0
-      },
-      "b": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 0
-      },
-      "date": "Sat, Jul 4",
-      "time": "2:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
