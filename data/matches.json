@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 10:40 AM PT",
+  "updatedAt": "Jul 4, 10:50 AM PT",
   "live": [
     {
       "id": "760502",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
-      "minute": "39'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,30 @@
             "minute": "20'",
             "side": "b",
             "player": "Redouane Halhal",
+            "color": "yellow"
+          },
+          {
+            "minute": "40'",
+            "side": "b",
+            "player": "Achraf Hakimi",
+            "color": "yellow"
+          },
+          {
+            "minute": "40'",
+            "side": "a",
+            "player": "Richie Laryea",
+            "color": "yellow"
+          },
+          {
+            "minute": "43'",
+            "side": "a",
+            "player": "Jonathan David",
+            "color": "yellow"
+          },
+          {
+            "minute": "45'",
+            "side": "b",
+            "player": "Azzedine Ounahi",
             "color": "yellow"
           }
         ]
