@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 10:20 AM PT",
+  "updatedAt": "Jul 4, 10:30 AM PT",
   "live": [
     {
       "id": "760502",
@@ -20,10 +20,17 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
-      "minute": "19'",
+      "minute": "29'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "20'",
+            "side": "b",
+            "player": "Redouane Halhal",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
