@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 7:00 PM PT",
+  "updatedAt": "Jul 3, 7:10 PM PT",
   "live": [
     {
       "id": "760501",
@@ -20,14 +20,14 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
             "minute": "14'",
             "side": "a",
             "scorer": "Jhon Arias",
-            "assist": "Luis Díaz",
+            "assist": "Luis Suárez",
             "own": false,
             "penalty": false
           }
