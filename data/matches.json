@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 5:30 PM PT",
+  "updatedAt": "Jul 3, 5:40 PM PT",
   "live": [
     {
       "id": "760500",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Cape Verde",
@@ -20,7 +20,7 @@
         "ownerSlackId": null,
         "score": 2
       },
-      "minute": "109'",
+      "minute": "120'",
       "recap": {
         "goals": [
           {
@@ -54,6 +54,14 @@
             "assist": "Yannick Semedo",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "111'",
+            "side": "a",
+            "scorer": "Diney Borges",
+            "assist": "",
+            "own": true,
+            "penalty": false
           }
         ],
         "cards": [
@@ -61,6 +69,12 @@
             "minute": "68'",
             "side": "b",
             "player": "Kevin Pina",
+            "color": "yellow"
+          },
+          {
+            "minute": "115'",
+            "side": "a",
+            "player": "Gonzalo Montiel",
             "color": "yellow"
           }
         ]
