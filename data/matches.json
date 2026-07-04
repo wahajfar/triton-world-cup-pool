@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 2:20 PM PT",
+  "updatedAt": "Jul 4, 2:30 PM PT",
   "live": [
     {
       "id": "760503",
@@ -20,10 +20,17 @@
         "ownerSlackId": "U0A9697M3KN",
         "score": 0
       },
-      "minute": "16'",
+      "minute": "26'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "19'",
+            "side": "b",
+            "player": "Bradley Barcola",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
