@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 7:50 PM PT",
+  "updatedAt": "Jul 3, 8:00 PM PT",
   "live": [
     {
       "id": "760501",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "57'",
+      "minute": "67'",
       "recap": {
         "goals": [
           {
@@ -43,6 +43,12 @@
             "minute": "49'",
             "side": "b",
             "player": "Caleb Yirenkyi",
+            "color": "yellow"
+          },
+          {
+            "minute": "66'",
+            "side": "b",
+            "player": "Fatawu Issahaku",
             "color": "yellow"
           }
         ]
