@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 11:30 AM PT",
+  "updatedAt": "Jul 4, 11:40 AM PT",
   "live": [
     {
       "id": "760502",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 1
       },
-      "minute": "67'",
+      "minute": "77'",
       "recap": {
         "goals": [
           {
@@ -73,6 +73,12 @@
             "minute": "49'",
             "side": "a",
             "player": "Luc de Fougerolles",
+            "color": "yellow"
+          },
+          {
+            "minute": "67'",
+            "side": "a",
+            "player": "Cyle Larin",
             "color": "yellow"
           }
         ]
