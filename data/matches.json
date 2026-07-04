@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 8:10 PM PT",
+  "updatedAt": "Jul 3, 8:20 PM PT",
   "live": [
     {
       "id": "760501",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "76'",
+      "minute": "87'",
       "recap": {
         "goals": [
           {
@@ -55,6 +55,12 @@
             "minute": "76'",
             "side": "b",
             "player": "Alidu Seidu",
+            "color": "yellow"
+          },
+          {
+            "minute": "78'",
+            "side": "a",
+            "player": "Richard Ríos",
             "color": "yellow"
           }
         ]
