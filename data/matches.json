@@ -1,55 +1,6 @@
 {
-  "updatedAt": "Jul 4, 4:00 PM PT",
-  "live": [
-    {
-      "id": "760503",
-      "state": "in",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
-        "score": 0
-      },
-      "b": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 1
-      },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "70'",
-            "side": "b",
-            "scorer": "Kylian Mbappé",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "19'",
-            "side": "b",
-            "player": "Bradley Barcola",
-            "color": "yellow"
-          },
-          {
-            "minute": "81'",
-            "side": "b",
-            "player": "Manu Koné",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 4, 4:10 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760502",
@@ -150,6 +101,60 @@
         ]
       },
       "impact": "❌ 🇨🇦 Canada are out — Ryan Drury is eliminated"
+    },
+    {
+      "id": "760503",
+      "state": "post",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "Paraguay",
+        "flag": "🇵🇾",
+        "owner": "Azeem Hanjra",
+        "ownerSlackId": "U08T9RNT4LA",
+        "score": 0
+      },
+      "b": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 1
+      },
+      "minute": "90'+11'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "70'",
+            "side": "b",
+            "scorer": "Kylian Mbappé",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          }
+        ],
+        "cards": [
+          {
+            "minute": "19'",
+            "side": "b",
+            "player": "Bradley Barcola",
+            "color": "yellow"
+          },
+          {
+            "minute": "81'",
+            "side": "b",
+            "player": "Manu Koné",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+7'",
+            "side": "b",
+            "player": "Michael Olise",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
