@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 6:40 PM PT",
+  "updatedAt": "Jul 3, 6:50 PM PT",
   "live": [
     {
       "id": "760501",
@@ -11,7 +11,7 @@
         "flag": "🇨🇴",
         "owner": "Jabulani Aduwo",
         "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Ghana",
@@ -20,10 +20,26 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "10'",
+      "minute": "20'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "14'",
+            "side": "a",
+            "scorer": "Jhon Arias",
+            "assist": "Luis Díaz",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "12'",
+            "side": "a",
+            "player": "Jhon Arias",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
