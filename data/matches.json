@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 3, 6:10 PM PT",
-  "live": [],
+  "updatedAt": "Jul 3, 6:40 PM PT",
+  "live": [
+    {
+      "id": "760501",
+      "state": "in",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "b": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "minute": "10'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760499",
@@ -139,28 +166,5 @@
       "impact": "❌ 🇨🇻 Cape Verde are out — David Chu is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760501",
-      "state": "pre",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
-      },
-      "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 0
-      },
-      "date": "Fri, Jul 3",
-      "time": "6:30 PM PT"
-    }
-  ]
+  "upcoming": []
 }
