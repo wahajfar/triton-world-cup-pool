@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 4, 3:30 PM PT",
+  "updatedAt": "Jul 4, 3:40 PM PT",
   "live": [
     {
       "id": "760503",
@@ -18,11 +18,20 @@
         "flag": "🇫🇷",
         "owner": "Abdullah Ashraf",
         "ownerSlackId": "U0A9697M3KN",
-        "score": 0
+        "score": 1
       },
-      "minute": "66'",
+      "minute": "76'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "70'",
+            "side": "b",
+            "scorer": "Kylian Mbappé",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          }
+        ],
         "cards": [
           {
             "minute": "19'",
