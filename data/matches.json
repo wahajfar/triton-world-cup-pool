@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 8:00 PM PT",
+  "updatedAt": "Jul 3, 8:10 PM PT",
   "live": [
     {
       "id": "760501",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A38E18B55",
         "score": 0
       },
-      "minute": "67'",
+      "minute": "76'",
       "recap": {
         "goals": [
           {
@@ -49,6 +49,12 @@
             "minute": "66'",
             "side": "b",
             "player": "Fatawu Issahaku",
+            "color": "yellow"
+          },
+          {
+            "minute": "76'",
+            "side": "b",
+            "player": "Alidu Seidu",
             "color": "yellow"
           }
         ]
