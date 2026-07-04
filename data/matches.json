@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 3, 5:10 PM PT",
+  "updatedAt": "Jul 3, 5:20 PM PT",
   "live": [
     {
       "id": "760500",
@@ -18,9 +18,9 @@
         "flag": "🇨🇻",
         "owner": "David Chu",
         "ownerSlackId": null,
-        "score": 1
+        "score": 2
       },
-      "minute": "95'",
+      "minute": "105'+1'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "a",
             "scorer": "Lisandro Martínez",
             "assist": "Alexis Mac Allister",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "103'",
+            "side": "b",
+            "scorer": "Sidny Lopes Cabral",
+            "assist": "Yannick Semedo",
             "own": false,
             "penalty": false
           }
