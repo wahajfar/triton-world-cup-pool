@@ -1,73 +1,6 @@
 {
-  "updatedAt": "Jul 3, 8:30 PM PT",
-  "live": [
-    {
-      "id": "760501",
-      "state": "in",
-      "competition": "Group K",
-      "knockout": false,
-      "a": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 1
-      },
-      "b": {
-        "team": "Ghana",
-        "flag": "🇬🇭",
-        "owner": "Majid Hussain",
-        "ownerSlackId": "U0A38E18B55",
-        "score": 0
-      },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "14'",
-            "side": "a",
-            "scorer": "Jhon Arias",
-            "assist": "Luis Suárez",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "12'",
-            "side": "a",
-            "player": "Jhon Arias",
-            "color": "yellow"
-          },
-          {
-            "minute": "49'",
-            "side": "b",
-            "player": "Caleb Yirenkyi",
-            "color": "yellow"
-          },
-          {
-            "minute": "66'",
-            "side": "b",
-            "player": "Fatawu Issahaku",
-            "color": "yellow"
-          },
-          {
-            "minute": "76'",
-            "side": "b",
-            "player": "Alidu Seidu",
-            "color": "yellow"
-          },
-          {
-            "minute": "78'",
-            "side": "a",
-            "player": "Richard Ríos",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 3, 8:40 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760499",
@@ -204,6 +137,72 @@
         ]
       },
       "impact": "❌ 🇨🇻 Cape Verde are out — David Chu is eliminated"
+    },
+    {
+      "id": "760501",
+      "state": "post",
+      "competition": "Group K",
+      "knockout": false,
+      "a": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 1
+      },
+      "b": {
+        "team": "Ghana",
+        "flag": "🇬🇭",
+        "owner": "Majid Hussain",
+        "ownerSlackId": "U0A38E18B55",
+        "score": 0
+      },
+      "minute": "90'+8'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "14'",
+            "side": "a",
+            "scorer": "Jhon Arias",
+            "assist": "Luis Suárez",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "12'",
+            "side": "a",
+            "player": "Jhon Arias",
+            "color": "yellow"
+          },
+          {
+            "minute": "49'",
+            "side": "b",
+            "player": "Caleb Yirenkyi",
+            "color": "yellow"
+          },
+          {
+            "minute": "66'",
+            "side": "b",
+            "player": "Fatawu Issahaku",
+            "color": "yellow"
+          },
+          {
+            "minute": "76'",
+            "side": "b",
+            "player": "Alidu Seidu",
+            "color": "yellow"
+          },
+          {
+            "minute": "78'",
+            "side": "a",
+            "player": "Richard Ríos",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
