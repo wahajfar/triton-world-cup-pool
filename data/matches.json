@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 2:50 PM PT",
+  "updatedAt": "Jul 5, 3:00 PM PT",
   "live": [
     {
       "id": "760504",
@@ -18,9 +18,9 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 1
+        "score": 2
       },
-      "minute": "87'",
+      "minute": "90'+8'",
       "recap": {
         "goals": [
           {
@@ -30,9 +30,24 @@
             "assist": "Andreas Schjelderup",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "90'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "Andreas Schjelderup",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "90'+6'",
+            "side": "a",
+            "player": "Neymar",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
