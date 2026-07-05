@@ -1,161 +1,51 @@
 {
-  "updatedAt": "Jul 4, 4:30 PM PT",
+  "updatedAt": "Jul 5, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760502",
-      "state": "post",
-      "competition": "Group B",
+      "id": "760504",
+      "state": "pre",
+      "competition": "Group C",
       "knockout": false,
       "a": {
-        "team": "Canada",
-        "flag": "🇨🇦",
-        "owner": "Ryan Drury",
-        "ownerSlackId": "U0AM5158UA3",
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
         "score": 0
       },
       "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
-        "score": 3
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
       },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "50'",
-            "side": "b",
-            "scorer": "Azzedine Ounahi",
-            "assist": "Achraf Hakimi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "82'",
-            "side": "b",
-            "scorer": "Azzedine Ounahi",
-            "assist": "Brahim Díaz",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "scorer": "Soufiane Rahimi",
-            "assist": "Brahim Díaz",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "20'",
-            "side": "b",
-            "player": "Redouane Halhal",
-            "color": "yellow"
-          },
-          {
-            "minute": "40'",
-            "side": "b",
-            "player": "Achraf Hakimi",
-            "color": "yellow"
-          },
-          {
-            "minute": "40'",
-            "side": "a",
-            "player": "Richie Laryea",
-            "color": "yellow"
-          },
-          {
-            "minute": "43'",
-            "side": "a",
-            "player": "Jonathan David",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'",
-            "side": "b",
-            "player": "Azzedine Ounahi",
-            "color": "yellow"
-          },
-          {
-            "minute": "45'+6'",
-            "side": "b",
-            "player": "Bilal El Khannouss",
-            "color": "yellow"
-          },
-          {
-            "minute": "49'",
-            "side": "a",
-            "player": "Luc de Fougerolles",
-            "color": "yellow"
-          },
-          {
-            "minute": "67'",
-            "side": "a",
-            "player": "Cyle Larin",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇦 Canada are out — Ryan Drury is eliminated"
+      "date": "Sun, Jul 5",
+      "time": "1:00 PM PT"
     },
     {
-      "id": "760503",
-      "state": "post",
-      "competition": "Group D",
+      "id": "760505",
+      "state": "pre",
+      "competition": "Group A",
       "knockout": false,
       "a": {
-        "team": "Paraguay",
-        "flag": "🇵🇾",
-        "owner": "Azeem Hanjra",
-        "ownerSlackId": "U08T9RNT4LA",
+        "team": "Mexico",
+        "flag": "🇲🇽",
+        "owner": "Zeshan Haroon",
+        "ownerSlackId": "U09BAMJE8KG",
         "score": 0
       },
       "b": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 1
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
       },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "70'",
-            "side": "b",
-            "scorer": "Kylian Mbappé",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "19'",
-            "side": "b",
-            "player": "Bradley Barcola",
-            "color": "yellow"
-          },
-          {
-            "minute": "81'",
-            "side": "b",
-            "player": "Manu Koné",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+7'",
-            "side": "b",
-            "player": "Michael Olise",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇵🇾 Paraguay are out — Azeem Hanjra is eliminated"
+      "date": "Sun, Jul 5",
+      "time": "5:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
