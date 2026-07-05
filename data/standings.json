@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 4, 4:20 PM PT",
+  "updatedAt": "Jul 5, 3:20 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 14,
-  "eliminatedCount": 34,
+  "aliveCount": 13,
+  "eliminatedCount": 35,
   "champion": null,
   "recentResults": [
+    "Group C — Brazil 1-2 Norway",
     "Group D — Paraguay 0-1 France",
     "Group B — Canada 0-3 Morocco",
     "Group K — Colombia 1-0 Ghana",
@@ -19,8 +20,7 @@
     "Group A — Mexico 2-0 Ecuador",
     "Group I — France 3-0 Sweden",
     "Group E — Côte d'Ivoire 1-2 Norway",
-    "Group F — Netherlands 1-1 Morocco",
-    "Group E — Germany 1-1 Paraguay"
+    "Group F — Netherlands 1-1 Morocco"
   ],
   "bracket": {
     "rounds": [
@@ -358,13 +358,13 @@
               "flag": "🇧🇷",
               "person": "Evan Dawson",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "Norway",
               "flag": "🇳🇴",
               "person": "Omar Alocozy",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -442,7 +442,13 @@
             "b": null
           },
           {
-            "a": null,
+            "a": {
+              "team": "Norway",
+              "flag": "🇳🇴",
+              "person": "Omar Alocozy",
+              "win": false,
+              "lose": false
+            },
             "b": null
           },
           {
@@ -596,6 +602,23 @@
       "rank": 2
     },
     {
+      "name": "Omar Alocozy",
+      "team": "Norway",
+      "group": "I",
+      "flag": "🇳🇴",
+      "photo": null,
+      "slackId": "U0A3LTR7SRK",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 6,
+      "gd": 1,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 3
+    },
+    {
       "name": "Wahaj Farooqi",
       "team": "Argentina",
       "group": "J",
@@ -610,7 +633,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Zeshan Haroon",
@@ -624,23 +647,6 @@
       "eliminatedAt": null,
       "played": 3,
       "points": 9,
-      "gd": 6,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 4
-    },
-    {
-      "name": "Evan Dawson",
-      "team": "Brazil",
-      "group": "C",
-      "flag": "🇧🇷",
-      "photo": null,
-      "slackId": "U0ATXNHSZUY",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
       "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
@@ -732,23 +738,6 @@
       "rank": 10
     },
     {
-      "name": "Omar Alocozy",
-      "team": "Norway",
-      "group": "I",
-      "flag": "🇳🇴",
-      "photo": null,
-      "slackId": "U0A3LTR7SRK",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 1,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 11
-    },
-    {
       "name": "Arsal Javed",
       "team": "Portugal",
       "group": "K",
@@ -763,7 +752,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "John Pajarin",
@@ -780,7 +769,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 13
+      "rank": 12
     },
     {
       "name": "Khari Harper",
@@ -797,6 +786,23 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
+      "rank": 13
+    },
+    {
+      "name": "Evan Dawson",
+      "team": "Brazil",
+      "group": "C",
+      "flag": "🇧🇷",
+      "photo": null,
+      "slackId": "U0ATXNHSZUY",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 7,
+      "gd": 6,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
       "rank": 14
     },
     {
