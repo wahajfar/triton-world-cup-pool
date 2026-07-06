@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 5, 8:21 PM PT",
+  "updatedAt": "Jul 6, 2:21 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 12,
-  "eliminatedCount": 36,
+  "aliveCount": 11,
+  "eliminatedCount": 37,
   "champion": null,
   "recentResults": [
+    "Group K — Portugal 0-1 Spain",
     "Group A — Mexico 2-3 England",
     "Group C — Brazil 1-2 Norway",
     "Group D — Paraguay 0-1 France",
@@ -19,8 +20,7 @@
     "Group G — Belgium 3-2 Senegal",
     "Group L — England 2-1 Congo DR",
     "Group A — Mexico 2-0 Ecuador",
-    "Group I — France 3-0 Sweden",
-    "Group E — Côte d'Ivoire 1-2 Norway"
+    "Group I — France 3-0 Sweden"
   ],
   "bracket": {
     "rounds": [
@@ -326,13 +326,13 @@
               "flag": "🇵🇹",
               "person": "Arsal Javed",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "Spain",
               "flag": "🇪🇸",
               "person": "Luke Zahradka",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -438,7 +438,13 @@
             }
           },
           {
-            "a": null,
+            "a": {
+              "team": "Spain",
+              "flag": "🇪🇸",
+              "person": "Luke Zahradka",
+              "win": false,
+              "lose": false
+            },
             "b": null
           },
           {
@@ -591,6 +597,23 @@
       "rank": 1
     },
     {
+      "name": "Luke Zahradka",
+      "team": "Spain",
+      "group": "H",
+      "flag": "🇪🇸",
+      "photo": null,
+      "slackId": "U08PP9TNNA1",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 5,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 2
+    },
+    {
       "name": "Noorin Yazdani",
       "team": "England",
       "group": "L",
@@ -605,7 +628,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Aadam Rasul",
@@ -622,7 +645,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Omar Alocozy",
@@ -639,7 +662,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Wahaj Farooqi",
@@ -654,23 +677,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 5
-    },
-    {
-      "name": "Luke Zahradka",
-      "team": "Spain",
-      "group": "H",
-      "flag": "🇪🇸",
-      "photo": null,
-      "slackId": "U08PP9TNNA1",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
       "rank": 6
@@ -727,23 +733,6 @@
       "rank": 9
     },
     {
-      "name": "Arsal Javed",
-      "team": "Portugal",
-      "group": "K",
-      "flag": "🇵🇹",
-      "photo": null,
-      "slackId": "U0A3QB0E9EW",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 5,
-      "gd": 5,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 10
-    },
-    {
       "name": "John Pajarin",
       "team": "Belgium",
       "group": "G",
@@ -758,7 +747,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 11
+      "rank": 10
     },
     {
       "name": "Khari Harper",
@@ -775,7 +764,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Zeshan Haroon",
@@ -792,7 +781,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 13
+      "rank": 12
     },
     {
       "name": "Evan Dawson",
@@ -807,6 +796,23 @@
       "played": 3,
       "points": 7,
       "gd": 6,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
+      "rank": 13
+    },
+    {
+      "name": "Arsal Javed",
+      "team": "Portugal",
+      "group": "K",
+      "flag": "🇵🇹",
+      "photo": null,
+      "slackId": "U0A3QB0E9EW",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 5,
+      "gd": 5,
       "form": "L",
       "statusLabel": "Out — Round of 16",
       "rank": 14
