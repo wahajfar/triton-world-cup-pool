@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 5, 3:20 PM PT",
+  "updatedAt": "Jul 5, 8:21 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 13,
-  "eliminatedCount": 35,
+  "aliveCount": 12,
+  "eliminatedCount": 36,
   "champion": null,
   "recentResults": [
+    "Group A — Mexico 2-3 England",
     "Group C — Brazil 1-2 Norway",
     "Group D — Paraguay 0-1 France",
     "Group B — Canada 0-3 Morocco",
@@ -19,8 +20,7 @@
     "Group L — England 2-1 Congo DR",
     "Group A — Mexico 2-0 Ecuador",
     "Group I — France 3-0 Sweden",
-    "Group E — Côte d'Ivoire 1-2 Norway",
-    "Group F — Netherlands 1-1 Morocco"
+    "Group E — Côte d'Ivoire 1-2 Norway"
   ],
   "bracket": {
     "rounds": [
@@ -374,13 +374,13 @@
               "flag": "🇲🇽",
               "person": "Zeshan Haroon",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "England",
               "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
               "person": "Noorin Yazdani",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -449,7 +449,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "England",
+              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+              "person": "Noorin Yazdani",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": null,
@@ -585,6 +591,23 @@
       "rank": 1
     },
     {
+      "name": "Noorin Yazdani",
+      "team": "England",
+      "group": "L",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "photo": null,
+      "slackId": "U056QKD89C1",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 2
+    },
+    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -599,7 +622,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Omar Alocozy",
@@ -616,7 +639,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Wahaj Farooqi",
@@ -631,23 +654,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 4
-    },
-    {
-      "name": "Zeshan Haroon",
-      "team": "Mexico",
-      "group": "A",
-      "flag": "🇲🇽",
-      "photo": null,
-      "slackId": "U09BAMJE8KG",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 6,
       "form": "W",
       "statusLabel": "Into the Round of 16",
       "rank": 5
@@ -670,23 +676,6 @@
       "rank": 6
     },
     {
-      "name": "Noorin Yazdani",
-      "team": "England",
-      "group": "L",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "photo": null,
-      "slackId": "U056QKD89C1",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 4,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 7
-    },
-    {
       "name": "Saim Aslam",
       "team": "Switzerland",
       "group": "B",
@@ -701,7 +690,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
+      "rank": 7
     },
     {
       "name": "Jabulani Aduwo",
@@ -718,7 +707,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 9
+      "rank": 8
     },
     {
       "name": "Joshua Lee",
@@ -735,7 +724,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 10
+      "rank": 9
     },
     {
       "name": "Arsal Javed",
@@ -752,7 +741,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 11
+      "rank": 10
     },
     {
       "name": "John Pajarin",
@@ -769,7 +758,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Khari Harper",
@@ -786,6 +775,23 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
+      "rank": 12
+    },
+    {
+      "name": "Zeshan Haroon",
+      "team": "Mexico",
+      "group": "A",
+      "flag": "🇲🇽",
+      "photo": null,
+      "slackId": "U09BAMJE8KG",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 9,
+      "gd": 6,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
       "rank": 13
     },
     {
