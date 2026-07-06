@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 7:10 PM PT",
+  "updatedAt": "Jul 5, 7:20 PM PT",
   "live": [
     {
       "id": "760505",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 2
       },
-      "minute": "48'",
+      "minute": "58'",
       "recap": {
         "goals": [
           {
@@ -54,6 +54,12 @@
             "side": "b",
             "player": "Declan Rice",
             "color": "yellow"
+          },
+          {
+            "minute": "54'",
+            "side": "b",
+            "player": "Jarell Quansah",
+            "color": "red"
           }
         ]
       },
