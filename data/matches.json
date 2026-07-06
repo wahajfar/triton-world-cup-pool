@@ -1,175 +1,51 @@
 {
-  "updatedAt": "Jul 5, 8:30 PM PT",
+  "updatedAt": "Jul 6, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760504",
-      "state": "post",
-      "competition": "Group C",
+      "id": "760506",
+      "state": "pre",
+      "competition": "Group K",
       "knockout": false,
       "a": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 1
+        "team": "Portugal",
+        "flag": "🇵🇹",
+        "owner": "Arsal Javed",
+        "ownerSlackId": "U0A3QB0E9EW",
+        "score": 0
       },
       "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 2
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
+        "score": 0
       },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "79'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "Andreas Schjelderup",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "Andreas Schjelderup",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+10'",
-            "side": "a",
-            "scorer": "Neymar",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "90'+6'",
-            "side": "a",
-            "player": "Neymar",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇧🇷 Brazil are out — Evan Dawson is eliminated"
+      "date": "Mon, Jul 6",
+      "time": "12:00 PM PT"
     },
     {
-      "id": "760505",
-      "state": "post",
-      "competition": "Group A",
+      "id": "760507",
+      "state": "pre",
+      "competition": "Group D",
       "knockout": false,
       "a": {
-        "team": "Mexico",
-        "flag": "🇲🇽",
-        "owner": "Zeshan Haroon",
-        "ownerSlackId": "U09BAMJE8KG",
-        "score": 2
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
+        "score": 0
       },
       "b": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 3
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
       },
-      "minute": "90'+12'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "36'",
-            "side": "b",
-            "scorer": "Jude Bellingham",
-            "assist": "Bukayo Saka",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "38'",
-            "side": "b",
-            "scorer": "Jude Bellingham",
-            "assist": "Harry Kane",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "42'",
-            "side": "a",
-            "scorer": "Julián Quiñones",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "scorer": "Harry Kane",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "69'",
-            "side": "a",
-            "scorer": "Raúl Jiménez",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "1'",
-            "side": "b",
-            "player": "Declan Rice",
-            "color": "yellow"
-          },
-          {
-            "minute": "54'",
-            "side": "b",
-            "player": "Jarell Quansah",
-            "color": "red"
-          },
-          {
-            "minute": "68'",
-            "side": "b",
-            "player": "Marc Guéhi",
-            "color": "yellow"
-          },
-          {
-            "minute": "71'",
-            "side": "a",
-            "player": "Jorge Sánchez",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Nico O'Reilly",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "a",
-            "player": "Johan Vásquez",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "player": "Jordan Henderson",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇲🇽 Mexico are out — Zeshan Haroon is eliminated"
+      "date": "Mon, Jul 6",
+      "time": "5:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
