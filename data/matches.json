@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 7:30 PM PT",
+  "updatedAt": "Jul 5, 7:40 PM PT",
   "live": [
     {
       "id": "760505",
@@ -11,7 +11,7 @@
         "flag": "🇲🇽",
         "owner": "Zeshan Haroon",
         "ownerSlackId": "U09BAMJE8KG",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "England",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 3
       },
-      "minute": "68'",
+      "minute": "78'",
       "recap": {
         "goals": [
           {
@@ -54,6 +54,14 @@
             "assist": "",
             "own": false,
             "penalty": true
+          },
+          {
+            "minute": "69'",
+            "side": "a",
+            "scorer": "Raúl Jiménez",
+            "assist": "",
+            "own": false,
+            "penalty": true
           }
         ],
         "cards": [
@@ -68,6 +76,24 @@
             "side": "b",
             "player": "Jarell Quansah",
             "color": "red"
+          },
+          {
+            "minute": "68'",
+            "side": "b",
+            "player": "Marc Guéhi",
+            "color": "yellow"
+          },
+          {
+            "minute": "71'",
+            "side": "a",
+            "player": "Jorge Sánchez",
+            "color": "yellow"
+          },
+          {
+            "minute": "72'",
+            "side": "b",
+            "player": "Nico O'Reilly",
+            "color": "yellow"
           }
         ]
       },
