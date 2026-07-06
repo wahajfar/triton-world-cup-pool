@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 6:40 PM PT",
+  "updatedAt": "Jul 5, 6:50 PM PT",
   "live": [
     {
       "id": "760505",
@@ -11,7 +11,7 @@
         "flag": "🇲🇽",
         "owner": "Zeshan Haroon",
         "ownerSlackId": "U09BAMJE8KG",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "England",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 2
       },
-      "minute": "41'",
+      "minute": "45'+6'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Jude Bellingham",
             "assist": "Harry Kane",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "42'",
+            "side": "a",
+            "scorer": "Julián Quiñones",
+            "assist": "",
             "own": false,
             "penalty": false
           }
