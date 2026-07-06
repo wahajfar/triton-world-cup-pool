@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 7:20 PM PT",
+  "updatedAt": "Jul 5, 7:30 PM PT",
   "live": [
     {
       "id": "760505",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 2
+        "score": 3
       },
-      "minute": "58'",
+      "minute": "68'",
       "recap": {
         "goals": [
           {
@@ -46,6 +46,14 @@
             "assist": "",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "scorer": "Harry Kane",
+            "assist": "",
+            "own": false,
+            "penalty": true
           }
         ],
         "cards": [
