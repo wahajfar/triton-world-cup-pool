@@ -1,9 +1,68 @@
 {
-  "updatedAt": "Jul 5, 8:00 PM PT",
-  "live": [
+  "updatedAt": "Jul 5, 8:10 PM PT",
+  "live": [],
+  "recent": [
+    {
+      "id": "760504",
+      "state": "post",
+      "competition": "Group C",
+      "knockout": false,
+      "a": {
+        "team": "Brazil",
+        "flag": "🇧🇷",
+        "owner": "Evan Dawson",
+        "ownerSlackId": "U0ATXNHSZUY",
+        "score": 1
+      },
+      "b": {
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 2
+      },
+      "minute": "90'+11'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "79'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "Andreas Schjelderup",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'",
+            "side": "b",
+            "scorer": "Erling Haaland",
+            "assist": "Andreas Schjelderup",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+10'",
+            "side": "a",
+            "scorer": "Neymar",
+            "assist": "",
+            "own": false,
+            "penalty": true
+          }
+        ],
+        "cards": [
+          {
+            "minute": "90'+6'",
+            "side": "a",
+            "player": "Neymar",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": "❌ 🇧🇷 Brazil are out — Evan Dawson is eliminated"
+    },
     {
       "id": "760505",
-      "state": "in",
+      "state": "post",
       "competition": "Group A",
       "knockout": false,
       "a": {
@@ -20,7 +79,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 3
       },
-      "minute": "90'+8'",
+      "minute": "90'+12'",
       "recap": {
         "goals": [
           {
@@ -100,70 +159,16 @@
             "side": "a",
             "player": "Johan Vásquez",
             "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
-  "recent": [
-    {
-      "id": "760504",
-      "state": "post",
-      "competition": "Group C",
-      "knockout": false,
-      "a": {
-        "team": "Brazil",
-        "flag": "🇧🇷",
-        "owner": "Evan Dawson",
-        "ownerSlackId": "U0ATXNHSZUY",
-        "score": 1
-      },
-      "b": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 2
-      },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "79'",
-            "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "Andreas Schjelderup",
-            "own": false,
-            "penalty": false
           },
           {
-            "minute": "90'",
+            "minute": "90'+8'",
             "side": "b",
-            "scorer": "Erling Haaland",
-            "assist": "Andreas Schjelderup",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+10'",
-            "side": "a",
-            "scorer": "Neymar",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          }
-        ],
-        "cards": [
-          {
-            "minute": "90'+6'",
-            "side": "a",
-            "player": "Neymar",
+            "player": "Jordan Henderson",
             "color": "yellow"
           }
         ]
       },
-      "impact": "❌ 🇧🇷 Brazil are out — Evan Dawson is eliminated"
+      "impact": null
     }
   ],
   "upcoming": []
