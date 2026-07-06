@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 6, 1:50 PM PT",
+  "updatedAt": "Jul 6, 2:00 PM PT",
   "live": [
     {
       "id": "760506",
@@ -18,12 +18,34 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 0
+        "score": 1
       },
-      "minute": "87'",
+      "minute": "90'+8'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "90'+1'",
+            "side": "b",
+            "scorer": "Mikel Merino",
+            "assist": "Ferran Torres",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "89'",
+            "side": "a",
+            "player": "Bernardo Silva",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+4'",
+            "side": "a",
+            "player": "Renato Veiga",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
