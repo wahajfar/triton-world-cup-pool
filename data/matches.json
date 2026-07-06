@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 5, 7:50 PM PT",
+  "updatedAt": "Jul 5, 8:00 PM PT",
   "live": [
     {
       "id": "760505",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 3
       },
-      "minute": "88'",
+      "minute": "90'+8'",
       "recap": {
         "goals": [
           {
@@ -93,6 +93,12 @@
             "minute": "72'",
             "side": "b",
             "player": "Nico O'Reilly",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+8'",
+            "side": "a",
+            "player": "Johan Vásquez",
             "color": "yellow"
           }
         ]
