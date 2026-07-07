@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 6, 2:21 PM PT",
+  "updatedAt": "Jul 6, 7:10 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 11,
-  "eliminatedCount": 37,
+  "aliveCount": 10,
+  "eliminatedCount": 38,
   "champion": null,
   "recentResults": [
+    "Group D — United States 1-4 Belgium",
     "Group K — Portugal 0-1 Spain",
     "Group A — Mexico 2-3 England",
     "Group C — Brazil 1-2 Norway",
@@ -19,8 +20,7 @@
     "Group D — United States 2-0 Bosnia and Herzegovina",
     "Group G — Belgium 3-2 Senegal",
     "Group L — England 2-1 Congo DR",
-    "Group A — Mexico 2-0 Ecuador",
-    "Group I — France 3-0 Sweden"
+    "Group A — Mexico 2-0 Ecuador"
   ],
   "bracket": {
     "rounds": [
@@ -342,13 +342,13 @@
               "flag": "🇺🇸",
               "person": "Joshua Lee",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "Belgium",
               "flag": "🇧🇪",
               "person": "John Pajarin",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -445,7 +445,13 @@
               "win": false,
               "lose": false
             },
-            "b": null
+            "b": {
+              "team": "Belgium",
+              "flag": "🇧🇪",
+              "person": "John Pajarin",
+              "win": false,
+              "lose": false
+            }
           },
           {
             "a": {
@@ -665,6 +671,23 @@
       "rank": 5
     },
     {
+      "name": "John Pajarin",
+      "team": "Belgium",
+      "group": "G",
+      "flag": "🇧🇪",
+      "photo": null,
+      "slackId": "U08SC2F74KB",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 5,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 6
+    },
+    {
       "name": "Wahaj Farooqi",
       "team": "Argentina",
       "group": "J",
@@ -679,7 +702,7 @@
       "gd": 7,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "Saim Aslam",
@@ -696,7 +719,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 7
+      "rank": 8
     },
     {
       "name": "Jabulani Aduwo",
@@ -713,41 +736,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Round of 16",
-      "rank": 8
-    },
-    {
-      "name": "Joshua Lee",
-      "team": "United States",
-      "group": "D",
-      "flag": "🇺🇸",
-      "photo": null,
-      "slackId": "U0A3TEZC7MJ",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 4,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
       "rank": 9
-    },
-    {
-      "name": "John Pajarin",
-      "team": "Belgium",
-      "group": "G",
-      "flag": "🇧🇪",
-      "photo": null,
-      "slackId": "U08SC2F74KB",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 5,
-      "gd": 4,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 10
     },
     {
       "name": "Khari Harper",
@@ -764,7 +753,7 @@
       "gd": 2,
       "form": "D",
       "statusLabel": "Into the Round of 16",
-      "rank": 11
+      "rank": 10
     },
     {
       "name": "Zeshan Haroon",
@@ -781,7 +770,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Evan Dawson",
@@ -796,6 +785,23 @@
       "played": 3,
       "points": 7,
       "gd": 6,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
+      "rank": 12
+    },
+    {
+      "name": "Joshua Lee",
+      "team": "United States",
+      "group": "D",
+      "flag": "🇺🇸",
+      "photo": null,
+      "slackId": "U0A3TEZC7MJ",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 6,
+      "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 16",
       "rank": 13
