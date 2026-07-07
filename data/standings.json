@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 6, 7:10 PM PT",
+  "updatedAt": "Jul 7, 11:21 AM PT",
   "stage": "Round of 16",
-  "aliveCount": 10,
-  "eliminatedCount": 38,
+  "aliveCount": 9,
+  "eliminatedCount": 39,
   "champion": null,
   "recentResults": [
+    "Group J — Argentina 3-2 Egypt",
     "Group D — United States 1-4 Belgium",
     "Group K — Portugal 0-1 Spain",
     "Group A — Mexico 2-3 England",
@@ -19,8 +20,7 @@
     "Group H — Spain 3-0 Austria",
     "Group D — United States 2-0 Bosnia and Herzegovina",
     "Group G — Belgium 3-2 Senegal",
-    "Group L — England 2-1 Congo DR",
-    "Group A — Mexico 2-0 Ecuador"
+    "Group L — England 2-1 Congo DR"
   ],
   "bracket": {
     "rounds": [
@@ -405,7 +405,7 @@
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -413,7 +413,7 @@
               "flag": "🇪🇬",
               "person": "Khari Harper",
               "win": false,
-              "lose": false
+              "lose": true
             }
           }
         ]
@@ -603,6 +603,23 @@
       "rank": 1
     },
     {
+      "name": "Wahaj Farooqi",
+      "team": "Argentina",
+      "group": "J",
+      "flag": "🇦🇷",
+      "photo": null,
+      "slackId": "U03U8NBB72A",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 7,
+      "form": "W",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 2
+    },
+    {
       "name": "Luke Zahradka",
       "team": "Spain",
       "group": "H",
@@ -617,7 +634,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Noorin Yazdani",
@@ -634,7 +651,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 3
+      "rank": 4
     },
     {
       "name": "Aadam Rasul",
@@ -651,7 +668,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 4
+      "rank": 5
     },
     {
       "name": "Omar Alocozy",
@@ -668,7 +685,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "John Pajarin",
@@ -685,23 +702,6 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 6
-    },
-    {
-      "name": "Wahaj Farooqi",
-      "team": "Argentina",
-      "group": "J",
-      "flag": "🇦🇷",
-      "photo": null,
-      "slackId": "U03U8NBB72A",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
       "rank": 7
     },
     {
@@ -739,23 +739,6 @@
       "rank": 9
     },
     {
-      "name": "Khari Harper",
-      "team": "Egypt",
-      "group": "G",
-      "flag": "🇪🇬",
-      "photo": null,
-      "slackId": "U0B6D9B2V8R",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 5,
-      "gd": 2,
-      "form": "D",
-      "statusLabel": "Into the Round of 16",
-      "rank": 10
-    },
-    {
       "name": "Zeshan Haroon",
       "team": "Mexico",
       "group": "A",
@@ -770,7 +753,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 11
+      "rank": 10
     },
     {
       "name": "Evan Dawson",
@@ -787,7 +770,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 12
+      "rank": 11
     },
     {
       "name": "Joshua Lee",
@@ -804,7 +787,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 13
+      "rank": 12
     },
     {
       "name": "Arsal Javed",
@@ -819,6 +802,23 @@
       "played": 3,
       "points": 5,
       "gd": 5,
+      "form": "L",
+      "statusLabel": "Out — Round of 16",
+      "rank": 13
+    },
+    {
+      "name": "Khari Harper",
+      "team": "Egypt",
+      "group": "G",
+      "flag": "🇪🇬",
+      "photo": null,
+      "slackId": "U0B6D9B2V8R",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 5,
+      "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 16",
       "rank": 14
