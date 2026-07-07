@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 6, 6:20 PM PT",
+  "updatedAt": "Jul 6, 6:30 PM PT",
   "live": [
     {
       "id": "760507",
@@ -18,9 +18,9 @@
         "flag": "🇧🇪",
         "owner": "John Pajarin",
         "ownerSlackId": "U08SC2F74KB",
-        "score": 2
+        "score": 3
       },
-      "minute": "57'",
+      "minute": "66'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "b",
             "scorer": "Charles De Ketelaere",
             "assist": "Leandro Trossard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "57'",
+            "side": "b",
+            "scorer": "Hans Vanaken",
+            "assist": "Charles De Ketelaere",
             "own": false,
             "penalty": false
           }
