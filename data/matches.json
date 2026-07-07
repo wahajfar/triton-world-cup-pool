@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 6, 6:30 PM PT",
+  "updatedAt": "Jul 6, 6:40 PM PT",
   "live": [
     {
       "id": "760507",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08SC2F74KB",
         "score": 3
       },
-      "minute": "66'",
+      "minute": "77'",
       "recap": {
         "goals": [
           {
@@ -61,6 +61,12 @@
             "minute": "35'",
             "side": "a",
             "player": "Weston McKennie",
+            "color": "yellow"
+          },
+          {
+            "minute": "69'",
+            "side": "a",
+            "player": "Malik Tillman",
             "color": "yellow"
           }
         ]
