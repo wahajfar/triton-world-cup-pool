@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 7, 11:21 AM PT",
+  "updatedAt": "Jul 7, 4:11 PM PT",
   "stage": "Round of 16",
-  "aliveCount": 9,
-  "eliminatedCount": 39,
+  "aliveCount": 8,
+  "eliminatedCount": 40,
   "champion": null,
   "recentResults": [
+    "Group B — Switzerland 0-0 Colombia",
     "Group J — Argentina 3-2 Egypt",
     "Group D — United States 1-4 Belgium",
     "Group K — Portugal 0-1 Spain",
@@ -19,8 +20,7 @@
     "Group K — Portugal 2-1 Croatia",
     "Group H — Spain 3-0 Austria",
     "Group D — United States 2-0 Bosnia and Herzegovina",
-    "Group G — Belgium 3-2 Senegal",
-    "Group L — England 2-1 Congo DR"
+    "Group G — Belgium 3-2 Senegal"
   ],
   "bracket": {
     "rounds": [
@@ -221,38 +221,6 @@
           },
           {
             "a": {
-              "team": "Switzerland",
-              "flag": "🇨🇭",
-              "person": "Saim Aslam",
-              "win": true,
-              "lose": false
-            },
-            "b": {
-              "team": "Algeria",
-              "flag": "🇩🇿",
-              "person": "Cole Germaine",
-              "win": false,
-              "lose": true
-            }
-          },
-          {
-            "a": {
-              "team": "Colombia",
-              "flag": "🇨🇴",
-              "person": "Jabulani Aduwo",
-              "win": true,
-              "lose": false
-            },
-            "b": {
-              "team": "Ghana",
-              "flag": "🇬🇭",
-              "person": "Majid Hussain",
-              "win": false,
-              "lose": true
-            }
-          },
-          {
-            "a": {
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
@@ -281,6 +249,38 @@
               "person": "Khari Harper",
               "win": true,
               "lose": false
+            }
+          },
+          {
+            "a": {
+              "team": "Switzerland",
+              "flag": "🇨🇭",
+              "person": "Saim Aslam",
+              "win": true,
+              "lose": false
+            },
+            "b": {
+              "team": "Algeria",
+              "flag": "🇩🇿",
+              "person": "Cole Germaine",
+              "win": false,
+              "lose": true
+            }
+          },
+          {
+            "a": {
+              "team": "Colombia",
+              "flag": "🇨🇴",
+              "person": "Jabulani Aduwo",
+              "win": true,
+              "lose": false
+            },
+            "b": {
+              "team": "Ghana",
+              "flag": "🇬🇭",
+              "person": "Majid Hussain",
+              "win": false,
+              "lose": true
             }
           }
         ]
@@ -386,22 +386,6 @@
           },
           {
             "a": {
-              "team": "Switzerland",
-              "flag": "🇨🇭",
-              "person": "Saim Aslam",
-              "win": false,
-              "lose": false
-            },
-            "b": {
-              "team": "Colombia",
-              "flag": "🇨🇴",
-              "person": "Jabulani Aduwo",
-              "win": false,
-              "lose": false
-            }
-          },
-          {
-            "a": {
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
@@ -412,6 +396,22 @@
               "team": "Egypt",
               "flag": "🇪🇬",
               "person": "Khari Harper",
+              "win": false,
+              "lose": true
+            }
+          },
+          {
+            "a": {
+              "team": "Switzerland",
+              "flag": "🇨🇭",
+              "person": "Saim Aslam",
+              "win": true,
+              "lose": false
+            },
+            "b": {
+              "team": "Colombia",
+              "flag": "🇨🇴",
+              "person": "Jabulani Aduwo",
               "win": false,
               "lose": true
             }
@@ -470,8 +470,20 @@
             }
           },
           {
-            "a": null,
-            "b": null
+            "a": {
+              "team": "Argentina",
+              "flag": "🇦🇷",
+              "person": "Wahaj Farooqi",
+              "win": false,
+              "lose": false
+            },
+            "b": {
+              "team": "Switzerland",
+              "flag": "🇨🇭",
+              "person": "Saim Aslam",
+              "win": false,
+              "lose": false
+            }
           }
         ]
       },
@@ -654,6 +666,23 @@
       "rank": 4
     },
     {
+      "name": "Saim Aslam",
+      "team": "Switzerland",
+      "group": "B",
+      "flag": "🇨🇭",
+      "photo": null,
+      "slackId": "U0A94C788KS",
+      "status": "alive",
+      "stageReached": "QF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 4,
+      "form": "D",
+      "statusLabel": "Into the Quarter-finals",
+      "rank": 5
+    },
+    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -668,7 +697,7 @@
       "gd": 3,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 5
+      "rank": 6
     },
     {
       "name": "Omar Alocozy",
@@ -685,7 +714,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 6
+      "rank": 7
     },
     {
       "name": "John Pajarin",
@@ -702,41 +731,7 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 7
-    },
-    {
-      "name": "Saim Aslam",
-      "team": "Switzerland",
-      "group": "B",
-      "flag": "🇨🇭",
-      "photo": null,
-      "slackId": "U0A94C788KS",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 4,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
       "rank": 8
-    },
-    {
-      "name": "Jabulani Aduwo",
-      "team": "Colombia",
-      "group": "K",
-      "flag": "🇨🇴",
-      "photo": null,
-      "slackId": "U0ARBL3JP1U",
-      "status": "alive",
-      "stageReached": "R16",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 3,
-      "form": "W",
-      "statusLabel": "Into the Round of 16",
-      "rank": 9
     },
     {
       "name": "Zeshan Haroon",
@@ -753,7 +748,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
-      "rank": 10
+      "rank": 9
     },
     {
       "name": "Evan Dawson",
@@ -769,6 +764,23 @@
       "points": 7,
       "gd": 6,
       "form": "L",
+      "statusLabel": "Out — Round of 16",
+      "rank": 10
+    },
+    {
+      "name": "Jabulani Aduwo",
+      "team": "Colombia",
+      "group": "K",
+      "flag": "🇨🇴",
+      "photo": null,
+      "slackId": "U0ARBL3JP1U",
+      "status": "eliminated",
+      "stageReached": "R16",
+      "eliminatedAt": "Round of 16",
+      "played": 3,
+      "points": 7,
+      "gd": 3,
+      "form": "D",
       "statusLabel": "Out — Round of 16",
       "rank": 11
     },
