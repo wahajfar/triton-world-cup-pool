@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 3:00 PM PT",
+  "updatedAt": "Jul 7, 3:10 PM PT",
   "live": [
     {
       "id": "760508",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ARBL3JP1U",
         "score": 0
       },
-      "minute": "91'",
+      "minute": "100'",
       "recap": {
         "goals": [],
         "cards": [
@@ -40,6 +40,12 @@
             "minute": "60'",
             "side": "b",
             "player": "Luis Suárez",
+            "color": "yellow"
+          },
+          {
+            "minute": "95'",
+            "side": "b",
+            "player": "Davinson Sánchez",
             "color": "yellow"
           }
         ]
