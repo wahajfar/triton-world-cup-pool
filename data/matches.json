@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 7, 11:00 AM PT",
-  "live": [
+  "updatedAt": "Jul 7, 11:10 AM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760509",
-      "state": "in",
+      "state": "post",
       "competition": "Group J",
       "knockout": false,
       "a": {
@@ -20,7 +21,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 2
       },
-      "minute": "90'+7'",
+      "minute": "90'+11'",
       "recap": {
         "goals": [
           {
@@ -76,13 +77,24 @@
             "side": "b",
             "player": "Hamdy Fathy",
             "color": "yellow"
+          },
+          {
+            "minute": "90'+8'",
+            "side": "b",
+            "player": "Marawan Attia",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+12'",
+            "side": "b",
+            "player": "Haissem Hassan",
+            "color": "yellow"
           }
         ]
       },
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760508",
