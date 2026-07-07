@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 9:11 AM PT",
+  "updatedAt": "Jul 7, 9:20 AM PT",
   "live": [
     {
       "id": "760509",
@@ -18,11 +18,20 @@
         "flag": "🇪🇬",
         "owner": "Khari Harper",
         "ownerSlackId": "U0B6D9B2V8R",
-        "score": 0
+        "score": 1
       },
-      "minute": "10'",
+      "minute": "19'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "15'",
+            "side": "b",
+            "scorer": "Yasser Ibrahim",
+            "assist": "Marawan Attia",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
