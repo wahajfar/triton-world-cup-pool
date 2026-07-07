@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 3:10 PM PT",
+  "updatedAt": "Jul 7, 3:20 PM PT",
   "live": [
     {
       "id": "760508",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ARBL3JP1U",
         "score": 0
       },
-      "minute": "100'",
+      "minute": "106'",
       "recap": {
         "goals": [],
         "cards": [
@@ -46,6 +46,12 @@
             "minute": "95'",
             "side": "b",
             "player": "Davinson Sánchez",
+            "color": "yellow"
+          },
+          {
+            "minute": "105'",
+            "side": "a",
+            "player": "Miro Muheim",
             "color": "yellow"
           }
         ]
