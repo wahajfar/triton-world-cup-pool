@@ -1,141 +1,51 @@
 {
-  "updatedAt": "Jul 6, 7:20 PM PT",
+  "updatedAt": "Jul 7, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760506",
-      "state": "post",
-      "competition": "Group K",
+      "id": "760509",
+      "state": "pre",
+      "competition": "Group J",
       "knockout": false,
       "a": {
-        "team": "Portugal",
-        "flag": "🇵🇹",
-        "owner": "Arsal Javed",
-        "ownerSlackId": "U0A3QB0E9EW",
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
       "b": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 1
+        "team": "Egypt",
+        "flag": "🇪🇬",
+        "owner": "Khari Harper",
+        "ownerSlackId": "U0B6D9B2V8R",
+        "score": 0
       },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "90'+1'",
-            "side": "b",
-            "scorer": "Mikel Merino",
-            "assist": "Ferran Torres",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "89'",
-            "side": "a",
-            "player": "Bernardo Silva",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+4'",
-            "side": "a",
-            "player": "Renato Veiga",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "player": "Ferran Torres",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇵🇹 Portugal are out — Arsal Javed is eliminated"
+      "date": "Tue, Jul 7",
+      "time": "9:00 AM PT"
     },
     {
-      "id": "760507",
-      "state": "post",
-      "competition": "Group D",
+      "id": "760508",
+      "state": "pre",
+      "competition": "Group B",
       "knockout": false,
       "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 1
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
       },
       "b": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 4
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
       },
-      "minute": "90'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "9'",
-            "side": "b",
-            "scorer": "Charles De Ketelaere",
-            "assist": "Nicolas Raskin",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "31'",
-            "side": "a",
-            "scorer": "Malik Tillman",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "33'",
-            "side": "b",
-            "scorer": "Charles De Ketelaere",
-            "assist": "Leandro Trossard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "57'",
-            "side": "b",
-            "scorer": "Hans Vanaken",
-            "assist": "Charles De Ketelaere",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "scorer": "Romelu Lukaku",
-            "assist": "Hans Vanaken",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "35'",
-            "side": "a",
-            "player": "Weston McKennie",
-            "color": "yellow"
-          },
-          {
-            "minute": "69'",
-            "side": "a",
-            "player": "Malik Tillman",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇺🇸 United States are out — Joshua Lee is eliminated"
+      "date": "Tue, Jul 7",
+      "time": "1:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
