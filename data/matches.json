@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 10:30 AM PT",
+  "updatedAt": "Jul 7, 10:40 AM PT",
   "live": [
     {
       "id": "760509",
@@ -18,9 +18,9 @@
         "flag": "🇪🇬",
         "owner": "Khari Harper",
         "ownerSlackId": "U0B6D9B2V8R",
-        "score": 1
+        "score": 2
       },
-      "minute": "67'",
+      "minute": "76'",
       "recap": {
         "goals": [
           {
@@ -30,16 +30,17 @@
             "assist": "Marawan Attia",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "scorer": "Mostafa Zico",
+            "assist": "Haissem Hassan",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": [
-          {
-            "minute": "61'",
-            "side": "b",
-            "player": "Mostafa Zico",
-            "color": "yellow"
-          }
-        ]
+        "cards": []
       },
       "impact": null
     }
