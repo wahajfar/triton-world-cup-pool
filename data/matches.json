@@ -1,64 +1,6 @@
 {
-  "updatedAt": "Jul 7, 3:50 PM PT",
-  "live": [
-    {
-      "id": "760508",
-      "state": "in",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 0
-      },
-      "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "51'",
-            "side": "a",
-            "player": "Granit Xhaka",
-            "color": "yellow"
-          },
-          {
-            "minute": "59'",
-            "side": "a",
-            "player": "Denis Zakaria",
-            "color": "yellow"
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "player": "Luis Suárez",
-            "color": "yellow"
-          },
-          {
-            "minute": "95'",
-            "side": "b",
-            "player": "Davinson Sánchez",
-            "color": "yellow"
-          },
-          {
-            "minute": "105'",
-            "side": "a",
-            "player": "Miro Muheim",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 7, 4:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760509",
@@ -151,6 +93,63 @@
         ]
       },
       "impact": "❌ 🇪🇬 Egypt are out — Khari Harper is eliminated"
+    },
+    {
+      "id": "760508",
+      "state": "post",
+      "competition": "Switzerland advance 4-3 on penalties",
+      "knockout": true,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "b": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "minute": "120'",
+      "recap": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": "51'",
+            "side": "a",
+            "player": "Granit Xhaka",
+            "color": "yellow"
+          },
+          {
+            "minute": "59'",
+            "side": "a",
+            "player": "Denis Zakaria",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Luis Suárez",
+            "color": "yellow"
+          },
+          {
+            "minute": "95'",
+            "side": "b",
+            "player": "Davinson Sánchez",
+            "color": "yellow"
+          },
+          {
+            "minute": "105'",
+            "side": "a",
+            "player": "Miro Muheim",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
