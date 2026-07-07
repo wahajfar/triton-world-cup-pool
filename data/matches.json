@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 10:50 AM PT",
+  "updatedAt": "Jul 7, 11:00 AM PT",
   "live": [
     {
       "id": "760509",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 2
+        "score": 3
       },
       "b": {
         "team": "Egypt",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 2
       },
-      "minute": "87'",
+      "minute": "90'+7'",
       "recap": {
         "goals": [
           {
@@ -54,9 +54,30 @@
             "assist": "Gonzalo Montiel",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "90'+2'",
+            "side": "a",
+            "scorer": "Enzo Fernández",
+            "assist": "Lautaro Martínez",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "player": "Mostafa Shoubir",
+            "color": "yellow"
+          },
+          {
+            "minute": "90'+4'",
+            "side": "b",
+            "player": "Hamdy Fathy",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
