@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 10:40 AM PT",
+  "updatedAt": "Jul 7, 10:50 AM PT",
   "live": [
     {
       "id": "760509",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 0
+        "score": 2
       },
       "b": {
         "team": "Egypt",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 2
       },
-      "minute": "76'",
+      "minute": "87'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,22 @@
             "side": "b",
             "scorer": "Mostafa Zico",
             "assist": "Haissem Hassan",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "79'",
+            "side": "a",
+            "scorer": "Cristian Romero",
+            "assist": "Lionel Messi",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "83'",
+            "side": "a",
+            "scorer": "Lionel Messi",
+            "assist": "Gonzalo Montiel",
             "own": false,
             "penalty": false
           }
