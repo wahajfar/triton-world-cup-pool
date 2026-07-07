@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 2:10 PM PT",
+  "updatedAt": "Jul 7, 2:20 PM PT",
   "live": [
     {
       "id": "760508",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0ARBL3JP1U",
         "score": 0
       },
-      "minute": "51'",
+      "minute": "61'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,18 @@
             "minute": "51'",
             "side": "a",
             "player": "Granit Xhaka",
+            "color": "yellow"
+          },
+          {
+            "minute": "59'",
+            "side": "a",
+            "player": "Denis Zakaria",
+            "color": "yellow"
+          },
+          {
+            "minute": "60'",
+            "side": "b",
+            "player": "Luis Suárez",
             "color": "yellow"
           }
         ]
