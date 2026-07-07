@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 7, 11:30 AM PT",
-  "live": [],
+  "updatedAt": "Jul 7, 1:00 PM PT",
+  "live": [
+    {
+      "id": "760508",
+      "state": "in",
+      "competition": "Group B",
+      "knockout": false,
+      "a": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "b": {
+        "team": "Colombia",
+        "flag": "🇨🇴",
+        "owner": "Jabulani Aduwo",
+        "ownerSlackId": "U0ARBL3JP1U",
+        "score": 0
+      },
+      "minute": "1'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760509",
@@ -95,28 +122,5 @@
       "impact": "❌ 🇪🇬 Egypt are out — Khari Harper is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760508",
-      "state": "pre",
-      "competition": "Group B",
-      "knockout": false,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 0
-      },
-      "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
-        "score": 0
-      },
-      "date": "Tue, Jul 7",
-      "time": "1:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
