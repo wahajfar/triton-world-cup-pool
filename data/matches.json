@@ -1,79 +1,6 @@
 {
-  "updatedAt": "Jul 6, 6:50 PM PT",
-  "live": [
-    {
-      "id": "760507",
-      "state": "in",
-      "competition": "Group D",
-      "knockout": false,
-      "a": {
-        "team": "United States",
-        "flag": "🇺🇸",
-        "owner": "Joshua Lee",
-        "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 1
-      },
-      "b": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 3
-      },
-      "minute": "86'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "9'",
-            "side": "b",
-            "scorer": "Charles De Ketelaere",
-            "assist": "Nicolas Raskin",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "31'",
-            "side": "a",
-            "scorer": "Malik Tillman",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "33'",
-            "side": "b",
-            "scorer": "Charles De Ketelaere",
-            "assist": "Leandro Trossard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "57'",
-            "side": "b",
-            "scorer": "Hans Vanaken",
-            "assist": "Charles De Ketelaere",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "35'",
-            "side": "a",
-            "player": "Weston McKennie",
-            "color": "yellow"
-          },
-          {
-            "minute": "69'",
-            "side": "a",
-            "player": "Malik Tillman",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 6, 7:00 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760506",
@@ -128,6 +55,86 @@
         ]
       },
       "impact": "❌ 🇵🇹 Portugal are out — Arsal Javed is eliminated"
+    },
+    {
+      "id": "760507",
+      "state": "post",
+      "competition": "Group D",
+      "knockout": false,
+      "a": {
+        "team": "United States",
+        "flag": "🇺🇸",
+        "owner": "Joshua Lee",
+        "ownerSlackId": "U0A3TEZC7MJ",
+        "score": 1
+      },
+      "b": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 4
+      },
+      "minute": "90'+4'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "9'",
+            "side": "b",
+            "scorer": "Charles De Ketelaere",
+            "assist": "Nicolas Raskin",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "31'",
+            "side": "a",
+            "scorer": "Malik Tillman",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "33'",
+            "side": "b",
+            "scorer": "Charles De Ketelaere",
+            "assist": "Leandro Trossard",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "57'",
+            "side": "b",
+            "scorer": "Hans Vanaken",
+            "assist": "Charles De Ketelaere",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "90'+3'",
+            "side": "b",
+            "scorer": "Romelu Lukaku",
+            "assist": "Hans Vanaken",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "35'",
+            "side": "a",
+            "player": "Weston McKennie",
+            "color": "yellow"
+          },
+          {
+            "minute": "69'",
+            "side": "a",
+            "player": "Malik Tillman",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
