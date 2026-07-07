@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 7, 10:20 AM PT",
+  "updatedAt": "Jul 7, 10:30 AM PT",
   "live": [
     {
       "id": "760509",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0B6D9B2V8R",
         "score": 1
       },
-      "minute": "57'",
+      "minute": "67'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "61'",
+            "side": "b",
+            "player": "Mostafa Zico",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
