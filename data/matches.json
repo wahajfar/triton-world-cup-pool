@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 6, 5:30 PM PT",
+  "updatedAt": "Jul 6, 5:40 PM PT",
   "live": [
     {
       "id": "760507",
@@ -11,16 +11,16 @@
         "flag": "🇺🇸",
         "owner": "Joshua Lee",
         "ownerSlackId": "U0A3TEZC7MJ",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Belgium",
         "flag": "🇧🇪",
         "owner": "John Pajarin",
         "ownerSlackId": "U08SC2F74KB",
-        "score": 1
+        "score": 2
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
@@ -30,9 +30,32 @@
             "assist": "Nicolas Raskin",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "31'",
+            "side": "a",
+            "scorer": "Malik Tillman",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "33'",
+            "side": "b",
+            "scorer": "Charles De Ketelaere",
+            "assist": "Leandro Trossard",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "35'",
+            "side": "a",
+            "player": "Weston McKennie",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
