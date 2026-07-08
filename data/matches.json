@@ -1,156 +1,29 @@
 {
-  "updatedAt": "Jul 7, 4:20 PM PT",
+  "updatedAt": "Jul 7, 9:10 PM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760509",
-      "state": "post",
-      "competition": "Group J",
+      "id": "760510",
+      "state": "pre",
+      "competition": "Group I",
       "knockout": false,
       "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 3
-      },
-      "b": {
-        "team": "Egypt",
-        "flag": "🇪🇬",
-        "owner": "Khari Harper",
-        "ownerSlackId": "U0B6D9B2V8R",
-        "score": 2
-      },
-      "minute": "90'+11'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "15'",
-            "side": "b",
-            "scorer": "Yasser Ibrahim",
-            "assist": "Marawan Attia",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "67'",
-            "side": "b",
-            "scorer": "Mostafa Zico",
-            "assist": "Haissem Hassan",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "79'",
-            "side": "a",
-            "scorer": "Cristian Romero",
-            "assist": "Lionel Messi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "83'",
-            "side": "a",
-            "scorer": "Lionel Messi",
-            "assist": "Gonzalo Montiel",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+2'",
-            "side": "a",
-            "scorer": "Enzo Fernández",
-            "assist": "Lautaro Martínez",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "90'+3'",
-            "side": "b",
-            "player": "Mostafa Shoubir",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+4'",
-            "side": "b",
-            "player": "Hamdy Fathy",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "player": "Marawan Attia",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+12'",
-            "side": "b",
-            "player": "Haissem Hassan",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇪🇬 Egypt are out — Khari Harper is eliminated"
-    },
-    {
-      "id": "760508",
-      "state": "post",
-      "competition": "Switzerland advance 4-3 on penalties",
-      "knockout": true,
-      "a": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
         "score": 0
       },
       "b": {
-        "team": "Colombia",
-        "flag": "🇨🇴",
-        "owner": "Jabulani Aduwo",
-        "ownerSlackId": "U0ARBL3JP1U",
+        "team": "Morocco",
+        "flag": "🇲🇦",
+        "owner": "Aadam Rasul",
+        "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
-      "minute": "120'",
-      "recap": {
-        "goals": [],
-        "cards": [
-          {
-            "minute": "51'",
-            "side": "a",
-            "player": "Granit Xhaka",
-            "color": "yellow"
-          },
-          {
-            "minute": "59'",
-            "side": "a",
-            "player": "Denis Zakaria",
-            "color": "yellow"
-          },
-          {
-            "minute": "60'",
-            "side": "b",
-            "player": "Luis Suárez",
-            "color": "yellow"
-          },
-          {
-            "minute": "95'",
-            "side": "b",
-            "player": "Davinson Sánchez",
-            "color": "yellow"
-          },
-          {
-            "minute": "105'",
-            "side": "a",
-            "player": "Miro Muheim",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇨🇴 Colombia are out — Jabulani Aduwo is eliminated"
+      "date": "Thu, Jul 9",
+      "time": "1:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
