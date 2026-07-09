@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 9, 2:20 PM PT",
+  "updatedAt": "Jul 9, 2:30 PM PT",
   "live": [
     {
       "id": "760510",
@@ -11,7 +11,7 @@
         "flag": "🇫🇷",
         "owner": "Abdullah Ashraf",
         "ownerSlackId": "U0A9697M3KN",
-        "score": 0
+        "score": 2
       },
       "b": {
         "team": "Morocco",
@@ -20,10 +20,26 @@
         "ownerSlackId": "U0829R0K5FA",
         "score": 0
       },
-      "minute": "56'",
+      "minute": "66'",
       "recap": {
-        "goals": [],
-        "cards": []
+        "goals": [
+          {
+            "minute": "60'",
+            "side": "a",
+            "scorer": "Kylian Mbappé",
+            "assist": "Désiré Doué",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "63'",
+            "side": "b",
+            "player": "Issa Diop",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
