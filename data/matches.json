@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 9, 3:00 PM PT",
-  "live": [
+  "updatedAt": "Jul 9, 3:10 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760510",
-      "state": "in",
+      "state": "post",
       "competition": "Group I",
       "knockout": false,
       "a": {
@@ -52,6 +53,5 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": []
 }
