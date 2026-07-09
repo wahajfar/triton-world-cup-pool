@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 7, 4:11 PM PT",
-  "stage": "Round of 16",
-  "aliveCount": 8,
-  "eliminatedCount": 40,
+  "updatedAt": "Jul 9, 3:26 PM PT",
+  "stage": "Quarter-finals",
+  "aliveCount": 7,
+  "eliminatedCount": 41,
   "champion": null,
   "recentResults": [
+    "Group I — France 2-0 Morocco",
     "Group B — Switzerland 0-0 Colombia",
     "Group J — Argentina 3-2 Egypt",
     "Group D — United States 1-4 Belgium",
@@ -19,8 +20,7 @@
     "Group B — Switzerland 2-0 Algeria",
     "Group K — Portugal 2-1 Croatia",
     "Group H — Spain 3-0 Austria",
-    "Group D — United States 2-0 Bosnia and Herzegovina",
-    "Group G — Belgium 3-2 Senegal"
+    "Group D — United States 2-0 Bosnia and Herzegovina"
   ],
   "bracket": {
     "rounds": [
@@ -426,7 +426,7 @@
               "team": "France",
               "flag": "🇫🇷",
               "person": "Abdullah Ashraf",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -434,7 +434,7 @@
               "flag": "🇲🇦",
               "person": "Aadam Rasul",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
@@ -605,13 +605,13 @@
       "photo": null,
       "slackId": "U0A9697M3KN",
       "status": "alive",
-      "stageReached": "QF",
+      "stageReached": "SF",
       "eliminatedAt": null,
       "played": 3,
       "points": 9,
       "gd": 8,
       "form": "W",
-      "statusLabel": "Into the Quarter-finals",
+      "statusLabel": "Into the Semi-finals",
       "rank": 1
     },
     {
@@ -683,23 +683,6 @@
       "rank": 5
     },
     {
-      "name": "Aadam Rasul",
-      "team": "Morocco",
-      "group": "C",
-      "flag": "🇲🇦",
-      "photo": null,
-      "slackId": "U0829R0K5FA",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 3,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
-      "rank": 6
-    },
-    {
       "name": "Omar Alocozy",
       "team": "Norway",
       "group": "I",
@@ -714,7 +697,7 @@
       "gd": 1,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
-      "rank": 7
+      "rank": 6
     },
     {
       "name": "John Pajarin",
@@ -731,6 +714,23 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
+      "rank": 7
+    },
+    {
+      "name": "Aadam Rasul",
+      "team": "Morocco",
+      "group": "C",
+      "flag": "🇲🇦",
+      "photo": null,
+      "slackId": "U0829R0K5FA",
+      "status": "eliminated",
+      "stageReached": "QF",
+      "eliminatedAt": "Quarter-finals",
+      "played": 3,
+      "points": 7,
+      "gd": 3,
+      "form": "L",
+      "statusLabel": "Out — Quarter-finals",
       "rank": 8
     },
     {
