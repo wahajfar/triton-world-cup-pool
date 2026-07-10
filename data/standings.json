@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 9, 3:26 PM PT",
+  "updatedAt": "Jul 10, 2:10 PM PT",
   "stage": "Quarter-finals",
-  "aliveCount": 7,
-  "eliminatedCount": 41,
+  "aliveCount": 6,
+  "eliminatedCount": 42,
   "champion": null,
   "recentResults": [
+    "Group H — Spain 2-1 Belgium",
     "Group I — France 2-0 Morocco",
     "Group B — Switzerland 0-0 Colombia",
     "Group J — Argentina 3-2 Egypt",
@@ -19,8 +20,7 @@
     "Group D — Australia 1-1 Egypt",
     "Group B — Switzerland 2-0 Algeria",
     "Group K — Portugal 2-1 Croatia",
-    "Group H — Spain 3-0 Austria",
-    "Group D — United States 2-0 Bosnia and Herzegovina"
+    "Group H — Spain 3-0 Austria"
   ],
   "bracket": {
     "rounds": [
@@ -442,7 +442,7 @@
               "team": "Spain",
               "flag": "🇪🇸",
               "person": "Luke Zahradka",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -450,7 +450,7 @@
               "flag": "🇧🇪",
               "person": "John Pajarin",
               "win": false,
-              "lose": false
+              "lose": true
             }
           },
           {
@@ -615,6 +615,23 @@
       "rank": 1
     },
     {
+      "name": "Luke Zahradka",
+      "team": "Spain",
+      "group": "H",
+      "flag": "🇪🇸",
+      "photo": null,
+      "slackId": "U08PP9TNNA1",
+      "status": "alive",
+      "stageReached": "SF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 5,
+      "form": "W",
+      "statusLabel": "Into the Semi-finals",
+      "rank": 2
+    },
+    {
       "name": "Wahaj Farooqi",
       "team": "Argentina",
       "group": "J",
@@ -627,23 +644,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
-      "rank": 2
-    },
-    {
-      "name": "Luke Zahradka",
-      "team": "Spain",
-      "group": "H",
-      "flag": "🇪🇸",
-      "photo": null,
-      "slackId": "U08PP9TNNA1",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 5,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
       "rank": 3
@@ -700,23 +700,6 @@
       "rank": 6
     },
     {
-      "name": "John Pajarin",
-      "team": "Belgium",
-      "group": "G",
-      "flag": "🇧🇪",
-      "photo": null,
-      "slackId": "U08SC2F74KB",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 5,
-      "gd": 4,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
-      "rank": 7
-    },
-    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -729,6 +712,23 @@
       "played": 3,
       "points": 7,
       "gd": 3,
+      "form": "L",
+      "statusLabel": "Out — Quarter-finals",
+      "rank": 7
+    },
+    {
+      "name": "John Pajarin",
+      "team": "Belgium",
+      "group": "G",
+      "flag": "🇧🇪",
+      "photo": null,
+      "slackId": "U08SC2F74KB",
+      "status": "eliminated",
+      "stageReached": "QF",
+      "eliminatedAt": "Quarter-finals",
+      "played": 3,
+      "points": 5,
+      "gd": 4,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
       "rank": 8
