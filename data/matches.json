@@ -1,57 +1,29 @@
 {
-  "updatedAt": "Jul 9, 3:30 PM PT",
+  "updatedAt": "Jul 10, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760510",
-      "state": "post",
-      "competition": "Group I",
+      "id": "760511",
+      "state": "pre",
+      "competition": "Group H",
       "knockout": false,
       "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 2
-      },
-      "b": {
-        "team": "Morocco",
-        "flag": "🇲🇦",
-        "owner": "Aadam Rasul",
-        "ownerSlackId": "U0829R0K5FA",
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
         "score": 0
       },
-      "minute": "90'+6'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "60'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Désiré Doué",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Ousmane Dembélé",
-            "assist": "Kylian Mbappé",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "63'",
-            "side": "b",
-            "player": "Issa Diop",
-            "color": "yellow"
-          }
-        ]
+      "b": {
+        "team": "Belgium",
+        "flag": "🇧🇪",
+        "owner": "John Pajarin",
+        "ownerSlackId": "U08SC2F74KB",
+        "score": 0
       },
-      "impact": "❌ 🇲🇦 Morocco are out — Aadam Rasul is eliminated"
+      "date": "Fri, Jul 10",
+      "time": "12:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
