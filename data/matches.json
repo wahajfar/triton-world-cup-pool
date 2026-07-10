@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 10, 12:40 PM PT",
+  "updatedAt": "Jul 10, 12:50 PM PT",
   "live": [
     {
       "id": "760511",
@@ -18,9 +18,9 @@
         "flag": "🇧🇪",
         "owner": "John Pajarin",
         "ownerSlackId": "U08SC2F74KB",
-        "score": 0
+        "score": 1
       },
-      "minute": "39'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -30,9 +30,24 @@
             "assist": "",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "41'",
+            "side": "b",
+            "scorer": "Charles De Ketelaere",
+            "assist": "Timothy Castagne",
+            "own": false,
+            "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "43'",
+            "side": "a",
+            "player": "Pau Cubarsí",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
