@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 10, 1:40 PM PT",
+  "updatedAt": "Jul 10, 1:50 PM PT",
   "live": [
     {
       "id": "760511",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 1
+        "score": 2
       },
       "b": {
         "team": "Belgium",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08SC2F74KB",
         "score": 1
       },
-      "minute": "78'",
+      "minute": "89'",
       "recap": {
         "goals": [
           {
@@ -38,6 +38,14 @@
             "assist": "Timothy Castagne",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "88'",
+            "side": "a",
+            "scorer": "Mikel Merino",
+            "assist": "",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -45,6 +53,12 @@
             "minute": "43'",
             "side": "a",
             "player": "Pau Cubarsí",
+            "color": "yellow"
+          },
+          {
+            "minute": "85'",
+            "side": "b",
+            "player": "Kevin De Bruyne",
             "color": "yellow"
           }
         ]
