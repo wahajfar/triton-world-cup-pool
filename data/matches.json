@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 10, 12:30 PM PT",
+  "updatedAt": "Jul 10, 12:40 PM PT",
   "live": [
     {
       "id": "760511",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Belgium",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08SC2F74KB",
         "score": 0
       },
-      "minute": "30'",
+      "minute": "39'",
       "recap": {
         "goals": [
           {
