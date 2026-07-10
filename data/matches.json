@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 10, 12:20 PM PT",
+  "updatedAt": "Jul 10, 12:30 PM PT",
   "live": [
     {
       "id": "760511",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U08SC2F74KB",
         "score": 0
       },
-      "minute": "20'",
+      "minute": "30'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "30'",
+            "side": "a",
+            "scorer": "Fabián Ruiz",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
