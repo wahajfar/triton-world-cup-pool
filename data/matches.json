@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 4:00 PM PT",
+  "updatedAt": "Jul 11, 4:10 PM PT",
   "live": [
     {
       "id": "760512",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 1
+        "score": 2
       },
-      "minute": "90'+8'",
+      "minute": "93'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Jude Bellingham",
             "assist": "Anthony Gordon",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "93'",
+            "side": "b",
+            "scorer": "Jude Bellingham",
+            "assist": "",
             "own": false,
             "penalty": false
           }
