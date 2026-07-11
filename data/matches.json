@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 11, 4:40 PM PT",
-  "live": [
+  "updatedAt": "Jul 11, 4:50 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760512",
-      "state": "in",
+      "state": "post",
       "competition": "Group I",
       "knockout": false,
       "a": {
@@ -20,7 +21,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 2
       },
-      "minute": "115'",
+      "minute": "120'+2'",
       "recap": {
         "goals": [
           {
@@ -48,12 +49,18 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "117'",
+            "side": "a",
+            "player": "Kristoffer Ajer",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": [
     {
       "id": "760513",
