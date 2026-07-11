@@ -1,83 +1,51 @@
 {
-  "updatedAt": "Jul 10, 2:20 PM PT",
+  "updatedAt": "Jul 11, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760511",
-      "state": "post",
-      "competition": "Group H",
+      "id": "760512",
+      "state": "pre",
+      "competition": "Group I",
       "knockout": false,
       "a": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 2
+        "team": "Norway",
+        "flag": "🇳🇴",
+        "owner": "Omar Alocozy",
+        "ownerSlackId": "U0A3LTR7SRK",
+        "score": 0
       },
       "b": {
-        "team": "Belgium",
-        "flag": "🇧🇪",
-        "owner": "John Pajarin",
-        "ownerSlackId": "U08SC2F74KB",
-        "score": 1
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
+        "score": 0
       },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "30'",
-            "side": "a",
-            "scorer": "Fabián Ruiz",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "41'",
-            "side": "b",
-            "scorer": "Charles De Ketelaere",
-            "assist": "Timothy Castagne",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "88'",
-            "side": "a",
-            "scorer": "Mikel Merino",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "43'",
-            "side": "a",
-            "player": "Pau Cubarsí",
-            "color": "yellow"
-          },
-          {
-            "minute": "85'",
-            "side": "b",
-            "player": "Kevin De Bruyne",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+3'",
-            "side": "a",
-            "player": "Aymeric Laporte",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+5'",
-            "side": "b",
-            "player": "Axel Witsel",
-            "color": "yellow"
-          }
-        ]
+      "date": "Sat, Jul 11",
+      "time": "2:00 PM PT"
+    },
+    {
+      "id": "760513",
+      "state": "pre",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
       },
-      "impact": "❌ 🇧🇪 Belgium are out — John Pajarin is eliminated"
+      "b": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "date": "Sat, Jul 11",
+      "time": "6:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
