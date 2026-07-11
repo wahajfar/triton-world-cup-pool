@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 2:30 PM PT",
+  "updatedAt": "Jul 11, 2:40 PM PT",
   "live": [
     {
       "id": "760512",
@@ -11,7 +11,7 @@
         "flag": "🇳🇴",
         "owner": "Omar Alocozy",
         "ownerSlackId": "U0A3LTR7SRK",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "England",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 0
       },
-      "minute": "29'",
+      "minute": "39'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "36'",
+            "side": "a",
+            "scorer": "Andreas Schjelderup",
+            "assist": "Martin Ødegaard",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
