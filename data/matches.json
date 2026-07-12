@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 7:20 PM PT",
+  "updatedAt": "Jul 11, 7:30 PM PT",
   "live": [
     {
       "id": "760513",
@@ -18,9 +18,9 @@
         "flag": "🇨🇭",
         "owner": "Saim Aslam",
         "ownerSlackId": "U0A94C788KS",
-        "score": 0
+        "score": 1
       },
-      "minute": "59'",
+      "minute": "69'",
       "recap": {
         "goals": [
           {
@@ -30,6 +30,14 @@
             "assist": "Lionel Messi",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "scorer": "Dan Ndoye",
+            "assist": "Ricardo Rodríguez",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
@@ -37,6 +45,12 @@
             "minute": "44'",
             "side": "b",
             "player": "Breel Embolo",
+            "color": "yellow"
+          },
+          {
+            "minute": "69'",
+            "side": "a",
+            "player": "Leandro Paredes",
             "color": "yellow"
           }
         ]
