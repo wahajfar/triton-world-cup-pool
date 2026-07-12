@@ -1,89 +1,6 @@
 {
-  "updatedAt": "Jul 11, 8:40 PM PT",
-  "live": [
-    {
-      "id": "760513",
-      "state": "in",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 2
-      },
-      "b": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 1
-      },
-      "minute": "120'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "10'",
-            "side": "a",
-            "scorer": "Alexis Mac Allister",
-            "assist": "Lionel Messi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "67'",
-            "side": "b",
-            "scorer": "Dan Ndoye",
-            "assist": "Ricardo Rodríguez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "112'",
-            "side": "a",
-            "scorer": "Julián Álvarez",
-            "assist": "José Manuel López",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "44'",
-            "side": "b",
-            "player": "Breel Embolo",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Breel Embolo",
-            "color": "red"
-          },
-          {
-            "minute": "97'",
-            "side": "a",
-            "player": "Thiago Almada",
-            "color": "yellow"
-          },
-          {
-            "minute": "98'",
-            "side": "a",
-            "player": "Lautaro Martínez",
-            "color": "yellow"
-          },
-          {
-            "minute": "114'",
-            "side": "a",
-            "player": "José Manuel López",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
-    }
-  ],
+  "updatedAt": "Jul 11, 8:50 PM PT",
+  "live": [],
   "recent": [
     {
       "id": "760512",
@@ -142,6 +59,96 @@
         ]
       },
       "impact": "❌ 🇳🇴 Norway are out — Omar Alocozy is eliminated"
+    },
+    {
+      "id": "760513",
+      "state": "post",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 3
+      },
+      "b": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 1
+      },
+      "minute": "120'+4'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Alexis Mac Allister",
+            "assist": "Lionel Messi",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "67'",
+            "side": "b",
+            "scorer": "Dan Ndoye",
+            "assist": "Ricardo Rodríguez",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "112'",
+            "side": "a",
+            "scorer": "Julián Álvarez",
+            "assist": "José Manuel López",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "120'+1'",
+            "side": "a",
+            "scorer": "Lautaro Martínez",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": [
+          {
+            "minute": "44'",
+            "side": "b",
+            "player": "Breel Embolo",
+            "color": "yellow"
+          },
+          {
+            "minute": "72'",
+            "side": "b",
+            "player": "Breel Embolo",
+            "color": "red"
+          },
+          {
+            "minute": "97'",
+            "side": "a",
+            "player": "Thiago Almada",
+            "color": "yellow"
+          },
+          {
+            "minute": "98'",
+            "side": "a",
+            "player": "Lautaro Martínez",
+            "color": "yellow"
+          },
+          {
+            "minute": "114'",
+            "side": "a",
+            "player": "José Manuel López",
+            "color": "yellow"
+          }
+        ]
+      },
+      "impact": null
     }
   ],
   "upcoming": []
