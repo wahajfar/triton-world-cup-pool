@@ -1,6 +1,33 @@
 {
-  "updatedAt": "Jul 11, 5:10 PM PT",
-  "live": [],
+  "updatedAt": "Jul 11, 6:10 PM PT",
+  "live": [
+    {
+      "id": "760513",
+      "state": "in",
+      "competition": "Group J",
+      "knockout": false,
+      "a": {
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
+      },
+      "b": {
+        "team": "Switzerland",
+        "flag": "🇨🇭",
+        "owner": "Saim Aslam",
+        "ownerSlackId": "U0A94C788KS",
+        "score": 0
+      },
+      "minute": "9'",
+      "recap": {
+        "goals": [],
+        "cards": []
+      },
+      "impact": null
+    }
+  ],
   "recent": [
     {
       "id": "760512",
@@ -61,28 +88,5 @@
       "impact": "❌ 🇳🇴 Norway are out — Omar Alocozy is eliminated"
     }
   ],
-  "upcoming": [
-    {
-      "id": "760513",
-      "state": "pre",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 0
-      },
-      "b": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 0
-      },
-      "date": "Sat, Jul 11",
-      "time": "6:00 PM PT"
-    }
-  ]
+  "upcoming": []
 }
