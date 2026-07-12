@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 8:10 PM PT",
+  "updatedAt": "Jul 11, 8:20 PM PT",
   "live": [
     {
       "id": "760513",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A94C788KS",
         "score": 1
       },
-      "minute": "95'",
+      "minute": "105'",
       "recap": {
         "goals": [
           {
@@ -52,6 +52,18 @@
             "side": "b",
             "player": "Breel Embolo",
             "color": "red"
+          },
+          {
+            "minute": "97'",
+            "side": "a",
+            "player": "Thiago Almada",
+            "color": "yellow"
+          },
+          {
+            "minute": "98'",
+            "side": "a",
+            "player": "Lautaro Martínez",
+            "color": "yellow"
           }
         ]
       },
