@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 7:30 PM PT",
+  "updatedAt": "Jul 11, 7:40 PM PT",
   "live": [
     {
       "id": "760513",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A94C788KS",
         "score": 1
       },
-      "minute": "69'",
+      "minute": "79'",
       "recap": {
         "goals": [
           {
@@ -48,10 +48,10 @@
             "color": "yellow"
           },
           {
-            "minute": "69'",
-            "side": "a",
-            "player": "Leandro Paredes",
-            "color": "yellow"
+            "minute": "72'",
+            "side": "b",
+            "player": "Breel Embolo",
+            "color": "red"
           }
         ]
       },
