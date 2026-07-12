@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 6:40 PM PT",
+  "updatedAt": "Jul 11, 6:50 PM PT",
   "live": [
     {
       "id": "760513",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U0A94C788KS",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [
           {
@@ -32,7 +32,14 @@
             "penalty": false
           }
         ],
-        "cards": []
+        "cards": [
+          {
+            "minute": "44'",
+            "side": "b",
+            "player": "Breel Embolo",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
