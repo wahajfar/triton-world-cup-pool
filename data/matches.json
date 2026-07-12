@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 11, 6:10 PM PT",
+  "updatedAt": "Jul 11, 6:20 PM PT",
   "live": [
     {
       "id": "760513",
@@ -11,7 +11,7 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Switzerland",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U0A94C788KS",
         "score": 0
       },
-      "minute": "9'",
+      "minute": "20'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "10'",
+            "side": "a",
+            "scorer": "Alexis Mac Allister",
+            "assist": "Lionel Messi",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": []
       },
       "impact": null
