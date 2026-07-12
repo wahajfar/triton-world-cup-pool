@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 11, 5:01 PM PT",
+  "updatedAt": "Jul 11, 9:01 PM PT",
   "stage": "Quarter-finals",
-  "aliveCount": 5,
-  "eliminatedCount": 43,
+  "aliveCount": 4,
+  "eliminatedCount": 44,
   "champion": null,
   "recentResults": [
+    "Group J — Argentina 3-1 Switzerland",
     "Group I — Norway 1-2 England",
     "Group H — Spain 2-1 Belgium",
     "Group I — France 2-0 Morocco",
@@ -19,8 +20,7 @@
     "Group K — Colombia 1-0 Ghana",
     "Group J — Argentina 3-2 Cape Verde",
     "Group D — Australia 1-1 Egypt",
-    "Group B — Switzerland 2-0 Algeria",
-    "Group K — Portugal 2-1 Croatia"
+    "Group B — Switzerland 2-0 Algeria"
   ],
   "bracket": {
     "rounds": [
@@ -474,7 +474,7 @@
               "team": "Argentina",
               "flag": "🇦🇷",
               "person": "Wahaj Farooqi",
-              "win": false,
+              "win": true,
               "lose": false
             },
             "b": {
@@ -482,7 +482,7 @@
               "flag": "🇨🇭",
               "person": "Saim Aslam",
               "win": false,
-              "lose": false
+              "lose": true
             }
           }
         ]
@@ -615,6 +615,23 @@
       "rank": 1
     },
     {
+      "name": "Wahaj Farooqi",
+      "team": "Argentina",
+      "group": "J",
+      "flag": "🇦🇷",
+      "photo": null,
+      "slackId": "U03U8NBB72A",
+      "status": "alive",
+      "stageReached": "SF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 9,
+      "gd": 7,
+      "form": "W",
+      "statusLabel": "Into the Semi-finals",
+      "rank": 2
+    },
+    {
       "name": "Luke Zahradka",
       "team": "Spain",
       "group": "H",
@@ -629,7 +646,7 @@
       "gd": 5,
       "form": "W",
       "statusLabel": "Into the Semi-finals",
-      "rank": 2
+      "rank": 3
     },
     {
       "name": "Noorin Yazdani",
@@ -646,23 +663,6 @@
       "gd": 4,
       "form": "W",
       "statusLabel": "Into the Semi-finals",
-      "rank": 3
-    },
-    {
-      "name": "Wahaj Farooqi",
-      "team": "Argentina",
-      "group": "J",
-      "flag": "🇦🇷",
-      "photo": null,
-      "slackId": "U03U8NBB72A",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 9,
-      "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
       "rank": 4
     },
     {
@@ -672,14 +672,14 @@
       "flag": "🇨🇭",
       "photo": null,
       "slackId": "U0A94C788KS",
-      "status": "alive",
+      "status": "eliminated",
       "stageReached": "QF",
-      "eliminatedAt": null,
+      "eliminatedAt": "Quarter-finals",
       "played": 3,
       "points": 7,
       "gd": 4,
-      "form": "D",
-      "statusLabel": "Into the Quarter-finals",
+      "form": "L",
+      "statusLabel": "Out — Quarter-finals",
       "rank": 5
     },
     {
