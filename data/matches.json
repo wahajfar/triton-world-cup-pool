@@ -1,155 +1,29 @@
 {
-  "updatedAt": "Jul 11, 8:50 PM PT",
+  "updatedAt": "Jul 11, 9:10 PM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760512",
-      "state": "post",
+      "id": "760514",
+      "state": "pre",
       "competition": "Group I",
       "knockout": false,
       "a": {
-        "team": "Norway",
-        "flag": "🇳🇴",
-        "owner": "Omar Alocozy",
-        "ownerSlackId": "U0A3LTR7SRK",
-        "score": 1
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
       },
       "b": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 2
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
+        "score": 0
       },
-      "minute": "120'+2'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "36'",
-            "side": "a",
-            "scorer": "Andreas Schjelderup",
-            "assist": "Martin Ødegaard",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+2'",
-            "side": "b",
-            "scorer": "Jude Bellingham",
-            "assist": "Anthony Gordon",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "93'",
-            "side": "b",
-            "scorer": "Jude Bellingham",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "117'",
-            "side": "a",
-            "player": "Kristoffer Ajer",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": "❌ 🇳🇴 Norway are out — Omar Alocozy is eliminated"
-    },
-    {
-      "id": "760513",
-      "state": "post",
-      "competition": "Group J",
-      "knockout": false,
-      "a": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 3
-      },
-      "b": {
-        "team": "Switzerland",
-        "flag": "🇨🇭",
-        "owner": "Saim Aslam",
-        "ownerSlackId": "U0A94C788KS",
-        "score": 1
-      },
-      "minute": "120'+4'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "10'",
-            "side": "a",
-            "scorer": "Alexis Mac Allister",
-            "assist": "Lionel Messi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "67'",
-            "side": "b",
-            "scorer": "Dan Ndoye",
-            "assist": "Ricardo Rodríguez",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "112'",
-            "side": "a",
-            "scorer": "Julián Álvarez",
-            "assist": "José Manuel López",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "120'+1'",
-            "side": "a",
-            "scorer": "Lautaro Martínez",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "44'",
-            "side": "b",
-            "player": "Breel Embolo",
-            "color": "yellow"
-          },
-          {
-            "minute": "72'",
-            "side": "b",
-            "player": "Breel Embolo",
-            "color": "red"
-          },
-          {
-            "minute": "97'",
-            "side": "a",
-            "player": "Thiago Almada",
-            "color": "yellow"
-          },
-          {
-            "minute": "98'",
-            "side": "a",
-            "player": "Lautaro Martínez",
-            "color": "yellow"
-          },
-          {
-            "minute": "114'",
-            "side": "a",
-            "player": "José Manuel López",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Tue, Jul 14",
+      "time": "12:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
