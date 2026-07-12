@@ -1,10 +1,11 @@
 {
-  "updatedAt": "Jul 10, 2:10 PM PT",
+  "updatedAt": "Jul 11, 5:01 PM PT",
   "stage": "Quarter-finals",
-  "aliveCount": 6,
-  "eliminatedCount": 42,
+  "aliveCount": 5,
+  "eliminatedCount": 43,
   "champion": null,
   "recentResults": [
+    "Group I — Norway 1-2 England",
     "Group H — Spain 2-1 Belgium",
     "Group I — France 2-0 Morocco",
     "Group B — Switzerland 0-0 Colombia",
@@ -19,8 +20,7 @@
     "Group J — Argentina 3-2 Cape Verde",
     "Group D — Australia 1-1 Egypt",
     "Group B — Switzerland 2-0 Algeria",
-    "Group K — Portugal 2-1 Croatia",
-    "Group H — Spain 3-0 Austria"
+    "Group K — Portugal 2-1 Croatia"
   ],
   "bracket": {
     "rounds": [
@@ -459,13 +459,13 @@
               "flag": "🇳🇴",
               "person": "Omar Alocozy",
               "win": false,
-              "lose": false
+              "lose": true
             },
             "b": {
               "team": "England",
               "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
               "person": "Noorin Yazdani",
-              "win": false,
+              "win": true,
               "lose": false
             }
           },
@@ -632,6 +632,23 @@
       "rank": 2
     },
     {
+      "name": "Noorin Yazdani",
+      "team": "England",
+      "group": "L",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "photo": null,
+      "slackId": "U056QKD89C1",
+      "status": "alive",
+      "stageReached": "SF",
+      "eliminatedAt": null,
+      "played": 3,
+      "points": 7,
+      "gd": 4,
+      "form": "W",
+      "statusLabel": "Into the Semi-finals",
+      "rank": 3
+    },
+    {
       "name": "Wahaj Farooqi",
       "team": "Argentina",
       "group": "J",
@@ -644,23 +661,6 @@
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
-      "rank": 3
-    },
-    {
-      "name": "Noorin Yazdani",
-      "team": "England",
-      "group": "L",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "photo": null,
-      "slackId": "U056QKD89C1",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 4,
       "form": "W",
       "statusLabel": "Into the Quarter-finals",
       "rank": 4
@@ -683,23 +683,6 @@
       "rank": 5
     },
     {
-      "name": "Omar Alocozy",
-      "team": "Norway",
-      "group": "I",
-      "flag": "🇳🇴",
-      "photo": null,
-      "slackId": "U0A3LTR7SRK",
-      "status": "alive",
-      "stageReached": "QF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 6,
-      "gd": 1,
-      "form": "W",
-      "statusLabel": "Into the Quarter-finals",
-      "rank": 6
-    },
-    {
       "name": "Aadam Rasul",
       "team": "Morocco",
       "group": "C",
@@ -712,6 +695,23 @@
       "played": 3,
       "points": 7,
       "gd": 3,
+      "form": "L",
+      "statusLabel": "Out — Quarter-finals",
+      "rank": 6
+    },
+    {
+      "name": "Omar Alocozy",
+      "team": "Norway",
+      "group": "I",
+      "flag": "🇳🇴",
+      "photo": null,
+      "slackId": "U0A3LTR7SRK",
+      "status": "eliminated",
+      "stageReached": "QF",
+      "eliminatedAt": "Quarter-finals",
+      "played": 3,
+      "points": 6,
+      "gd": 1,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
       "rank": 7
