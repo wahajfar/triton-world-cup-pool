@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 14, 12:00 PM PT",
+  "updatedAt": "Jul 14, 12:10 PM PT",
   "live": [
     {
       "id": "760514",
@@ -20,10 +20,17 @@
         "ownerSlackId": "U08PP9TNNA1",
         "score": 0
       },
-      "minute": "1'",
+      "minute": "11'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "9'",
+            "side": "a",
+            "player": "Adrien Rabiot",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
