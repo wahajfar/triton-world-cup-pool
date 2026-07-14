@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 14, 1:10 PM PT",
+  "updatedAt": "Jul 14, 1:20 PM PT",
   "live": [
     {
       "id": "760514",
@@ -18,9 +18,9 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 1
+        "score": 2
       },
-      "minute": "49'",
+      "minute": "59'",
       "recap": {
         "goals": [
           {
@@ -30,6 +30,14 @@
             "assist": "",
             "own": false,
             "penalty": true
+          },
+          {
+            "minute": "58'",
+            "side": "b",
+            "scorer": "Pedro Porro",
+            "assist": "Dani Olmo",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": [
