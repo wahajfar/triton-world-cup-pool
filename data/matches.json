@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 14, 1:40 PM PT",
+  "updatedAt": "Jul 14, 1:50 PM PT",
   "live": [
     {
       "id": "760514",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U08PP9TNNA1",
         "score": 2
       },
-      "minute": "79'",
+      "minute": "88'",
       "recap": {
         "goals": [
           {
@@ -51,6 +51,12 @@
             "minute": "31'",
             "side": "b",
             "player": "Marc Cucurella",
+            "color": "yellow"
+          },
+          {
+            "minute": "86'",
+            "side": "a",
+            "player": "Kylian Mbappé",
             "color": "yellow"
           }
         ]
