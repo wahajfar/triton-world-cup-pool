@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 15, 1:40 PM PT",
+  "updatedAt": "Jul 15, 1:50 PM PT",
   "live": [
     {
       "id": "760515",
@@ -18,9 +18,9 @@
         "flag": "🇦🇷",
         "owner": "Wahaj Farooqi",
         "ownerSlackId": "U03U8NBB72A",
-        "score": 0
+        "score": 1
       },
-      "minute": "79'",
+      "minute": "89'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "a",
             "scorer": "Anthony Gordon",
             "assist": "Morgan Rogers",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "85'",
+            "side": "b",
+            "scorer": "Enzo Fernández",
+            "assist": "Lionel Messi",
             "own": false,
             "penalty": false
           }
