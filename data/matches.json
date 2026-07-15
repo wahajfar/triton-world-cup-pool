@@ -1,69 +1,29 @@
 {
-  "updatedAt": "Jul 14, 2:00 PM PT",
+  "updatedAt": "Jul 15, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760514",
-      "state": "post",
-      "competition": "Group I",
+      "id": "760515",
+      "state": "pre",
+      "competition": "Group L",
       "knockout": false,
       "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
+        "team": "England",
+        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "owner": "Noorin Yazdani",
+        "ownerSlackId": "U056QKD89C1",
         "score": 0
       },
       "b": {
-        "team": "Spain",
-        "flag": "🇪🇸",
-        "owner": "Luke Zahradka",
-        "ownerSlackId": "U08PP9TNNA1",
-        "score": 2
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
       },
-      "minute": "90'+7'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "22'",
-            "side": "b",
-            "scorer": "Mikel Oyarzabal",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "58'",
-            "side": "b",
-            "scorer": "Pedro Porro",
-            "assist": "Dani Olmo",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "9'",
-            "side": "a",
-            "player": "Adrien Rabiot",
-            "color": "yellow"
-          },
-          {
-            "minute": "31'",
-            "side": "b",
-            "player": "Marc Cucurella",
-            "color": "yellow"
-          },
-          {
-            "minute": "86'",
-            "side": "a",
-            "player": "Kylian Mbappé",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Wed, Jul 15",
+      "time": "12:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
