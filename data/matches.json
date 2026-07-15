@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 15, 1:10 PM PT",
+  "updatedAt": "Jul 15, 1:20 PM PT",
   "live": [
     {
       "id": "760515",
@@ -11,7 +11,7 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Argentina",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "50'",
+      "minute": "59'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "55'",
+            "side": "a",
+            "scorer": "Anthony Gordon",
+            "assist": "Morgan Rogers",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "37'",
@@ -34,6 +43,12 @@
             "minute": "42'",
             "side": "b",
             "player": "Lisandro Martínez",
+            "color": "yellow"
+          },
+          {
+            "minute": "51'",
+            "side": "b",
+            "player": "Cristian Romero",
             "color": "yellow"
           }
         ]
