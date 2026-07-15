@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 15, 12:40 PM PT",
+  "updatedAt": "Jul 15, 12:50 PM PT",
   "live": [
     {
       "id": "760515",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "40'",
+      "minute": "45'+4'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,12 @@
             "minute": "37'",
             "side": "a",
             "player": "Elliot Anderson",
+            "color": "yellow"
+          },
+          {
+            "minute": "42'",
+            "side": "b",
+            "player": "Lisandro Martínez",
             "color": "yellow"
           }
         ]
