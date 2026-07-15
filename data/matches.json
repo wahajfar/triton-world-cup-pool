@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 15, 2:00 PM PT",
-  "live": [
+  "updatedAt": "Jul 15, 2:10 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760515",
-      "state": "in",
+      "state": "post",
       "competition": "Group L",
       "knockout": false,
       "a": {
@@ -20,7 +21,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 2
       },
-      "minute": "90'+9'",
+      "minute": "90'+12'",
       "recap": {
         "goals": [
           {
@@ -78,6 +79,5 @@
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": []
 }
