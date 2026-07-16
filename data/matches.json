@@ -1,83 +1,29 @@
 {
-  "updatedAt": "Jul 15, 2:10 PM PT",
+  "updatedAt": "Jul 15, 9:20 PM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760515",
-      "state": "post",
-      "competition": "Group L",
+      "id": "760516",
+      "state": "pre",
+      "competition": "Group I",
       "knockout": false,
       "a": {
+        "team": "France",
+        "flag": "🇫🇷",
+        "owner": "Abdullah Ashraf",
+        "ownerSlackId": "U0A9697M3KN",
+        "score": 0
+      },
+      "b": {
         "team": "England",
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 1
+        "score": 0
       },
-      "b": {
-        "team": "Argentina",
-        "flag": "🇦🇷",
-        "owner": "Wahaj Farooqi",
-        "ownerSlackId": "U03U8NBB72A",
-        "score": 2
-      },
-      "minute": "90'+12'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "55'",
-            "side": "a",
-            "scorer": "Anthony Gordon",
-            "assist": "Morgan Rogers",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "85'",
-            "side": "b",
-            "scorer": "Enzo Fernández",
-            "assist": "Lionel Messi",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+2'",
-            "side": "b",
-            "scorer": "Lautaro Martínez",
-            "assist": "Lionel Messi",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": [
-          {
-            "minute": "37'",
-            "side": "a",
-            "player": "Elliot Anderson",
-            "color": "yellow"
-          },
-          {
-            "minute": "42'",
-            "side": "b",
-            "player": "Lisandro Martínez",
-            "color": "yellow"
-          },
-          {
-            "minute": "51'",
-            "side": "b",
-            "player": "Cristian Romero",
-            "color": "yellow"
-          },
-          {
-            "minute": "90'+4'",
-            "side": "b",
-            "player": "Rodrigo De Paul",
-            "color": "yellow"
-          }
-        ]
-      },
-      "impact": null
+      "date": "Sat, Jul 18",
+      "time": "2:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
