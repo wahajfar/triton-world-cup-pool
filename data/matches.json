@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 18, 2:30 PM PT",
+  "updatedAt": "Jul 18, 2:40 PM PT",
   "live": [
     {
       "id": "760516",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 2
+        "score": 3
       },
-      "minute": "30'",
+      "minute": "40'",
       "recap": {
         "goals": [
           {
@@ -36,6 +36,14 @@
             "side": "b",
             "scorer": "Ezri Konsa",
             "assist": "Declan Rice",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "37'",
+            "side": "b",
+            "scorer": "Bukayo Saka",
+            "assist": "Marcus Rashford",
             "own": false,
             "penalty": false
           }
