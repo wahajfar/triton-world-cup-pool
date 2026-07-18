@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 18, 2:45 PM PT",
+  "updatedAt": "Jul 18, 2:50 PM PT",
   "live": [
     {
       "id": "760516",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 3
+        "score": 4
       },
-      "minute": "44'",
+      "minute": "45'+5'",
       "recap": {
         "goals": [
           {
@@ -44,6 +44,14 @@
             "side": "b",
             "scorer": "Bukayo Saka",
             "assist": "Marcus Rashford",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "45'+1'",
+            "side": "b",
+            "scorer": "Bukayo Saka",
+            "assist": "Eberechi Eze",
             "own": false,
             "penalty": false
           }
