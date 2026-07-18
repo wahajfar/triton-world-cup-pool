@@ -1,11 +1,9 @@
 {
-  "updatedAt": "Jul 15, 9:20 PM PT",
-  "live": [],
-  "recent": [],
-  "upcoming": [
+  "updatedAt": "Jul 18, 2:10 PM PT",
+  "live": [
     {
       "id": "760516",
-      "state": "pre",
+      "state": "in",
       "competition": "Group I",
       "knockout": false,
       "a": {
@@ -20,10 +18,25 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 0
+        "score": 1
       },
-      "date": "Sat, Jul 18",
-      "time": "2:00 PM PT"
+      "minute": "9'",
+      "recap": {
+        "goals": [
+          {
+            "minute": "3'",
+            "side": "b",
+            "scorer": "Declan Rice",
+            "assist": "",
+            "own": false,
+            "penalty": false
+          }
+        ],
+        "cards": []
+      },
+      "impact": null
     }
-  ]
+  ],
+  "recent": [],
+  "upcoming": []
 }
