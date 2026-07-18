@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 18, 2:15 PM PT",
+  "updatedAt": "Jul 18, 2:20 PM PT",
   "live": [
     {
       "id": "760516",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 1
+        "score": 2
       },
-      "minute": "15'",
+      "minute": "19'",
       "recap": {
         "goals": [
           {
@@ -28,6 +28,14 @@
             "side": "b",
             "scorer": "Declan Rice",
             "assist": "",
+            "own": false,
+            "penalty": false
+          },
+          {
+            "minute": "18'",
+            "side": "b",
+            "scorer": "Ezri Konsa",
+            "assist": "Declan Rice",
             "own": false,
             "penalty": false
           }
