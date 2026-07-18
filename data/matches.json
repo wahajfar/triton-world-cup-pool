@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 18, 3:45 PM PT",
+  "updatedAt": "Jul 18, 3:50 PM PT",
   "live": [
     {
       "id": "760516",
@@ -18,9 +18,9 @@
         "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "owner": "Noorin Yazdani",
         "ownerSlackId": "U056QKD89C1",
-        "score": 4
+        "score": 5
       },
-      "minute": "82'",
+      "minute": "87'",
       "recap": {
         "goals": [
           {
@@ -78,6 +78,14 @@
             "assist": "Michael Olise",
             "own": false,
             "penalty": false
+          },
+          {
+            "minute": "87'",
+            "side": "b",
+            "scorer": "Bukayo Saka",
+            "assist": "",
+            "own": false,
+            "penalty": true
           }
         ],
         "cards": []
