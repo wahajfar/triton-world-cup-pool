@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 18, 3:50 PM PT",
+  "updatedAt": "Jul 18, 4:00 PM PT",
   "live": [
     {
       "id": "760516",
@@ -11,7 +11,7 @@
         "flag": "🇫🇷",
         "owner": "Abdullah Ashraf",
         "ownerSlackId": "U0A9697M3KN",
-        "score": 3
+        "score": 4
       },
       "b": {
         "team": "England",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U056QKD89C1",
         "score": 5
       },
-      "minute": "87'",
+      "minute": "90'+7'",
       "recap": {
         "goals": [
           {
@@ -86,6 +86,14 @@
             "assist": "",
             "own": false,
             "penalty": true
+          },
+          {
+            "minute": "90'+6'",
+            "side": "a",
+            "scorer": "Ousmane Dembélé",
+            "assist": "Dayot Upamecano",
+            "own": false,
+            "penalty": false
           }
         ],
         "cards": []
