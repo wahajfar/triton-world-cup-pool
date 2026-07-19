@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 19, 1:00 PM PT",
+  "updatedAt": "Jul 19, 1:30 PM PT",
   "live": [
     {
       "id": "760517",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "45'+4'",
+      "minute": "52'",
       "recap": {
         "goals": [],
         "cards": [
@@ -28,6 +28,12 @@
             "minute": "41'",
             "side": "b",
             "player": "Lisandro Martínez",
+            "color": "yellow"
+          },
+          {
+            "minute": "52'",
+            "side": "b",
+            "player": "Leandro Paredes",
             "color": "yellow"
           }
         ]
