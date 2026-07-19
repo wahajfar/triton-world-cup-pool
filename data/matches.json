@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 19, 2:40 PM PT",
+  "updatedAt": "Jul 19, 2:45 PM PT",
   "live": [
     {
       "id": "760517",
@@ -11,7 +11,7 @@
         "flag": "🇪🇸",
         "owner": "Luke Zahradka",
         "ownerSlackId": "U08PP9TNNA1",
-        "score": 0
+        "score": 1
       },
       "b": {
         "team": "Argentina",
@@ -20,9 +20,18 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "105'+3'",
+      "minute": "108'",
       "recap": {
-        "goals": [],
+        "goals": [
+          {
+            "minute": "106'",
+            "side": "a",
+            "scorer": "Ferran Torres",
+            "assist": "Nico Williams",
+            "own": false,
+            "penalty": false
+          }
+        ],
         "cards": [
           {
             "minute": "41'",
