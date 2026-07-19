@@ -1,9 +1,10 @@
 {
-  "updatedAt": "Jul 19, 3:00 PM PT",
-  "live": [
+  "updatedAt": "Jul 19, 3:10 PM PT",
+  "live": [],
+  "recent": [
     {
       "id": "760517",
-      "state": "in",
+      "state": "post",
       "competition": "Group H",
       "knockout": false,
       "a": {
@@ -20,7 +21,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "120'+3'",
+      "minute": "120'+5'",
       "recap": {
         "goals": [
           {
@@ -68,12 +69,17 @@
             "side": "b",
             "player": "Alexis Mac Allister",
             "color": "yellow"
+          },
+          {
+            "minute": "120'+6'",
+            "side": "b",
+            "player": "Leandro Paredes",
+            "color": "red"
           }
         ]
       },
       "impact": null
     }
   ],
-  "recent": [],
   "upcoming": []
 }
