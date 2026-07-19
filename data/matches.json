@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 19, 2:45 PM PT",
+  "updatedAt": "Jul 19, 2:50 PM PT",
   "live": [
     {
       "id": "760517",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "108'",
+      "minute": "114'",
       "recap": {
         "goals": [
           {
@@ -62,6 +62,12 @@
             "side": "b",
             "player": "Enzo Fernández",
             "color": "red"
+          },
+          {
+            "minute": "111'",
+            "side": "b",
+            "player": "Alexis Mac Allister",
+            "color": "yellow"
           }
         ]
       },
