@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 19, 12:45 PM PT",
+  "updatedAt": "Jul 19, 12:50 PM PT",
   "live": [
     {
       "id": "760517",
@@ -20,10 +20,17 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "39'",
+      "minute": "44'",
       "recap": {
         "goals": [],
-        "cards": []
+        "cards": [
+          {
+            "minute": "41'",
+            "side": "b",
+            "player": "Lisandro Martínez",
+            "color": "yellow"
+          }
+        ]
       },
       "impact": null
     }
