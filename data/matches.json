@@ -1,5 +1,5 @@
 {
-  "updatedAt": "Jul 19, 1:50 PM PT",
+  "updatedAt": "Jul 19, 2:00 PM PT",
   "live": [
     {
       "id": "760517",
@@ -20,7 +20,7 @@
         "ownerSlackId": "U03U8NBB72A",
         "score": 0
       },
-      "minute": "73'",
+      "minute": "83'",
       "recap": {
         "goals": [],
         "cards": [
@@ -34,6 +34,12 @@
             "minute": "52'",
             "side": "b",
             "player": "Leandro Paredes",
+            "color": "yellow"
+          },
+          {
+            "minute": "82'",
+            "side": "b",
+            "player": "Enzo Fernández",
             "color": "yellow"
           }
         ]
