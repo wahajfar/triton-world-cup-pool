@@ -1,114 +1,29 @@
 {
-  "updatedAt": "Jul 18, 4:10 PM PT",
+  "updatedAt": "Jul 19, 12:10 AM PT",
   "live": [],
-  "recent": [
+  "recent": [],
+  "upcoming": [
     {
-      "id": "760516",
-      "state": "post",
-      "competition": "Group I",
+      "id": "760517",
+      "state": "pre",
+      "competition": "Group H",
       "knockout": false,
       "a": {
-        "team": "France",
-        "flag": "🇫🇷",
-        "owner": "Abdullah Ashraf",
-        "ownerSlackId": "U0A9697M3KN",
-        "score": 4
+        "team": "Spain",
+        "flag": "🇪🇸",
+        "owner": "Luke Zahradka",
+        "ownerSlackId": "U08PP9TNNA1",
+        "score": 0
       },
       "b": {
-        "team": "England",
-        "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "owner": "Noorin Yazdani",
-        "ownerSlackId": "U056QKD89C1",
-        "score": 6
+        "team": "Argentina",
+        "flag": "🇦🇷",
+        "owner": "Wahaj Farooqi",
+        "ownerSlackId": "U03U8NBB72A",
+        "score": 0
       },
-      "minute": "90'+9'",
-      "recap": {
-        "goals": [
-          {
-            "minute": "3'",
-            "side": "b",
-            "scorer": "Declan Rice",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "18'",
-            "side": "b",
-            "scorer": "Ezri Konsa",
-            "assist": "Declan Rice",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "37'",
-            "side": "b",
-            "scorer": "Bukayo Saka",
-            "assist": "Marcus Rashford",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "45'+1'",
-            "side": "b",
-            "scorer": "Bukayo Saka",
-            "assist": "Eberechi Eze",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "48'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "54'",
-            "side": "a",
-            "scorer": "Bradley Barcola",
-            "assist": "Kylian Mbappé",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "66'",
-            "side": "a",
-            "scorer": "Kylian Mbappé",
-            "assist": "Michael Olise",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "87'",
-            "side": "b",
-            "scorer": "Bukayo Saka",
-            "assist": "",
-            "own": false,
-            "penalty": true
-          },
-          {
-            "minute": "90'+6'",
-            "side": "a",
-            "scorer": "Ousmane Dembélé",
-            "assist": "Dayot Upamecano",
-            "own": false,
-            "penalty": false
-          },
-          {
-            "minute": "90'+8'",
-            "side": "b",
-            "scorer": "Jude Bellingham",
-            "assist": "",
-            "own": false,
-            "penalty": false
-          }
-        ],
-        "cards": []
-      },
-      "impact": null
+      "date": "Sun, Jul 19",
+      "time": "12:00 PM PT"
     }
-  ],
-  "upcoming": []
+  ]
 }
