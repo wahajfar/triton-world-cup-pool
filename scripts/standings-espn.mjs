@@ -72,8 +72,16 @@ async function main() {
   }
 
   // ---- 2) results + per-team last-match form (whole tournament window) ----
-  const scRes = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/scoreboard?dates=20260611-20260719`, { headers: UA });
-  const events = scRes.ok ? ((await scRes.json()).events || []) : [];
+  // ESPN's scoreboard caps at 100 events per request — the whole-tournament window returns exactly
+  // 100 (72 group + 16 R32 + 8 R16 + 4 QF) and silently TRUNCATES the semis, 3rd-place match and
+  // the Final. Fetch in windows that each stay well under the cap, then merge and de-dupe.
+  const WINDOWS = ["20260611-20260627", "20260628-20260707", "20260708-20260719"];
+  let events = [];
+  for (const w of WINDOWS) {
+    const r = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/scoreboard?dates=${w}`, { headers: UA });
+    if (r.ok) events = events.concat((await r.json()).events || []);
+  }
+  { const seen = new Set(); events = events.filter((e) => (seen.has(e.id) ? false : seen.add(e.id))); }
   const form = new Map();                            // canonical team -> { form, label }
   const finished = [];
   for (const ev of events) {
@@ -145,6 +153,13 @@ async function main() {
     }
   }
 
+  // 3rd-place match: both teams already lost their semi, but this decides bronze vs 4th.
+  const placing = new Map();                          // canonical team -> 3 | 4
+  for (const ev of events) {
+    if ((ev.season?.slug || "") !== "3rd-place-match" || ev.status?.type?.state !== "post") continue;
+    for (const c of ev.competitions?.[0]?.competitors || []) placing.set(canonical(c.team?.displayName || "", teams), c.winner === true ? 3 : 4);
+  }
+
   // A feeder slot is named after its source match ("Round of 32 3 Winner" → 3). But once that match
   // is decided, ESPN shows the real team instead of the placeholder — so fall back to looking up
   // which match in the child round that team came from.
@@ -188,7 +203,13 @@ async function main() {
       status = ko.eliminated ? "eliminated" : "alive";
       stageReached = ko.stageReached;
       eliminatedAt = ko.eliminated ? ko.eliminatedAt : null;
-      statusLabel = ko.champion ? "🏆 Champion" : ko.eliminated ? `Out — ${ko.eliminatedAt}` : `Into the ${STAGE_NAME[ko.stageReached] || ko.stageReached}`;
+      const place = placing.get(cteam);
+      statusLabel = ko.champion ? "🏆 Champion"
+        : ko.eliminated && ko.eliminatedAt === "Final" ? "🥈 Runner-up"
+        : place === 3 ? "🥉 Third place"
+        : place === 4 ? "4th place"
+        : ko.eliminated ? `Out — ${ko.eliminatedAt}`
+        : `Into the ${STAGE_NAME[ko.stageReached] || ko.stageReached}`;
     } else if (r32Teams.size > 0) {
       // R32 is drawn → group survival is DEFINITIVE: a team is through iff it's in the 32-team
       // field. (ESPN's "Best 8 advance" note marks all 12 third-placed teams, but only 8 go
@@ -214,6 +235,7 @@ async function main() {
       name: p.name, team: p.team, group: p.group || t.group, flag: p.flag, photo: p.photo, slackId: p.slackId || null,
       status, stageReached, eliminatedAt, played: t.played, points: t.points, gd: t.gd,
       form: ["W", "D", "L"].includes(f.form) ? f.form : "-", statusLabel,
+      placing: placing.get(cteam) || null,
     };
   });
 
@@ -221,6 +243,7 @@ async function main() {
     if ((a.status === "alive") !== (b.status === "alive")) return a.status === "alive" ? -1 : 1;
     const sr = STAGE_RANK[b.stageReached] - STAGE_RANK[a.stageReached];
     if (sr) return sr;
+    if (a.placing && b.placing && a.placing !== b.placing) return a.placing - b.placing;   // bronze above 4th
     if (b.points !== a.points) return b.points - a.points;
     if (b.gd !== a.gd) return b.gd - a.gd;
     return a.name.localeCompare(b.name);

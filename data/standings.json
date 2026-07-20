@@ -1,10 +1,19 @@
 {
-  "updatedAt": "Jul 19, 3:15 PM PT",
-  "stage": "Quarter-finals",
-  "aliveCount": 4,
-  "eliminatedCount": 44,
-  "champion": null,
+  "updatedAt": "Jul 19, 9:16 PM PT",
+  "stage": "Final",
+  "aliveCount": 1,
+  "eliminatedCount": 47,
+  "champion": {
+    "name": "Luke Zahradka",
+    "team": "Spain",
+    "flag": "🇪🇸",
+    "slackId": "U08PP9TNNA1"
+  },
   "recentResults": [
+    "Group H — Spain 1-0 Argentina",
+    "Group I — France 4-6 England",
+    "Group L — England 1-2 Argentina",
+    "Group I — France 0-2 Spain",
     "Group J — Argentina 3-1 Switzerland",
     "Group I — Norway 1-2 England",
     "Group H — Spain 2-1 Belgium",
@@ -16,11 +25,7 @@
     "Group A — Mexico 2-3 England",
     "Group C — Brazil 1-2 Norway",
     "Group D — Paraguay 0-1 France",
-    "Group B — Canada 0-3 Morocco",
-    "Group K — Colombia 1-0 Ghana",
-    "Group J — Argentina 3-2 Cape Verde",
-    "Group D — Australia 1-1 Egypt",
-    "Group B — Switzerland 2-0 Algeria"
+    "Group B — Canada 0-3 Morocco"
   ],
   "bracket": {
     "rounds": [
@@ -491,12 +496,36 @@
         "name": "Semi-finals",
         "matches": [
           {
-            "a": null,
-            "b": null
+            "a": {
+              "team": "France",
+              "flag": "🇫🇷",
+              "person": "Abdullah Ashraf",
+              "win": false,
+              "lose": true
+            },
+            "b": {
+              "team": "Spain",
+              "flag": "🇪🇸",
+              "person": "Luke Zahradka",
+              "win": true,
+              "lose": false
+            }
           },
           {
-            "a": null,
-            "b": null
+            "a": {
+              "team": "England",
+              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+              "person": "Noorin Yazdani",
+              "win": false,
+              "lose": true
+            },
+            "b": {
+              "team": "Argentina",
+              "flag": "🇦🇷",
+              "person": "Wahaj Farooqi",
+              "win": true,
+              "lose": false
+            }
           }
         ]
       },
@@ -504,8 +533,20 @@
         "name": "Final",
         "matches": [
           {
-            "a": null,
-            "b": null
+            "a": {
+              "team": "Spain",
+              "flag": "🇪🇸",
+              "person": "Luke Zahradka",
+              "win": true,
+              "lose": false
+            },
+            "b": {
+              "team": "Argentina",
+              "flag": "🇦🇷",
+              "person": "Wahaj Farooqi",
+              "win": false,
+              "lose": true
+            }
           }
         ]
       }
@@ -598,20 +639,21 @@
   },
   "standings": [
     {
-      "name": "Abdullah Ashraf",
-      "team": "France",
-      "group": "I",
-      "flag": "🇫🇷",
+      "name": "Luke Zahradka",
+      "team": "Spain",
+      "group": "H",
+      "flag": "🇪🇸",
       "photo": null,
-      "slackId": "U0A9697M3KN",
+      "slackId": "U08PP9TNNA1",
       "status": "alive",
-      "stageReached": "SF",
+      "stageReached": "Champion",
       "eliminatedAt": null,
       "played": 3,
-      "points": 9,
-      "gd": 8,
+      "points": 7,
+      "gd": 5,
       "form": "W",
-      "statusLabel": "Into the Semi-finals",
+      "statusLabel": "🏆 Champion",
+      "placing": null,
       "rank": 1
     },
     {
@@ -621,32 +663,16 @@
       "flag": "🇦🇷",
       "photo": null,
       "slackId": "U03U8NBB72A",
-      "status": "alive",
-      "stageReached": "SF",
-      "eliminatedAt": null,
+      "status": "eliminated",
+      "stageReached": "Final",
+      "eliminatedAt": "Final",
       "played": 3,
       "points": 9,
       "gd": 7,
-      "form": "W",
-      "statusLabel": "Into the Semi-finals",
+      "form": "L",
+      "statusLabel": "🥈 Runner-up",
+      "placing": null,
       "rank": 2
-    },
-    {
-      "name": "Luke Zahradka",
-      "team": "Spain",
-      "group": "H",
-      "flag": "🇪🇸",
-      "photo": null,
-      "slackId": "U08PP9TNNA1",
-      "status": "alive",
-      "stageReached": "SF",
-      "eliminatedAt": null,
-      "played": 3,
-      "points": 7,
-      "gd": 5,
-      "form": "W",
-      "statusLabel": "Into the Semi-finals",
-      "rank": 3
     },
     {
       "name": "Noorin Yazdani",
@@ -655,14 +681,33 @@
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "photo": null,
       "slackId": "U056QKD89C1",
-      "status": "alive",
+      "status": "eliminated",
       "stageReached": "SF",
-      "eliminatedAt": null,
+      "eliminatedAt": "Semi-finals",
       "played": 3,
       "points": 7,
       "gd": 4,
       "form": "W",
-      "statusLabel": "Into the Semi-finals",
+      "statusLabel": "🥉 Third place",
+      "placing": 3,
+      "rank": 3
+    },
+    {
+      "name": "Abdullah Ashraf",
+      "team": "France",
+      "group": "I",
+      "flag": "🇫🇷",
+      "photo": null,
+      "slackId": "U0A9697M3KN",
+      "status": "eliminated",
+      "stageReached": "SF",
+      "eliminatedAt": "Semi-finals",
+      "played": 3,
+      "points": 9,
+      "gd": 8,
+      "form": "L",
+      "statusLabel": "4th place",
+      "placing": 4,
       "rank": 4
     },
     {
@@ -680,6 +725,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
+      "placing": null,
       "rank": 5
     },
     {
@@ -697,6 +743,7 @@
       "gd": 3,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
+      "placing": null,
       "rank": 6
     },
     {
@@ -714,6 +761,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
+      "placing": null,
       "rank": 7
     },
     {
@@ -731,6 +779,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Quarter-finals",
+      "placing": null,
       "rank": 8
     },
     {
@@ -748,6 +797,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 9
     },
     {
@@ -765,6 +815,7 @@
       "gd": 6,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 10
     },
     {
@@ -782,6 +833,7 @@
       "gd": 3,
       "form": "D",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 11
     },
     {
@@ -799,6 +851,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 12
     },
     {
@@ -816,6 +869,7 @@
       "gd": 5,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 13
     },
     {
@@ -833,6 +887,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 14
     },
     {
@@ -850,6 +905,7 @@
       "gd": 5,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 15
     },
     {
@@ -867,6 +923,7 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "Out — Round of 16",
+      "placing": null,
       "rank": 16
     },
     {
@@ -884,6 +941,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 17
     },
     {
@@ -901,6 +959,7 @@
       "gd": 6,
       "form": "D",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 18
     },
     {
@@ -918,6 +977,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 19
     },
     {
@@ -935,6 +995,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 20
     },
     {
@@ -952,6 +1013,7 @@
       "gd": 4,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 21
     },
     {
@@ -969,6 +1031,7 @@
       "gd": 1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 22
     },
     {
@@ -986,6 +1049,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 23
     },
     {
@@ -1003,6 +1067,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 24
     },
     {
@@ -1020,6 +1085,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 25
     },
     {
@@ -1037,6 +1103,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 26
     },
     {
@@ -1054,6 +1121,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 27
     },
     {
@@ -1071,6 +1139,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 28
     },
     {
@@ -1088,6 +1157,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 29
     },
     {
@@ -1105,6 +1175,7 @@
       "gd": -2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 30
     },
     {
@@ -1122,6 +1193,7 @@
       "gd": 2,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 31
     },
     {
@@ -1139,6 +1211,7 @@
       "gd": 0,
       "form": "L",
       "statusLabel": "Out — Round of 32",
+      "placing": null,
       "rank": 32
     },
     {
@@ -1156,6 +1229,7 @@
       "gd": 0,
       "form": "D",
       "statusLabel": "D 1–1",
+      "placing": null,
       "rank": 33
     },
     {
@@ -1173,6 +1247,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "L 0–1",
+      "placing": null,
       "rank": 34
     },
     {
@@ -1190,6 +1265,7 @@
       "gd": -2,
       "form": "W",
       "statusLabel": "W 3–2",
+      "placing": null,
       "rank": 35
     },
     {
@@ -1207,6 +1283,7 @@
       "gd": -3,
       "form": "L",
       "statusLabel": "L 0–3",
+      "placing": null,
       "rank": 36
     },
     {
@@ -1224,6 +1301,7 @@
       "gd": -1,
       "form": "L",
       "statusLabel": "L 0–1",
+      "placing": null,
       "rank": 37
     },
     {
@@ -1241,6 +1319,7 @@
       "gd": -4,
       "form": "D",
       "statusLabel": "D 0–0",
+      "placing": null,
       "rank": 38
     },
     {
@@ -1258,6 +1337,7 @@
       "gd": -4,
       "form": "L",
       "statusLabel": "L 0–3",
+      "placing": null,
       "rank": 39
     },
     {
@@ -1275,6 +1355,7 @@
       "gd": -6,
       "form": "L",
       "statusLabel": "L 1–5",
+      "placing": null,
       "rank": 40
     },
     {
@@ -1292,6 +1373,7 @@
       "gd": -8,
       "form": "L",
       "statusLabel": "L 1–3",
+      "placing": null,
       "rank": 41
     },
     {
@@ -1309,6 +1391,7 @@
       "gd": -8,
       "form": "L",
       "statusLabel": "L 0–2",
+      "placing": null,
       "rank": 42
     },
     {
@@ -1326,6 +1409,7 @@
       "gd": -4,
       "form": "L",
       "statusLabel": "L 0–2",
+      "placing": null,
       "rank": 43
     },
     {
@@ -1343,6 +1427,7 @@
       "gd": -5,
       "form": "L",
       "statusLabel": "L 1–3",
+      "placing": null,
       "rank": 44
     },
     {
@@ -1360,6 +1445,7 @@
       "gd": -6,
       "form": "L",
       "statusLabel": "L 2–4",
+      "placing": null,
       "rank": 45
     },
     {
@@ -1377,6 +1463,7 @@
       "gd": -9,
       "form": "L",
       "statusLabel": "L 1–3",
+      "placing": null,
       "rank": 46
     },
     {
@@ -1394,6 +1481,7 @@
       "gd": -10,
       "form": "L",
       "statusLabel": "L 1–3",
+      "placing": null,
       "rank": 47
     },
     {
@@ -1411,6 +1499,7 @@
       "gd": -11,
       "form": "L",
       "statusLabel": "L 0–5",
+      "placing": null,
       "rank": 48
     }
   ]
